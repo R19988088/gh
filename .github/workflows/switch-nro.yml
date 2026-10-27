@@ -12,6 +12,14 @@ on:
           - guardian_heroes_switch_bootstrap_nro
           - guardian_heroes_switch_memory_probe_nro
           - guardian_heroes_switch_game_nro
+      ffmpeg_sdk_url:
+        description: URL of a tar.gz containing include/ and lib/libav*.a for Switch
+        required: false
+        type: string
+      nvk_sdk_url:
+        description: URL of a tar.gz containing include/vulkan/ and lib/libvulkan.a
+        required: false
+        type: string
 
 jobs:
   build:
@@ -20,12 +28,30 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Fetch game SDKs
+        if: ${{ inputs.target == 'guardian_heroes_switch_game_nro' }}
+        env:
+          FFMPEG_URL: ${{ inputs.ffmpeg_sdk_url }}
+          NVK_URL: ${{ inputs.nvk_sdk_url }}
+        run: |
+          test -n "$FFMPEG_URL" || { echo 'game_nro requires ffmpeg_sdk_url'; exit 1; }
+          test -n "$NVK_URL" || { echo 'game_nro requires nvk_sdk_url'; exit 1; }
+          mkdir -p /opt/gh-sdks/ffmpeg /opt/gh-sdks/nvk
+          curl --fail --location --retry 3 "$FFMPEG_URL" | tar -xzf - -C /opt/gh-sdks/ffmpeg --strip-components=1
+          curl --fail --location --retry 3 "$NVK_URL" | tar -xzf - -C /opt/gh-sdks/nvk --strip-components=1
+          test -f /opt/gh-sdks/ffmpeg/lib/libavcodec.a
+          test -f /opt/gh-sdks/ffmpeg/lib/libavutil.a
+          test -f /opt/gh-sdks/nvk/include/vulkan/vulkan.h
+          test -f /opt/gh-sdks/nvk/lib/libvulkan.a
+
       - name: Build selected NRO
         working-directory: guardian_heroes
         env:
           TARGET: ${{ inputs.target }}
           DEVKITPRO: /opt/devkitpro
           DEVKITA64: /opt/devkitpro/devkitA64
+          REXGLUE_SWITCH_FFMPEG: /opt/gh-sdks/ffmpeg
+          REXGLUE_SWITCH_NVK_SDK: /opt/gh-sdks/nvk
         run: |
           bash -lc 'source /opt/devkitpro/switchvars.sh && bash tools/build_switch.sh "$TARGET"'
 
