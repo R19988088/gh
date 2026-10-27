@@ -5,6 +5,7 @@ project(guardian_heroes LANGUAGES C CXX)
 
 if(REXGLUE_PLATFORM_SWITCH)
     add_compile_definitions(VULKAN_HPP_ENABLE_DYNAMIC_LOADER_TOOL=0 SPDLOG_NO_TZ_OFFSET=1)
+    add_compile_options(-include time.h)
 endif()
 
 set(CMAKE_CXX_STANDARD 23)
