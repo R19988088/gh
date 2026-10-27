@@ -297,6 +297,7 @@ void SelectDialoguePage(uint32_t parser, uint8_t* base) {
 }
 }  // namespace gh::localization
 
+#if !REX_PLATFORM_SWITCH
 // Packed UTF-16 pools must be scanned by the original initializer before edits.
 extern "C" void sub_824299A8(GuestContext& ctx, uint8_t* base) {
   __imp__sub_824299A8(ctx, base);
@@ -313,3 +314,4 @@ extern "C" void sub_824D1E90(GuestContext& ctx, uint8_t* base) {
   gh::localization::SelectDialoguePage(ctx.r3.u32, base);
   __imp__sub_824D1E90(ctx, base);
 }
+#endif
