@@ -26,12 +26,18 @@ static_assert(REX_PLATFORM_LINUX || REX_PLATFORM_MAC || REX_PLATFORM_SWITCH,
 #include <pthread.h>
 #include <semaphore.h>
 
+#if REX_PLATFORM_SWITCH
+#include "threading_switch.h"
+#endif
+
 #if defined(__APPLE__)
 #include <cstdio>
 
 #include <fcntl.h>
 #endif
+#if REX_PLATFORM_LINUX
 #include <sys/syscall.h>
+#endif
 #include <sys/time.h>
 #include <sys/types.h>
 #include <unistd.h>
@@ -179,6 +185,8 @@ void EnableAffinityConfiguration() {}
 uint32_t current_thread_system_id() {
 #if defined(__APPLE__)
   return static_cast<uint32_t>(pthread_mach_thread_np(pthread_self()));
+#elif REX_PLATFORM_SWITCH
+  return RexSwitchCurrentThreadId();
 #else
   return static_cast<uint32_t>(syscall(SYS_gettid));
 #endif
