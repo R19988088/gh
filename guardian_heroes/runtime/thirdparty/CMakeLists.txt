@@ -5,6 +5,7 @@ set(BUILD_SHARED_LIBS OFF CACHE BOOL "" FORCE)
 
 if(REXGLUE_PLATFORM_SWITCH)
     add_compile_definitions(SPDLOG_NO_TZ_OFFSET=1 VULKAN_HPP_ENABLE_DYNAMIC_LOADER_TOOL=0)
+    add_compile_options(-include time.h)
 endif()
 
 #=============================================================================
