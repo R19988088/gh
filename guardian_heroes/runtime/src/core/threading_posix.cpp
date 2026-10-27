@@ -122,6 +122,10 @@ enum class SignalType {
 };
 
 int GetSystemSignal(SignalType num) {
+#if REX_PLATFORM_SWITCH
+  (void)num;
+  return 0;
+#else
 #if defined(__APPLE__)
   // macOS has no realtime signals (SIGRTMIN..SIGRTMAX); map the runtime's
   // signals onto the two user-defined signals.
@@ -139,9 +143,14 @@ int GetSystemSignal(SignalType num) {
   assert_true(result < SIGRTMAX);
   return result;
 #endif
+#endif
 }
 
 SignalType GetSystemSignalType(int num) {
+#if REX_PLATFORM_SWITCH
+  (void)num;
+  return SignalType::kThreadUserCallback;
+#else
 #if defined(__APPLE__)
   switch (num) {
     case SIGUSR1:
@@ -155,14 +164,21 @@ SignalType GetSystemSignalType(int num) {
 #else
   return static_cast<SignalType>(num - SIGRTMIN);
 #endif
+#endif
 }
 
 std::array<std::atomic<bool>, static_cast<size_t>(SignalType::k_Count)> signal_handler_installed =
     {};
 
+#if !REX_PLATFORM_SWITCH
 static void signal_handler(int signal, siginfo_t* info, void* context);
+#endif
 
 void install_signal_handler(SignalType type) {
+#if REX_PLATFORM_SWITCH
+  (void)type;
+  return;
+#else
   bool expected = false;
   if (!signal_handler_installed[static_cast<size_t>(type)].compare_exchange_strong(expected,
                                                                                    true)) {
@@ -175,6 +191,7 @@ void install_signal_handler(SignalType type) {
   if (sigaction(GetSystemSignal(type), &action, nullptr) != 0) {
     signal_handler_installed[static_cast<size_t>(type)] = false;
   }
+#endif
 }
 
 // TODO(dougvj)
@@ -767,6 +784,8 @@ class PosixCondition<Thread> : public PosixConditionBase {
 
 #if defined(__APPLE__)
   uint32_t system_id() const { return static_cast<uint32_t>(pthread_mach_thread_np(thread_)); }
+#elif REX_PLATFORM_SWITCH
+  uint32_t system_id() const { return RexSwitchHandleFor(thread_); }
 #else
   uint32_t system_id() const { return static_cast<uint32_t>(thread_); }
 #endif
@@ -868,8 +887,6 @@ class PosixCondition<Thread> : public PosixConditionBase {
       has_pending_user_callbacks_.store(true, std::memory_order_release);
     }
 
-    // If the callback is queued on the current thread, don't self-signal.
-    // Alertable waits drain this queue in normal thread context.
     if (pthread_equal(thread_, pthread_self())) {
       if (alertable_state_) {
         DispatchQueuedUserCallbacks();
@@ -877,10 +894,13 @@ class PosixCondition<Thread> : public PosixConditionBase {
       return;
     }
 
-#if defined(__APPLE__)
-    // macOS has no sigqueue/pthread_sigqueue; pthread_kill delivers the signal
-    // without the sigval payload.
+#if REX_PLATFORM_SWITCH
+    state_signal_.notify_all();
+#elif defined(__APPLE__)
     int result = pthread_kill(thread_, GetSystemSignal(SignalType::kThreadUserCallback));
+    if (result != 0) {
+      REXSYS_WARN("QueueUserCallback: signal delivery failed ({})", result);
+    }
 #else
     sigval value{};
     value.sival_ptr = this;
@@ -890,10 +910,10 @@ class PosixCondition<Thread> : public PosixConditionBase {
 #else
     int result = pthread_sigqueue(thread_, GetSystemSignal(SignalType::kThreadUserCallback), value);
 #endif
-#endif
     if (result != 0) {
       REXSYS_WARN("QueueUserCallback: signal delivery failed ({})", result);
     }
+#endif
   }
 
   bool DispatchQueuedUserCallbacks() {
@@ -933,8 +953,14 @@ class PosixCondition<Thread> : public PosixConditionBase {
     --suspend_count_;
     if (suspend_count_ == 0 && state_ == State::kSuspended) {
       state_ = State::kRunning;
+#if REX_PLATFORM_SWITCH
+      if (RexSwitchResumeThread(thread_) != 0) {
+        return false;
+      }
+#else
       // Async-signal-safe wakeup for WaitSuspended() from signal handler path.
       sem_post(suspend_sem_ptr());
+#endif
     }
     state_signal_.notify_all();
     return true;
@@ -955,13 +981,17 @@ class PosixCondition<Thread> : public PosixConditionBase {
       ++suspend_count_;
     }
 
-    if (is_current_thread) {
+    if (is_current_thread && !REX_PLATFORM_SWITCH) {
       WaitSuspended();
       return true;
     }
 
+#if REX_PLATFORM_SWITCH
+    return RexSwitchPauseThread(thread_) == 0;
+#else
     int result = pthread_kill(thread_, GetSystemSignal(SignalType::kThreadSuspend));
     return result == 0;
+#endif
   }
 
   void Terminate(int exit_code) {
@@ -1408,6 +1438,9 @@ class PosixThread : public PosixConditionHandle<Thread> {
 thread_local PosixThread* current_thread_ = nullptr;
 
 void* PosixCondition<Thread>::ThreadStartRoutine(void* parameter) {
+#if REX_PLATFORM_SWITCH
+  RexSwitchRegisterCurrentThread();
+#endif
 #if !REX_PLATFORM_ANDROID
   if (pthread_setcanceltype(PTHREAD_CANCEL_ASYNCHRONOUS, nullptr) != 0) {
     assert_always();
@@ -1462,6 +1495,9 @@ void* PosixCondition<Thread>::ThreadStartRoutine(void* parameter) {
 
   current_thread_ = nullptr;
   current_thread_condition_ = nullptr;
+#if REX_PLATFORM_SWITCH
+  RexSwitchUnregisterCurrentThread();
+#endif
   return nullptr;
 }
 
@@ -1530,6 +1566,7 @@ void set_current_thread_name(const std::string_view name) {
 #endif
 }
 
+#if !REX_PLATFORM_SWITCH
 static void signal_handler(int signal, siginfo_t* /*info*/, void* /*context*/) {
   switch (GetSystemSignalType(signal)) {
     case SignalType::kThreadSuspend: {
@@ -1551,5 +1588,6 @@ static void signal_handler(int signal, siginfo_t* /*info*/, void* /*context*/) {
       assert_always();
   }
 }
+#endif
 
 }  // namespace rex::thread
