@@ -89,7 +89,6 @@ elseif(CMAKE_SYSTEM_NAME STREQUAL "Generic" AND REXGLUE_PLATFORM_SWITCH)
         filesystem_posix.cpp
         threading_switch.cpp
         threading_posix.cpp
-        threading_switch_sleep.cpp
         dynlib_switch.cpp
         mapped_memory_switch.cpp
         dbg_posix.cpp

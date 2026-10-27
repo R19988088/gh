@@ -129,7 +129,7 @@ function(guardian_heroes_switch_add_game)
             "${_gh_root}/src/guardian_heroes_app.cpp"
             "${_gh_root}/src/localization.cpp"
             "${_gh_root}/src/localization_options.cpp"
-            "${_gh_root}/src/cheats.cpp"
+            "${_gh_root}/switch/cheats_switch_stub.cpp"
             "${_gh_root}/src/cheats_damage.cpp"
             "${_gh_root}/src/gpu_wait.cpp"
             "${_gh_root}/src/guest_abi_check.cpp"
@@ -206,26 +206,5 @@ function(guardian_heroes_switch_add_game)
         $<$<CXX_COMPILER_ID:GNU>:-fno-fast-math;-frounding-math;-ffp-contract=off;-fno-strict-aliasing;-fno-char8_t>
         $<$<CXX_COMPILER_ID:Clang>:-ffp-model=strict;-fno-strict-aliasing;-fno-char8_t>)
 
-    # The runtime and device plugin contain registration/override translation
-    # units that must survive --gc-sections in the final NRO.
-    set(_gh_force_link_targets rexruntime rexgpu-xenos)
-    foreach(_gh_target IN LISTS _gh_force_link_targets)
-        get_target_property(_gh_target_type "${_gh_target}" TYPE)
-        if(_gh_target_type STREQUAL "OBJECT_LIBRARY")
-            target_link_libraries(guardian_heroes_switch_game PRIVATE "${_gh_target}")
-        elseif(_gh_target_type STREQUAL "STATIC_LIBRARY")
-            list(APPEND _gh_force_link_files "$<TARGET_FILE:${_gh_target}>")
-            set_property(TARGET guardian_heroes_switch_game APPEND PROPERTY
-                LINK_DEPENDS "$<TARGET_FILE:${_gh_target}>")
-        else()
-            message(FATAL_ERROR
-                "${_gh_target} must be OBJECT or STATIC for a static Switch title (got ${_gh_target_type})")
-        endif()
-    endforeach()
-    if(_gh_force_link_files)
-        string(JOIN "," _gh_force_link_csv ${_gh_force_link_files})
-        target_link_options(guardian_heroes_switch_game PRIVATE
-            "LINKER:--whole-archive,${_gh_force_link_csv},--no-whole-archive")
-    endif()
     target_link_options(guardian_heroes_switch_game PRIVATE -pthread)
 endfunction()

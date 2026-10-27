@@ -285,6 +285,8 @@ if(TARGET mspack)
 endif()
 if(TARGET rexgpu-xenos)
     add_library(guardian_heroes_gpu_shader STATIC
+        src/gh_gpu_ucode.cpp
+        src/gh_gpu_flags.cpp
         src/gh_gpu_shader.cpp
         src/gh_gpu_shader_translator.cpp
         src/gh_gpu_shader_translator_disasm.cpp)

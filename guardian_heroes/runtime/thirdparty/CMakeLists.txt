@@ -193,6 +193,9 @@ add_library(imgui OBJECT
     ${IMGUI_DIR}/imgui_widgets.cpp
 )
 add_library(imgui::imgui ALIAS imgui)
+if(REXGLUE_PLATFORM_SWITCH)
+    target_compile_definitions(imgui PRIVATE IMGUI_DISABLE_DEFAULT_SHELL_FUNCTIONS=1)
+endif()
 target_include_directories(imgui PUBLIC
     $<BUILD_INTERFACE:${IMGUI_DIR}>
     $<INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}>)
