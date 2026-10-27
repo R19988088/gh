@@ -62,6 +62,11 @@ jobs:
           name: guardian-heroes-nvk-sdk
           path: nvk-sdk
 
+      - name: Install libnx and deko3d SDK
+        shell: bash
+        run: |
+          dkp-pacman -Syu --noconfirm switch-dev
+
       - name: Build minimal XMA FFmpeg for Switch
         shell: bash
         run: |
