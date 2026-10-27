@@ -206,5 +206,5 @@ function(guardian_heroes_switch_add_game)
         $<$<CXX_COMPILER_ID:GNU>:-fno-fast-math;-frounding-math;-ffp-contract=off;-fno-strict-aliasing;-fno-char8_t>
         $<$<CXX_COMPILER_ID:Clang>:-ffp-model=strict;-fno-strict-aliasing;-fno-char8_t>)
 
-    target_link_options(guardian_heroes_switch_game PRIVATE -pthread)
+    target_link_options(guardian_heroes_switch_game PRIVATE -pthread "LINKER:-z,notext")
 endfunction()
