@@ -38,8 +38,9 @@ set(CMAKE_OBJCOPY "${_gh_tool_prefix}objcopy${_gh_tool_suffix}")
 set(CMAKE_STRIP "${_gh_tool_prefix}strip${_gh_tool_suffix}")
 
 set(_gh_arch "-march=armv8-a+crc+crypto -mtune=cortex-a57 -mtp=soft -ftls-model=local-exec -fPIE -D__SWITCH__ -DNX -D_GNU_SOURCE")
-set(CMAKE_C_FLAGS_INIT "${_gh_arch} -ffunction-sections -fdata-sections")
-set(CMAKE_CXX_FLAGS_INIT "${_gh_arch} -ffunction-sections -fdata-sections")
+set(_gh_sdk_includes "-isystem ${DEVKITPRO}/libnx/include -isystem ${DEVKITPRO}/portlibs/switch/include")
+set(CMAKE_C_FLAGS_INIT "${_gh_arch} ${_gh_sdk_includes} -ffunction-sections -fdata-sections")
+set(CMAKE_CXX_FLAGS_INIT "${_gh_arch} ${_gh_sdk_includes} -ffunction-sections -fdata-sections")
 set(CMAKE_ASM_FLAGS_INIT "${_gh_arch}")
 
 # libnx specs normally obtain switch.ld through the DEVKITPRO environment.

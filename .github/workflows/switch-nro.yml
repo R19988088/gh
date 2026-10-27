@@ -65,7 +65,7 @@ jobs:
       - name: Install libnx and deko3d SDK
         shell: bash
         run: |
-          dkp-pacman -Syu --noconfirm switch-dev
+          dkp-pacman -Sy --noconfirm libnx deko3d switch-tools uam
 
       - name: Build minimal XMA FFmpeg for Switch
         shell: bash
