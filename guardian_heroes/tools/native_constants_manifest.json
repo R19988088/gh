@@ -1,0 +1,569 @@
+{
+  "count": 44,
+  "functions": [
+    {
+      "name": "sub_82495B30",
+      "register": 11,
+      "base": -2103640064,
+      "offset": -16408,
+      "calls": 2228,
+      "original_file": "/Users/ddd/Documents/xbla-\u5b88\u62a4\u82f1\u96c4/guardian_heroes/generated/default/guardian_heroes_recomp.71.cpp",
+      "original_line": 3376,
+      "shape": "static_address",
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.82.cpp",
+        "function": "DEFINE_REX_FUNC(sub_82452160)",
+        "context": "(ctx, base);\n\t// stb r30,235(r3)\n\tREX_STORE_U8(ctx.r3.u32 + 235, ctx.r30.u8);\n\t// stw r28,44(r31)\n\tREX_STORE_U32(ctx.r31.u32 + 44, ctx.r28.u32);\nloc_824524D8:\n\t// bl 0x82495b30\n\tctx.lr = 0x824524DC;\n\tsub_82495B30(ctx, base);\n\t// lbz"
+      }
+    },
+    {
+      "name": "sub_82495B50",
+      "register": 11,
+      "base": -2103771136,
+      "offset": 9368,
+      "calls": 795,
+      "original_file": "/Users/ddd/Documents/xbla-\u5b88\u62a4\u82f1\u96c4/guardian_heroes/generated/default/guardian_heroes_recomp.46.cpp",
+      "original_line": 3352,
+      "shape": "static_address",
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.69.cpp",
+        "function": "DEFINE_REX_FUNC(sub_82584FF0)",
+        "context": "8,0\n\tctx.r8.s64 = 0;\n\t// stw r9,0(r31)\n\tREX_STORE_U32(ctx.r31.u32 + 0, ctx.r9.u32);\n\t// stwx r8,r31,r10\n\tREX_STORE_U32(ctx.r31.u32 + ctx.r10.u32, ctx.r8.u32);\n\t// bl 0x82495b50\n\tctx.lr = 0x82585028;\n\tsub_82495B50(ctx, base);\n\t// lis"
+      }
+    },
+    {
+      "name": "sub_82495B00",
+      "register": 11,
+      "base": -2103640064,
+      "offset": -22008,
+      "calls": 398,
+      "original_file": "/Users/ddd/Documents/xbla-\u5b88\u62a4\u82f1\u96c4/guardian_heroes/generated/default/guardian_heroes_recomp.27.cpp",
+      "original_line": 3374,
+      "shape": "static_address",
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.82.cpp",
+        "function": "DEFINE_REX_FUNC(sub_82486C90)",
+        "context": ".r8.s64 = ctx.r9.s32 >> 3;\n\t// cmplwi cr6,r8,1\n\tctx.cr6.compare<uint32_t>(ctx.r8.u32, 1, ctx.xer);\n\t// ble cr6,0x82486d14\n\tif (!ctx.cr6.gt) goto loc_82486D14;\n\t// bl 0x82495b00\n\tctx.lr = 0x82486CF8;\n\tsub_82495B00(ctx, base);\n\t// bl "
+      }
+    },
+    {
+      "name": "sub_82495B70",
+      "register": 11,
+      "base": -2103640064,
+      "offset": -14436,
+      "calls": 389,
+      "original_file": "/Users/ddd/Documents/xbla-\u5b88\u62a4\u82f1\u96c4/guardian_heroes/generated/default/guardian_heroes_recomp.27.cpp",
+      "original_line": 3384,
+      "shape": "static_address",
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.82.cpp",
+        "function": "DEFINE_REX_FUNC(sub_82482AA8)",
+        "context": ":\n\t\tgoto loc_82482B7C;\n\tcase 9:\n\t\tgoto loc_82482B7C;\n\tcase 10:\n\t\tgoto loc_82482B70;\n\tdefault:\n\t\t__builtin_trap(); // Switch case out of range\n\t}\nloc_82482B40:\n\t// bl 0x82495b70\n\tctx.lr = 0x82482B44;\n\tsub_82495B70(ctx, base);\n\t// bl "
+      }
+    },
+    {
+      "name": "sub_82495AE0",
+      "register": 11,
+      "base": -2103640064,
+      "offset": -17496,
+      "calls": 357,
+      "original_file": "/Users/ddd/Documents/xbla-\u5b88\u62a4\u82f1\u96c4/guardian_heroes/generated/default/guardian_heroes_recomp.78.cpp",
+      "original_line": 3452,
+      "shape": "static_address",
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.82.cpp",
+        "function": "DEFINE_REX_FUNC(sub_8248CBF8)",
+        "context": "116;\n\t// addi r4,r11,9144\n\tctx.r4.s64 = ctx.r11.s64 + 9144;\n\t// li r5,160\n\tctx.r5.s64 = 160;\n\t// bl 0x82886f00\n\tctx.lr = 0x8248D52C;\n\tsub_82886F00(ctx, base);\n\t// bl 0x82495ae0\n\tctx.lr = 0x8248D530;\n\tsub_82495AE0(ctx, base);\n\t// stb"
+      }
+    },
+    {
+      "name": "sub_82410120",
+      "register": 11,
+      "base": -2103967744,
+      "offset": -19904,
+      "calls": 210,
+      "original_file": "/Users/ddd/Documents/xbla-\u5b88\u62a4\u82f1\u96c4/guardian_heroes/generated/default/guardian_heroes_recomp.4.cpp",
+      "original_line": 3,
+      "shape": "static_address",
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.82.cpp",
+        "function": "DEFINE_REX_FUNC(sub_824DF2B8)",
+        "context": "\tctx.f1.f64 = ctx.f30.f64;\n\t// bl 0x82410140\n\tctx.lr = 0x824DF390;\n\tsub_82410140(ctx, base);\n\t// bl 0x82410548\n\tctx.lr = 0x824DF394;\n\tsub_82410548(ctx, base);\n\t// bl 0x82410120\n\tctx.lr = 0x824DF398;\n\tsub_82410120(ctx, base);\n\t// lfs"
+      }
+    },
+    {
+      "name": "sub_82495AF0",
+      "register": 11,
+      "base": -2103640064,
+      "offset": -21776,
+      "calls": 182,
+      "original_file": "/Users/ddd/Documents/xbla-\u5b88\u62a4\u82f1\u96c4/guardian_heroes/generated/default/guardian_heroes_recomp.71.cpp",
+      "original_line": 3366,
+      "shape": "static_address",
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.82.cpp",
+        "function": "DEFINE_REX_FUNC(sub_8248CBF8)",
+        "context": "ORE_U16(ctx.r31.u32 + 20, ctx.r11.u16);\n\t// addi r1,r1,144\n\tctx.r1.s64 = ctx.r1.s64 + 144;\n\t// b 0x82886c04\n\t__restgprlr_27(ctx, base);\n\treturn;\nloc_8248CCB0:\n\t// bl 0x82495af0\n\tctx.lr = 0x8248CCB4;\n\tsub_82495AF0(ctx, base);\n\t// lbz"
+      }
+    },
+    {
+      "name": "sub_82495B80",
+      "register": 11,
+      "base": -2103640064,
+      "offset": -14376,
+      "calls": 159,
+      "original_file": "/Users/ddd/Documents/xbla-\u5b88\u62a4\u82f1\u96c4/guardian_heroes/generated/default/guardian_heroes_recomp.78.cpp",
+      "original_line": 3472,
+      "shape": "static_address",
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.82.cpp",
+        "function": "DEFINE_REX_FUNC(sub_8259EC80)",
+        "context": ".r7.u32 + 2884);\n\tctx.f31.f64 = double(temp.f32);\n\t// fnmsubs f29,f12,f30,f31\n\tctx.f29.f64 = double(float(-std::fma(ctx.f12.f64, ctx.f30.f64, -ctx.f31.f64)));\n\t// bl 0x82495b80\n\tctx.lr = 0x8259F358;\n\tsub_82495B80(ctx, base);\n\t// lwz"
+      }
+    },
+    {
+      "name": "sub_82495B90",
+      "register": 11,
+      "base": -2104426496,
+      "offset": 15628,
+      "calls": 71,
+      "original_file": "/Users/ddd/Documents/xbla-\u5b88\u62a4\u82f1\u96c4/guardian_heroes/generated/default/guardian_heroes_recomp.45.cpp",
+      "original_line": 3313,
+      "shape": "static_address",
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.82.cpp",
+        "function": "DEFINE_REX_FUNC(sub_824DF2B8)",
+        "context": "tx.r8.u32 + 3456);\n\tctx.f12.f64 = double(temp.f32);\n\t// fnmsubs f31,f0,f13,f12\n\tctx.f31.f64 = double(float(-std::fma(ctx.f0.f64, ctx.f13.f64, -ctx.f12.f64)));\n\t// bl 0x82495b90\n\tctx.lr = 0x824DF318;\n\tsub_82495B90(ctx, base);\n\t// lis"
+      }
+    },
+    {
+      "name": "sub_824118C8",
+      "register": 11,
+      "base": -2103967744,
+      "offset": -16600,
+      "calls": 42,
+      "original_file": "/Users/ddd/Documents/xbla-\u5b88\u62a4\u82f1\u96c4/guardian_heroes/generated/default/guardian_heroes_recomp.48.cpp",
+      "original_line": 3,
+      "shape": "static_address",
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.82.cpp",
+        "function": "DEFINE_REX_FUNC(sub_8259EC80)",
+        "context": "e();\n\ttemp.u32 = REX_LOAD_U32(ctx.r3.u32 + 0);\n\tctx.f28.f64 = double(temp.f32);\n\t// fsubs f27,f31,f29\n\tctx.f27.f64 = double(float(ctx.f31.f64 - ctx.f29.f64));\n\t// bl 0x824118c8\n\tctx.lr = 0x8259F53C;\n\tsub_824118C8(ctx, base);\n\t// fma"
+      }
+    },
+    {
+      "name": "sub_82495B40",
+      "register": 11,
+      "base": -2103771136,
+      "offset": 10188,
+      "calls": 38,
+      "original_file": "/Users/ddd/Documents/xbla-\u5b88\u62a4\u82f1\u96c4/guardian_heroes/generated/default/guardian_heroes_recomp.76.cpp",
+      "original_line": 3468,
+      "shape": "static_address",
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.41.cpp",
+        "function": "DEFINE_REX_FUNC(sub_82517C40)",
+        "context": "tx.r29.u32 + 0);\n\t// subf r10,r30,r11\n\tctx.r10.u64 = ctx.r11.u64 - ctx.r30.u64;\n\t// stw r10,0(r29)\n\tREX_STORE_U32(ctx.r29.u32 + 0, ctx.r10.u32);\nloc_82517EE8:\n\t// bl 0x82495b40\n\tctx.lr = 0x82517EEC;\n\tsub_82495B40(ctx, base);\n\t// mr "
+      }
+    },
+    {
+      "name": "sub_82495B10",
+      "register": 11,
+      "base": -2103705600,
+      "offset": -3632,
+      "calls": 35,
+      "original_file": "/Users/ddd/Documents/xbla-\u5b88\u62a4\u82f1\u96c4/guardian_heroes/generated/default/guardian_heroes_recomp.78.cpp",
+      "original_line": 3462,
+      "shape": "static_address",
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.69.cpp",
+        "function": "DEFINE_REX_FUNC(sub_824C8EB8)",
+        "context": "AD_U32(ctx.r25.u32 + 1716);\n\t// cmpwi cr6,r30,0\n\tctx.cr6.compare<int32_t>(ctx.r30.s32, 0, ctx.xer);\n\t// blt cr6,0x824c8fd8\n\tif (ctx.cr6.lt) goto loc_824C8FD8;\n\t// bl 0x82495b10\n\tctx.lr = 0x824C8F98;\n\tsub_82495B10(ctx, base);\n\t// stw"
+      }
+    },
+    {
+      "name": "sub_8288C3B8",
+      "register": 11,
+      "base": -2103967744,
+      "offset": -26568,
+      "calls": 25,
+      "original_file": "/Users/ddd/Documents/xbla-\u5b88\u62a4\u82f1\u96c4/guardian_heroes/generated/default/guardian_heroes_recomp.45.cpp",
+      "original_line": 31781,
+      "shape": "static_address",
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.55.cpp",
+        "function": "DEFINE_REX_FUNC(sub_82894E98)",
+        "context": "0x82894EB0;\n\tsub_8256D3D0(ctx, base);\n\t// cmpwi r3,0\n\tctx.cr0.compare<int32_t>(ctx.r3.s32, 0, ctx.xer);\n\t// beq 0x82894f78\n\tif (ctx.cr0.eq) goto loc_82894F78;\n\t// bl 0x8288c3b8\n\tctx.lr = 0x82894EBC;\n\tsub_8288C3B8(ctx, base);\n\t// add"
+      }
+    },
+    {
+      "name": "sub_82410130",
+      "register": 11,
+      "base": -2103967744,
+      "offset": -19896,
+      "calls": 16,
+      "original_file": "/Users/ddd/Documents/xbla-\u5b88\u62a4\u82f1\u96c4/guardian_heroes/generated/default/guardian_heroes_recomp.5.cpp",
+      "original_line": 3,
+      "shape": "static_address",
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.82.cpp",
+        "function": "DEFINE_REX_FUNC(sub_824DF2B8)",
+        "context": ";\n\tREX_STORE_U32(ea, ctx.r1.u32);\n\tctx.r1.u32 = ea;\n\t// mr r21,r3\n\tctx.r21.u64 = ctx.r3.u64;\n\t// bl 0x824dd720\n\tctx.lr = 0x824DF2D4;\n\tsub_824DD720(ctx, base);\n\t// bl 0x82410130\n\tctx.lr = 0x824DF2D8;\n\tsub_82410130(ctx, base);\n\t// lis"
+      }
+    },
+    {
+      "name": "sub_82495B60",
+      "register": 11,
+      "base": -2103771136,
+      "offset": 9336,
+      "calls": 11,
+      "original_file": "/Users/ddd/Documents/xbla-\u5b88\u62a4\u82f1\u96c4/guardian_heroes/generated/default/guardian_heroes_recomp.16.cpp",
+      "original_line": 3313,
+      "shape": "static_address",
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.47.cpp",
+        "function": "DEFINE_REX_FUNC(sub_824E2028)",
+        "context": "\n\tctx.r28.u64 = ctx.r4.u64;\n\t// cmpwi cr6,r30,0\n\tctx.cr6.compare<int32_t>(ctx.r30.s32, 0, ctx.xer);\n\t// beq cr6,0x824e20c4\n\tif (ctx.cr6.eq) goto loc_824E20C4;\n\t// bl 0x82495b60\n\tctx.lr = 0x824E204C;\n\tsub_82495B60(ctx, base);\n\t// mr "
+      }
+    },
+    {
+      "name": "sub_82495B20",
+      "register": 11,
+      "base": -2103771136,
+      "offset": 10224,
+      "calls": 9,
+      "original_file": "/Users/ddd/Documents/xbla-\u5b88\u62a4\u82f1\u96c4/guardian_heroes/generated/default/guardian_heroes_recomp.24.cpp",
+      "original_line": 3443,
+      "shape": "static_address",
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.7.cpp",
+        "function": "DEFINE_REX_FUNC(sub_824B4B48)",
+        "context": "D_U8(ctx.r26.u32 + 1727);\n\t// cmplwi cr6,r11,0\n\tctx.cr6.compare<uint32_t>(ctx.r11.u32, 0, ctx.xer);\n\t// beq cr6,0x824b4c8c\n\tif (ctx.cr6.eq) goto loc_824B4C8C;\n\t// bl 0x82495b20\n\tctx.lr = 0x824B4C78;\n\tsub_82495B20(ctx, base);\n\t// li "
+      }
+    },
+    {
+      "name": "sub_8248A6B0",
+      "register": 11,
+      "base": -2103771136,
+      "offset": 8616,
+      "calls": 3,
+      "original_file": "/Users/ddd/Documents/xbla-\u5b88\u62a4\u82f1\u96c4/guardian_heroes/generated/default/guardian_heroes_recomp.64.cpp",
+      "original_line": 3106,
+      "shape": "static_address",
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.80.cpp",
+        "function": "DEFINE_REX_FUNC(sub_824C2E58)",
+        "context": "AD_U32(ctx.r1.u32 + -8);\n\t// mtlr r12\n\tctx.lr = ctx.r12.u64;\n\t// ld r31,-16(r1)\n\tctx.r31.u64 = REX_LOAD_U64(ctx.r1.u32 + -16);\n\t// blr \n\treturn;\nloc_824C2F0C:\n\t// bl 0x8248a6b0\n\tctx.lr = 0x824C2F10;\n\tsub_8248A6B0(ctx, base);\n\t// add"
+      }
+    },
+    {
+      "name": "sub_8265CBD8",
+      "register": 11,
+      "base": -2108227584,
+      "offset": -11312,
+      "calls": 3,
+      "original_file": "/Users/ddd/Documents/xbla-\u5b88\u62a4\u82f1\u96c4/guardian_heroes/generated/default/guardian_heroes_recomp.1.cpp",
+      "original_line": 16180,
+      "shape": "static_address",
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.46.cpp",
+        "function": "DEFINE_REX_FUNC(sub_8263FD20)",
+        "context": " 65534, ctx.xer);\n\t// bne cr6,0x8263fd80\n\tif (!ctx.cr6.eq) goto loc_8263FD80;\n\t// lhz r27,18(r11)\n\tctx.r27.u64 = REX_LOAD_U16(ctx.r11.u32 + 18);\nloc_8263FD80:\n\t// bl 0x8265cbd8\n\tctx.lr = 0x8263FD84;\n\tsub_8265CBD8(ctx, base);\n\t// stw"
+      }
+    },
+    {
+      "name": "sub_82435B88",
+      "register": 11,
+      "base": -2103771136,
+      "offset": -21328,
+      "calls": 1,
+      "original_file": "/Users/ddd/Documents/xbla-\u5b88\u62a4\u82f1\u96c4/guardian_heroes/generated/default/guardian_heroes_recomp.54.cpp",
+      "original_line": 934,
+      "shape": "static_address",
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.78.cpp",
+        "function": "DEFINE_REX_FUNC(sub_824AF678)",
+        "context": "oc_824AF7FC;\n\t// li r3,0\n\tctx.r3.s64 = 0;\n\t// bl 0x824d0860\n\tctx.lr = 0x824AF7F8;\n\tsub_824D0860(ctx, base);\n\t// b 0x824af800\n\tgoto loc_824AF800;\nloc_824AF7FC:\n\t// bl 0x82435b88\n\tctx.lr = 0x824AF800;\n\tsub_82435B88(ctx, base);\nloc_824"
+      }
+    },
+    {
+      "name": "sub_826E9910",
+      "register": 11,
+      "base": -2104229888,
+      "offset": 13628,
+      "calls": 1,
+      "original_file": "/Users/ddd/Documents/xbla-\u5b88\u62a4\u82f1\u96c4/guardian_heroes/generated/default/guardian_heroes_recomp.26.cpp",
+      "original_line": 19896,
+      "shape": "static_address",
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.4.cpp",
+        "function": "DEFINE_REX_FUNC(sub_826E5020)",
+        "context": "1.u32 + 104, ctx.r10.u32);\n\t// lwz r27,60(r11)\n\tctx.r27.u64 = REX_LOAD_U32(ctx.r11.u32 + 60);\n\t// lwz r28,0(r27)\n\tctx.r28.u64 = REX_LOAD_U32(ctx.r27.u32 + 0);\n\t// bl 0x826e9910\n\tctx.lr = 0x826E50E4;\n\tsub_826E9910(ctx, base);\n\t// lwz"
+      }
+    },
+    {
+      "name": "sub_8256D9B8",
+      "register": 11,
+      "base": -2104360960,
+      "offset": 6080,
+      "calls": 0,
+      "original_file": "/Users/ddd/Documents/xbla-\u5b88\u62a4\u82f1\u96c4/guardian_heroes/generated/default/guardian_heroes_recomp.55.cpp",
+      "original_line": 9468,
+      "shape": "static_address",
+      "caller": null
+    },
+    {
+      "name": "sub_8256D9D8",
+      "register": 11,
+      "base": -2110652416,
+      "offset": 32472,
+      "calls": 0,
+      "original_file": "/Users/ddd/Documents/xbla-\u5b88\u62a4\u82f1\u96c4/guardian_heroes/generated/default/guardian_heroes_recomp.19.cpp",
+      "original_line": 9256,
+      "shape": "static_address",
+      "caller": null
+    },
+    {
+      "name": "sub_8256D9E8",
+      "register": 11,
+      "base": -2110652416,
+      "offset": 32480,
+      "calls": 0,
+      "original_file": "/Users/ddd/Documents/xbla-\u5b88\u62a4\u82f1\u96c4/guardian_heroes/generated/default/guardian_heroes_recomp.64.cpp",
+      "original_line": 9534,
+      "shape": "static_address",
+      "caller": null
+    },
+    {
+      "name": "sub_8256D9F8",
+      "register": 11,
+      "base": -2110652416,
+      "offset": 32496,
+      "calls": 0,
+      "original_file": "/Users/ddd/Documents/xbla-\u5b88\u62a4\u82f1\u96c4/guardian_heroes/generated/default/guardian_heroes_recomp.31.cpp",
+      "original_line": 9587,
+      "shape": "static_address",
+      "caller": null
+    },
+    {
+      "name": "sub_8256DA08",
+      "register": 11,
+      "base": -2110652416,
+      "offset": 32520,
+      "calls": 0,
+      "original_file": "/Users/ddd/Documents/xbla-\u5b88\u62a4\u82f1\u96c4/guardian_heroes/generated/default/guardian_heroes_recomp.72.cpp",
+      "original_line": 9522,
+      "shape": "static_address",
+      "caller": null
+    },
+    {
+      "name": "sub_8256DA18",
+      "register": 11,
+      "base": -2104360960,
+      "offset": 6096,
+      "calls": 0,
+      "original_file": "/Users/ddd/Documents/xbla-\u5b88\u62a4\u82f1\u96c4/guardian_heroes/generated/default/guardian_heroes_recomp.77.cpp",
+      "original_line": 9325,
+      "shape": "static_address",
+      "caller": null
+    },
+    {
+      "name": "sub_8256DA28",
+      "register": 11,
+      "base": -2104360960,
+      "offset": 6108,
+      "calls": 0,
+      "original_file": "/Users/ddd/Documents/xbla-\u5b88\u62a4\u82f1\u96c4/guardian_heroes/generated/default/guardian_heroes_recomp.55.cpp",
+      "original_line": 9478,
+      "shape": "static_address",
+      "caller": null
+    },
+    {
+      "name": "sub_8256DA38",
+      "register": 11,
+      "base": -2110652416,
+      "offset": 32532,
+      "calls": 0,
+      "original_file": "/Users/ddd/Documents/xbla-\u5b88\u62a4\u82f1\u96c4/guardian_heroes/generated/default/guardian_heroes_recomp.52.cpp",
+      "original_line": 9360,
+      "shape": "static_address",
+      "caller": null
+    },
+    {
+      "name": "sub_8256DA48",
+      "register": 11,
+      "base": -2110586880,
+      "offset": -32568,
+      "calls": 0,
+      "original_file": "/Users/ddd/Documents/xbla-\u5b88\u62a4\u82f1\u96c4/guardian_heroes/generated/default/guardian_heroes_recomp.19.cpp",
+      "original_line": 9266,
+      "shape": "static_address",
+      "caller": null
+    },
+    {
+      "name": "sub_82570C08",
+      "register": 11,
+      "base": -2104360960,
+      "offset": 6232,
+      "calls": 0,
+      "original_file": "/Users/ddd/Documents/xbla-\u5b88\u62a4\u82f1\u96c4/guardian_heroes/generated/default/guardian_heroes_recomp.9.cpp",
+      "original_line": 9468,
+      "shape": "static_address",
+      "caller": null
+    },
+    {
+      "name": "sub_82570C28",
+      "register": 11,
+      "base": -2110586880,
+      "offset": -31904,
+      "calls": 0,
+      "original_file": "/Users/ddd/Documents/xbla-\u5b88\u62a4\u82f1\u96c4/guardian_heroes/generated/default/guardian_heroes_recomp.40.cpp",
+      "original_line": 9498,
+      "shape": "static_address",
+      "caller": null
+    },
+    {
+      "name": "sub_82570C38",
+      "register": 11,
+      "base": -2110586880,
+      "offset": -31896,
+      "calls": 0,
+      "original_file": "/Users/ddd/Documents/xbla-\u5b88\u62a4\u82f1\u96c4/guardian_heroes/generated/default/guardian_heroes_recomp.14.cpp",
+      "original_line": 9457,
+      "shape": "static_address",
+      "caller": null
+    },
+    {
+      "name": "sub_82570C48",
+      "register": 11,
+      "base": -2110586880,
+      "offset": -31880,
+      "calls": 0,
+      "original_file": "/Users/ddd/Documents/xbla-\u5b88\u62a4\u82f1\u96c4/guardian_heroes/generated/default/guardian_heroes_recomp.33.cpp",
+      "original_line": 9610,
+      "shape": "static_address",
+      "caller": null
+    },
+    {
+      "name": "sub_82570C58",
+      "register": 11,
+      "base": -2110586880,
+      "offset": -31856,
+      "calls": 0,
+      "original_file": "/Users/ddd/Documents/xbla-\u5b88\u62a4\u82f1\u96c4/guardian_heroes/generated/default/guardian_heroes_recomp.9.cpp",
+      "original_line": 9478,
+      "shape": "static_address",
+      "caller": null
+    },
+    {
+      "name": "sub_82570C68",
+      "register": 11,
+      "base": -2104360960,
+      "offset": 6220,
+      "calls": 0,
+      "original_file": "/Users/ddd/Documents/xbla-\u5b88\u62a4\u82f1\u96c4/guardian_heroes/generated/default/guardian_heroes_recomp.79.cpp",
+      "original_line": 9272,
+      "shape": "static_address",
+      "caller": null
+    },
+    {
+      "name": "sub_82570C78",
+      "register": 11,
+      "base": -2104360960,
+      "offset": 6296,
+      "calls": 0,
+      "original_file": "/Users/ddd/Documents/xbla-\u5b88\u62a4\u82f1\u96c4/guardian_heroes/generated/default/guardian_heroes_recomp.4.cpp",
+      "original_line": 9384,
+      "shape": "static_address",
+      "caller": null
+    },
+    {
+      "name": "sub_82570C88",
+      "register": 11,
+      "base": -2110586880,
+      "offset": -31844,
+      "calls": 0,
+      "original_file": "/Users/ddd/Documents/xbla-\u5b88\u62a4\u82f1\u96c4/guardian_heroes/generated/default/guardian_heroes_recomp.40.cpp",
+      "original_line": 9508,
+      "shape": "static_address",
+      "caller": null
+    },
+    {
+      "name": "sub_82570C98",
+      "register": 11,
+      "base": -2110586880,
+      "offset": -31240,
+      "calls": 0,
+      "original_file": "/Users/ddd/Documents/xbla-\u5b88\u62a4\u82f1\u96c4/guardian_heroes/generated/default/guardian_heroes_recomp.14.cpp",
+      "original_line": 9467,
+      "shape": "static_address",
+      "caller": null
+    },
+    {
+      "name": "sub_825721C8",
+      "register": 11,
+      "base": -2110586880,
+      "offset": -30400,
+      "calls": 0,
+      "original_file": "/Users/ddd/Documents/xbla-\u5b88\u62a4\u82f1\u96c4/guardian_heroes/generated/default/guardian_heroes_recomp.24.cpp",
+      "original_line": 9823,
+      "shape": "static_address",
+      "caller": null
+    },
+    {
+      "name": "sub_825721D8",
+      "register": 11,
+      "base": -2110586880,
+      "offset": -30392,
+      "calls": 0,
+      "original_file": "/Users/ddd/Documents/xbla-\u5b88\u62a4\u82f1\u96c4/guardian_heroes/generated/default/guardian_heroes_recomp.61.cpp",
+      "original_line": 9735,
+      "shape": "static_address",
+      "caller": null
+    },
+    {
+      "name": "sub_825721E8",
+      "register": 11,
+      "base": -2110586880,
+      "offset": -30376,
+      "calls": 0,
+      "original_file": "/Users/ddd/Documents/xbla-\u5b88\u62a4\u82f1\u96c4/guardian_heroes/generated/default/guardian_heroes_recomp.80.cpp",
+      "original_line": 9288,
+      "shape": "static_address",
+      "caller": null
+    },
+    {
+      "name": "sub_825721F8",
+      "register": 11,
+      "base": -2110586880,
+      "offset": -30352,
+      "calls": 0,
+      "original_file": "/Users/ddd/Documents/xbla-\u5b88\u62a4\u82f1\u96c4/guardian_heroes/generated/default/guardian_heroes_recomp.20.cpp",
+      "original_line": 9333,
+      "shape": "static_address",
+      "caller": null
+    },
+    {
+      "name": "sub_82572208",
+      "register": 11,
+      "base": -2104360960,
+      "offset": 6408,
+      "calls": 0,
+      "original_file": "/Users/ddd/Documents/xbla-\u5b88\u62a4\u82f1\u96c4/guardian_heroes/generated/default/guardian_heroes_recomp.39.cpp",
+      "original_line": 9632,
+      "shape": "static_address",
+      "caller": null
+    },
+    {
+      "name": "sub_82572218",
+      "register": 11,
+      "base": -2104360960,
+      "offset": 6420,
+      "calls": 0,
+      "original_file": "/Users/ddd/Documents/xbla-\u5b88\u62a4\u82f1\u96c4/guardian_heroes/generated/default/guardian_heroes_recomp.24.cpp",
+      "original_line": 9833,
+      "shape": "static_address",
+      "caller": null
+    }
+  ]
+}

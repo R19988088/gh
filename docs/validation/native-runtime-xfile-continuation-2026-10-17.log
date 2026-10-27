@@ -1,0 +1,3 @@
+[info] [sys] Guest memory arena mapped: virtual base 0x0000007000000000, physical base 0x0000007100000000
+[warning] [sys] Runtime::SetupVfs: No game_data_root specified, skipping VFS setup
+XFile FIL1: quiescent async read/write position, auto-reset completion signal, directory pattern/cursor, completion-port/destructive-close rejection and legacy restore passed

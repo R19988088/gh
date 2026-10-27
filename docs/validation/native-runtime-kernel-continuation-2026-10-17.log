@@ -1,0 +1,11 @@
+[info] [sys] Guest memory arena mapped: virtual base 0x0000007000000000, physical base 0x0000007100000000
+[warning] [sys] Runtime::SetupVfs: No game_data_root specified, skipping VFS setup
+[info] [core] Function table initialized for module: code=82000000-82000100, image=82000000-82010000
+[warning] [fs] VFS: 'continuation-primary.xex' -> [no device]
+[error] [fs] ResolvePath(continuation-primary.xex) failed - device not found
+[error] [sys] Kernel object type 4 has no resumable serializer
+[warning] [fs] VFS: 'continuation-fixture.xex' -> [no device]
+[error] [fs] ResolvePath(continuation-fixture.xex) failed - device not found
+[warning] [fs] VFS: 'continuation-fixture.xex' -> [no device]
+[error] [fs] ResolvePath(continuation-fixture.xex) failed - device not found
+live kernel restore: two new host threads resumed exact saved counters; memory, handles, primary/auxiliary module reuse, retired storage, mutant recursion/abandonment scratch cleanup, deferred dispatch pause, timer deadline/period/APC owner, created-suspended startup/APC and last-handle execution unwind passed

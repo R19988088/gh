@@ -1,0 +1,1299 @@
+{
+  "pid": 31674,
+  "binary_uuid": "988256ED-1B2F-3AA8-8F26-2ADF01ACB82E",
+  "recorded_start": "2026-10-17T17:07:03.519+08:00",
+  "recorded_end": "2026-10-17T17:07:09.641+08:00",
+  "requested_duration_seconds": 5,
+  "sampling_interval_ms": 1,
+  "samples": 14124,
+  "sampled_thread_weight_ms": 14124.0,
+  "self": [
+    {
+      "function": "gh::guest::continuation::Machine::Run(unsigned char*, unsigned long)",
+      "weight_ms": 6894.0,
+      "fraction": 0.488105
+    },
+    {
+      "function": "__psynch_cvwait",
+      "weight_ms": 1154.0,
+      "fraction": 0.081705
+    },
+    {
+      "function": "gh::guest::continuation::(anonymous namespace)::Step_sub_82660418(GuestContext&, unsigned char*, gh::guest::continuation::Frame&)",
+      "weight_ms": 1109.0,
+      "fraction": 0.078519
+    },
+    {
+      "function": "__psynch_mutexwait",
+      "weight_ms": 1088.0,
+      "fraction": 0.077032
+    },
+    {
+      "function": "swtch_pri",
+      "weight_ms": 936.0,
+      "fraction": 0.06627
+    },
+    {
+      "function": "__psynch_mutexdrop",
+      "weight_ms": 495.0,
+      "fraction": 0.035047
+    },
+    {
+      "function": "gh::guest::continuation::(anonymous namespace)::Step_sub_825D6A68(GuestContext&, unsigned char*, gh::guest::continuation::Frame&)",
+      "weight_ms": 311.0,
+      "fraction": 0.022019
+    },
+    {
+      "function": "__semwait_signal",
+      "weight_ms": 230.0,
+      "fraction": 0.016284
+    },
+    {
+      "function": "mach_msg2_trap",
+      "weight_ms": 186.0,
+      "fraction": 0.013169
+    },
+    {
+      "function": "__psynch_cvbroad",
+      "weight_ms": 172.0,
+      "fraction": 0.012178
+    },
+    {
+      "function": "GuestMemory::ReadRam32(unsigned int) const",
+      "weight_ms": 147.0,
+      "fraction": 0.010408
+    },
+    {
+      "function": "gh::guest::continuation::Machine::Valid(gh::guest::continuation::Frame const&) const",
+      "weight_ms": 95.0,
+      "fraction": 0.006726
+    },
+    {
+      "function": "start_wqthread",
+      "weight_ms": 70.0,
+      "fraction": 0.004956
+    },
+    {
+      "function": "__gettimeofday",
+      "weight_ms": 64.0,
+      "fraction": 0.004531
+    },
+    {
+      "function": "gh::guest::continuation::(anonymous namespace)::Step_sub_825E6090(GuestContext&, unsigned char*, gh::guest::continuation::Frame&)",
+      "weight_ms": 52.0,
+      "fraction": 0.003682
+    },
+    {
+      "function": "gh::guest::continuation::(anonymous namespace)::Step_sub_8265D580(GuestContext&, unsigned char*, gh::guest::continuation::Frame&)",
+      "weight_ms": 48.0,
+      "fraction": 0.003398
+    },
+    {
+      "function": "GuestMemory::WriteRam32(unsigned int, unsigned int) const",
+      "weight_ms": 43.0,
+      "fraction": 0.003044
+    },
+    {
+      "function": "mach_continuous_time",
+      "weight_ms": 30.0,
+      "fraction": 0.002124
+    },
+    {
+      "function": "iokit_user_client_trap",
+      "weight_ms": 27.0,
+      "fraction": 0.001912
+    },
+    {
+      "function": "kevent_id",
+      "weight_ms": 23.0,
+      "fraction": 0.001628
+    },
+    {
+      "function": "pthread_mutex_lock",
+      "weight_ms": 22.0,
+      "fraction": 0.001558
+    },
+    {
+      "function": "_platform_memmove",
+      "weight_ms": 20.0,
+      "fraction": 0.001416
+    },
+    {
+      "function": "gh::guest::continuation::(anonymous namespace)::Step_sub_82655780(GuestContext&, unsigned char*, gh::guest::continuation::Frame&)",
+      "weight_ms": 20.0,
+      "fraction": 0.001416
+    },
+    {
+      "function": "mach_absolute_time",
+      "weight_ms": 17.0,
+      "fraction": 0.001204
+    },
+    {
+      "function": "gh::guest::continuation::(anonymous namespace)::Step_sub_82654FA0(GuestContext&, unsigned char*, gh::guest::continuation::Frame&)",
+      "weight_ms": 17.0,
+      "fraction": 0.001204
+    },
+    {
+      "function": "rex::graphics::RegisterFile::GetRegisterInfo(unsigned int)",
+      "weight_ms": 16.0,
+      "fraction": 0.001133
+    },
+    {
+      "function": "gh::guest::continuation::(anonymous namespace)::Step___restgprlr_29(GuestContext&, unsigned char*, gh::guest::continuation::Frame&)",
+      "weight_ms": 15.0,
+      "fraction": 0.001062
+    },
+    {
+      "function": "_xzm_free_main",
+      "weight_ms": 14.0,
+      "fraction": 0.000991
+    },
+    {
+      "function": "__sysctl",
+      "weight_ms": 14.0,
+      "fraction": 0.000991
+    },
+    {
+      "function": "__imp__sub_82651770",
+      "weight_ms": 13.0,
+      "fraction": 0.00092
+    },
+    {
+      "function": "gh::guest::continuation::(anonymous namespace)::Step___savegprlr_29(GuestContext&, unsigned char*, gh::guest::continuation::Frame&)",
+      "weight_ms": 13.0,
+      "fraction": 0.00092
+    },
+    {
+      "function": "gh::guest::continuation::(anonymous namespace)::Step_sub_8242A588(GuestContext&, unsigned char*, gh::guest::continuation::Frame&)",
+      "weight_ms": 12.0,
+      "fraction": 0.00085
+    },
+    {
+      "function": "gh::guest::continuation::(anonymous namespace)::Step_sub_82637FF0(GuestContext&, unsigned char*, gh::guest::continuation::Frame&)",
+      "weight_ms": 12.0,
+      "fraction": 0.00085
+    },
+    {
+      "function": "_sigtramp",
+      "weight_ms": 12.0,
+      "fraction": 0.00085
+    },
+    {
+      "function": "rex::thread::TimerQueue::TimerThreadMain(std::__1::stop_token)",
+      "weight_ms": 12.0,
+      "fraction": 0.00085
+    },
+    {
+      "function": "gh::thread::Yield()",
+      "weight_ms": 10.0,
+      "fraction": 0.000708
+    },
+    {
+      "function": "__kdebug_trace64",
+      "weight_ms": 10.0,
+      "fraction": 0.000708
+    },
+    {
+      "function": "std::__1::__function::__func<gh::kernel::QueuedWait::QueuedWait(std::__1::span<gh::kernel::Waitable* const, 18446744073709551615ul>, bool, std::__1::function<bool ()>, std::__1::function<bool ()>, gh::kernel::Waitable*, gh::kernel::QueuedWait::State const*)::$_0, bool ()>::operator()()",
+      "weight_ms": 10.0,
+      "fraction": 0.000708
+    },
+    {
+      "function": "_pthread_cond_wait",
+      "weight_ms": 10.0,
+      "fraction": 0.000708
+    },
+    {
+      "function": "_pthread_mutex_firstfit_lock_slow",
+      "weight_ms": 8.0,
+      "fraction": 0.000566
+    }
+  ],
+  "inclusive": [
+    {
+      "function": "_pthread_start",
+      "weight_ms": 13707.0
+    },
+    {
+      "function": "thread_start",
+      "weight_ms": 13707.0
+    },
+    {
+      "function": "gh::kernel::HostThread::Impl::Run(void*)",
+      "weight_ms": 13126.0
+    },
+    {
+      "function": "gh::kernel::HostThread::Impl::Enter()",
+      "weight_ms": 13126.0
+    },
+    {
+      "function": "rex::system::XThread::Execute()",
+      "weight_ms": 12381.0
+    },
+    {
+      "function": "std::__1::__function::__func<rex::system::XThread::PrepareContinuationRestore(std::__1::shared_ptr<rex::system::ContinuationStartGate>)::$_0, void ()>::operator()()",
+      "weight_ms": 12381.0
+    },
+    {
+      "function": "gh::guest::continuation::RunTitleMachine(gh::guest::continuation::Machine&, GuestContext&, unsigned char*, void (*)())",
+      "weight_ms": 12379.0
+    },
+    {
+      "function": "gh::guest::continuation::Machine::Run(unsigned char*, unsigned long)",
+      "weight_ms": 10120.0
+    },
+    {
+      "function": "_pthread_cond_wait",
+      "weight_ms": 1995.0
+    },
+    {
+      "function": "gh::kernel::QueuedWait::WaitForWake(std::__1::chrono::duration<long long, std::__1::ratio<1l, 1000l>>)",
+      "weight_ms": 1825.0
+    },
+    {
+      "function": "std::__1::condition_variable::__do_timed_wait(std::__1::unique_lock<std::__1::mutex>&, std::__1::chrono::time_point<std::__1::chrono::system_clock, std::__1::chrono::duration<long long, std::__1::ratio<1l, 1000000000l>>>)",
+      "weight_ms": 1387.0
+    },
+    {
+      "function": "gh::guest::continuation::(anonymous namespace)::Step_sub_825D6A68(GuestContext&, unsigned char*, gh::guest::continuation::Frame&)",
+      "weight_ms": 1221.0
+    },
+    {
+      "function": "gh::guest::continuation::(anonymous namespace)::Step_sub_82660418(GuestContext&, unsigned char*, gh::guest::continuation::Frame&)",
+      "weight_ms": 1165.0
+    },
+    {
+      "function": "__psynch_cvwait",
+      "weight_ms": 1155.0
+    },
+    {
+      "function": "_pthread_mutex_firstfit_lock_slow",
+      "weight_ms": 1100.0
+    },
+    {
+      "function": "_pthread_mutex_firstfit_lock_wait",
+      "weight_ms": 1092.0
+    },
+    {
+      "function": "__psynch_mutexwait",
+      "weight_ms": 1088.0
+    },
+    {
+      "function": "cthread_yield",
+      "weight_ms": 942.0
+    },
+    {
+      "function": "swtch_pri",
+      "weight_ms": 936.0
+    },
+    {
+      "function": "gh::thread::Yield()",
+      "weight_ms": 893.0
+    },
+    {
+      "function": "rex::system::XHostThread::Execute()",
+      "weight_ms": 745.0
+    },
+    {
+      "function": "std::__1::__function::__func<rex::system::XThread::CreateNativeHostThread()::$_0, void ()>::operator()()",
+      "weight_ms": 745.0
+    },
+    {
+      "function": "gh::kernel::WaitMultiple(std::__1::span<gh::kernel::Waitable* const, 18446744073709551615ul>, bool, std::__1::chrono::duration<long long, std::__1::ratio<1l, 1000000000l>>, std::__1::function<bool ()> const&, gh::kernel::Waitable*)",
+      "weight_ms": 699.0
+    },
+    {
+      "function": "std::__1::condition_variable::wait(std::__1::unique_lock<std::__1::mutex>&)",
+      "weight_ms": 610.0
+    },
+    {
+      "function": "std::__1::mutex::unlock()",
+      "weight_ms": 500.0
+    },
+    {
+      "function": "_pthread_mutex_firstfit_unlock_slow",
+      "weight_ms": 497.0
+    },
+    {
+      "function": "_pthread_mutex_firstfit_wake",
+      "weight_ms": 496.0
+    },
+    {
+      "function": "__psynch_mutexdrop",
+      "weight_ms": 495.0
+    },
+    {
+      "function": "rex::system::(anonymous namespace)::WaitProjectObjects(std::__1::span<gh::kernel::Waitable* const, 18446744073709551615ul>, bool, bool, unsigned long long*, gh::kernel::Waitable*, unsigned int)",
+      "weight_ms": 447.0
+    },
+    {
+      "function": "rex::graphics::CommandProcessor::WorkerThreadMain()",
+      "weight_ms": 396.0
+    },
+    {
+      "function": "std::__1::__function::__func<rex::graphics::CommandProcessor::Initialize()::$_0, int ()>::operator()()",
+      "weight_ms": 396.0
+    },
+    {
+      "function": "rex::graphics::CommandProcessor::ExecutePacket(rex::memory::RingBuffer*)",
+      "weight_ms": 393.0
+    },
+    {
+      "function": "rex::graphics::CommandProcessor::ExecuteIndirectBuffer(unsigned int, unsigned int)",
+      "weight_ms": 393.0
+    },
+    {
+      "function": "rex::graphics::CommandProcessor::ExecutePacketType3(rex::memory::RingBuffer*, unsigned int)",
+      "weight_ms": 393.0
+    },
+    {
+      "function": "rex::graphics::CommandProcessor::ExecutePrimaryBuffer(unsigned int, unsigned int)",
+      "weight_ms": 393.0
+    },
+    {
+      "function": "nanosleep",
+      "weight_ms": 367.0
+    },
+    {
+      "function": "gh::graphics::GuestCommandProcessor::Execute(unsigned int, gh::graphics::PacketReader&, gh::graphics::CommandTarget&)",
+      "weight_ms": 355.0
+    },
+    {
+      "function": "rex::thread::Sleep(std::__1::chrono::duration<long long, std::__1::ratio<1l, 1000000l>>)",
+      "weight_ms": 353.0
+    },
+    {
+      "function": "std::__1::mutex::lock()",
+      "weight_ms": 352.0
+    },
+    {
+      "function": "start_wqthread",
+      "weight_ms": 350.0
+    }
+  ],
+  "threads": [
+    {
+      "name": "XThread28307 (F80000B4) (0xab7e7e) (GuardianHeroes-bin, pid: 31674)",
+      "weight_ms": 4980.0,
+      "self": [
+        {
+          "function": "gh::guest::continuation::Machine::Run(unsigned char*, unsigned long)",
+          "weight_ms": 3363.0
+        },
+        {
+          "function": "gh::guest::continuation::(anonymous namespace)::Step_sub_82660418(GuestContext&, unsigned char*, gh::guest::continuation::Frame&)",
+          "weight_ms": 1109.0
+        },
+        {
+          "function": "GuestMemory::ReadRam32(unsigned int) const",
+          "weight_ms": 118.0
+        },
+        {
+          "function": "__psynch_cvwait",
+          "weight_ms": 71.0
+        },
+        {
+          "function": "__psynch_mutexwait",
+          "weight_ms": 69.0
+        },
+        {
+          "function": "gh::guest::continuation::(anonymous namespace)::Step_sub_8265D580(GuestContext&, unsigned char*, gh::guest::continuation::Frame&)",
+          "weight_ms": 48.0
+        },
+        {
+          "function": "__psynch_mutexdrop",
+          "weight_ms": 43.0
+        },
+        {
+          "function": "GuestMemory::WriteRam32(unsigned int, unsigned int) const",
+          "weight_ms": 36.0
+        }
+      ]
+    },
+    {
+      "name": "Main XThread (F8000024) (0xab7e75) (GuardianHeroes-bin, pid: 31674)",
+      "weight_ms": 4816.0,
+      "self": [
+        {
+          "function": "gh::guest::continuation::Machine::Run(unsigned char*, unsigned long)",
+          "weight_ms": 3224.0
+        },
+        {
+          "function": "swtch_pri",
+          "weight_ms": 874.0
+        },
+        {
+          "function": "gh::guest::continuation::(anonymous namespace)::Step_sub_825D6A68(GuestContext&, unsigned char*, gh::guest::continuation::Frame&)",
+          "weight_ms": 311.0
+        },
+        {
+          "function": "gh::guest::continuation::Machine::Valid(gh::guest::continuation::Frame const&) const",
+          "weight_ms": 82.0
+        },
+        {
+          "function": "gh::guest::continuation::(anonymous namespace)::Step_sub_825E6090(GuestContext&, unsigned char*, gh::guest::continuation::Frame&)",
+          "weight_ms": 52.0
+        },
+        {
+          "function": "GuestMemory::ReadRam32(unsigned int) const",
+          "weight_ms": 29.0
+        },
+        {
+          "function": "gh::guest::continuation::(anonymous namespace)::Step___restgprlr_29(GuestContext&, unsigned char*, gh::guest::continuation::Frame&)",
+          "weight_ms": 15.0
+        },
+        {
+          "function": "gh::guest::continuation::(anonymous namespace)::Step___savegprlr_29(GuestContext&, unsigned char*, gh::guest::continuation::Frame&)",
+          "weight_ms": 13.0
+        }
+      ]
+    },
+    {
+      "name": "GPU Commands (F8000014) (0xab638b) (GuardianHeroes-bin, pid: 31674)",
+      "weight_ms": 396.0,
+      "self": [
+        {
+          "function": "__semwait_signal",
+          "weight_ms": 195.0
+        },
+        {
+          "function": "mach_msg2_trap",
+          "weight_ms": 109.0
+        },
+        {
+          "function": "rex::graphics::RegisterFile::GetRegisterInfo(unsigned int)",
+          "weight_ms": 16.0
+        },
+        {
+          "function": "0x1a0eb4941",
+          "weight_ms": 5.0
+        },
+        {
+          "function": "nanosleep",
+          "weight_ms": 5.0
+        },
+        {
+          "function": "_platform_memmove",
+          "weight_ms": 4.0
+        },
+        {
+          "function": "rex::thread::Sleep(std::__1::chrono::duration<long long, std::__1::ratio<1l, 1000000l>>)",
+          "weight_ms": 4.0
+        },
+        {
+          "function": "_pthread_exit_if_canceled",
+          "weight_ms": 4.0
+        }
+      ]
+    },
+    {
+      "name": "XThread15E13 (F8000040) (0xab7e79) (GuardianHeroes-bin, pid: 31674)",
+      "weight_ms": 374.0,
+      "self": [
+        {
+          "function": "__psynch_cvwait",
+          "weight_ms": 76.0
+        },
+        {
+          "function": "gh::guest::continuation::Machine::Run(unsigned char*, unsigned long)",
+          "weight_ms": 70.0
+        },
+        {
+          "function": "__psynch_mutexwait",
+          "weight_ms": 63.0
+        },
+        {
+          "function": "__psynch_mutexdrop",
+          "weight_ms": 53.0
+        },
+        {
+          "function": "__psynch_cvbroad",
+          "weight_ms": 37.0
+        },
+        {
+          "function": "__gettimeofday",
+          "weight_ms": 7.0
+        },
+        {
+          "function": "__imp__sub_828885C0",
+          "weight_ms": 4.0
+        },
+        {
+          "function": "gh::guest::continuation::(anonymous namespace)::Step_sub_82674580(GuestContext&, unsigned char*, gh::guest::continuation::Frame&)",
+          "weight_ms": 4.0
+        }
+      ]
+    },
+    {
+      "name": "XThread4407 (F8000088) (0xab7e7d) (GuardianHeroes-bin, pid: 31674)",
+      "weight_ms": 369.0,
+      "self": [
+        {
+          "function": "__psynch_mutexwait",
+          "weight_ms": 85.0
+        },
+        {
+          "function": "gh::guest::continuation::Machine::Run(unsigned char*, unsigned long)",
+          "weight_ms": 81.0
+        },
+        {
+          "function": "__psynch_cvwait",
+          "weight_ms": 69.0
+        },
+        {
+          "function": "__psynch_mutexdrop",
+          "weight_ms": 43.0
+        },
+        {
+          "function": "__psynch_cvbroad",
+          "weight_ms": 32.0
+        },
+        {
+          "function": "__gettimeofday",
+          "weight_ms": 9.0
+        },
+        {
+          "function": "gh::guest::continuation::(anonymous namespace)::Step_sub_82637FF0(GuestContext&, unsigned char*, gh::guest::continuation::Frame&)",
+          "weight_ms": 4.0
+        },
+        {
+          "function": "gh::kernel::HandleTable::Add(std::__1::shared_ptr<void>)",
+          "weight_ms": 4.0
+        }
+      ]
+    },
+    {
+      "name": "Audio Worker (F8000010) (0xab638a) (GuardianHeroes-bin, pid: 31674)",
+      "weight_ms": 323.0,
+      "self": [
+        {
+          "function": "__psynch_mutexwait",
+          "weight_ms": 91.0
+        },
+        {
+          "function": "__psynch_cvwait",
+          "weight_ms": 73.0
+        },
+        {
+          "function": "__psynch_cvbroad",
+          "weight_ms": 72.0
+        },
+        {
+          "function": "__psynch_mutexdrop",
+          "weight_ms": 51.0
+        },
+        {
+          "function": "__imp__sub_82651770",
+          "weight_ms": 13.0
+        },
+        {
+          "function": "mach_continuous_time",
+          "weight_ms": 2.0
+        },
+        {
+          "function": "pthread_mutex_lock",
+          "weight_ms": 2.0
+        },
+        {
+          "function": "_pthread_mutex_firstfit_lock_slow",
+          "weight_ms": 2.0
+        }
+      ]
+    },
+    {
+      "name": "decode_thread_2 (F8000030) (0xab7e78) (GuardianHeroes-bin, pid: 31674)",
+      "weight_ms": 290.0,
+      "self": [
+        {
+          "function": "__psynch_cvwait",
+          "weight_ms": 86.0
+        },
+        {
+          "function": "__psynch_mutexwait",
+          "weight_ms": 84.0
+        },
+        {
+          "function": "__psynch_mutexdrop",
+          "weight_ms": 53.0
+        },
+        {
+          "function": "gh::guest::continuation::Machine::Run(unsigned char*, unsigned long)",
+          "weight_ms": 40.0
+        },
+        {
+          "function": "__gettimeofday",
+          "weight_ms": 7.0
+        },
+        {
+          "function": "mach_absolute_time",
+          "weight_ms": 3.0
+        },
+        {
+          "function": "gh::guest::continuation::(anonymous namespace)::Step_sub_8242A970(GuestContext&, unsigned char*, gh::guest::continuation::Frame&)",
+          "weight_ms": 2.0
+        },
+        {
+          "function": "_pthread_cond_wait",
+          "weight_ms": 2.0
+        }
+      ]
+    },
+    {
+      "name": "decode_thread_0 (F8000028) (0xab7e76) (GuardianHeroes-bin, pid: 31674)",
+      "weight_ms": 277.0,
+      "self": [
+        {
+          "function": "__psynch_mutexwait",
+          "weight_ms": 79.0
+        },
+        {
+          "function": "__psynch_cvwait",
+          "weight_ms": 79.0
+        },
+        {
+          "function": "__psynch_mutexdrop",
+          "weight_ms": 45.0
+        },
+        {
+          "function": "gh::guest::continuation::Machine::Run(unsigned char*, unsigned long)",
+          "weight_ms": 33.0
+        },
+        {
+          "function": "mach_continuous_time",
+          "weight_ms": 5.0
+        },
+        {
+          "function": "__gettimeofday",
+          "weight_ms": 5.0
+        },
+        {
+          "function": "std::__1::__function::__func<gh::kernel::QueuedWait::QueuedWait(std::__1::span<gh::kernel::Waitable* const, 18446744073709551615ul>, bool, std::__1::function<bool ()>, std::__1::function<bool ()>, gh::kernel::Waitable*, gh::kernel::QueuedWait::State const*)::$_0, bool ()>::operator()()",
+          "weight_ms": 3.0
+        },
+        {
+          "function": "pthread_mutex_lock",
+          "weight_ms": 3.0
+        }
+      ]
+    },
+    {
+      "name": "XThread2350B (F80000D4) (0xab7e7f) (GuardianHeroes-bin, pid: 31674)",
+      "weight_ms": 268.0,
+      "self": [
+        {
+          "function": "__psynch_cvwait",
+          "weight_ms": 93.0
+        },
+        {
+          "function": "__psynch_mutexwait",
+          "weight_ms": 78.0
+        },
+        {
+          "function": "__psynch_mutexdrop",
+          "weight_ms": 40.0
+        },
+        {
+          "function": "gh::guest::continuation::Machine::Run(unsigned char*, unsigned long)",
+          "weight_ms": 27.0
+        },
+        {
+          "function": "__gettimeofday",
+          "weight_ms": 8.0
+        },
+        {
+          "function": "gh::guest::continuation::(anonymous namespace)::Step_sub_82899590(GuestContext&, unsigned char*, gh::guest::continuation::Frame&)",
+          "weight_ms": 2.0
+        },
+        {
+          "function": "gh::guest::continuation::Machine::Valid(gh::guest::continuation::Frame const&) const",
+          "weight_ms": 2.0
+        },
+        {
+          "function": "_platform_memmove",
+          "weight_ms": 2.0
+        }
+      ]
+    },
+    {
+      "name": "decode_thread_1 (F800002C) (0xab7e77) (GuardianHeroes-bin, pid: 31674)",
+      "weight_ms": 262.0,
+      "self": [
+        {
+          "function": "__psynch_cvwait",
+          "weight_ms": 84.0
+        },
+        {
+          "function": "__psynch_mutexwait",
+          "weight_ms": 67.0
+        },
+        {
+          "function": "__psynch_mutexdrop",
+          "weight_ms": 51.0
+        },
+        {
+          "function": "gh::guest::continuation::Machine::Run(unsigned char*, unsigned long)",
+          "weight_ms": 32.0
+        },
+        {
+          "function": "__gettimeofday",
+          "weight_ms": 5.0
+        },
+        {
+          "function": "mach_absolute_time",
+          "weight_ms": 4.0
+        },
+        {
+          "function": "gh::guest::continuation::(anonymous namespace)::Step_sub_8242A878(GuestContext&, unsigned char*, gh::guest::continuation::Frame&)",
+          "weight_ms": 3.0
+        },
+        {
+          "function": "mach_continuous_time",
+          "weight_ms": 3.0
+        }
+      ]
+    },
+    {
+      "name": "XThread2340F (F8000064) (0xab7e7a) (GuardianHeroes-bin, pid: 31674)",
+      "weight_ms": 255.0,
+      "self": [
+        {
+          "function": "__psynch_mutexwait",
+          "weight_ms": 115.0
+        },
+        {
+          "function": "__psynch_cvwait",
+          "weight_ms": 82.0
+        },
+        {
+          "function": "__psynch_mutexdrop",
+          "weight_ms": 36.0
+        },
+        {
+          "function": "__gettimeofday",
+          "weight_ms": 3.0
+        },
+        {
+          "function": "pthread_mutex_lock",
+          "weight_ms": 2.0
+        },
+        {
+          "function": "_pthread_cond_wait",
+          "weight_ms": 2.0
+        },
+        {
+          "function": "mach_continuous_time",
+          "weight_ms": 2.0
+        },
+        {
+          "function": "mach_absolute_time",
+          "weight_ms": 1.0
+        }
+      ]
+    },
+    {
+      "name": "sound_thread (F8000084) (0xab7e7c) (GuardianHeroes-bin, pid: 31674)",
+      "weight_ms": 254.0,
+      "self": [
+        {
+          "function": "__psynch_mutexwait",
+          "weight_ms": 81.0
+        },
+        {
+          "function": "__psynch_cvwait",
+          "weight_ms": 68.0
+        },
+        {
+          "function": "__psynch_mutexdrop",
+          "weight_ms": 46.0
+        },
+        {
+          "function": "gh::guest::continuation::Machine::Run(unsigned char*, unsigned long)",
+          "weight_ms": 23.0
+        },
+        {
+          "function": "__gettimeofday",
+          "weight_ms": 9.0
+        },
+        {
+          "function": "mach_continuous_time",
+          "weight_ms": 3.0
+        },
+        {
+          "function": "pthread_mutex_unlock",
+          "weight_ms": 2.0
+        },
+        {
+          "function": "gh::guest::continuation::(anonymous namespace)::Step_sub_82682240(GuestContext&, unsigned char*, gh::guest::continuation::Frame&)",
+          "weight_ms": 2.0
+        }
+      ]
+    },
+    {
+      "name": "GuardianHeroes-bin (0xab6389) (GuardianHeroes-bin, pid: 31674)",
+      "weight_ms": 239.0,
+      "self": [
+        {
+          "function": "__psynch_cvwait",
+          "weight_ms": 141.0
+        },
+        {
+          "function": "__psynch_mutexwait",
+          "weight_ms": 93.0
+        },
+        {
+          "function": "_pthread_mutex_firstfit_lock_wait",
+          "weight_ms": 1.0
+        },
+        {
+          "function": "gh::kernel::WaitMultiple(std::__1::span<gh::kernel::Waitable* const, 18446744073709551615ul>, bool, std::__1::chrono::duration<long long, std::__1::ratio<1l, 1000000000l>>, std::__1::function<bool ()> const&, gh::kernel::Waitable*)::$_2::operator()(bool) const",
+          "weight_ms": 1.0
+        },
+        {
+          "function": "std::__1::condition_variable::wait(std::__1::unique_lock<std::__1::mutex>&)",
+          "weight_ms": 1.0
+        },
+        {
+          "function": "gh::kernel::Event::IsSignaled(std::__1::__thread_id) const",
+          "weight_ms": 1.0
+        },
+        {
+          "function": "_pthread_mutex_droplock",
+          "weight_ms": 1.0
+        }
+      ]
+    },
+    {
+      "name": "XThread28103 (F8000068) (0xab7e7b) (GuardianHeroes-bin, pid: 31674)",
+      "weight_ms": 236.0,
+      "self": [
+        {
+          "function": "__psynch_mutexwait",
+          "weight_ms": 107.0
+        },
+        {
+          "function": "__psynch_cvwait",
+          "weight_ms": 81.0
+        },
+        {
+          "function": "__psynch_mutexdrop",
+          "weight_ms": 32.0
+        },
+        {
+          "function": "__gettimeofday",
+          "weight_ms": 7.0
+        },
+        {
+          "function": "mach_continuous_time",
+          "weight_ms": 2.0
+        },
+        {
+          "function": "std::__1::__function::__func<gh::kernel::QueuedWait::QueuedWait(std::__1::span<gh::kernel::Waitable* const, 18446744073709551615ul>, bool, std::__1::function<bool ()>, std::__1::function<bool ()>, gh::kernel::Waitable*, gh::kernel::QueuedWait::State const*)::$_0, bool ()>::operator()()",
+          "weight_ms": 1.0
+        },
+        {
+          "function": "_pthread_mutex_firstfit_lock_wait",
+          "weight_ms": 1.0
+        },
+        {
+          "function": "std::__1::chrono::steady_clock::now()",
+          "weight_ms": 1.0
+        }
+      ]
+    },
+    {
+      "name": "GuardianHeroes-bin (0xab63b2) (GuardianHeroes-bin, pid: 31674)",
+      "weight_ms": 224.0,
+      "self": [
+        {
+          "function": "__psynch_cvwait",
+          "weight_ms": 147.0
+        },
+        {
+          "function": "__psynch_mutexwait",
+          "weight_ms": 74.0
+        },
+        {
+          "function": "std::__1::__function::__func<rex::system::(anonymous namespace)::WaitProjectObjects(std::__1::span<gh::kernel::Waitable* const, 18446744073709551615ul>, bool, bool, unsigned long long*, gh::kernel::Waitable*, unsigned int)::$_0, bool ()>::operator()()",
+          "weight_ms": 1.0
+        },
+        {
+          "function": "_pthread_mutex_firstfit_lock_wait",
+          "weight_ms": 1.0
+        },
+        {
+          "function": "pthread_mutex_lock",
+          "weight_ms": 1.0
+        }
+      ]
+    },
+    {
+      "name": "GuardianHeroes-bin (0xab66cc) (GuardianHeroes-bin, pid: 31674)",
+      "weight_ms": 126.0,
+      "self": [
+        {
+          "function": "kevent_id",
+          "weight_ms": 9.0
+        },
+        {
+          "function": "__bzero",
+          "weight_ms": 7.0
+        },
+        {
+          "function": "-[AGXG17GFamilyRenderContext initWithCommandBuffer:descriptor:subEncoderIndex:framebuffer:]",
+          "weight_ms": 6.0
+        },
+        {
+          "function": "madvise",
+          "weight_ms": 5.0
+        },
+        {
+          "function": "objc_msgSend",
+          "weight_ms": 5.0
+        },
+        {
+          "function": "semaphore_timedwait_trap",
+          "weight_ms": 5.0
+        },
+        {
+          "function": "_xzm_free_main",
+          "weight_ms": 4.0
+        },
+        {
+          "function": "_ioGPUResourceListAddResourceEntry",
+          "weight_ms": 3.0
+        }
+      ]
+    },
+    {
+      "name": "rex::thread::TimerQueue (0xab6334) (GuardianHeroes-bin, pid: 31674)",
+      "weight_ms": 118.0,
+      "self": [
+        {
+          "function": "swtch_pri",
+          "weight_ms": 62.0
+        },
+        {
+          "function": "__semwait_signal",
+          "weight_ms": 17.0
+        },
+        {
+          "function": "__sysctl",
+          "weight_ms": 14.0
+        },
+        {
+          "function": "rex::thread::TimerQueue::TimerThreadMain(std::__1::stop_token)",
+          "weight_ms": 12.0
+        },
+        {
+          "function": "mach_msg2_trap",
+          "weight_ms": 4.0
+        },
+        {
+          "function": "mach_continuous_time",
+          "weight_ms": 2.0
+        },
+        {
+          "function": "std::__1::__forward_list_node<std::__1::shared_ptr<rex::thread::TimerQueueWaitItem>, void*>* std::__1::forward_list<std::__1::shared_ptr<rex::thread::TimerQueueWaitItem>, std::__1::allocator<std::__1::shared_ptr<rex::thread::TimerQueueWaitItem>>>::__sort<rex::thread::TimerQueue::TimerThreadMain(std::__1::stop_token)::'lambda'(std::__1::shared_ptr<rex::thread::TimerQueueWaitItem> const&, std::__1::shared_ptr<rex::thread::TimerQueueWaitItem> const&)>(std::__1::__forward_list_node<std::__1::shared_ptr<rex::thread::TimerQueueWaitItem>, void*>*, long, rex::thread::TimerQueue::TimerThreadMain(std::__1::stop_token)::'lambda'(std::__1::shared_ptr<rex::thread::TimerQueueWaitItem> const&, std::__1::shared_ptr<rex::thread::TimerQueueWaitItem> const&)&)",
+          "weight_ms": 1.0
+        },
+        {
+          "function": "0x1a0eb7e0d",
+          "weight_ms": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Main Thread (0xab632f) (GuardianHeroes-bin, pid: 31674)",
+      "weight_ms": 67.0,
+      "self": [
+        {
+          "function": "__kdebug_trace64",
+          "weight_ms": 9.0
+        },
+        {
+          "function": "kevent_id",
+          "weight_ms": 7.0
+        },
+        {
+          "function": "mach_msg2_trap",
+          "weight_ms": 6.0
+        },
+        {
+          "function": "__psynch_cvwait",
+          "weight_ms": 4.0
+        },
+        {
+          "function": "_kernelrpc_mach_port_extract_member_trap",
+          "weight_ms": 2.0
+        },
+        {
+          "function": "objc_msgSend",
+          "weight_ms": 2.0
+        },
+        {
+          "function": "_call_custom_copy_helper",
+          "weight_ms": 1.0
+        },
+        {
+          "function": "ImGui::Begin(char const*, bool*, int)",
+          "weight_ms": 1.0
+        }
+      ]
+    },
+    {
+      "name": "GuardianHeroes-bin (0xab6336) (GuardianHeroes-bin, pid: 31674)",
+      "weight_ms": 66.0,
+      "self": [
+        {
+          "function": "start_wqthread",
+          "weight_ms": 23.0
+        },
+        {
+          "function": "mach_msg2_trap",
+          "weight_ms": 19.0
+        },
+        {
+          "function": "iokit_user_client_trap",
+          "weight_ms": 7.0
+        },
+        {
+          "function": "_platform_memset",
+          "weight_ms": 1.0
+        },
+        {
+          "function": "__CFNumberGetValue",
+          "weight_ms": 1.0
+        },
+        {
+          "function": "0x1a8ddf6e1",
+          "weight_ms": 1.0
+        },
+        {
+          "function": "_CFNumberGetType2",
+          "weight_ms": 1.0
+        },
+        {
+          "function": "objc_msgSendSuper2",
+          "weight_ms": 1.0
+        }
+      ]
+    },
+    {
+      "name": "GuardianHeroes-bin (0xab66ca) (GuardianHeroes-bin, pid: 31674)",
+      "weight_ms": 53.0,
+      "self": [
+        {
+          "function": "mach_msg2_trap",
+          "weight_ms": 19.0
+        },
+        {
+          "function": "start_wqthread",
+          "weight_ms": 15.0
+        },
+        {
+          "function": "iokit_user_client_trap",
+          "weight_ms": 3.0
+        },
+        {
+          "function": "_platform_memset",
+          "weight_ms": 2.0
+        },
+        {
+          "function": "CFNumberGetValue",
+          "weight_ms": 2.0
+        },
+        {
+          "function": "invocation function for block in MVKPresentableSwapchainImage::presentCAMetalDrawable(id<MTLCommandBuffer>, MVKImagePresentInfo)",
+          "weight_ms": 1.0
+        },
+        {
+          "function": "0x260e49001",
+          "weight_ms": 1.0
+        },
+        {
+          "function": "__ulock_wait2",
+          "weight_ms": 1.0
+        }
+      ]
+    },
+    {
+      "name": "GuardianHeroes-bin (0xab66cd) (GuardianHeroes-bin, pid: 31674)",
+      "weight_ms": 51.0,
+      "self": [
+        {
+          "function": "start_wqthread",
+          "weight_ms": 16.0
+        },
+        {
+          "function": "mach_msg2_trap",
+          "weight_ms": 11.0
+        },
+        {
+          "function": "iokit_user_client_trap",
+          "weight_ms": 7.0
+        },
+        {
+          "function": "kevent_id",
+          "weight_ms": 2.0
+        },
+        {
+          "function": "__psynch_mutexdrop",
+          "weight_ms": 1.0
+        },
+        {
+          "function": "object_getClass",
+          "weight_ms": 1.0
+        },
+        {
+          "function": "_object_remove_associations",
+          "weight_ms": 1.0
+        },
+        {
+          "function": "bool objc::DenseMapBase<objc::DenseMap<DisguisedPtr<objc_object>, objc::SmallDenseMap<void const*, objc::ObjcAssociation, 1u, objc::DenseMapValueInfo<objc::ObjcAssociation>, objc::DenseMapInfo<void const*>, objc::detail::DenseMapPair<void const*, objc::ObjcAssociation>>, objc::DenseMapValueInfo<objc::SmallDenseMap<void const*, objc::ObjcAssociation, 1u, objc::DenseMapValueInfo<objc::ObjcAssociation>, objc::DenseMapInfo<void const*>, objc::detail::DenseMapPair<void const*, objc::ObjcAssociation>>>, objc::DenseMapInfo<DisguisedPtr<objc_object>>, objc::detail::DenseMapPair<DisguisedPtr<objc_object>, objc::SmallDenseMap<void const*, objc::ObjcAssociation, 1u, objc::DenseMapValueInfo<objc::ObjcAssociation>, objc::DenseMapInfo<void const*>, objc::detail::DenseMapPair<void const*, objc::ObjcAssociation>>>>, DisguisedPtr<objc_object>, objc::SmallDenseMap<void const*, objc::ObjcAssociation, 1u, objc::DenseMapValueInfo<objc::ObjcAssociation>, objc::DenseMapInfo<void const*>, objc::detail::DenseMapPair<void const*, objc::ObjcAssociation>>, objc::DenseMapValueInfo<objc::SmallDenseMap<void const*, objc::ObjcAssociation, 1u, objc::DenseMapValueInfo<objc::ObjcAssociation>, objc::DenseMapInfo<void const*>, objc::detail::DenseMapPair<void const*, objc::ObjcAssociation>>>, objc::DenseMapInfo<DisguisedPtr<objc_object>>, objc::detail::DenseMapPair<DisguisedPtr<objc_object>, objc::SmallDenseMap<void const*, objc::ObjcAssociation, 1u, objc::DenseMapValueInfo<objc::ObjcAssociation>, objc::DenseMapInfo<void const*>, objc::detail::DenseMapPair<void const*, objc::ObjcAssociation>>>>::LookupBucketFor<DisguisedPtr<objc_object>>(DisguisedPtr<objc_object> const&, objc::detail::DenseMapPair<DisguisedPtr<objc_object>, objc::SmallDenseMap<void const*, objc::ObjcAssociation, 1u, objc::DenseMapValueInfo<objc::ObjcAssociation>, objc::DenseMapInfo<void const*>, objc::detail::DenseMapPair<void const*, objc::ObjcAssociation>>> const*&) const",
+          "weight_ms": 1.0
+        }
+      ]
+    },
+    {
+      "name": "GuardianHeroes-bin (0xab639e) (GuardianHeroes-bin, pid: 31674)",
+      "weight_ms": 46.0,
+      "self": [
+        {
+          "function": "start_wqthread",
+          "weight_ms": 14.0
+        },
+        {
+          "function": "mach_msg2_trap",
+          "weight_ms": 11.0
+        },
+        {
+          "function": "iokit_user_client_trap",
+          "weight_ms": 7.0
+        },
+        {
+          "function": "kevent_id",
+          "weight_ms": 3.0
+        },
+        {
+          "function": "-[CAMetalDrawable presentScheduledInsertSeedValid]",
+          "weight_ms": 1.0
+        },
+        {
+          "function": "_xzm_free_main",
+          "weight_ms": 1.0
+        },
+        {
+          "function": "_Block_release",
+          "weight_ms": 1.0
+        },
+        {
+          "function": "objc_release",
+          "weight_ms": 1.0
+        }
+      ]
+    },
+    {
+      "name": "GPU VSync (F8000018) (0xab638c) (GuardianHeroes-bin, pid: 31674)",
+      "weight_ms": 26.0,
+      "self": [
+        {
+          "function": "__semwait_signal",
+          "weight_ms": 18.0
+        },
+        {
+          "function": "mach_msg2_trap",
+          "weight_ms": 4.0
+        },
+        {
+          "function": "rex::chrono::Clock::QueryGuestTickCount()",
+          "weight_ms": 1.0
+        },
+        {
+          "function": "rex::graphics::GraphicsSystem::ReadRegisterThunk(void*, rex::graphics::GraphicsSystem*, unsigned int)",
+          "weight_ms": 1.0
+        },
+        {
+          "function": "FLAGS_vsync_storage_()",
+          "weight_ms": 1.0
+        },
+        {
+          "function": "mach_absolute_time",
+          "weight_ms": 1.0
+        }
+      ]
+    },
+    {
+      "name": "GuardianHeroes-bin (0xab66cb) (GuardianHeroes-bin, pid: 31674)",
+      "weight_ms": 8.0,
+      "self": [
+        {
+          "function": "iokit_user_client_trap",
+          "weight_ms": 3.0
+        },
+        {
+          "function": "start_wqthread",
+          "weight_ms": 2.0
+        },
+        {
+          "function": "mach_msg2_trap",
+          "weight_ms": 2.0
+        },
+        {
+          "function": "_call_custom_dispose_helper",
+          "weight_ms": 1.0
+        }
+      ]
+    }
+  ],
+  "machine_self_sections_ms": {
+    "next_pc_binary_search": 2319.0,
+    "current_pc_binary_search": 2936.0,
+    "other_machine_self": 1585.0,
+    "return_pc_binary_search": 54.0
+  },
+  "symbolication": "Exact UUID match to retained credit-fix executable; atos plus LLDB disassembly.",
+  "interpretation": "The two hottest Machine::Run self ranges are binary searches for the current PC and Next PC. These CPU samples identify a cost to optimize; they do not independently demonstrate an acoustic improvement.",
+  "address_interpretation": {
+    "source": "xctrace time-profile XML frame addr attribute; values are reported attribution addresses, not claimed raw ARM64 execution PCs.",
+    "method": "Exact UUID match and atos identify Machine::Run. LLDB disassembly maps each reported address into the containing 4-byte aligned instruction and confirms both complete binary-search loops.",
+    "mappings": [
+      {
+        "exported_address": "0x109d85b29",
+        "exported_function_offset": 573,
+        "enclosing_aligned_instruction": "0x109d85b28",
+        "aligned_function_offset": 572,
+        "instruction": "cbnz x12, Machine::Run+540",
+        "source_region": "current PC binary_search"
+      },
+      {
+        "exported_address": "0x109d85ccd",
+        "exported_function_offset": 993,
+        "enclosing_aligned_instruction": "0x109d85ccc",
+        "aligned_function_offset": 992,
+        "instruction": "cbnz x11, Machine::Run+960",
+        "source_region": "Next PC binary_search"
+      }
+    ],
+    "exported_address_alignment_cause": "Not established; no claim about the profiler internal adjustment."
+  },
+  "hot_function_pc_metadata": [
+    {
+      "function": "0x825D6A68",
+      "file": "guardian_heroes/out/native-app/title-continuation/gh_title_continuation.12.cpp",
+      "pcs": 55,
+      "first": "0x825d6a68",
+      "last": "0x825d6b40",
+      "dense": true,
+      "gaps": []
+    },
+    {
+      "function": "0x82660418",
+      "file": "guardian_heroes/out/native-app/title-continuation/gh_title_continuation.49.cpp",
+      "pcs": 1015,
+      "first": "0x82660418",
+      "last": "0x826613f0",
+      "dense": true,
+      "gaps": []
+    }
+  ]
+}

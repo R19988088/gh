@@ -1,0 +1,54 @@
+name: Guardian Heroes Switch
+
+on:
+  workflow_dispatch:
+    inputs:
+      target:
+        description: Switch target to build
+        required: true
+        default: guardian_heroes_switch_bootstrap_nro
+        type: choice
+        options:
+          - guardian_heroes_switch_bootstrap_nro
+          - guardian_heroes_switch_memory_probe_nro
+          - guardian_heroes_switch_game_nro
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: devkitpro/devkita64:latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build selected NRO
+        working-directory: guardian_heroes
+        env:
+          TARGET: ${{ inputs.target }}
+          DEVKITPRO: /opt/devkitpro
+          DEVKITA64: /opt/devkitpro/devkitA64
+        run: |
+          source /opt/devkitpro/switchvars.sh
+          bash tools/build_switch.sh "$TARGET"
+
+      - name: Package deployable NRO bundle
+        working-directory: guardian_heroes
+        env:
+          TARGET: ${{ inputs.target }}
+        run: |
+          build_dir="out/build/switch-aarch64-release"
+          stem="${TARGET%_nro}"
+          mkdir -p "out/artifact/switch"
+          cp "$build_dir/$stem.nro" "out/artifact/switch/"
+          cp "$build_dir/$stem.nacp" "out/artifact/switch/"
+          cp "$build_dir/$stem.build-manifest.txt" "out/artifact/switch/"
+          test -f "$build_dir/$stem.elf" && cp "$build_dir/$stem.elf" "out/artifact/switch/" || true
+          test -f "$build_dir/$stem.map" && cp "$build_dir/$stem.map" "out/artifact/switch/" || true
+          (cd out/artifact && zip -qr "${stem}.switch.zip" switch)
+
+      - name: Upload Switch artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ inputs.target }}
+          path: |
+            guardian_heroes/out/artifact/switch
+            guardian_heroes/out/artifact/*.switch.zip

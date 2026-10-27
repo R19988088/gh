@@ -1,0 +1,2297 @@
+[
+  {
+    "id": 900,
+    "en": "I know I have made mistakes.",
+    "zh": "我知道自己犯过错。"
+  },
+  {
+    "id": 901,
+    "en": "The wrong choices I made--",
+    "zh": "我做出了错误的选择——"
+  },
+  {
+    "id": 902,
+    "en": "I thought the blood in my veins somehow made them right.",
+    "zh": "却以为凭着体内的血统，就能证明它们是对的。"
+  },
+  {
+    "id": 903,
+    "en": "Words will not let me take any of it back. But I want to atone through action. I want to give my life for my people!",
+    "zh": "言语无法挽回这一切。但我要以行动赎罪，要为百姓献出生命！"
+  },
+  {
+    "id": 904,
+    "en": "How delightfully amusing.",
+    "zh": "真是有趣极了。"
+  },
+  {
+    "id": 905,
+    "en": "You man-creatures choose to live free of the other races?",
+    "zh": "你们这些人类，选择摆脱其他种族，独自生活？"
+  },
+  {
+    "id": 906,
+    "en": "Unwise... but no matter.",
+    "zh": "不明智……不过无妨。"
+  },
+  {
+    "id": 907,
+    "en": "We shall soon see what value， if any， you humans possess.",
+    "zh": "我们很快就会知道，你们人类究竟有几分价值。"
+  },
+  {
+    "id": 908,
+    "en": "You are concerned for your people. I understand.",
+    "zh": "你们牵挂着百姓。我明白。"
+  },
+  {
+    "id": 909,
+    "en": "Very well. The Earthblood will trouble you no longer.",
+    "zh": "好吧。地界人不会再打扰你们。"
+  },
+  {
+    "id": 910,
+    "en": "Just remember: you are not alone in this world. One day， like it or not， you will have to join the greater conflict.",
+    "zh": "只须记住：这个世界并非只有你们。终有一天，无论情愿与否，你们都得卷入更大的纷争。"
+  },
+  {
+    "id": 911,
+    "en": "Yes， you seem ready.",
+    "zh": "不错，你们似乎已经准备好了。"
+  },
+  {
+    "id": 912,
+    "en": "It is time you learned of the workings of the world.",
+    "zh": "是时候让你们了解世界的运作方式了。"
+  },
+  {
+    "id": 913,
+    "en": "We dwell in， essentially， a laboratory--where a supreme Creator is testing us.",
+    "zh": "我们所处的地方，本质上是一间实验室……至高的造物主在这里考验我们。"
+  },
+  {
+    "id": 914,
+    "en": "He seeks the ultimate warrior， one he can claim for himself.",
+    "zh": "他在寻找终极战士，一个能为他所用的战士。"
+  },
+  {
+    "id": 915,
+    "en": "The Skyborn are his servants; we， the Earthblood， are the warrior candidates whom the Creator rejected.",
+    "zh": "天界人是他的仆从；而我们地界人，则是被造物主淘汰的战士候选者。"
+  },
+  {
+    "id": 916,
+    "en": "But humans--what are you? You too must have some role， some destiny. Would you like to know what that is?",
+    "zh": "可人类呢？你们究竟是什么？你们也必有自己的职责与命运。想知道答案吗？"
+  },
+  {
+    "id": 917,
+    "en": "The answers lie just ahead!",
+    "zh": "答案就在前方！"
+  },
+  {
+    "id": 918,
+    "en": "THE MASTER'S PLANS MUST BE EXECUTED AT ALL COSTS. YOU CANNOT STOP ME， HUMANS.",
+    "zh": "必须不惜一切执行主人的计划。人类，你们无法阻止我。"
+  },
+  {
+    "id": 919,
+    "en": "YOUR EMOTIONS PREVENT YOU FROM MAKING LOGICAL CHOICES.",
+    "zh": "你们的情感，妨碍了合乎逻辑的选择。"
+  },
+  {
+    "id": 920,
+    "en": "You cowardly scoundrel! Release Princess Lucia!",
+    "zh": "卑鄙的懦夫！放开露西亚公主！"
+  },
+  {
+    "id": 921,
+    "en": "Lucia!",
+    "zh": "露西亚！"
+  },
+  {
+    "id": 922,
+    "en": "What do you want with her!?",
+    "zh": "你抓她做什么！？"
+  },
+  {
+    "id": 923,
+    "en": "Hey! I thought you were tough! What kind of tough guy hides behind an innocent hostage!?",
+    "zh": "喂！你不是很厉害吗？躲在无辜人质后面，算哪门子的硬汉！？"
+  },
+  {
+    "id": 924,
+    "en": "You craven abomination! You are no warrior if you use an innocent woman as a shield!",
+    "zh": "怯懦的怪物！以无辜女子为盾，你根本不配称作战士！"
+  },
+  {
+    "id": 925,
+    "en": "Wow! A damsel in distress! Wanna trade places?",
+    "zh": "哇！遇难的少女！咱们换个位置好不好？"
+  },
+  {
+    "id": 926,
+    "en": "Strike him down!",
+    "zh": "打倒他！"
+  },
+  {
+    "id": 927,
+    "en": "I am not afraid to die. I stood by and let Kanon terrorize our people with his kingdom of magic!",
+    "zh": "我不怕死。我曾袖手旁观，任由卡农用他的魔法国度恐吓百姓！"
+  },
+  {
+    "id": 928,
+    "en": "Now I must atone.",
+    "zh": "如今，我必须赎罪。"
+  },
+  {
+    "id": 929,
+    "en": "Ha! Hollow hunks of metal! I will take care of things here.",
+    "zh": "哈！不过是一堆空心废铁！这里交给我。"
+  },
+  {
+    "id": 930,
+    "en": "Your concern is with these “Earthblood“ and “Skyborn，“ whatever they are. Now go!",
+    "zh": "你们的目标是那些“地界人”和“天界人”，管它们是什么。快走！"
+  },
+  {
+    "id": 931,
+    "en": "You man-creatures have turned on both of the higher races?",
+    "zh": "你们这些人类，同时与两个高等种族为敌？"
+  },
+  {
+    "id": 932,
+    "en": "Unwise， but no matter. We shall soon see what value， if any， you humans possess.",
+    "zh": "不明智，不过无妨。我们很快就会知道，你们究竟有几分价值。"
+  },
+  {
+    "id": 933,
+    "en": "YOU SEE? I HAVE WON. COME， PRINCESS. YOU ARE A VALUABLE ASSET.",
+    "zh": "看到了吗？我赢了。公主，走吧。你是重要的资源。"
+  },
+  {
+    "id": 934,
+    "en": "Lucia is innocent! Does her life mean nothing to you?",
+    "zh": "露西亚是无辜的！她的生命，在你们眼里就一文不值吗？"
+  },
+  {
+    "id": 935,
+    "en": "I will never forgive this!",
+    "zh": "我永远不会原谅你们！"
+  },
+  {
+    "id": 936,
+    "en": "I can understand your hatred for a monarchy that deceives and tramples your people.",
+    "zh": "王室欺骗百姓，将他们踩在脚下。你们痛恨它，我理解。"
+  },
+  {
+    "id": 937,
+    "en": "But you need to consider Kanon's reasons--the source of his own hatred.",
+    "zh": "但你们也该想想卡农的理由……他仇恨的根源。"
+  },
+  {
+    "id": 938,
+    "en": "All of our sorrow and pain can be traced to those Skyborn fiends who stare down at us coldly from the heavens.",
+    "zh": "我们所有的悲伤与苦痛，都源于那些在云端冷眼俯视我们的天界人恶鬼。"
+  },
+  {
+    "id": 939,
+    "en": "You have grown strong， humans. You are ready.",
+    "zh": "人类，你们已经变强了。时机已到。"
+  },
+  {
+    "id": 940,
+    "en": "It is time you learned of  the workings of the world.",
+    "zh": "是时候让你们了解世界的运作方式了。"
+  },
+  {
+    "id": 941,
+    "en": "We dwell in， essentially， a laboratory--where a supreme Creator is testing us. He seeks the ultimate warrior， one he can claim for himself.",
+    "zh": "我们所处的地方，本质上是一间实验室……至高的造物主在这里考验我们。他在寻找终极战士，一个能为他所用的战士。"
+  },
+  {
+    "id": 942,
+    "en": "But humans--what are you? Your role， your destiny is not yet set in stone. Fight now， and you could yet break free.",
+    "zh": "可人类呢？你们究竟是什么？你们的职责与命运，尚未定下。现在战斗，或许仍能挣脱束缚。"
+  },
+  {
+    "id": 943,
+    "en": "The world could be rewrought!",
+    "zh": "世界，也可以重塑！"
+  },
+  {
+    "id": 944,
+    "en": "King Valgar is a demon? How could I not have seen it?",
+    "zh": "瓦尔加国王是恶魔？我怎会一直没发现？"
+  },
+  {
+    "id": 945,
+    "en": "If what we just heard is true， we must face these Skyborn!",
+    "zh": "若刚才听到的都是真的，我们就必须面对天界人！"
+  },
+  {
+    "id": 946,
+    "en": "King Valgar is a demon? That's nuts!",
+    "zh": "瓦尔加国王是恶魔？太离谱了！"
+  },
+  {
+    "id": 947,
+    "en": "But it sounds like we need to have a word with the Skyborn.",
+    "zh": "不过听起来，我们得找天界人谈谈。"
+  },
+  {
+    "id": 948,
+    "en": "Are you seeing this， guys? King Valgar is a demon!",
+    "zh": "伙计们，看见了吗？瓦尔加国王是恶魔！"
+  },
+  {
+    "id": 949,
+    "en": "Hmm， seems like the Skyborn are who we're really after.",
+    "zh": "嗯，看来天界人才是我们真正要找的。"
+  },
+  {
+    "id": 950,
+    "en": "Do my eyes deceive me? The king is a demon!",
+    "zh": "我没看错吧？国王竟是恶魔！"
+  },
+  {
+    "id": 951,
+    "en": "This Earthblood seems to wish us no harm. Perhaps the Skyborn truly are to blame!",
+    "zh": "这位地界人似乎无意害我们。或许罪魁祸首，当真是天界人！"
+  },
+  {
+    "id": 952,
+    "en": "So， the king's a demon? Okay.",
+    "zh": "所以，国王是恶魔？好吧。"
+  },
+  {
+    "id": 953,
+    "en": "Let's just roll with that and go see these Skyborn!",
+    "zh": "那就这么着吧，去见见那些天界人！"
+  },
+  {
+    "id": 954,
+    "en": "Welcome， warriors. You were wise to come here in search of truth.",
+    "zh": "欢迎，战士们。来这里寻找真相，是明智之举。"
+  },
+  {
+    "id": 955,
+    "en": "It it time you learned of the workings of the world.",
+    "zh": "是时候让你们了解世界的运作方式了。"
+  },
+  {
+    "id": 956,
+    "en": "I rule over the Earthblood， one of three races.",
+    "zh": "我统治着三个种族之一的地界人。"
+  },
+  {
+    "id": 957,
+    "en": "But humans--what are you? Your role， your destiny is not clear to me. Do you have the courage to go find out?",
+    "zh": "可人类呢？你们究竟是什么？你们的职责与命运，连我也不清楚。你们有勇气寻找答案吗？"
+  },
+  {
+    "id": 958,
+    "en": "The choice is yours.",
+    "zh": "选择权在你们手中。"
+  },
+  {
+    "id": 959,
+    "en": "As you wish， then.",
+    "zh": "那么，如你们所愿。"
+  },
+  {
+    "id": 960,
+    "en": "The black wizard's plans remain in motion. Perhaps you can still stop his mechanical creations from seizing power.",
+    "zh": "黑魔法师的计划仍在推进。或许，你们还能阻止他的机械造物夺取统治权。"
+  },
+  {
+    "id": 961,
+    "en": "Very well! I will open the way to the heavens for you.",
+    "zh": "好！我会为你们打开通往天界的道路。"
+  },
+  {
+    "id": 962,
+    "en": "Go now， and learn the truth of what you humans are!",
+    "zh": "去吧，弄清你们人类的真正身份！"
+  },
+  {
+    "id": 963,
+    "en": "I misjudged you. And now， here we stand， left with but one way to resolve this.",
+    "zh": "我看错了你们。事已至此，我们之间只剩一种解决方式。"
+  },
+  {
+    "id": 964,
+    "en": "We no longer need you man- creatures to shelter us while we nurse ourselves back to full strength. We are ready to destroy the Skyborn!",
+    "zh": "我们已不再需要人类庇护，来慢慢恢复力量。现在，我们已能消灭天界人！"
+  },
+  {
+    "id": 965,
+    "en": "But you， foolish ones， shall be the first to incur my wrath!",
+    "zh": "但首先，就让你们这些蠢货承受我的怒火！"
+  },
+  {
+    "id": 966,
+    "en": "Now that you are archenemies of the Earthblood， I will say only this--",
+    "zh": "既然你们已成地界人的死敌，我就只说一句——"
+  },
+  {
+    "id": 967,
+    "en": "The tyrant must be pleased. Today， you rid him of his greatest threat， and also ended his search. Fools...",
+    "zh": "那位暴君想必很高兴。今日，你们为他除去了最大的威胁，也让他找到了苦寻之物。蠢货……"
+  },
+  {
+    "id": 968,
+    "en": "I commend you， white warriors， on behalf of our Lord. You have surpassed even his greatest expectations.",
+    "zh": "白之战士们，我代表吾主嘉奖你们。你们甚至超越了他最好的预期。"
+  },
+  {
+    "id": 969,
+    "en": "There is another we owe thanks. Come forward， ye dead warrior. You have performed admirably as our messenger. Sleep， now， and be troubled no more.",
+    "zh": "还有一位，我们也应感谢。死去的战士，上前来。身为我们的使者，你做得很好。现在安眠吧，不必再受困扰。"
+  },
+  {
+    "id": 970,
+    "en": "We Skyborn hope your valiant actions serve as an example. Yours was a strong and noble race before you succumbed to the darker side of magic.",
+    "zh": "我们天界人，希望你们的英勇事迹能成为榜样。在沉沦于魔法的黑暗面之前，你们曾是强大而高贵的种族。"
+  },
+  {
+    "id": 971,
+    "en": "We were wrong to give you such a dangerous power， and will meddle with your world no more.",
+    "zh": "将如此危险的力量赐予你们，是我们的过错。我们不会再干涉你们的世界。"
+  },
+  {
+    "id": 972,
+    "en": "What skill! We never dreamed you had so much potential.",
+    "zh": "好身手！真没想到，你们竟有如此潜力。"
+  },
+  {
+    "id": 973,
+    "en": "You no longer need guidance.",
+    "zh": "你们已不再需要指引。"
+  },
+  {
+    "id": 974,
+    "en": "Had we known you humans had such bloodlust... You will make such powerful servants of our Lord!",
+    "zh": "早知你们人类如此嗜血……你们一定能成为吾主强大的仆从！"
+  },
+  {
+    "id": 975,
+    "en": "What? Reservations about joining us on high? Nonsense. You have earned a place there.",
+    "zh": "什么？不愿与我们一同升天？荒唐。你们已赢得那里的一席之地。"
+  },
+  {
+    "id": 976,
+    "en": "And seeing as you are our finest champions， our Lord will quite insist you take it.",
+    "zh": "而且，身为我们最优秀的战士，吾主一定会要求你们接受。"
+  },
+  {
+    "id": 977,
+    "en": "Ha ha ha! What vicious little darlings you are!",
+    "zh": "哈哈哈！你们真是一群凶残的小可爱！"
+  },
+  {
+    "id": 978,
+    "en": "You are like itches in the small of my back: maddeningly unpleasant， except for that last moment of bliss--when you finally get SCRATCHED!",
+    "zh": "你们就像我后腰上的痒处：烦得要命，唯一痛快的时刻……就是终于把你们挠掉！"
+  },
+  {
+    "id": 979,
+    "en": "Aloha， chumps! Welcome to this story's dramatic finale!",
+    "zh": "你们好啊，蠢货！欢迎来到本故事激动人心的大结局！"
+  },
+  {
+    "id": 980,
+    "en": "All I have to do is mangle you twerps， and I'll be a national hero! Lord Zur does what the Black Ordoesn't!",
+    "zh": "只要把你们几个小鬼打烂，我就是国家英雄！黑之骑士团办不成的，祖尔大人来办！"
+  },
+  {
+    "id": 981,
+    "en": "Ouch! Okay， okay.",
+    "zh": "哎哟！好啦好啦。"
+  },
+  {
+    "id": 982,
+    "en": "I admit it， I'm a loser. Why don't we just team up?",
+    "zh": "我承认，我是个废物。不如我们联手吧？"
+  },
+  {
+    "id": 983,
+    "en": "We could kill Valgar and be kings! Sweet deal， am I right?",
+    "zh": "杀掉瓦尔加，我们一起当国王！这买卖不错吧？"
+  },
+  {
+    "id": 984,
+    "en": "That's it. We need to settle this， once and for all.",
+    "zh": "够了。这件事，该彻底了结了。"
+  },
+  {
+    "id": 985,
+    "en": "Valgar! Thank goodness!",
+    "zh": "瓦尔加！谢天谢地！"
+  },
+  {
+    "id": 986,
+    "en": "Get those wimps!",
+    "zh": "快收拾这些废物！"
+  },
+  {
+    "id": 987,
+    "en": "I'd do it myself， but I， uh， I left my spine in the car! Better go get it!",
+    "zh": "本来该我亲自动手，可我，呃，把胆子落车里了！我得去拿！"
+  },
+  {
+    "id": 988,
+    "en": "Zur， you gutless vampire. All you know how to do is claw your way up people's backs in your quest for power.",
+    "zh": "祖尔，你这没骨气的吸血虫。除了踩着别人的后背往上爬、争权夺利，你还会做什么？"
+  },
+  {
+    "id": 989,
+    "en": "The world has no use for you.",
+    "zh": "这个世界不需要你。"
+  },
+  {
+    "id": 990,
+    "en": "Begone!",
+    "zh": "滚吧！"
+  },
+  {
+    "id": 991,
+    "en": "HahahahahahahahaHAHAHAHAHA!",
+    "zh": "哈哈哈哈哈哈哈哈哈哈哈！"
+  },
+  {
+    "id": 992,
+    "en": "Vampire? Tsk， tsk， TSK.",
+    "zh": "吸血虫？啧，啧，啧。"
+  },
+  {
+    "id": 993,
+    "en": "What's wrong with digging in your claws now and then?",
+    "zh": "偶尔伸伸爪子，有什么不对？"
+  },
+  {
+    "id": 994,
+    "en": "You call that bloodsucking.",
+    "zh": "你说我吸别人的血。"
+  },
+  {
+    "id": 995,
+    "en": "I call it NOT SUCKING!",
+    "zh": "我说这叫有本事！"
+  },
+  {
+    "id": 996,
+    "en": "But thank you， Valgar!",
+    "zh": "不过，谢谢你，瓦尔加！"
+  },
+  {
+    "id": 997,
+    "en": "The magic power you gave me--",
+    "zh": "你赐给我的魔力——"
+  },
+  {
+    "id": 998,
+    "en": "makes me feel like a NEW MAN!",
+    "zh": "让我脱胎换骨了！"
+  },
+  {
+    "id": 999,
+    "en": "I'm bursting at the BRAINS--",
+    "zh": "我的脑瓜都快胀裂了——"
+  },
+  {
+    "id": 1000,
+    "en": "I'm an inedible HULK--",
+    "zh": "我变成了无敌的大块头——"
+  },
+  {
+    "id": 1001,
+    "en": "and you're about to learn--",
+    "zh": "现在就让你们见识——"
+  },
+  {
+    "id": 1002,
+    "en": "how SUPER Lord Zur really is!",
+    "zh": "祖尔大人到底有多么超级！"
+  },
+  {
+    "id": 1003,
+    "en": "Behold! A new hero... is",
+    "zh": "看啊！一位全新的英雄……就此"
+  },
+  {
+    "id": 1004,
+    "en": "boooooooo",
+    "zh": "诞"
+  },
+  {
+    "id": 1005,
+    "en": "oooooooo",
+    "zh": "——"
+  },
+  {
+    "id": 1006,
+    "en": "OOORR",
+    "zh": "生"
+  },
+  {
+    "id": 1007,
+    "en": "RRRRrrrrr",
+    "zh": "——"
+  },
+  {
+    "id": 1008,
+    "en": "rrrrrrrrrr",
+    "zh": "——"
+  },
+  {
+    "id": 1009,
+    "en": "nnnnnnn",
+    "zh": "啦"
+  },
+  {
+    "id": 1010,
+    "en": "nnNNnnNN",
+    "zh": "——"
+  },
+  {
+    "id": 1011,
+    "en": "nnnnn",
+    "zh": "——"
+  },
+  {
+    "id": 1012,
+    "en": "NNNNNNN",
+    "zh": "——"
+  },
+  {
+    "id": 1013,
+    "en": "nnn",
+    "zh": "——"
+  },
+  {
+    "id": 1014,
+    "en": "NNNnnn!",
+    "zh": "！！"
+  },
+  {
+    "id": 1015,
+    "en": "I just gotta ask: what kind of cosmic disaster causes people like that to exist?",
+    "zh": "我就想问问：到底是什么宇宙大灾难，才生出这种人？"
+  },
+  {
+    "id": 1016,
+    "en": "At least we can take comfort in knowing his dark， er， reign has come to an end. The impostors are no more and the kingdom is safe!",
+    "zh": "至少，他那黑暗的，呃，统治终于结束了，也算是个安慰。冒牌货已被铲除，王国安全了！"
+  },
+  {
+    "id": 1017,
+    "en": "Hmm...",
+    "zh": "嗯……"
+  },
+  {
+    "id": 1018,
+    "en": "Do you ever wonder if we went about this the wrong way?",
+    "zh": "你们可曾想过，我们是不是走错了路？"
+  },
+  {
+    "id": 1019,
+    "en": "We made an enemy of Valgar， but I realize now that even he acted out of a sort of love. He had the kingdom's best interest in mind.",
+    "zh": "我们与瓦尔加为敌，可我如今明白，他的所作所为，也出于某种爱。他心里想的是王国的利益。"
+  },
+  {
+    "id": 1020,
+    "en": "Poor guy.",
+    "zh": "可怜的家伙。"
+  },
+  {
+    "id": 1021,
+    "en": "He didn't do things the smart way， but maybe you're right. He was just trying to reach out to his subjects.",
+    "zh": "他办事是挺蠢的，可也许你说得对。他只是想与百姓亲近。"
+  },
+  {
+    "id": 1022,
+    "en": "Well， um， then that means...",
+    "zh": "那，呃，这么说……"
+  },
+  {
+    "id": 1023,
+    "en": "Valgar's legacy is us. We have to carry on for him.",
+    "zh": "瓦尔加留下的希望，就是我们。我们得替他继续走下去。"
+  },
+  {
+    "id": 1024,
+    "en": "Yes， you're right.",
+    "zh": "是的，你说得对。"
+  },
+  {
+    "id": 1025,
+    "en": "He was bad at showing it，",
+    "zh": "他不懂得表达，"
+  },
+  {
+    "id": 1026,
+    "en": "but I believe that all Valgar wanted was an age of peace.",
+    "zh": "但我相信，瓦尔加想要的，只是一个和平的时代。"
+  },
+  {
+    "id": 1027,
+    "en": "Yet we took so many lives. Did we truly act in the best interests of the land?",
+    "zh": "可我们也夺去了太多生命。我们所做的一切，真的有益于这片土地吗？"
+  },
+  {
+    "id": 1028,
+    "en": "Good point. Kanon and his regime killed people， but...",
+    "zh": "说得对。卡农和他的爪牙杀了人，可是……"
+  },
+  {
+    "id": 1029,
+    "en": "What's our body count now?",
+    "zh": "我们又杀了多少人？"
+  },
+  {
+    "id": 1030,
+    "en": "Han! Geez! You can't think of it like that!",
+    "zh": "哈恩！真是的！不能这么想！"
+  },
+  {
+    "id": 1031,
+    "en": "We're the good guys! Why else would the resistance and everybody else side with us?",
+    "zh": "我们是好人啊！不然反抗军和大家为什么都站在我们这边？"
+  },
+  {
+    "id": 1032,
+    "en": "I hope you are right， Randy.",
+    "zh": "兰迪，但愿你是对的。"
+  },
+  {
+    "id": 1033,
+    "en": "Too many people died for us to squander this victory.",
+    "zh": "牺牲的人太多了，我们不能辜负这场胜利。"
+  },
+  {
+    "id": 1034,
+    "en": "Let us swear here and now that tomorrow will bring peace.",
+    "zh": "就在此刻立下誓言，愿明日迎来和平。"
+  },
+  {
+    "id": 1035,
+    "en": "I applaud your courage， man-creatures.",
+    "zh": "人类，我赞赏你们的勇气。"
+  },
+  {
+    "id": 1036,
+    "en": "But vengeance upon the Skyborn belongs to US.",
+    "zh": "但向天界人复仇，是我们的事。"
+  },
+  {
+    "id": 1037,
+    "en": "Do not interfere!",
+    "zh": "不许插手！"
+  },
+  {
+    "id": 1038,
+    "en": "Humans， you have grown strong. Perhaps you were meant to slay the Skyborn， not us Earthblood.",
+    "zh": "人类，你们已经变得强大。或许你们注定要杀的，是天界人，而非我们地界人。"
+  },
+  {
+    "id": 1039,
+    "en": "But humans--what are you? Your role， your destiny is not yet set in stone. Fight now， and you could yet break free! You may， in fact， free us all.",
+    "zh": "可人类呢？你们究竟是什么？你们的职责与命运，尚未定下。现在战斗，或许仍能挣脱束缚！甚至，解放我们所有人。"
+  },
+  {
+    "id": 1040,
+    "en": "I know I can never win your respect. But I love my kingdom all the same. Let me fight at your side!",
+    "zh": "我知道，我永远也赢不来你们的尊重。但我仍深爱我的王国。让我与你们并肩作战！"
+  },
+  {
+    "id": 1041,
+    "en": "Valgar?",
+    "zh": "瓦尔加？"
+  },
+  {
+    "id": 1042,
+    "en": "Then protect Princess Lucia!",
+    "zh": "那就保护好露西亚公主！"
+  },
+  {
+    "id": 1043,
+    "en": "We'll stop that iron menace!",
+    "zh": "我们去阻止那个钢铁怪物！"
+  },
+  {
+    "id": 1044,
+    "en": "Works for me!",
+    "zh": "我没意见！"
+  },
+  {
+    "id": 1045,
+    "en": "Get Lucia out of here.",
+    "zh": "带露西亚离开这里。"
+  },
+  {
+    "id": 1046,
+    "en": "I've got some metal to crunch.",
+    "zh": "我要去砸几块铁。"
+  },
+  {
+    "id": 1047,
+    "en": "Valgar!?",
+    "zh": "瓦尔加！？"
+  },
+  {
+    "id": 1048,
+    "en": "Fine. You handle things here. I'm going after Silver!",
+    "zh": "好，这里交给你。我去追希尔弗！"
+  },
+  {
+    "id": 1049,
+    "en": "That gussied-up garbage can  is getting on my nerves!",
+    "zh": "那个花里胡哨的垃圾桶，真把我惹烦了！"
+  },
+  {
+    "id": 1050,
+    "en": "The black knight... Very well. May you be stronger as ally than adversary!",
+    "zh": "黑骑士……好吧。但愿你当盟友时，比当敌人更强！"
+  },
+  {
+    "id": 1051,
+    "en": "Keep your sister safe.",
+    "zh": "保护好你妹妹。"
+  },
+  {
+    "id": 1052,
+    "en": "Whoa. Really!?",
+    "zh": "哇，真的！？"
+  },
+  {
+    "id": 1053,
+    "en": "That's so sweet! Watch your sister then， 'kay?",
+    "zh": "太贴心了！那就照看好你妹妹，好吗？"
+  },
+  {
+    "id": 1054,
+    "en": "THE MASTER'S PLANS MUST BE EXECUTED AT ALL COSTS.",
+    "zh": "必须不惜一切执行主人的计划。"
+  },
+  {
+    "id": 1055,
+    "en": "THEREFORE， I WILL EXPLOIT THE WEAKNESS OF THE HUMAN HEART.",
+    "zh": "因此，我将利用人心的弱点。"
+  },
+  {
+    "id": 1056,
+    "en": "You craven scoundrel! Let Princess Lucia go!",
+    "zh": "卑鄙的懦夫！放开露西亚公主！"
+  },
+  {
+    "id": 1057,
+    "en": "Lucia! Have you lost your mind?",
+    "zh": "露西亚！你疯了吗？"
+  },
+  {
+    "id": 1058,
+    "en": "She's your princess!",
+    "zh": "她可是你们的公主！"
+  },
+  {
+    "id": 1059,
+    "en": "What? I thought you were tough! Tough guys don't hide behind hostages!",
+    "zh": "什么？你不是很厉害吗？硬汉才不会躲在人质后面！"
+  },
+  {
+    "id": 1060,
+    "en": "Princess! Grr， the metal apple  never falls far from the tree.",
+    "zh": "公主！可恶，有什么样的铁主子，就有什么样的铁奴才。"
+  },
+  {
+    "id": 1061,
+    "en": "Wow! A damsel in distress! Boys are gonna be falling all over her! (If she lives...)",
+    "zh": "哇！遇难的少女！男孩子肯定要为她争破头了！（前提是她能活下来……）"
+  },
+  {
+    "id": 1062,
+    "en": "I am not afraid to die.",
+    "zh": "我不怕死。"
+  },
+  {
+    "id": 1063,
+    "en": "I stood by and let Kanon terrorize our people with his kingdom of magic!",
+    "zh": "我曾袖手旁观，任由卡农用他的魔法国度恐吓百姓！"
+  },
+  {
+    "id": 1064,
+    "en": "How it must sadden our Lord that you， his Chosen， have walked this sorrowful path.",
+    "zh": "你们身为吾主的天选之人，却走上如此可悲的道路，吾主定会深感痛心。"
+  },
+  {
+    "id": 1065,
+    "en": "Explain yourself.",
+    "zh": "把话说清楚。"
+  },
+  {
+    "id": 1066,
+    "en": "Somebody chose us?",
+    "zh": "有人选中了我们？"
+  },
+  {
+    "id": 1067,
+    "en": "Who!?",
+    "zh": "谁！？"
+  },
+  {
+    "id": 1068,
+    "en": "Um， Chosen?",
+    "zh": "呃，天选之人？"
+  },
+  {
+    "id": 1069,
+    "en": "You must have the wrong guys.",
+    "zh": "你们找错人了吧。"
+  },
+  {
+    "id": 1070,
+    "en": "Chosen?",
+    "zh": "天选之人？"
+  },
+  {
+    "id": 1071,
+    "en": "Don't be absurd. We choose for ourselves.",
+    "zh": "荒唐。我们自己的路，自己选。"
+  },
+  {
+    "id": 1072,
+    "en": "Chosen? Really?",
+    "zh": "天选之人？真的？"
+  },
+  {
+    "id": 1073,
+    "en": "Cool! What do I win?",
+    "zh": "太好了！奖品是什么？"
+  },
+  {
+    "id": 1074,
+    "en": "Do you really believe these events that befell you were an accident?",
+    "zh": "你们真以为，这一路遭遇的一切都是巧合？"
+  },
+  {
+    "id": 1075,
+    "en": "That through your own skill you found that sword， and its wielder's resting place?",
+    "zh": "以为凭自己的本事，找到了那把剑，找到了持剑者长眠的地方？"
+  },
+  {
+    "id": 1076,
+    "en": "Ha ha! That you are so mighty you can level armies and dethrone great rulers?",
+    "zh": "哈！以为自己当真强大到能击溃大军、推翻君王？"
+  },
+  {
+    "id": 1077,
+    "en": "No. All of this was wrought by the powers we concealed in the sword--a divine calling.",
+    "zh": "不。这一切，都是我们藏在剑中的力量所为……是神的召唤。"
+  },
+  {
+    "id": 1078,
+    "en": "You were part of our plan. We chose you from among the scraps of humanity to be the lucky few we would craft into our ultimate warriors.",
+    "zh": "你们本就是计划的一部分。我们从芸芸众生中挑出你们这少数幸运儿，要将你们塑造成终极战士。"
+  },
+  {
+    "id": 1079,
+    "en": "The golden one who led you here was our messenger.",
+    "zh": "那位带你们来到此地的金色战士，正是我们的使者。"
+  },
+  {
+    "id": 1080,
+    "en": "But our Lord sorely misjudged you， and our messenger has betrayed us. Not one of you is worthy of his grace.",
+    "zh": "但吾主错看了你们，我们的使者也背叛了我们。你们没有一个，配得上他的恩典。"
+  },
+  {
+    "id": 1081,
+    "en": "In his name， I shall scatter you all to the wind!",
+    "zh": "以他的名义，我将让你们全都灰飞烟灭！"
+  },
+  {
+    "id": 1082,
+    "en": "Alas， I chose unwisely.",
+    "zh": "唉，我选错了。"
+  },
+  {
+    "id": 1083,
+    "en": "As my ultimate warriors， you were to be my greatest creation.",
+    "zh": "身为我的终极战士，你们本该是我最伟大的杰作。"
+  },
+  {
+    "id": 1084,
+    "en": "But no matter. I scoured the scraps of humanity， and found another diamond in the rough.",
+    "zh": "不过无妨。我遍寻芸芸众生，又发现了一块璞玉。"
+  },
+  {
+    "id": 1085,
+    "en": "The despair in his heart once threatened to break him， but he has found hope in power. By walking the path I set before him， he has been saved.",
+    "zh": "心中的绝望曾几乎将他摧垮，但他在力量中找到了希望。踏上我指引的道路，他已得到救赎。"
+  },
+  {
+    "id": 1086,
+    "en": "Come forth， my white warrior! Smite these infidels， and that disloyal pile of bones at their side!",
+    "zh": "现身吧，我的白之战士！击溃这些异端，还有他们身旁那堆不忠的骸骨！"
+  },
+  {
+    "id": 1087,
+    "en": "Impossible!",
+    "zh": "不可能！"
+  },
+  {
+    "id": 1088,
+    "en": "Valgar， a champion of light?",
+    "zh": "瓦尔加，竟成了光明的战士？"
+  },
+  {
+    "id": 1089,
+    "en": "Valgar? Didn't see that coming.",
+    "zh": "瓦尔加？这我可真没想到。"
+  },
+  {
+    "id": 1090,
+    "en": "Um... what?",
+    "zh": "呃……什么？"
+  },
+  {
+    "id": 1091,
+    "en": "So， revealing Valgar's past has led him to an even more uncertain future.",
+    "zh": "这么说，揭露瓦尔加的过去，却把他引向了更加莫测的未来。"
+  },
+  {
+    "id": 1092,
+    "en": "Why him!? I was cooperating! Mostly... Okay， not really.",
+    "zh": "为什么选他！？我明明很配合！大部分时候……好吧，其实也没有。"
+  },
+  {
+    "id": 1093,
+    "en": "It shouldn't be like this.",
+    "zh": "事情不该变成这样。"
+  },
+  {
+    "id": 1094,
+    "en": "But I was miserable! I had nothing left!",
+    "zh": "可我太痛苦了！我已经一无所有！"
+  },
+  {
+    "id": 1095,
+    "en": "When he offered me power， It gave me something to cling to--a new identity.",
+    "zh": "当他赐给我力量时，我终于找到了寄托……一个全新的身份。"
+  },
+  {
+    "id": 1096,
+    "en": "That is right. You are special. My chosen!",
+    "zh": "没错。你是特别的，是我的天选之人！"
+  },
+  {
+    "id": 1097,
+    "en": "Now do exactly as I say. Our adversaries stand before us. Strike them down!",
+    "zh": "现在，完全照我说的做。敌人就在眼前，击溃他们！"
+  },
+  {
+    "id": 1098,
+    "en": "No! You will not command me!",
+    "zh": "不！你休想命令我！"
+  },
+  {
+    "id": 1099,
+    "en": "How is this any different from before?",
+    "zh": "这与从前又有什么区别？"
+  },
+  {
+    "id": 1100,
+    "en": "The world is better off without you. No more gods and monsters--and no more puppets!",
+    "zh": "没有你，世界会更好。不再有神与怪物……也不再有傀儡！"
+  },
+  {
+    "id": 1101,
+    "en": "Valgar， no! What are you--",
+    "zh": "瓦尔加，不！你要——"
+  },
+  {
+    "id": 1102,
+    "en": "Hold it! What are you doing!?",
+    "zh": "住手！你在干什么！？"
+  },
+  {
+    "id": 1103,
+    "en": "Wait. Valgar， don't!",
+    "zh": "等等，瓦尔加，不要！"
+  },
+  {
+    "id": 1104,
+    "en": "Stop! You mustn't!",
+    "zh": "住手！万万不可！"
+  },
+  {
+    "id": 1105,
+    "en": "Hey， no， don't!",
+    "zh": "喂，不，别这样！"
+  },
+  {
+    "id": 1106,
+    "en": "Our Lord is wroth that his Chosen have taken so long to arrive at their destiny.",
+    "zh": "天选之人竟迟迟不肯迎接命运，吾主已然震怒。"
+  },
+  {
+    "id": 1107,
+    "en": "Chosen? What do you mean?",
+    "zh": "天选之人？什么意思？"
+  },
+  {
+    "id": 1108,
+    "en": "Chosen? What are you talking about?",
+    "zh": "天选之人？你在说什么？"
+  },
+  {
+    "id": 1109,
+    "en": "Chosen? For what?",
+    "zh": "天选之人？选来做什么？"
+  },
+  {
+    "id": 1110,
+    "en": "We choose for ourselves， as all men must.",
+    "zh": "我们的路，由我们自己选择。人人都该如此。"
+  },
+  {
+    "id": 1111,
+    "en": "I'm a Chosen? Well， you didn't TELL ME!",
+    "zh": "我是天选之人？可你们根本没告诉我！"
+  },
+  {
+    "id": 1112,
+    "en": "You are part of our plan. We chose you from among the scraps of humanity as the lucky few we would craft into our ultimate warriors.",
+    "zh": "你们本就是计划的一部分。我们从芸芸众生中挑出你们这少数幸运儿，要将你们塑造成终极战士。"
+  },
+  {
+    "id": 1113,
+    "en": "The golden one who led you here is our messenger.",
+    "zh": "那位带你们来到此地的金色战士，正是我们的使者。"
+  },
+  {
+    "id": 1114,
+    "en": "Now， fight me! Show our Lord the fruits of his labor!",
+    "zh": "现在，与我一战！让吾主看看他的心血结出了什么成果！"
+  },
+  {
+    "id": 1115,
+    "en": "Hear ye， warriors!",
+    "zh": "战士们，听令！"
+  },
+  {
+    "id": 1116,
+    "en": "I have judged you worthy.",
+    "zh": "我已判定，你们足够资格。"
+  },
+  {
+    "id": 1117,
+    "en": "Now， come into my presence.",
+    "zh": "现在，到我面前来。"
+  },
+  {
+    "id": 1118,
+    "en": "Ha ha ha! Is this the finest humanity can produce? We were cruel to say any of you could become the ultimate warrior.",
+    "zh": "哈哈哈！这就是人类能培养出的最强者？说你们也能成为终极战士，实在残忍。"
+  },
+  {
+    "id": 1119,
+    "en": "HE STANDS BEFORE YOU!",
+    "zh": "真正的终极战士，就在你们面前！"
+  },
+  {
+    "id": 1120,
+    "en": "Guys， are we， like， getting kidnapped?",
+    "zh": "伙计们，我们这是……被绑架了吗？"
+  },
+  {
+    "id": 1121,
+    "en": "That's not funny. I want to go home!",
+    "zh": "这可不好笑。我想回家！"
+  },
+  {
+    "id": 1122,
+    "en": "Brave warrior who died to keep my family safe， I ask you: is this what you wanted? Did you really return to us because you served some higher power?",
+    "zh": "为保护我家族而牺牲的勇士，我问你：这就是你的心愿吗？你重返人世，当真只是为了侍奉更高的存在？"
+  },
+  {
+    "id": 1123,
+    "en": "I do not know your face or even your name. But I wanted to believe you served us， the people.  That you were our friend.",
+    "zh": "我不知道你的容貌，甚至不知道你的名字。但我愿意相信，你守护的是我们，是百姓。你是我们的朋友。"
+  },
+  {
+    "id": 1124,
+    "en": "Wh-What treachery is this! You dare strike your Lord!?",
+    "zh": "这、这是何等背叛！你竟敢对自己的主人动手！？"
+  },
+  {
+    "id": 1125,
+    "en": "You have no heart， no friends. You cannot be doing this!",
+    "zh": "你没有心，也没有朋友。你不可能这么做！"
+  },
+  {
+    "id": 1126,
+    "en": "Oh， he's doing it.",
+    "zh": "可他已经动手了。"
+  },
+  {
+    "id": 1127,
+    "en": "Some things just matter more than divine calling.",
+    "zh": "总有些东西，比神的召唤更重要。"
+  },
+  {
+    "id": 1128,
+    "en": "We fought because we love our country. Not for you!",
+    "zh": "我们是为热爱的国家而战，才不是为了你！"
+  },
+  {
+    "id": 1129,
+    "en": "This is madness! I have honored you by making you my sword and shield!",
+    "zh": "简直疯了！我赐予你们荣耀，让你们成为我的剑与盾！"
+  },
+  {
+    "id": 1130,
+    "en": "You gained that power under my guidance!",
+    "zh": "你们的力量，都是在我的引导下获得的！"
+  },
+  {
+    "id": 1131,
+    "en": "Paradise is already yours. You need only follow me!",
+    "zh": "乐园已属于你们。只需追随我就够了！"
+  },
+  {
+    "id": 1132,
+    "en": "We will not. You have misjudged us!",
+    "zh": "我们不会追随你。你看错我们了！"
+  },
+  {
+    "id": 1133,
+    "en": "We choose to be free! To decide our own destiny!",
+    "zh": "我们选择自由！选择自己决定命运！"
+  },
+  {
+    "id": 1134,
+    "en": "You see this as defiance?",
+    "zh": "你觉得这是忤逆？"
+  },
+  {
+    "id": 1135,
+    "en": "We see it as duty. If we follow you， the world below will be left in shambles.",
+    "zh": "我们认为，这是责任。如果追随你，下界就只剩一片废墟。"
+  },
+  {
+    "id": 1136,
+    "en": "We refuse to accept paradise and condemn others to ruin!",
+    "zh": "我们绝不接受让他人毁灭、换自己进入乐园！"
+  },
+  {
+    "id": 1137,
+    "en": "Fools! I made the world below!",
+    "zh": "蠢货！下界是我创造的！"
+  },
+  {
+    "id": 1138,
+    "en": "It will stay forever in shambles， unless I right it!",
+    "zh": "除非由我来纠正，否则它永远只会是一片废墟！"
+  },
+  {
+    "id": 1139,
+    "en": "That's your concern no longer!",
+    "zh": "那已不再由你操心！"
+  },
+  {
+    "id": 1140,
+    "en": "ANALYSIS HAS DETERMINED HUMANS CANNOT SURVIVE UNDER THEIR OWN REGIME.",
+    "zh": "分析结果：人类无法在自己的统治下生存。"
+  },
+  {
+    "id": 1141,
+    "en": "NOW THAT THE MASTER IS GONE， THE CODIFICATION OF HUMANITY FALLS ON OUR SHOULDERS.",
+    "zh": "主人已不在，规范人类秩序的职责，将由我们承担。"
+  },
+  {
+    "id": 1142,
+    "en": "What has Kanon done?",
+    "zh": "卡农到底干了什么？"
+  },
+  {
+    "id": 1143,
+    "en": "We will never submit to your wicked administration. Never!",
+    "zh": "我们绝不会屈服于你们的邪恶统治。绝不！"
+  },
+  {
+    "id": 1144,
+    "en": "And now that my PATIENCE is gone， I'm gonna hit you. Hard!",
+    "zh": "现在，我的耐心也不在了。我要揍你，狠狠地揍！"
+  },
+  {
+    "id": 1145,
+    "en": "What's that， tin face?",
+    "zh": "铁皮脸，你说什么呢？"
+  },
+  {
+    "id": 1146,
+    "en": "Sorry. I don't speak junk-ese!",
+    "zh": "抱歉，我听不懂废铁语！"
+  },
+  {
+    "id": 1147,
+    "en": "Ah! A wordsmith. Then quail， you querulous quack， while I quickly deliver the quietus!",
+    "zh": "啊！舞文弄墨之辈。那就颤抖吧，聒噪的庸才，我即刻赐你永恒的寂静！"
+  },
+  {
+    "id": 1148,
+    "en": "“Codification“? Why you!",
+    "zh": "“鳕鱼化”？好啊你！"
+  },
+  {
+    "id": 1149,
+    "en": "Nobody turns Nicoley into a fish!",
+    "zh": "谁也别想把小妮可变成鱼！"
+  },
+  {
+    "id": 1150,
+    "en": "That should put an end to Kanon's dreadful ambitions. Thank you.",
+    "zh": "这下，卡农可怕的野心终于结束了。谢谢你们。"
+  },
+  {
+    "id": 1151,
+    "en": "It's finally over.",
+    "zh": "终于结束了。"
+  },
+  {
+    "id": 1152,
+    "en": "Lucia， where is your brother?",
+    "zh": "露西亚，你哥哥在哪儿？"
+  },
+  {
+    "id": 1153,
+    "en": "That's right. You and the kingdom are safe.",
+    "zh": "没错，你和王国都安全了。"
+  },
+  {
+    "id": 1154,
+    "en": "Hey， where's your brother?",
+    "zh": "对了，你哥哥呢？"
+  },
+  {
+    "id": 1155,
+    "en": "All in a day's work!",
+    "zh": "小事一桩！"
+  },
+  {
+    "id": 1156,
+    "en": "Hey， what ever happened to your brother?",
+    "zh": "哎，你哥哥后来怎么样了？"
+  },
+  {
+    "id": 1157,
+    "en": "May history never forget.",
+    "zh": "愿历史铭记今日。"
+  },
+  {
+    "id": 1158,
+    "en": "Is your brother with you?",
+    "zh": "你哥哥和你在一起吗？"
+  },
+  {
+    "id": 1159,
+    "en": "You're welcome!",
+    "zh": "不客气！"
+  },
+  {
+    "id": 1160,
+    "en": "What happened to your brother?",
+    "zh": "你哥哥怎么样了？"
+  },
+  {
+    "id": 1161,
+    "en": "Valgar left. He said a higher power still threatened the land， and that he must rise up against it.",
+    "zh": "瓦尔加走了。他说，还有更高的力量威胁着这片土地，他必须起身反抗。"
+  },
+  {
+    "id": 1162,
+    "en": "But that is his fight.",
+    "zh": "但那是他的战斗。"
+  },
+  {
+    "id": 1163,
+    "en": "Will you stay here and help me rebuild the kingdom? I will accept any punishment--",
+    "zh": "你们愿意留下来，帮我重建王国吗？我愿接受任何惩罚——"
+  },
+  {
+    "id": 1164,
+    "en": "I only ask that you give the people the peace they deserve.",
+    "zh": "只求你们，让百姓得到应有的和平。"
+  },
+  {
+    "id": 1165,
+    "en": "Of course. And Lucia... the age of punishment and vengeance has ended.",
+    "zh": "当然。露西亚……惩罚与复仇的时代，已经结束了。"
+  },
+  {
+    "id": 1166,
+    "en": "Stability will return to this kingdom when we， those who love it， work together.",
+    "zh": "只要我们这些深爱王国的人齐心协力，王国就能恢复安定。"
+  },
+  {
+    "id": 1167,
+    "en": "Let this next age be one of peace， and wisdom.",
+    "zh": "愿下一个时代，充满和平与智慧。"
+  },
+  {
+    "id": 1168,
+    "en": "We have such a long road ahead to peace.",
+    "zh": "通往和平的路，还很漫长。"
+  },
+  {
+    "id": 1169,
+    "en": "I can only wonder: have we done right by the world? All this killing... How are we different from Kanon?",
+    "zh": "我不禁在想：我们真的为世界做了正确的事吗？杀了那么多人……我们与卡农有何区别？"
+  },
+  {
+    "id": 1170,
+    "en": "Perhaps we aren't. Not yet. Only the future can tell. We must honor those lives we had to take， by honoring the wishes of our countrymen who still remain.",
+    "zh": "或许并无区别，至少现在没有。唯有未来能给出答案。我们必须尊重仍然活着的同胞的心愿，来告慰那些不得不夺去的生命。"
+  },
+  {
+    "id": 1171,
+    "en": "Let this next age be for them.",
+    "zh": "愿下一个时代，属于他们。"
+  },
+  {
+    "id": 1172,
+    "en": "Gwaaaaaar!",
+    "zh": "嘎啊啊啊！"
+  },
+  {
+    "id": 1173,
+    "en": "Mwaaaaaarg!",
+    "zh": "呜啊啊啊！"
+  },
+  {
+    "id": 1174,
+    "en": "Yaaaaaarg!",
+    "zh": "呀啊啊啊！"
+  },
+  {
+    "id": 1175,
+    "en": "Waaaaaaugh!",
+    "zh": "哇啊啊啊！"
+  },
+  {
+    "id": 1176,
+    "en": "On the battlefield， crowns and titles mean nothing. The only real distinction is not dying， and you've distinctly failed at that.",
+    "zh": "战场上，王冠与头衔毫无意义。唯一重要的是活下来，而你显然没做到。"
+  },
+  {
+    "id": 1177,
+    "en": "Rise! Perhaps， someday， you may be worthy of knighthood. Just not today!",
+    "zh": "起来！或许终有一天，你能配得上骑士之名。但绝不是今天！"
+  },
+  {
+    "id": 1178,
+    "en": "Let today's victory be the first step toward tomorrow's!",
+    "zh": "愿今日的胜利，成为明日胜利的第一步！"
+  },
+  {
+    "id": 1179,
+    "en": "Thank you， friends. I could never have triumphed alone.",
+    "zh": "谢谢你们，朋友。单凭我一人，绝无胜算。"
+  },
+  {
+    "id": 1180,
+    "en": "I'm sure glad I didn't use my good sword!",
+    "zh": "幸好没动用我的好剑！"
+  },
+  {
+    "id": 1181,
+    "en": "Picking fights with heroes? Not a good idea.",
+    "zh": "找英雄打架？这主意可不明智。"
+  },
+  {
+    "id": 1182,
+    "en": "You know， you really-- what's the word--suck.",
+    "zh": "你知道吗，你真是……那词怎么说来着……烂透了。"
+  },
+  {
+    "id": 1183,
+    "en": "I sense we have a strong team.",
+    "zh": "看来，我们这支队伍很强。"
+  },
+  {
+    "id": 1184,
+    "en": "Not bad for a little shepherd boy， huh?",
+    "zh": "一个放羊的小子，能打成这样不错吧？"
+  },
+  {
+    "id": 1185,
+    "en": "Whew! That was close. I thought my staff was gonna break from juggling you like that!",
+    "zh": "呼！真险。把你颠来颠去，我都怕法杖折了！"
+  },
+  {
+    "id": 1186,
+    "en": "Gee， you think we were too hard on them?",
+    "zh": "呃，咱们是不是下手太重了？"
+  },
+  {
+    "id": 1187,
+    "en": "Don't make me throw my bunny at you!",
+    "zh": "别逼我扔兔子砸你！"
+  },
+  {
+    "id": 1188,
+    "en": "Tell my opponent I want my throwing stars returned as soon as possible.",
+    "zh": "转告我的对手，尽快归还我的手里剑。"
+  },
+  {
+    "id": 1189,
+    "en": "Another battle， another victory!",
+    "zh": "再战一场，再添一胜！"
+  },
+  {
+    "id": 1190,
+    "en": "Today's wisdom: a prepared sandwich mustards great power!",
+    "zh": "今日箴言：准备充分的三明治，芥末威力无穷！"
+  },
+  {
+    "id": 1191,
+    "en": "My clan teaches that the brittle twig is first to snap.",
+    "zh": "族中有训：脆弱的枝条，最先折断。"
+  },
+  {
+    "id": 1192,
+    "en": "I'd just like to take a moment to thank my staff.",
+    "zh": "请容我花一点时间，感谢我的法杖。"
+  },
+  {
+    "id": 1193,
+    "en": "You just lost to a girl with a happy face around her neck. How weak are you?",
+    "zh": "你居然输给一个脖子上挂着笑脸的小姑娘。你得多弱啊？"
+  },
+  {
+    "id": 1194,
+    "en": "Service with a smile!",
+    "zh": "微笑服务！"
+  },
+  {
+    "id": 1195,
+    "en": "I guess I could stick around and heal the losers， but-- SHOPPING!",
+    "zh": "我本来可以留下来，治治这些输家，不过……我要购物去啦！"
+  },
+  {
+    "id": 1196,
+    "en": "You can't hit what you can't catch!",
+    "zh": "追都追不上，还想打中我？"
+  },
+  {
+    "id": 1197,
+    "en": "That's not all we rabbits are good at!",
+    "zh": "我们兔子擅长的可不止这些！"
+  },
+  {
+    "id": 1198,
+    "en": "See? Having a rabbit on your side IS good luck!",
+    "zh": "看吧？有只兔子当队友，果然有好运！"
+  },
+  {
+    "id": 1199,
+    "en": "As you know， there are winners and there are losers. The winners know it. The losers feel it!",
+    "zh": "世上有赢家，也有输家。赢家心里知道，输家身上知道！"
+  },
+  {
+    "id": 1200,
+    "en": "It doesn't always pay to fight fair.",
+    "zh": "公平打架，不一定划算。"
+  },
+  {
+    "id": 1201,
+    "en": "This sword is thicker and manlier than my old one!",
+    "zh": "这把剑比旧的更厚实，更有男子气概！"
+  },
+  {
+    "id": 1202,
+    "en": "Now this right HERE is what I call a Sword of Legend!",
+    "zh": "这才叫真正的传说之剑！"
+  },
+  {
+    "id": 1203,
+    "en": "Be honest， did I kill you with the sword or with my impossibly good looks?",
+    "zh": "说实话，杀死你的，是我的剑，还是我这英俊得没天理的脸？"
+  },
+  {
+    "id": 1204,
+    "en": "You can plainly see why I am a boss character， and not some lowly thug.",
+    "zh": "这下该明白，我为什么是头目，而不是无名小卒了吧。"
+  },
+  {
+    "id": 1205,
+    "en": "What fool would brandish a sword at one who commands the very fires that made it?",
+    "zh": "我连铸剑的烈火都能驾驭，哪个蠢货还敢对我拔剑？"
+  },
+  {
+    "id": 1206,
+    "en": "You were wise to ally with me!",
+    "zh": "与我结盟，果然明智！"
+  },
+  {
+    "id": 1207,
+    "en": "Ha ha! You will never be worthy， but at least have the dignity not to be worthless.",
+    "zh": "哈哈！你永远不够格，但至少要有点骨气，别当个废物。"
+  },
+  {
+    "id": 1208,
+    "en": "SCANNING... NO THREAT FOUND.",
+    "zh": "扫描中……未发现威胁。"
+  },
+  {
+    "id": 1209,
+    "en": "TARGET OBLITERATED.",
+    "zh": "目标已摧毁。"
+  },
+  {
+    "id": 1210,
+    "en": "TICK TOCK， I JUST CLEANED YOUR CLOCK.",
+    "zh": "滴答滴答，你被我打得稀里哗啦。"
+  },
+  {
+    "id": 1211,
+    "en": "HOSTILE ELEMENTS NEUTRALIZED.",
+    "zh": "敌对单位已清除。"
+  },
+  {
+    "id": 1212,
+    "en": "Big shoulder pads rule!",
+    "zh": "大肩甲就是威风！"
+  },
+  {
+    "id": 1213,
+    "en": "The chicks love me.",
+    "zh": "姑娘们都爱我。"
+  },
+  {
+    "id": 1214,
+    "en": "I don't need any help.",
+    "zh": "我不需要任何帮助。"
+  },
+  {
+    "id": 1215,
+    "en": "That's right， ladies: I'm single!",
+    "zh": "没错，女士们，我还是单身！"
+  },
+  {
+    "id": 1216,
+    "en": "Sorry， friend. Wrong place， wrong time!",
+    "zh": "抱歉，朋友。你来错了地方，也赶错了时候！"
+  },
+  {
+    "id": 1217,
+    "en": "I captain the Red Order... and I champion it!",
+    "zh": "我统领红之骑士团……也为它捍卫荣耀！"
+  },
+  {
+    "id": 1218,
+    "en": "I need more knights who fight like me.",
+    "zh": "我需要更多像我这样能打的骑士。"
+  },
+  {
+    "id": 1219,
+    "en": "Shameful. I would blame your leader， had I seen any leadership.",
+    "zh": "丢脸。我本想怪你的首领，可惜没看见半点领导才能。"
+  },
+  {
+    "id": 1220,
+    "en": "How did I work you? Let me count the ways.",
+    "zh": "我是怎么收拾你的？容我一招一招数。"
+  },
+  {
+    "id": 1221,
+    "en": "I'm like time-- I can't be stopped!",
+    "zh": "我就像时间……势不可挡！"
+  },
+  {
+    "id": 1222,
+    "en": "I just LOVE it when they squirm.",
+    "zh": "我就爱看他们挣扎的样子。"
+  },
+  {
+    "id": 1223,
+    "en": "Roses are red， violets are blue. Sugar is sweet... and I just a-salted you!",
+    "zh": "玫瑰红，紫罗兰蓝。糖是甜的……你是咸鱼，我刚给你翻了个面！"
+  },
+  {
+    "id": 1224,
+    "en": "Admit it， you didn't expect me to win.",
+    "zh": "承认吧，你没想到我会赢。"
+  },
+  {
+    "id": 1225,
+    "en": "I want a raise， a new sword， more rations， and armor that doesn't smell like BO.",
+    "zh": "我要加薪、新剑、更多口粮，还有一身没狐臭味的铠甲。"
+  },
+  {
+    "id": 1226,
+    "en": "I stuck you with the pointy end!",
+    "zh": "我用尖尖的那头扎到你了！"
+  },
+  {
+    "id": 1227,
+    "en": "I hope my boss was watching.",
+    "zh": "希望老大刚才看见了。"
+  },
+  {
+    "id": 1228,
+    "en": "I'm just the cook!",
+    "zh": "我只是个厨子！"
+  },
+  {
+    "id": 1229,
+    "en": "Hi， Mom!",
+    "zh": "妈妈，你好！"
+  },
+  {
+    "id": 1230,
+    "en": "Okay， everyone， look cool!",
+    "zh": "好了，各位，摆个帅点的姿势！"
+  },
+  {
+    "id": 1231,
+    "en": "Chalk one up for the good guys!",
+    "zh": "正义一方，再得一分！"
+  },
+  {
+    "id": 1232,
+    "en": "Kiss my coccyx.",
+    "zh": "来亲我的尾骨吧。"
+  },
+  {
+    "id": 1233,
+    "en": "Got spine?",
+    "zh": "有脊梁骨吗？"
+  },
+  {
+    "id": 1234,
+    "en": "Don't feel bad. It was a “marrow“ defeat.",
+    "zh": "别难过。你只是败得有点“骨感”。"
+  },
+  {
+    "id": 1235,
+    "en": "So， who wants to crack the first “boned“ joke?",
+    "zh": "那么，谁先来讲个“骨气全无”的笑话？"
+  },
+  {
+    "id": 1236,
+    "en": "It's cool to be undead!",
+    "zh": "当不死人，真够酷！"
+  },
+  {
+    "id": 1237,
+    "en": "If it's any consolation， you get to be like me now.",
+    "zh": "说个安慰你的消息吧，你现在也能变得跟我一样了。"
+  },
+  {
+    "id": 1238,
+    "en": "I smell bad!",
+    "zh": "我身上好臭！"
+  },
+  {
+    "id": 1239,
+    "en": "Is that all? Come on， live a little.",
+    "zh": "就这？来嘛，活泼点。"
+  },
+  {
+    "id": 1240,
+    "en": "You'll never guess what I'm wearing under these robes.",
+    "zh": "你绝对猜不到，我袍子底下穿了什么。"
+  },
+  {
+    "id": 1241,
+    "en": "I won all the spelling bees at elementally school.",
+    "zh": "我上元素小学时，咒术拼写比赛回回拿冠军。"
+  },
+  {
+    "id": 1242,
+    "en": "Feckless fools!",
+    "zh": "没用的蠢货！"
+  },
+  {
+    "id": 1243,
+    "en": "Smells like smoke.",
+    "zh": "有股烟味。"
+  },
+  {
+    "id": 1244,
+    "en": "Stop it， you're un-killing me.",
+    "zh": "别这样，你都快把我打活了。"
+  },
+  {
+    "id": 1245,
+    "en": "I can't actually talk. You're hearing things!",
+    "zh": "其实我不会说话。你幻听了！"
+  },
+  {
+    "id": 1246,
+    "en": "Ahem... “Gwaaaaaar!“",
+    "zh": "咳……“嘎啊啊啊！”"
+  },
+  {
+    "id": 1247,
+    "en": "When I find my other arm， I'll really do some damage!",
+    "zh": "等我找回另一条胳膊，就真能大杀四方了！"
+  },
+  {
+    "id": 1248,
+    "en": "Gargoyles know they're cool!",
+    "zh": "石像鬼知道自己有多酷！"
+  },
+  {
+    "id": 1249,
+    "en": "That's nothing compared to what I'm gonna do to you when the screen turns black!",
+    "zh": "等屏幕一黑，我要对你做的事，可比这狠多了！"
+  },
+  {
+    "id": 1250,
+    "en": "I'm a flying rock. Whatchu got?",
+    "zh": "我可是会飞的石头。你有什么本事？"
+  },
+  {
+    "id": 1251,
+    "en": "Crap， my legs fell asleep.",
+    "zh": "糟了，我腿麻了。"
+  },
+  {
+    "id": 1252,
+    "en": "REMATCH? Y/N",
+    "zh": "再次对战？是／否"
+  },
+  {
+    "id": 1253,
+    "en": "DO YOU THINK I AM BORING? Y/N",
+    "zh": "你认为我很无聊吗？是／否"
+  },
+  {
+    "id": 1254,
+    "en": "MISSION COMPLETE. NO LIFE FORMS DETECTED.",
+    "zh": "任务完成。未探测到生命体。"
+  },
+  {
+    "id": 1255,
+    "en": "CONFLICT RESOLVED. AWAITING NEXT COMMAND.",
+    "zh": "冲突已解决。等待下一指令。"
+  },
+  {
+    "id": 1256,
+    "en": "Shoo， fly.",
+    "zh": "去，苍蝇，走开。"
+  },
+  {
+    "id": 1257,
+    "en": "You need to work out more often!",
+    "zh": "你该多练练了！"
+  },
+  {
+    "id": 1258,
+    "en": "Real men fight bare-chested.",
+    "zh": "真男人，光膀子打架。"
+  },
+  {
+    "id": 1259,
+    "en": "Macho bids you greetings from the land of beatings.",
+    "zh": "马乔从挨揍之国，向你致以问候。"
+  },
+  {
+    "id": 1260,
+    "en": "I thought I only pushed dumb-bells around at the gym!",
+    "zh": "还以为只有健身房里才要推你这种蠢哑铃呢！"
+  },
+  {
+    "id": 1261,
+    "en": "Anybody seen my hair gel?",
+    "zh": "谁看见我的发胶了？"
+  },
+  {
+    "id": 1262,
+    "en": "Nice work! It takes skill to lose that badly.",
+    "zh": "干得好！输得这么惨，也是种本事。"
+  },
+  {
+    "id": 1263,
+    "en": "One taste of my brawn， and BAM! They're gone.",
+    "zh": "尝过我肌肉的厉害，砰！人就没了。"
+  },
+  {
+    "id": 1264,
+    "en": "I don't like your tone-- your muscle tone!",
+    "zh": "我不喜欢你的状态……肌肉的状态！"
+  },
+  {
+    "id": 1265,
+    "en": "Somebody get me a mirror so I can watch myself flex!",
+    "zh": "谁给我拿面镜子，我要看自己秀肌肉！"
+  },
+  {
+    "id": 1266,
+    "en": "Aren't you glad I beat those flabby abs into shape?",
+    "zh": "我把你那松垮的肚皮揍出了腹肌，你不高兴吗？"
+  },
+  {
+    "id": 1267,
+    "en": "Let's all go out and grab protein shakes!",
+    "zh": "大家一起去喝蛋白奶昔吧！"
+  },
+  {
+    "id": 1268,
+    "en": "Me take you with eye closed!",
+    "zh": "我闭着眼睛也能打败你！"
+  },
+  {
+    "id": 1269,
+    "en": "Depth perception is overrated.",
+    "zh": "什么立体视觉，根本用不着。"
+  },
+  {
+    "id": 1270,
+    "en": "Me like crush heads.",
+    "zh": "我喜欢砸脑袋。"
+  },
+  {
+    "id": 1271,
+    "en": "Punch， kick， fart， repeat!",
+    "zh": "出拳，踢腿，放屁，再来一遍！"
+  },
+  {
+    "id": 1272,
+    "en": "My brain tickles.",
+    "zh": "我脑子痒痒的。"
+  },
+  {
+    "id": 1273,
+    "en": "The bigger they are， the harder their fists!",
+    "zh": "个头越大，拳头越硬！"
+  },
+  {
+    "id": 1274,
+    "en": "Pick on someone your own size!",
+    "zh": "找个跟你一样大的去打！"
+  },
+  {
+    "id": 1275,
+    "en": "You just got a giant beating!",
+    "zh": "你刚挨了一顿巨人揍！"
+  },
+  {
+    "id": 1276,
+    "en": "You'll make great fertilizer!",
+    "zh": "你会是很好的肥料！"
+  },
+  {
+    "id": 1277,
+    "en": "I eat vegetarians for breakfast!",
+    "zh": "吃素的？我早餐就吃你们！"
+  },
+  {
+    "id": 1278,
+    "en": "Big always wins!",
+    "zh": "大块头总会赢！"
+  },
+  {
+    "id": 1279,
+    "en": "Don't look so crushed.",
+    "zh": "别这么垂头丧气，都快被压扁了。"
+  },
+  {
+    "id": 1280,
+    "en": "Aww. You didn't even try!",
+    "zh": "唉，你根本没认真打！"
+  },
+  {
+    "id": 1281,
+    "en": "“Mid“ is my middle name.",
+    "zh": "我中间的名字就叫“米德”。"
+  },
+  {
+    "id": 1282,
+    "en": "Boooooo-ring.",
+    "zh": "无——聊——透——顶。"
+  },
+  {
+    "id": 1283,
+    "en": "Gosh， that hardly seemed fair.",
+    "zh": "天哪，这好像有点不公平。"
+  },
+  {
+    "id": 1284,
+    "en": "Mmmmmm... Fresh flesh.",
+    "zh": "嗯……新鲜的肉。"
+  },
+  {
+    "id": 1285,
+    "en": "Consider yourself slain!",
+    "zh": "就当你已经死了吧！"
+  },
+  {
+    "id": 1286,
+    "en": "The sexy fighters always win.",
+    "zh": "性感的战士总会赢。"
+  },
+  {
+    "id": 1287,
+    "en": "I think I've got some YOU stuck in my teeth.",
+    "zh": "我牙缝里，好像卡了点你。"
+  },
+  {
+    "id": 1288,
+    "en": "(Howl!)",
+    "zh": "（嗷呜！）"
+  },
+  {
+    "id": 1289,
+    "en": "(Bark! Bark!)",
+    "zh": "（汪！汪！）"
+  },
+  {
+    "id": 1290,
+    "en": "(Sniff sniff! Woof!)",
+    "zh": "（嗅嗅！汪！）"
+  },
+  {
+    "id": 1291,
+    "en": "(Growl!)",
+    "zh": "（呜噜！）"
+  },
+  {
+    "id": 1292,
+    "en": "How dare you strike a woman! You deserve to lose!",
+    "zh": "竟敢打女人！你活该输！"
+  },
+  {
+    "id": 1293,
+    "en": "I toss a mean salad... just like I tossed you around.",
+    "zh": "我拌沙拉可厉害了……就像刚才把你翻来覆去一样。"
+  },
+  {
+    "id": 1294,
+    "en": "Who says women are the weaker sex?",
+    "zh": "谁说女人是弱者？"
+  },
+  {
+    "id": 1295,
+    "en": "Darn it， I KNEW I made too many sandwiches!",
+    "zh": "可恶！我就知道，三明治做多了！"
+  },
+  {
+    "id": 1296,
+    "en": "Hi， my name is Timmy and I just kicked your butt.",
+    "zh": "你好，我叫蒂米，刚把你揍趴下了。"
+  },
+  {
+    "id": 1297,
+    "en": "Get up! I'm not done playing!",
+    "zh": "起来！我还没玩够！"
+  },
+  {
+    "id": 1298,
+    "en": "Mawwwm! Can I go play on the swing set now?",
+    "zh": "妈——！我现在能去荡秋千了吗？"
+  },
+  {
+    "id": 1299,
+    "en": "Who wants to go buy me some candy?",
+    "zh": "谁愿意去给我买点糖？"
+  },
+  {
+    "id": 1300,
+    "en": "Maybe you oughta be the one collecting pension money.",
+    "zh": "也许该去领退休金的人，是你。"
+  },
+  {
+    "id": 1301,
+    "en": "I can always say I'm tired. What's yer excuse? Hyeh hyeh.",
+    "zh": "我还能说自己老了累了。你有什么借口？嘿嘿。"
+  },
+  {
+    "id": 1302,
+    "en": "Line up， ya rascals， and I'll bend you over my knee!",
+    "zh": "排好队，小兔崽子们，让我把你们按在膝盖上打屁股！"
+  },
+  {
+    "id": 1303,
+    "en": "Respect yer elders， ya derned whipper-snappers!",
+    "zh": "尊敬长辈，臭小鬼们！"
+  },
+  {
+    "id": 1304,
+    "en": "You just lost to the stable boy， horse-face!",
+    "zh": "你刚输给了马童，马脸怪！"
+  },
+  {
+    "id": 1305,
+    "en": "I've only been doing karate for two weeks!",
+    "zh": "我才学了两个星期空手道！"
+  },
+  {
+    "id": 1306,
+    "en": "I wanna learn some spells!",
+    "zh": "我想学点法术！"
+  },
+  {
+    "id": 1307,
+    "en": "Can somebody teach me a combo?",
+    "zh": "谁能教我一套连招？"
+  },
+  {
+    "id": 1308,
+    "en": "Pound for pound， I'm the best fighter there is!",
+    "zh": "按体重算，我绝对是最强的战士！"
+  },
+  {
+    "id": 1309,
+    "en": "Clearly， I'm the best- conditioned athlete here.",
+    "zh": "很明显，这里体能最棒的运动员就是我。"
+  },
+  {
+    "id": 1310,
+    "en": "Hey， let's celebrate! Who wants some chicken nugget and hot fudge pizza!?",
+    "zh": "嘿，庆祝一下吧！谁想吃鸡块热巧克力披萨！？"
+  },
+  {
+    "id": 1311,
+    "en": "Wait a minute... Aren't you in my yoga class?",
+    "zh": "等等……你不是我瑜伽班上的同学吗？"
+  },
+  {
+    "id": 1312,
+    "en": "They call me... the Heck Mech.",
+    "zh": "他们叫我……地狱机甲。"
+  },
+  {
+    "id": 1313,
+    "en": "Why does it say “Made In Taiwan“ on my butt? *Sigh*",
+    "zh": "为什么我屁股上写着“台湾制造”？唉。"
+  },
+  {
+    "id": 1314,
+    "en": "I am well versed in the Art of Gun Fu!",
+    "zh": "我深谙枪斗之道！"
+  },
+  {
+    "id": 1315,
+    "en": "They were an example of inferior craftsmanship.",
+    "zh": "他们充分展示了什么叫劣质工艺。"
+  },
+  {
+    "id": 1316,
+    "en": "Life is good if you're gooey.",
+    "zh": "黏糊糊的日子，真不错。"
+  },
+  {
+    "id": 1317,
+    "en": "Kids love me!",
+    "zh": "小孩子都喜欢我！"
+  },
+  {
+    "id": 1318,
+    "en": "Hey， baby. Wanna e-Lope?",
+    "zh": "嘿，宝贝。想跟我私奔吗？"
+  },
+  {
+    "id": 1319,
+    "en": "I taste like custard. Why did YOU get licked?",
+    "zh": "我尝起来像蛋奶酱，你怎么也被舔干净了？"
+  },
+  {
+    "id": 1320,
+    "en": "There is a fine line between bravery and stupidity--and I just choked you with it.",
+    "zh": "勇敢与愚蠢之间，只有一线之隔……而我刚用这条线勒住了你。"
+  },
+  {
+    "id": 1321,
+    "en": "You have fallen... AND YOU WON'T GET UP!",
+    "zh": "你倒下了……再也爬不起来！"
+  },
+  {
+    "id": 1322,
+    "en": "Insolent fools! No one purges like the Purger!",
+    "zh": "放肆的蠢货！论净化，谁也比不过净化者！"
+  },
+  {
+    "id": 1323,
+    "en": "Nobody believes me when I say I'm the good guy.",
+    "zh": "我说自己是好人，可谁都不信。"
+  },
+  {
+    "id": 1324,
+    "en": "Defeating me will be a greater trial than you can imagine!",
+    "zh": "想打败我，远比你想象的艰难！"
+  },
+  {
+    "id": 1325,
+    "en": "You DARE challenge me!?",
+    "zh": "你竟敢挑战我！？"
+  },
+  {
+    "id": 1326,
+    "en": "With my divine power， victory was preordained!",
+    "zh": "凭我的神力，胜利早已注定！"
+  },
+  {
+    "id": 1327,
+    "en": "Hideous! Is this how you lower-tier creatures fight?",
+    "zh": "丑陋！你们这些低等生物，就是这样打架的？"
+  },
+  {
+    "id": 1328,
+    "en": "If I ever lose， I won't be upset， because I'll be too busy looking good!",
+    "zh": "就算输了，我也不会难过。忙着耍帅，哪有空啊！"
+  },
+  {
+    "id": 1329,
+    "en": "I'm the best， even though my stunt double did all the work!",
+    "zh": "就算活儿全是替身干的，我也依旧是最棒的！"
+  },
+  {
+    "id": 1330,
+    "en": "Hurry up and make me the star of the sequel.",
+    "zh": "快点，让我当续作的主角。"
+  },
+  {
+    "id": 1331,
+    "en": "I know， I know， everyone wants my autograph.",
+    "zh": "知道，知道，大家都想要我的签名。"
+  },
+  {
+    "id": 1332,
+    "en": "I just came to bury the hatchet... in your head.",
+    "zh": "我是来冰释前嫌的……先把斧头埋进你脑袋里。"
+  },
+  {
+    "id": 1333,
+    "en": "You are not fit to polish my axe!",
+    "zh": "你连替我擦斧头都不配！"
+  },
+  {
+    "id": 1334,
+    "en": "Ha! You hit like my squire.",
+    "zh": "哈！你这拳头，跟我的侍从差不多。"
+  },
+  {
+    "id": 1335,
+    "en": "Justice has been done.",
+    "zh": "正义已得伸张。"
+  },
+  {
+    "id": 1336,
+    "en": "You can reach， but you will never touch the sky.",
+    "zh": "你尽可伸手，却永远触不到天空。"
+  },
+  {
+    "id": 1337,
+    "en": "I have a name. You're just not worthy of knowing it.",
+    "zh": "我有名字。只是你不配知道。"
+  },
+  {
+    "id": 1338,
+    "en": "I am the ultimate warrior. You were ultimately nothing.",
+    "zh": "我是终极战士，而你终究一无是处。"
+  },
+  {
+    "id": 1339,
+    "en": "One of me is worth 100 of you.",
+    "zh": "我一个，抵得上你们一百个。"
+  },
+  {
+    "id": 1340,
+    "en": "And I was just warming up.",
+    "zh": "而我才刚热身。"
+  },
+  {
+    "id": 1341,
+    "en": "The blessings of the earth belong to the strong alone!",
+    "zh": "大地的恩赐，只属于强者！"
+  },
+  {
+    "id": 1342,
+    "en": "What stupidity! Learn to respect power beyond your own!",
+    "zh": "真愚蠢！学会敬畏远胜于自己的力量吧！"
+  },
+  {
+    "id": 1343,
+    "en": "There's a name for those who fight like you. I believe we call them... losers!",
+    "zh": "你这种打法，我们有个专门的称呼。好像叫……废物！"
+  },
+  {
+    "id": 1344,
+    "en": "Is this some sort of joke?",
+    "zh": "这是在开玩笑吗？"
+  },
+  {
+    "id": 1345,
+    "en": "Foolish mortal， you amuse me!",
+    "zh": "愚蠢的凡人，你逗乐我了！"
+  },
+  {
+    "id": 1346,
+    "en": "You are not fit to kiss the ground I rule over!",
+    "zh": "我统治的土地，你连亲吻它的资格都没有！"
+  },
+  {
+    "id": 1347,
+    "en": "Oh dear... I've broken another one.",
+    "zh": "哎呀……又弄坏一个。"
+  },
+  {
+    "id": 1348,
+    "en": "I could have beaten you with patches over both eyes!",
+    "zh": "就算两只眼睛都蒙上，我也能打败你！"
+  },
+  {
+    "id": 1349,
+    "en": "What sort of embarrassing performance was that?",
+    "zh": "你刚才那是什么丢脸的表演？"
+  },
+  {
+    "id": 1350,
+    "en": "I was born to lead.",
+    "zh": "我生来就是领袖。"
+  },
+  {
+    "id": 1351,
+    "en": "Save the swelled head for when you become a swell fighter.",
+    "zh": "等你真有本事了，再来这么自大吧。"
+  },
+  {
+    "id": 1352,
+    "en": "YOU WILL NEVER CATCH ME， COPPER.",
+    "zh": "条子，你永远抓不到我。"
+  },
+  {
+    "id": 1353,
+    "en": "MY ORBS FLICKER FOR YOU.",
+    "zh": "我的光球，为你闪烁。"
+  },
+  {
+    "id": 1354,
+    "en": "TARGET ERADICATED.",
+    "zh": "目标已清除。"
+  },
+  {
+    "id": 1355,
+    "en": "CHASSIS OVERHEATED. ENTERING COOLDOWN CYCLE.",
+    "zh": "机体过热。进入冷却循环。"
+  },
+  {
+    "id": 1356,
+    "en": "You know， you really--what's the word--suck.",
+    "zh": "你知道吗，你真是……那词怎么说来着……烂透了。"
+  },
+  {
+    "id": 1357,
+    "en": "Ahem. “Gwaaaaaar!“",
+    "zh": "咳。“嘎啊啊啊！”"
+  },
+  {
+    "id": 1358,
+    "en": "I toss a rag doll... just like I tossed you around.",
+    "zh": "我能把布娃娃甩来甩去……就像刚才甩你一样。"
+  }
+]

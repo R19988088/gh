@@ -1,0 +1,5 @@
+[info] [sys] Guest memory arena mapped: virtual base 0x0000007000000000, physical base 0x0000007100000000
+[warning] [sys] Runtime::SetupVfs: No game_data_root specified, skipping VFS setup
+[info] [apu] Audio client=0 endpoint=1018F2A60 callback=00000000
+[info] [apu] Audio client=1 endpoint=1018F5420 callback=00000000
+AudioSystem: restored endpoint consumption returns credit, XA2D XMA/endpoint/credits/heap roundtrip, retired arguments, failed restore pause and legacy XAUD passed

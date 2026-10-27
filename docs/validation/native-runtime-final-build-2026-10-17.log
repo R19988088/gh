@@ -1,0 +1,1182 @@
+[0/2] Re-checking globbed directories...
+[1/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/cmake_pch.hxx.pch
+[2/335] Building CXX object runtime/src/input/CMakeFiles/rexinput.dir/cmake_pch.hxx.pch
+[3/335] Building CXX object CMakeFiles/guardian_heroes_audio_service.dir/src/gh_audio_driver.cpp.o
+[4/335] Building CXX object CMakeFiles/guardian_heroes_audio_service.dir/src/gh_audio_system.cpp.o
+[5/335] Building CXX object CMakeFiles/guardian_heroes_audio_service.dir/src/gh_audio_decoder.cpp.o
+[6/335] Building CXX object CMakeFiles/guardian_heroes_audio_service.dir/src/gh_audio_sdl_driver.cpp.o
+[7/335] Building CXX object CMakeFiles/guardian_heroes_audio_service.dir/src/gh_audio_sdl_system.cpp.o
+[8/335] Building CXX object CMakeFiles/guardian_heroes_audio_service.dir/src/gh_audio_nop_system.cpp.o
+[9/335] Building CXX object CMakeFiles/guardian_heroes_audio_service.dir/src/gh_audio_factory.cpp.o
+[10/335] Building CXX object runtime/src/ui/CMakeFiles/rexui.dir/overlay/achievement_icon_cache.cpp.o
+[11/335] Building CXX object runtime/src/ui/CMakeFiles/rexui.dir/overlay/achievements_overlay.cpp.o
+[12/335] Building CXX object runtime/src/input/CMakeFiles/rexinput.dir/device_assignment.cpp.o
+[13/335] Building CXX object runtime/src/input/CMakeFiles/rexinput.dir/input_system.cpp.o
+[14/335] Building CXX object runtime/src/input/CMakeFiles/rexinput.dir/state_merge.cpp.o
+[15/335] Building CXX object runtime/src/input/CMakeFiles/rexinput.dir/nop/nop_input_driver.cpp.o
+[16/335] Building CXX object runtime/src/input/CMakeFiles/rexinput.dir/sdl/sdl_input_driver.cpp.o
+[17/335] Building CXX object runtime/src/input/CMakeFiles/rexinput.dir/mnk/mnk_input_driver.cpp.o
+[18/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/__/__/src/gh_system_achievements.cpp.o
+[19/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/__/__/src/gh_system_elf_module.cpp.o
+[20/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/__/__/src/gh_system_embedded_metadata.cpp.o
+[21/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/__/__/src/gh_system_entry_table.cpp.o
+[22/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/__/__/src/gh_system_export_resolver.cpp.o
+[23/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/__/__/src/gh_system_guest_path.cpp.o
+[24/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/__/__/src/gh_system_achievement_manager.cpp.o
+[25/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/__/__/src/gh_system_kernel_module.cpp.o
+[26/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/__/__/src/gh_system_lzx.cpp.o
+[27/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/__/__/src/gh_system_map_parser.cpp.o
+[28/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/__/__/src/gh_system_module.cpp.o
+[29/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/__/__/src/gh_system_ppc_types.cpp.o
+[30/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/__/__/src/gh_system_runtime.cpp.o
+[31/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/__/__/src/gh_system_kernel_state.cpp.o
+[32/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/__/__/src/gh_system_thread.cpp.o
+[33/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/__/__/src/gh_system_thread_state.cpp.o
+[34/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/__/__/src/gh_system_util_gameinfo_utils.cpp.o
+[35/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/__/__/src/gh_system_user_module.cpp.o
+[36/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/__/__/src/gh_system_util_native_list.cpp.o
+[37/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/__/__/src/gh_system_util_xdbf_utils.cpp.o
+[38/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/__/__/src/gh_system_util_object_table.cpp.o
+[39/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/__/__/src/gh_system_xam_app_manager.cpp.o
+[40/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/__/__/src/gh_system_xam_user_profile.cpp.o
+[41/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/__/__/src/gh_system_xenumerator.cpp.o
+[42/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/__/__/src/gh_system_xam_content_manager.cpp.o
+[43/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/__/__/src/gh_system_xevent.cpp.o
+[44/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/__/__/src/gh_system_xfile.cpp.o
+[45/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/__/__/src/gh_system_xiocompletion.cpp.o
+[46/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/__/__/src/gh_system_xmodule.cpp.o
+[47/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/__/__/src/gh_system_xmutant.cpp.o
+[48/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/__/__/src/gh_system_xnotifylistener.cpp.o
+[49/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/__/__/src/gh_system_xobject.cpp.o
+[50/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/__/__/src/gh_system_xsemaphore.cpp.o
+[51/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/__/__/src/gh_system_xsymboliclink.cpp.o
+[52/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/__/__/src/gh_system_xsocket.cpp.o
+[53/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/__/__/src/gh_system_xtimer.cpp.o
+[54/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/__/__/src/gh_guest_continuation.cpp.o
+[55/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/__/__/src/gh_system_xthread.cpp.o
+[56/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/__/__/src/gh_guest_continuation_waits.cpp.o
+[57/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/__/__/src/gh_guest_continuation_title.cpp.o
+[58/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/__/__/src/gh_system_mmio_handler.cpp.o
+[59/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/__/__/src/gh_system_xmemory.cpp.o
+[60/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/__/__/src/gh_system_function_dispatcher.cpp.o
+[61/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/__/__/src/gh_system_xex_module.cpp.o
+[62/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/kernel_init.cpp.o
+[63/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xam/xam_avatar.cpp.o
+[64/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xam/xam_content.cpp.o
+[65/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xam/xam_content_aggregate.cpp.o
+[66/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xam/xam_content_device.cpp.o
+[67/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xam/xam_debug.cpp.o
+[68/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xam/xam_enum.cpp.o
+[69/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xam/xam_info.cpp.o
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/src/kernel/xam/xam_info.cpp:276:16: warning: object backing the pointer 'path' will be destroyed at the end of the full-expression [-Wdangling-assignment-gsl]
+  276 |         path = rex::string::utf8_join_guest_paths(
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  277 |             rex::string::utf8_find_base_guest_path(
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  278 |                 REX_KERNEL_STATE()->GetExecutableModule()->path()),
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  279 |             path);
+      |             ~~~~~
+1 warning generated.
+[70/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xam/xam_input.cpp.o
+[71/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xam/xam_locale.cpp.o
+[72/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xam/xam_msg.cpp.o
+[73/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xam/xam_net.cpp.o
+[74/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xam/xam_notify.cpp.o
+[75/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xam/xam_nui.cpp.o
+[76/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xam/xam_party.cpp.o
+[77/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xam/xam_module.cpp.o
+[78/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xam/xam_task.cpp.o
+[79/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xam/xam_user.cpp.o
+[80/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xam/xam_ui.cpp.o
+[81/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xam/xam_video.cpp.o
+[82/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xam/xam_voice.cpp.o
+[83/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xam/apps/xam_app.cpp.o
+[84/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xam/apps/xgi_app.cpp.o
+[85/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xam/apps/xlivebase_app.cpp.o
+[86/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xam/apps/xmp_app.cpp.o
+[87/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xbdm/xbdm_module.cpp.o
+[88/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xam/xam_misc.cpp.o
+[89/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xbdm/xbdm_misc.cpp.o
+[90/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xboxkrnl/xboxkrnl_debug.cpp.o
+[91/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xboxkrnl/xboxkrnl_error.cpp.o
+[92/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xboxkrnl/xboxkrnl_hal.cpp.o
+[93/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xboxkrnl/xboxkrnl_crypt.cpp.o
+[94/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xboxkrnl/xboxkrnl_hid.cpp.o
+[95/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xboxkrnl/xboxkrnl_io_info.cpp.o
+[96/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xboxkrnl/xboxkrnl_io.cpp.o
+[97/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xboxkrnl/xboxkrnl_memory.cpp.o
+[98/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xboxkrnl/xboxkrnl_misc.cpp.o
+[99/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xboxkrnl/xboxkrnl_modules.cpp.o
+[100/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xboxkrnl/xboxkrnl_ob.cpp.o
+[101/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xboxkrnl/xboxkrnl_rtl.cpp.o
+[102/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xboxkrnl/xboxkrnl_strings.cpp.o
+[103/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xboxkrnl/xboxkrnl_module.cpp.o
+[104/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xboxkrnl/xboxkrnl_usbcam.cpp.o
+[105/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xboxkrnl/xboxkrnl_threading.cpp.o
+[106/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xboxkrnl/xboxkrnl_xconfig.cpp.o
+[107/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xboxkrnl/xboxkrnl_video.cpp.o
+[108/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xboxkrnl/xboxkrnl_audio.cpp.o
+[109/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/xboxkrnl/xboxkrnl_audio_xma.cpp.o
+[110/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/crt/heap.cpp.o
+[111/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/crt/memory.cpp.o
+[112/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/crt/file.cpp.o
+[113/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/crt/string.cpp.o
+[114/335] Building CXX object runtime/src/system/CMakeFiles/rexruntime.dir/__/kernel/crt/threading.cpp.o
+[115/335] Linking CXX static library runtime/src/system/libguardian_heroes_runtime.a
+[116/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/cmake_pch.hxx.pch
+[117/335] Building CXX object CMakeFiles/guardian_heroes_gpu_backend.dir/src/gh_gpu_graphics_system.cpp.o
+[118/335] Building CXX object CMakeFiles/guardian_heroes_gpu_backend.dir/src/gh_gpu_command_processor.cpp.o
+[119/335] Building CXX object CMakeFiles/guardian_heroes_gpu_backend.dir/src/gh_gpu_vulkan_graphics_system.cpp.o
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_graphics_system.cpp:12:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_command_processor.h:33:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:37:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:23:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_texture_cache.h:19:
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:168:53: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  168 |     TextureKey(const TextureKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                     ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:168:53: note: explicitly cast the pointer to silence this warning
+  168 |     TextureKey(const TextureKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                     ^
+      |                                                     (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:170:19: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  170 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:170:19: note: explicitly cast the pointer to silence this warning
+  170 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:175:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  175 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:175:19: note: explicitly cast the pointer to silence this warning
+  175 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:470:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureBinding' [-Wnontrivial-memcall]
+  470 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:470:19: note: explicitly cast the pointer to silence this warning
+  470 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_graphics_system.cpp:12:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_command_processor.h:33:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:37:
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:412:61: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanRenderTargetCache::FramebufferKey' [-Wnontrivial-memcall]
+  412 |     FramebufferKey(const FramebufferKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                             ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:412:61: note: explicitly cast the pointer to silence this warning
+  412 |     FramebufferKey(const FramebufferKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                             ^
+      |                                                             (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:414:19: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanRenderTargetCache::FramebufferKey' [-Wnontrivial-memcall]
+  414 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:414:19: note: explicitly cast the pointer to silence this warning
+  414 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:421:32: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanRenderTargetCache::FramebufferKey' [-Wnontrivial-memcall]
+  421 |     void Reset() { std::memset(this, 0, sizeof(*this)); }
+      |                                ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:421:32: note: explicitly cast the pointer to silence this warning
+  421 |     void Reset() { std::memset(this, 0, sizeof(*this)); }
+      |                                ^
+      |                                (void*)
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_graphics_system.cpp:12:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_command_processor.h:33:
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:209:19: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanPipelineCache::PipelineDescription' [-Wnontrivial-memcall]
+  209 |       std::memcpy(this, &description, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:209:19: note: explicitly cast the pointer to silence this warning
+  209 |       std::memcpy(this, &description, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:130:66: note: expanded from macro 'REXPACKEDSTRUCT'
+  130 | #define REXPACKEDSTRUCT(name, value) _REXPACKEDSCOPE(struct name value)
+      |                                                                  ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:126:28: note: expanded from macro '_REXPACKEDSCOPE'
+  126 |   _Pragma("pack(push, 1)") body; \
+      |                            ^
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_graphics_system.cpp:12:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_command_processor.h:33:
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:212:19: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanPipelineCache::PipelineDescription' [-Wnontrivial-memcall]
+  212 |       std::memcpy(this, &description, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:212:19: note: explicitly cast the pointer to silence this warning
+  212 |       std::memcpy(this, &description, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:130:66: note: expanded from macro 'REXPACKEDSTRUCT'
+  130 | #define REXPACKEDSTRUCT(name, value) _REXPACKEDSCOPE(struct name value)
+      |                                                                  ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:126:28: note: expanded from macro '_REXPACKEDSCOPE'
+  126 |   _Pragma("pack(push, 1)") body; \
+      |                            ^
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_graphics_system.cpp:12:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_command_processor.h:33:
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:219:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanPipelineCache::PipelineDescription' [-Wnontrivial-memcall]
+  219 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:219:19: note: explicitly cast the pointer to silence this warning
+  219 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:130:66: note: expanded from macro 'REXPACKEDSTRUCT'
+  130 | #define REXPACKEDSTRUCT(name, value) _REXPACKEDSCOPE(struct name value)
+      |                                                                  ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:126:28: note: expanded from macro '_REXPACKEDSCOPE'
+  126 |   _Pragma("pack(push, 1)") body; \
+      |                            ^
+10 warnings generated.
+[120/335] Building CXX object CMakeFiles/guardian_heroes_gpu_backend.dir/src/gh_gpu_vulkan_deferred_command_buffer.cpp.o
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_deferred_command_buffer.cpp:19:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_command_processor.h:33:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:37:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:23:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_texture_cache.h:19:
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:168:53: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  168 |     TextureKey(const TextureKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                     ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:168:53: note: explicitly cast the pointer to silence this warning
+  168 |     TextureKey(const TextureKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                     ^
+      |                                                     (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:170:19: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  170 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:170:19: note: explicitly cast the pointer to silence this warning
+  170 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:175:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  175 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:175:19: note: explicitly cast the pointer to silence this warning
+  175 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:470:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureBinding' [-Wnontrivial-memcall]
+  470 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:470:19: note: explicitly cast the pointer to silence this warning
+  470 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_deferred_command_buffer.cpp:19:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_command_processor.h:33:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:37:
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:412:61: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanRenderTargetCache::FramebufferKey' [-Wnontrivial-memcall]
+  412 |     FramebufferKey(const FramebufferKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                             ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:412:61: note: explicitly cast the pointer to silence this warning
+  412 |     FramebufferKey(const FramebufferKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                             ^
+      |                                                             (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:414:19: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanRenderTargetCache::FramebufferKey' [-Wnontrivial-memcall]
+  414 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:414:19: note: explicitly cast the pointer to silence this warning
+  414 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:421:32: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanRenderTargetCache::FramebufferKey' [-Wnontrivial-memcall]
+  421 |     void Reset() { std::memset(this, 0, sizeof(*this)); }
+      |                                ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:421:32: note: explicitly cast the pointer to silence this warning
+  421 |     void Reset() { std::memset(this, 0, sizeof(*this)); }
+      |                                ^
+      |                                (void*)
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_deferred_command_buffer.cpp:19:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_command_processor.h:33:
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:209:19: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanPipelineCache::PipelineDescription' [-Wnontrivial-memcall]
+  209 |       std::memcpy(this, &description, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:209:19: note: explicitly cast the pointer to silence this warning
+  209 |       std::memcpy(this, &description, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:130:66: note: expanded from macro 'REXPACKEDSTRUCT'
+  130 | #define REXPACKEDSTRUCT(name, value) _REXPACKEDSCOPE(struct name value)
+      |                                                                  ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:126:28: note: expanded from macro '_REXPACKEDSCOPE'
+  126 |   _Pragma("pack(push, 1)") body; \
+      |                            ^
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_deferred_command_buffer.cpp:19:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_command_processor.h:33:
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:212:19: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanPipelineCache::PipelineDescription' [-Wnontrivial-memcall]
+  212 |       std::memcpy(this, &description, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:212:19: note: explicitly cast the pointer to silence this warning
+  212 |       std::memcpy(this, &description, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:130:66: note: expanded from macro 'REXPACKEDSTRUCT'
+  130 | #define REXPACKEDSTRUCT(name, value) _REXPACKEDSCOPE(struct name value)
+      |                                                                  ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:126:28: note: expanded from macro '_REXPACKEDSCOPE'
+  126 |   _Pragma("pack(push, 1)") body; \
+      |                            ^
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_deferred_command_buffer.cpp:19:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_command_processor.h:33:
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:219:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanPipelineCache::PipelineDescription' [-Wnontrivial-memcall]
+  219 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:219:19: note: explicitly cast the pointer to silence this warning
+  219 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:130:66: note: expanded from macro 'REXPACKEDSTRUCT'
+  130 | #define REXPACKEDSTRUCT(name, value) _REXPACKEDSCOPE(struct name value)
+      |                                                                  ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:126:28: note: expanded from macro '_REXPACKEDSCOPE'
+  126 |   _Pragma("pack(push, 1)") body; \
+      |                            ^
+10 warnings generated.
+[121/335] Building CXX object CMakeFiles/guardian_heroes_gpu_backend.dir/src/gh_gpu_vulkan_command_processor.cpp.o
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_command_processor.cpp:36:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_command_processor.h:33:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:37:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:23:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_texture_cache.h:19:
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:168:53: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  168 |     TextureKey(const TextureKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                     ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:168:53: note: explicitly cast the pointer to silence this warning
+  168 |     TextureKey(const TextureKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                     ^
+      |                                                     (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:170:19: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  170 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:170:19: note: explicitly cast the pointer to silence this warning
+  170 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:175:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  175 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:175:19: note: explicitly cast the pointer to silence this warning
+  175 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:470:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureBinding' [-Wnontrivial-memcall]
+  470 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:470:19: note: explicitly cast the pointer to silence this warning
+  470 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_command_processor.cpp:36:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_command_processor.h:33:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:37:
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:412:61: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanRenderTargetCache::FramebufferKey' [-Wnontrivial-memcall]
+  412 |     FramebufferKey(const FramebufferKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                             ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:412:61: note: explicitly cast the pointer to silence this warning
+  412 |     FramebufferKey(const FramebufferKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                             ^
+      |                                                             (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:414:19: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanRenderTargetCache::FramebufferKey' [-Wnontrivial-memcall]
+  414 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:414:19: note: explicitly cast the pointer to silence this warning
+  414 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:421:32: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanRenderTargetCache::FramebufferKey' [-Wnontrivial-memcall]
+  421 |     void Reset() { std::memset(this, 0, sizeof(*this)); }
+      |                                ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:421:32: note: explicitly cast the pointer to silence this warning
+  421 |     void Reset() { std::memset(this, 0, sizeof(*this)); }
+      |                                ^
+      |                                (void*)
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_command_processor.cpp:36:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_command_processor.h:33:
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:209:19: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanPipelineCache::PipelineDescription' [-Wnontrivial-memcall]
+  209 |       std::memcpy(this, &description, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:209:19: note: explicitly cast the pointer to silence this warning
+  209 |       std::memcpy(this, &description, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:130:66: note: expanded from macro 'REXPACKEDSTRUCT'
+  130 | #define REXPACKEDSTRUCT(name, value) _REXPACKEDSCOPE(struct name value)
+      |                                                                  ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:126:28: note: expanded from macro '_REXPACKEDSCOPE'
+  126 |   _Pragma("pack(push, 1)") body; \
+      |                            ^
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_command_processor.cpp:36:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_command_processor.h:33:
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:212:19: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanPipelineCache::PipelineDescription' [-Wnontrivial-memcall]
+  212 |       std::memcpy(this, &description, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:212:19: note: explicitly cast the pointer to silence this warning
+  212 |       std::memcpy(this, &description, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:130:66: note: expanded from macro 'REXPACKEDSTRUCT'
+  130 | #define REXPACKEDSTRUCT(name, value) _REXPACKEDSCOPE(struct name value)
+      |                                                                  ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:126:28: note: expanded from macro '_REXPACKEDSCOPE'
+  126 |   _Pragma("pack(push, 1)") body; \
+      |                            ^
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_command_processor.cpp:36:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_command_processor.h:33:
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:219:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanPipelineCache::PipelineDescription' [-Wnontrivial-memcall]
+  219 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:219:19: note: explicitly cast the pointer to silence this warning
+  219 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:130:66: note: expanded from macro 'REXPACKEDSTRUCT'
+  130 | #define REXPACKEDSTRUCT(name, value) _REXPACKEDSCOPE(struct name value)
+      |                                                                  ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:126:28: note: expanded from macro '_REXPACKEDSCOPE'
+  126 |   _Pragma("pack(push, 1)") body; \
+      |                            ^
+10 warnings generated.
+[122/335] Building CXX object CMakeFiles/guardian_heroes_gpu_backend.dir/src/gh_gpu_vulkan_pipeline_cache.cpp.o
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.cpp:42:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_command_processor.h:33:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:37:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:23:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_texture_cache.h:19:
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:168:53: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  168 |     TextureKey(const TextureKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                     ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:168:53: note: explicitly cast the pointer to silence this warning
+  168 |     TextureKey(const TextureKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                     ^
+      |                                                     (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:170:19: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  170 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:170:19: note: explicitly cast the pointer to silence this warning
+  170 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:175:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  175 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:175:19: note: explicitly cast the pointer to silence this warning
+  175 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:470:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureBinding' [-Wnontrivial-memcall]
+  470 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:470:19: note: explicitly cast the pointer to silence this warning
+  470 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.cpp:42:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_command_processor.h:33:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:37:
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:412:61: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanRenderTargetCache::FramebufferKey' [-Wnontrivial-memcall]
+  412 |     FramebufferKey(const FramebufferKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                             ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:412:61: note: explicitly cast the pointer to silence this warning
+  412 |     FramebufferKey(const FramebufferKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                             ^
+      |                                                             (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:414:19: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanRenderTargetCache::FramebufferKey' [-Wnontrivial-memcall]
+  414 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:414:19: note: explicitly cast the pointer to silence this warning
+  414 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:421:32: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanRenderTargetCache::FramebufferKey' [-Wnontrivial-memcall]
+  421 |     void Reset() { std::memset(this, 0, sizeof(*this)); }
+      |                                ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:421:32: note: explicitly cast the pointer to silence this warning
+  421 |     void Reset() { std::memset(this, 0, sizeof(*this)); }
+      |                                ^
+      |                                (void*)
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.cpp:42:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_command_processor.h:33:
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:209:19: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanPipelineCache::PipelineDescription' [-Wnontrivial-memcall]
+  209 |       std::memcpy(this, &description, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:209:19: note: explicitly cast the pointer to silence this warning
+  209 |       std::memcpy(this, &description, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:130:66: note: expanded from macro 'REXPACKEDSTRUCT'
+  130 | #define REXPACKEDSTRUCT(name, value) _REXPACKEDSCOPE(struct name value)
+      |                                                                  ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:126:28: note: expanded from macro '_REXPACKEDSCOPE'
+  126 |   _Pragma("pack(push, 1)") body; \
+      |                            ^
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.cpp:42:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_command_processor.h:33:
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:212:19: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanPipelineCache::PipelineDescription' [-Wnontrivial-memcall]
+  212 |       std::memcpy(this, &description, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:212:19: note: explicitly cast the pointer to silence this warning
+  212 |       std::memcpy(this, &description, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:130:66: note: expanded from macro 'REXPACKEDSTRUCT'
+  130 | #define REXPACKEDSTRUCT(name, value) _REXPACKEDSCOPE(struct name value)
+      |                                                                  ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:126:28: note: expanded from macro '_REXPACKEDSCOPE'
+  126 |   _Pragma("pack(push, 1)") body; \
+      |                            ^
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.cpp:42:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_command_processor.h:33:
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:219:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanPipelineCache::PipelineDescription' [-Wnontrivial-memcall]
+  219 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:219:19: note: explicitly cast the pointer to silence this warning
+  219 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:130:66: note: expanded from macro 'REXPACKEDSTRUCT'
+  130 | #define REXPACKEDSTRUCT(name, value) _REXPACKEDSCOPE(struct name value)
+      |                                                                  ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:126:28: note: expanded from macro '_REXPACKEDSCOPE'
+  126 |   _Pragma("pack(push, 1)") body; \
+      |                            ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.cpp:1195:19: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'PipelineDescription' [-Wnontrivial-memcall]
+ 1195 |       std::memcpy(&stored_description.description, &description, sizeof(description));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.cpp:1195:19: note: explicitly cast the pointer to silence this warning
+ 1195 |       std::memcpy(&stored_description.description, &description, sizeof(description));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.cpp:3664:21: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'PipelineStoredDescription' [-Wnontrivial-memcall]
+ 3664 |         std::memcpy(&pipeline_description, &storage_write_pipeline_queue_.front(),
+      |                     ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.cpp:3664:21: note: explicitly cast the pointer to silence this warning
+ 3664 |         std::memcpy(&pipeline_description, &storage_write_pipeline_queue_.front(),
+      |                     ^
+      |                     (void*)
+12 warnings generated.
+[123/335] Building CXX object CMakeFiles/guardian_heroes_gpu_backend.dir/src/gh_gpu_vulkan_primitive_processor.cpp.o
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_primitive_processor.cpp:18:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_command_processor.h:33:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:37:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:23:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_texture_cache.h:19:
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:168:53: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  168 |     TextureKey(const TextureKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                     ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:168:53: note: explicitly cast the pointer to silence this warning
+  168 |     TextureKey(const TextureKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                     ^
+      |                                                     (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:170:19: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  170 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:170:19: note: explicitly cast the pointer to silence this warning
+  170 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:175:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  175 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:175:19: note: explicitly cast the pointer to silence this warning
+  175 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:470:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureBinding' [-Wnontrivial-memcall]
+  470 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:470:19: note: explicitly cast the pointer to silence this warning
+  470 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_primitive_processor.cpp:18:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_command_processor.h:33:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:37:
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:412:61: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanRenderTargetCache::FramebufferKey' [-Wnontrivial-memcall]
+  412 |     FramebufferKey(const FramebufferKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                             ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:412:61: note: explicitly cast the pointer to silence this warning
+  412 |     FramebufferKey(const FramebufferKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                             ^
+      |                                                             (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:414:19: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanRenderTargetCache::FramebufferKey' [-Wnontrivial-memcall]
+  414 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:414:19: note: explicitly cast the pointer to silence this warning
+  414 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:421:32: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanRenderTargetCache::FramebufferKey' [-Wnontrivial-memcall]
+  421 |     void Reset() { std::memset(this, 0, sizeof(*this)); }
+      |                                ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:421:32: note: explicitly cast the pointer to silence this warning
+  421 |     void Reset() { std::memset(this, 0, sizeof(*this)); }
+      |                                ^
+      |                                (void*)
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_primitive_processor.cpp:18:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_command_processor.h:33:
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:209:19: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanPipelineCache::PipelineDescription' [-Wnontrivial-memcall]
+  209 |       std::memcpy(this, &description, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:209:19: note: explicitly cast the pointer to silence this warning
+  209 |       std::memcpy(this, &description, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:130:66: note: expanded from macro 'REXPACKEDSTRUCT'
+  130 | #define REXPACKEDSTRUCT(name, value) _REXPACKEDSCOPE(struct name value)
+      |                                                                  ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:126:28: note: expanded from macro '_REXPACKEDSCOPE'
+  126 |   _Pragma("pack(push, 1)") body; \
+      |                            ^
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_primitive_processor.cpp:18:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_command_processor.h:33:
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:212:19: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanPipelineCache::PipelineDescription' [-Wnontrivial-memcall]
+  212 |       std::memcpy(this, &description, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:212:19: note: explicitly cast the pointer to silence this warning
+  212 |       std::memcpy(this, &description, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:130:66: note: expanded from macro 'REXPACKEDSTRUCT'
+  130 | #define REXPACKEDSTRUCT(name, value) _REXPACKEDSCOPE(struct name value)
+      |                                                                  ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:126:28: note: expanded from macro '_REXPACKEDSCOPE'
+  126 |   _Pragma("pack(push, 1)") body; \
+      |                            ^
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_primitive_processor.cpp:18:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_command_processor.h:33:
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:219:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanPipelineCache::PipelineDescription' [-Wnontrivial-memcall]
+  219 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:219:19: note: explicitly cast the pointer to silence this warning
+  219 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:130:66: note: expanded from macro 'REXPACKEDSTRUCT'
+  130 | #define REXPACKEDSTRUCT(name, value) _REXPACKEDSCOPE(struct name value)
+      |                                                                  ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:126:28: note: expanded from macro '_REXPACKEDSCOPE'
+  126 |   _Pragma("pack(push, 1)") body; \
+      |                            ^
+10 warnings generated.
+[124/335] Building CXX object CMakeFiles/guardian_heroes_gpu_backend.dir/src/gh_gpu_vulkan_render_target_cache.cpp.o
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.cpp:29:
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:168:53: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  168 |     TextureKey(const TextureKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                     ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:168:53: note: explicitly cast the pointer to silence this warning
+  168 |     TextureKey(const TextureKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                     ^
+      |                                                     (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:170:19: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  170 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:170:19: note: explicitly cast the pointer to silence this warning
+  170 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:175:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  175 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:175:19: note: explicitly cast the pointer to silence this warning
+  175 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:470:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureBinding' [-Wnontrivial-memcall]
+  470 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:470:19: note: explicitly cast the pointer to silence this warning
+  470 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.cpp:32:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_command_processor.h:33:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:37:
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:412:61: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanRenderTargetCache::FramebufferKey' [-Wnontrivial-memcall]
+  412 |     FramebufferKey(const FramebufferKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                             ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:412:61: note: explicitly cast the pointer to silence this warning
+  412 |     FramebufferKey(const FramebufferKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                             ^
+      |                                                             (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:414:19: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanRenderTargetCache::FramebufferKey' [-Wnontrivial-memcall]
+  414 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:414:19: note: explicitly cast the pointer to silence this warning
+  414 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:421:32: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanRenderTargetCache::FramebufferKey' [-Wnontrivial-memcall]
+  421 |     void Reset() { std::memset(this, 0, sizeof(*this)); }
+      |                                ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:421:32: note: explicitly cast the pointer to silence this warning
+  421 |     void Reset() { std::memset(this, 0, sizeof(*this)); }
+      |                                ^
+      |                                (void*)
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.cpp:32:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_command_processor.h:33:
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:209:19: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanPipelineCache::PipelineDescription' [-Wnontrivial-memcall]
+  209 |       std::memcpy(this, &description, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:209:19: note: explicitly cast the pointer to silence this warning
+  209 |       std::memcpy(this, &description, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:130:66: note: expanded from macro 'REXPACKEDSTRUCT'
+  130 | #define REXPACKEDSTRUCT(name, value) _REXPACKEDSCOPE(struct name value)
+      |                                                                  ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:126:28: note: expanded from macro '_REXPACKEDSCOPE'
+  126 |   _Pragma("pack(push, 1)") body; \
+      |                            ^
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.cpp:32:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_command_processor.h:33:
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:212:19: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanPipelineCache::PipelineDescription' [-Wnontrivial-memcall]
+  212 |       std::memcpy(this, &description, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:212:19: note: explicitly cast the pointer to silence this warning
+  212 |       std::memcpy(this, &description, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:130:66: note: expanded from macro 'REXPACKEDSTRUCT'
+  130 | #define REXPACKEDSTRUCT(name, value) _REXPACKEDSCOPE(struct name value)
+      |                                                                  ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:126:28: note: expanded from macro '_REXPACKEDSCOPE'
+  126 |   _Pragma("pack(push, 1)") body; \
+      |                            ^
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.cpp:32:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_command_processor.h:33:
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:219:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanPipelineCache::PipelineDescription' [-Wnontrivial-memcall]
+  219 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:219:19: note: explicitly cast the pointer to silence this warning
+  219 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:130:66: note: expanded from macro 'REXPACKEDSTRUCT'
+  130 | #define REXPACKEDSTRUCT(name, value) _REXPACKEDSCOPE(struct name value)
+      |                                                                  ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:126:28: note: expanded from macro '_REXPACKEDSCOPE'
+  126 |   _Pragma("pack(push, 1)") body; \
+      |                            ^
+10 warnings generated.
+[125/335] Building CXX object CMakeFiles/guardian_heroes_gpu_backend.dir/src/gh_gpu_vulkan_shared_memory.cpp.o
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_shared_memory.cpp:19:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_command_processor.h:33:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:37:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:23:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_texture_cache.h:19:
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:168:53: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  168 |     TextureKey(const TextureKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                     ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:168:53: note: explicitly cast the pointer to silence this warning
+  168 |     TextureKey(const TextureKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                     ^
+      |                                                     (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:170:19: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  170 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:170:19: note: explicitly cast the pointer to silence this warning
+  170 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:175:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  175 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:175:19: note: explicitly cast the pointer to silence this warning
+  175 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:470:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureBinding' [-Wnontrivial-memcall]
+  470 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:470:19: note: explicitly cast the pointer to silence this warning
+  470 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_shared_memory.cpp:19:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_command_processor.h:33:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:37:
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:412:61: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanRenderTargetCache::FramebufferKey' [-Wnontrivial-memcall]
+  412 |     FramebufferKey(const FramebufferKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                             ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:412:61: note: explicitly cast the pointer to silence this warning
+  412 |     FramebufferKey(const FramebufferKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                             ^
+      |                                                             (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:414:19: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanRenderTargetCache::FramebufferKey' [-Wnontrivial-memcall]
+  414 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:414:19: note: explicitly cast the pointer to silence this warning
+  414 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:421:32: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanRenderTargetCache::FramebufferKey' [-Wnontrivial-memcall]
+  421 |     void Reset() { std::memset(this, 0, sizeof(*this)); }
+      |                                ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:421:32: note: explicitly cast the pointer to silence this warning
+  421 |     void Reset() { std::memset(this, 0, sizeof(*this)); }
+      |                                ^
+      |                                (void*)
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_shared_memory.cpp:19:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_command_processor.h:33:
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:209:19: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanPipelineCache::PipelineDescription' [-Wnontrivial-memcall]
+  209 |       std::memcpy(this, &description, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:209:19: note: explicitly cast the pointer to silence this warning
+  209 |       std::memcpy(this, &description, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:130:66: note: expanded from macro 'REXPACKEDSTRUCT'
+  130 | #define REXPACKEDSTRUCT(name, value) _REXPACKEDSCOPE(struct name value)
+      |                                                                  ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:126:28: note: expanded from macro '_REXPACKEDSCOPE'
+  126 |   _Pragma("pack(push, 1)") body; \
+      |                            ^
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_shared_memory.cpp:19:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_command_processor.h:33:
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:212:19: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanPipelineCache::PipelineDescription' [-Wnontrivial-memcall]
+  212 |       std::memcpy(this, &description, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:212:19: note: explicitly cast the pointer to silence this warning
+  212 |       std::memcpy(this, &description, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:130:66: note: expanded from macro 'REXPACKEDSTRUCT'
+  130 | #define REXPACKEDSTRUCT(name, value) _REXPACKEDSCOPE(struct name value)
+      |                                                                  ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:126:28: note: expanded from macro '_REXPACKEDSCOPE'
+  126 |   _Pragma("pack(push, 1)") body; \
+      |                            ^
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_shared_memory.cpp:19:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_command_processor.h:33:
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:219:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanPipelineCache::PipelineDescription' [-Wnontrivial-memcall]
+  219 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:219:19: note: explicitly cast the pointer to silence this warning
+  219 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:130:66: note: expanded from macro 'REXPACKEDSTRUCT'
+  130 | #define REXPACKEDSTRUCT(name, value) _REXPACKEDSCOPE(struct name value)
+      |                                                                  ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:126:28: note: expanded from macro '_REXPACKEDSCOPE'
+  126 |   _Pragma("pack(push, 1)") body; \
+      |                            ^
+10 warnings generated.
+[126/335] Building CXX object CMakeFiles/guardian_heroes_gpu_backend.dir/src/gh_gpu_vulkan_texture_cache.cpp.o
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_texture_cache.cpp:27:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_command_processor.h:33:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:37:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:23:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_texture_cache.h:19:
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:168:53: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  168 |     TextureKey(const TextureKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                     ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:168:53: note: explicitly cast the pointer to silence this warning
+  168 |     TextureKey(const TextureKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                     ^
+      |                                                     (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:170:19: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  170 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:170:19: note: explicitly cast the pointer to silence this warning
+  170 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:175:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureKey' [-Wnontrivial-memcall]
+  175 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:175:19: note: explicitly cast the pointer to silence this warning
+  175 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:470:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::TextureCache::TextureBinding' [-Wnontrivial-memcall]
+  470 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_texture_cache.h:470:19: note: explicitly cast the pointer to silence this warning
+  470 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_texture_cache.cpp:27:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_command_processor.h:33:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:37:
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:412:61: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanRenderTargetCache::FramebufferKey' [-Wnontrivial-memcall]
+  412 |     FramebufferKey(const FramebufferKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                             ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:412:61: note: explicitly cast the pointer to silence this warning
+  412 |     FramebufferKey(const FramebufferKey& key) { std::memcpy(this, &key, sizeof(*this)); }
+      |                                                             ^
+      |                                                             (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:414:19: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanRenderTargetCache::FramebufferKey' [-Wnontrivial-memcall]
+  414 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:414:19: note: explicitly cast the pointer to silence this warning
+  414 |       std::memcpy(this, &key, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:421:32: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanRenderTargetCache::FramebufferKey' [-Wnontrivial-memcall]
+  421 |     void Reset() { std::memset(this, 0, sizeof(*this)); }
+      |                                ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_render_target_cache.h:421:32: note: explicitly cast the pointer to silence this warning
+  421 |     void Reset() { std::memset(this, 0, sizeof(*this)); }
+      |                                ^
+      |                                (void*)
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_texture_cache.cpp:27:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_command_processor.h:33:
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:209:19: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanPipelineCache::PipelineDescription' [-Wnontrivial-memcall]
+  209 |       std::memcpy(this, &description, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:209:19: note: explicitly cast the pointer to silence this warning
+  209 |       std::memcpy(this, &description, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:130:66: note: expanded from macro 'REXPACKEDSTRUCT'
+  130 | #define REXPACKEDSTRUCT(name, value) _REXPACKEDSCOPE(struct name value)
+      |                                                                  ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:126:28: note: expanded from macro '_REXPACKEDSCOPE'
+  126 |   _Pragma("pack(push, 1)") body; \
+      |                            ^
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_texture_cache.cpp:27:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_command_processor.h:33:
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:212:19: warning: first argument in call to 'memcpy' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanPipelineCache::PipelineDescription' [-Wnontrivial-memcall]
+  212 |       std::memcpy(this, &description, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:212:19: note: explicitly cast the pointer to silence this warning
+  212 |       std::memcpy(this, &description, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:130:66: note: expanded from macro 'REXPACKEDSTRUCT'
+  130 | #define REXPACKEDSTRUCT(name, value) _REXPACKEDSCOPE(struct name value)
+      |                                                                  ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:126:28: note: expanded from macro '_REXPACKEDSCOPE'
+  126 |   _Pragma("pack(push, 1)") body; \
+      |                            ^
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_texture_cache.cpp:27:
+In file included from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_command_processor.h:33:
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:219:19: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'rex::graphics::vulkan::VulkanPipelineCache::PipelineDescription' [-Wnontrivial-memcall]
+  219 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/src/gh_gpu_vulkan_pipeline_cache.h:219:19: note: explicitly cast the pointer to silence this warning
+  219 |       std::memset(this, 0, sizeof(*this));
+      |                   ^
+      |                   (void*)
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:130:66: note: expanded from macro 'REXPACKEDSTRUCT'
+  130 | #define REXPACKEDSTRUCT(name, value) _REXPACKEDSCOPE(struct name value)
+      |                                                                  ^
+/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/runtime/include/rex/platform.h:126:28: note: expanded from macro '_REXPACKEDSCOPE'
+  126 |   _Pragma("pack(push, 1)") body; \
+      |                            ^
+10 warnings generated.
+[127/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_init.cpp.o
+[128/335] Generating explicit-PC title continuation partitions
+13046 compiled, 2051 atomic hooks/imports, 5 queued imports, 0 unsupported generated functions
+[129/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.0.cpp.o
+[130/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.1.cpp.o
+[131/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.2.cpp.o
+[132/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.3.cpp.o
+[133/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.4.cpp.o
+[134/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_register.cpp.o
+[135/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.5.cpp.o
+[136/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.6.cpp.o
+[137/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.7.cpp.o
+[138/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.8.cpp.o
+[139/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.9.cpp.o
+[140/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.10.cpp.o
+[141/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.11.cpp.o
+[142/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.12.cpp.o
+[143/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.13.cpp.o
+[144/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.14.cpp.o
+[145/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.15.cpp.o
+[146/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.16.cpp.o
+[147/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.17.cpp.o
+[148/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.18.cpp.o
+[149/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.19.cpp.o
+[150/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.20.cpp.o
+[151/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.21.cpp.o
+[152/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.22.cpp.o
+[153/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.23.cpp.o
+[154/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.24.cpp.o
+[155/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.25.cpp.o
+[156/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.26.cpp.o
+[157/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.27.cpp.o
+[158/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.28.cpp.o
+[159/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.29.cpp.o
+[160/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.30.cpp.o
+[161/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.31.cpp.o
+[162/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.32.cpp.o
+[163/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.33.cpp.o
+[164/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.34.cpp.o
+[165/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.35.cpp.o
+[166/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.36.cpp.o
+[167/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.37.cpp.o
+[168/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.38.cpp.o
+[169/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.39.cpp.o
+[170/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.40.cpp.o
+[171/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.41.cpp.o
+[172/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.42.cpp.o
+[173/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.43.cpp.o
+[174/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.44.cpp.o
+[175/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.45.cpp.o
+[176/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.46.cpp.o
+[177/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.47.cpp.o
+[178/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.48.cpp.o
+[179/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.49.cpp.o
+[180/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.50.cpp.o
+[181/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.51.cpp.o
+[182/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.52.cpp.o
+[183/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.53.cpp.o
+[184/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.54.cpp.o
+[185/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.55.cpp.o
+[186/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.56.cpp.o
+[187/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.57.cpp.o
+[188/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.58.cpp.o
+[189/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.59.cpp.o
+[190/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.60.cpp.o
+[191/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.61.cpp.o
+[192/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.62.cpp.o
+[193/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.63.cpp.o
+[194/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.64.cpp.o
+[195/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.65.cpp.o
+[196/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.66.cpp.o
+[197/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.67.cpp.o
+[198/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.68.cpp.o
+[199/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.69.cpp.o
+[200/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.70.cpp.o
+[201/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.71.cpp.o
+[202/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.72.cpp.o
+[203/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.73.cpp.o
+[204/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.74.cpp.o
+[205/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.75.cpp.o
+[206/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.76.cpp.o
+[207/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.77.cpp.o
+[208/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.78.cpp.o
+[209/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.80.cpp.o
+[210/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.79.cpp.o
+[211/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.81.cpp.o
+[212/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.82.cpp.o
+[213/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.83.cpp.o
+[214/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.84.cpp.o
+[215/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.85.cpp.o
+[216/335] Linking CXX static library libguardian_heroes_gpu_backend.a
+[217/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation_support.dir/src/localization.cpp.o
+[218/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation_support.dir/src/localization_options.cpp.o
+[219/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation_support.dir/src/cheats.cpp.o
+[220/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation_support.dir/src/cheats_damage.cpp.o
+[221/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation_support.dir/src/gpu_wait.cpp.o
+[222/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation_support.dir/src/guest_abi_check.cpp.o
+[223/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation_support.dir/src/gh_clock_rex_adapter.cpp.o
+[224/335] Building CXX object CMakeFiles/guardian_heroes_recomp.dir/generated/default/guardian_heroes_recomp.86.cpp.o
+[225/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation_support.dir/src/gh_logging.cpp.o
+[226/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation_support.dir/src/gh_exceptions.cpp.o
+[227/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation_support.dir/src/gh_filesystem_imports.cpp.o
+[228/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation_support.dir/src/gh_filesystem_imports_rex_adapter.cpp.o
+[229/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation_support.dir/src/gh_controller_assignment.cpp.o
+[230/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation_support.dir/src/gh_controller_assignment_adapter.cpp.o
+[231/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation_support.dir/src/gh_memory_rex_adapter.cpp.o
+[232/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.0.cpp.o
+[233/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.1.cpp.o
+[234/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.10.cpp.o
+[235/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.11.cpp.o
+[236/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.12.cpp.o
+[237/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.13.cpp.o
+[238/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.14.cpp.o
+[239/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.15.cpp.o
+[240/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.16.cpp.o
+[241/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.17.cpp.o
+[242/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.18.cpp.o
+[243/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.19.cpp.o
+[244/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.2.cpp.o
+[245/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.20.cpp.o
+[246/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.21.cpp.o
+[247/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.22.cpp.o
+[248/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.23.cpp.o
+[249/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.24.cpp.o
+[250/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.25.cpp.o
+[251/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.26.cpp.o
+[252/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.27.cpp.o
+[253/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.28.cpp.o
+[254/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.29.cpp.o
+[255/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.3.cpp.o
+[256/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.30.cpp.o
+[257/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.31.cpp.o
+[258/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.32.cpp.o
+[259/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.33.cpp.o
+[260/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.34.cpp.o
+[261/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.35.cpp.o
+[262/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.36.cpp.o
+[263/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.37.cpp.o
+[264/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.38.cpp.o
+[265/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.39.cpp.o
+[266/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.4.cpp.o
+[267/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.40.cpp.o
+[268/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.41.cpp.o
+[269/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.42.cpp.o
+[270/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.43.cpp.o
+[271/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.44.cpp.o
+[272/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.45.cpp.o
+[273/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.46.cpp.o
+[274/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.47.cpp.o
+[275/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.48.cpp.o
+[276/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.49.cpp.o
+[277/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.50.cpp.o
+[278/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.5.cpp.o
+[279/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.51.cpp.o
+[280/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.52.cpp.o
+[281/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.53.cpp.o
+[282/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.54.cpp.o
+[283/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.55.cpp.o
+[284/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.56.cpp.o
+[285/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.58.cpp.o
+[286/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.57.cpp.o
+[287/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.59.cpp.o
+[288/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.6.cpp.o
+[289/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.60.cpp.o
+[290/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.61.cpp.o
+[291/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.62.cpp.o
+[292/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.63.cpp.o
+[293/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.64.cpp.o
+[294/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.65.cpp.o
+[295/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.66.cpp.o
+[296/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.67.cpp.o
+[297/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.68.cpp.o
+[298/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.69.cpp.o
+[299/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.7.cpp.o
+[300/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.70.cpp.o
+[301/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.71.cpp.o
+[302/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.72.cpp.o
+[303/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.73.cpp.o
+[304/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.74.cpp.o
+[305/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.75.cpp.o
+[306/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.76.cpp.o
+[307/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.77.cpp.o
+[308/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.78.cpp.o
+[309/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.79.cpp.o
+[310/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.8.cpp.o
+[311/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.80.cpp.o
+[312/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.81.cpp.o
+[313/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.83.cpp.o
+[314/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.84.cpp.o
+[315/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.85.cpp.o
+[316/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.82.cpp.o
+[317/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.86.cpp.o
+[318/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation_registry.cpp.o
+[319/335] Building CXX object runtime/src/graphics/CMakeFiles/rexgpu-xenos.dir/__/__/__/src/gh_gpu_factory.cpp.o
+[320/335] Building CXX object CMakeFiles/guardian_heroes.dir/src/main.cpp.o
+[321/335] Building CXX object CMakeFiles/guardian_heroes.dir/src/guardian_heroes_app.cpp.o
+[322/335] Building CXX object CMakeFiles/guardian_heroes_title_continuation.dir/title-continuation/gh_title_continuation.9.cpp.o
+[323/335] Building CXX object CMakeFiles/guardian_heroes.dir/src/localization.cpp.o
+[324/335] Building CXX object CMakeFiles/guardian_heroes.dir/src/localization_options.cpp.o
+[325/335] Building CXX object CMakeFiles/guardian_heroes.dir/src/cheats.cpp.o
+[326/335] Building CXX object CMakeFiles/guardian_heroes.dir/src/cheats_damage.cpp.o
+[327/335] Building CXX object CMakeFiles/guardian_heroes.dir/src/guest_abi_check.cpp.o
+[328/335] Linking CXX static library libguardian_heroes_title_continuation.a
+[329/335] Building CXX object CMakeFiles/guardian_heroes.dir/src/gh_filesystem_imports_rex_adapter.cpp.o
+[330/335] Building CXX object CMakeFiles/guardian_heroes_continuation_app.dir/src/main_continuation.cpp.o
+[331/335] Linking CXX static library runtime/src/graphics/libguardian_heroes_gpu.a
+[332/335] Linking CXX executable guardian_heroes
+ld: warning: ignoring duplicate libraries: '-lpthread', 'libguardian_heroes_clock.a', 'libguardian_heroes_threading.a', 'runtime/src/system/libguardian_heroes_runtime.a'
+[333/335] Building CXX object CMakeFiles/guardian_heroes_continuation_app.dir/src/guardian_heroes_app.cpp.o
+[334/335] Linking CXX executable guardian_heroes_continuation_app
+ld: warning: ignoring duplicate libraries: '-lpthread', 'runtime/src/system/libguardian_heroes_runtime.a'

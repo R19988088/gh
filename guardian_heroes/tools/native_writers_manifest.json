@@ -1,0 +1,4767 @@
+{
+  "count": 153,
+  "shapes": {
+    "field_setter": 73,
+    "field_copy": 11,
+    "fixed_record": 52,
+    "field_update": 17
+  },
+  "functions": [
+    {
+      "name": "sub_8262E8F8",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.69.cpp",
+      "line": 14676,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 8,
+          "offset": 4,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": []
+    },
+    {
+      "name": "sub_827789A0",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.55.cpp",
+      "line": 22952,
+      "shape": "field_copy",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [
+        {
+          "bits": 32,
+          "offset": 1416,
+          "base_register": 3
+        }
+      ],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 2428,
+          "base_register": 3
+        },
+        {
+          "bits": 8,
+          "offset": 2432,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 2436,
+          "base_register": 3
+        },
+        {
+          "bits": 8,
+          "offset": 2433,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        10,
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.53.cpp",
+          "line": 23776,
+          "function": "sub_82782B70"
+        }
+      ]
+    },
+    {
+      "name": "sub_8281E1F8",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.55.cpp",
+      "line": 27232,
+      "shape": "field_setter",
+      "pointer_registers": [
+        5
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 0,
+          "base_register": 5
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.53.cpp",
+          "line": 24403,
+          "function": "sub_82782B70"
+        }
+      ]
+    },
+    {
+      "name": "sub_825FB190",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.41.cpp",
+      "line": 12999,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 4,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 0,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 8,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        10,
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.26.cpp",
+          "line": 12921,
+          "function": "sub_825F7030"
+        }
+      ]
+    },
+    {
+      "name": "sub_827871A8",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.41.cpp",
+      "line": 24073,
+      "shape": "field_copy",
+      "pointer_registers": [
+        3,
+        4,
+        5
+      ],
+      "loads": [
+        {
+          "bits": 32,
+          "offset": 30672,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 30676,
+          "base_register": 3
+        }
+      ],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 0,
+          "base_register": 4
+        },
+        {
+          "bits": 32,
+          "offset": 0,
+          "base_register": 5
+        }
+      ],
+      "modified_registers": [
+        10,
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.19.cpp",
+          "line": 20076,
+          "function": "sub_8270A698"
+        }
+      ]
+    },
+    {
+      "name": "sub_824A4AB0",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.40.cpp",
+      "line": 3743,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 8,
+          "offset": 1726,
+          "base_register": 3
+        },
+        {
+          "bits": 8,
+          "offset": 1727,
+          "base_register": 3
+        },
+        {
+          "bits": 8,
+          "offset": 1728,
+          "base_register": 3
+        },
+        {
+          "bits": 8,
+          "offset": 1729,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.66.cpp",
+          "line": 6770,
+          "function": "sub_824F29E8"
+        }
+      ]
+    },
+    {
+      "name": "sub_826CF0D8",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.40.cpp",
+      "line": 19179,
+      "shape": "field_copy",
+      "pointer_registers": [
+        3,
+        4
+      ],
+      "loads": [
+        {
+          "bits": 32,
+          "offset": 8,
+          "base_register": 3
+        }
+      ],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 0,
+          "base_register": 4
+        }
+      ],
+      "modified_registers": [
+        3,
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.17.cpp",
+          "line": 18360,
+          "function": "sub_826BB400"
+        }
+      ]
+    },
+    {
+      "name": "sub_82703778",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.40.cpp",
+      "line": 20566,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 72,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.59.cpp",
+          "line": 20953,
+          "function": "sub_82706108"
+        }
+      ]
+    },
+    {
+      "name": "sub_8242F430",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.54.cpp",
+      "line": 824,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 0,
+          "base_register": 3
+        },
+        {
+          "bits": 8,
+          "offset": 0,
+          "base_register": 3
+        },
+        {
+          "bits": 8,
+          "offset": 1,
+          "base_register": 3
+        },
+        {
+          "bits": 8,
+          "offset": 2,
+          "base_register": 3
+        },
+        {
+          "bits": 8,
+          "offset": 3,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        10,
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.32.cpp",
+          "line": 517,
+          "function": "sub_8241B0D8"
+        }
+      ]
+    },
+    {
+      "name": "sub_8243F2A8",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.54.cpp",
+      "line": 1133,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 16,
+          "offset": 202,
+          "base_register": 3
+        },
+        {
+          "bits": 16,
+          "offset": 204,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.40.cpp",
+          "line": 4053,
+          "function": "sub_824A8890"
+        }
+      ]
+    },
+    {
+      "name": "sub_82441E08",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.54.cpp",
+      "line": 1222,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 8,
+          "offset": 233,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": []
+    },
+    {
+      "name": "sub_82411A50",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.68.cpp",
+      "line": 3,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 8,
+          "offset": 0,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 4,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 8,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 12,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        10,
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.52.cpp",
+          "line": 317,
+          "function": "sub_82421D08"
+        }
+      ]
+    },
+    {
+      "name": "sub_8247BAD8",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.68.cpp",
+      "line": 2697,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 208,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.45.cpp",
+          "line": 1746,
+          "function": "sub_82451D98"
+        }
+      ]
+    },
+    {
+      "name": "sub_82481800",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.81.cpp",
+      "line": 2885,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 16,
+          "offset": 358,
+          "base_register": 3
+        },
+        {
+          "bits": 8,
+          "offset": 363,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.82.cpp",
+          "line": 3451,
+          "function": "sub_8248CBF8"
+        }
+      ]
+    },
+    {
+      "name": "sub_826C9A90",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.81.cpp",
+      "line": 19784,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 0,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 4,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 8,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.46.cpp",
+          "line": 18608,
+          "function": "sub_826B7800"
+        }
+      ]
+    },
+    {
+      "name": "sub_8276E040",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.42.cpp",
+      "line": 23223,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 44,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 52,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 48,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 112,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 116,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 120,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.85.cpp",
+          "line": 22669,
+          "function": "sub_8276E0B0"
+        }
+      ]
+    },
+    {
+      "name": "sub_82774B20",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.42.cpp",
+      "line": 23484,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 64,
+          "offset": 64,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": []
+    },
+    {
+      "name": "sub_8260B3E0",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.56.cpp",
+      "line": 13597,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 1352,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 1344,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 1348,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.49.cpp",
+          "line": 13852,
+          "function": "sub_8260E608"
+        }
+      ]
+    },
+    {
+      "name": "sub_826F4140",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.57.cpp",
+      "line": 20765,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 356,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.16.cpp",
+          "line": 20261,
+          "function": "sub_826F3EF0"
+        }
+      ]
+    },
+    {
+      "name": "sub_827073C8",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.57.cpp",
+      "line": 21199,
+      "shape": "field_copy",
+      "pointer_registers": [
+        3,
+        4
+      ],
+      "loads": [
+        {
+          "bits": 64,
+          "offset": 288,
+          "base_register": 3
+        }
+      ],
+      "stores": [
+        {
+          "bits": 64,
+          "offset": 0,
+          "base_register": 4
+        }
+      ],
+      "modified_registers": [
+        3,
+        11
+      ],
+      "callers": []
+    },
+    {
+      "name": "sub_8243AA18",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.80.cpp",
+      "line": 909,
+      "shape": "field_update",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [
+        {
+          "bits": 32,
+          "offset": 4,
+          "base_register": 3
+        }
+      ],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 4,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": []
+    },
+    {
+      "name": "sub_824A6C30",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.80.cpp",
+      "line": 3714,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 12,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 284,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 160,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": []
+    },
+    {
+      "name": "sub_824D5C98",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.80.cpp",
+      "line": 4994,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 8,
+          "offset": 12,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": []
+    },
+    {
+      "name": "sub_827EF388",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.80.cpp",
+      "line": 25474,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 128,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 124,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 64,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 96,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 76,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        10,
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.18.cpp",
+          "line": 21852,
+          "function": "sub_8273F890"
+        }
+      ]
+    },
+    {
+      "name": "sub_824A5960",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.84.cpp",
+      "line": 3987,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 244,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 432,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 628,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 776,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 956,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": []
+    },
+    {
+      "name": "sub_825F74D0",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.84.cpp",
+      "line": 13112,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 4,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 0,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 8,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 56,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 60,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 76,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 80,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        10,
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.38.cpp",
+          "line": 12906,
+          "function": "sub_825F6858"
+        }
+      ]
+    },
+    {
+      "name": "sub_82415238",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.47.cpp",
+      "line": 24,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 84,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.83.cpp",
+          "line": 5383,
+          "function": "sub_824E2E10"
+        }
+      ]
+    },
+    {
+      "name": "sub_8247BAB8",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.47.cpp",
+      "line": 2715,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 208,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.63.cpp",
+          "line": 1776,
+          "function": "sub_8244CE18"
+        }
+      ]
+    },
+    {
+      "name": "sub_82496C40",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.46.cpp",
+      "line": 3403,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 16,
+          "offset": 12,
+          "base_register": 3
+        },
+        {
+          "bits": 8,
+          "offset": 14,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.16.cpp",
+          "line": 5462,
+          "function": "sub_824D5998"
+        }
+      ]
+    },
+    {
+      "name": "sub_82774B10",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.46.cpp",
+      "line": 23181,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 64,
+          "offset": 56,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": []
+    },
+    {
+      "name": "sub_824A5B90",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.50.cpp",
+      "line": 3851,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 16,
+          "offset": 6,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": []
+    },
+    {
+      "name": "sub_826C9A70",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.50.cpp",
+      "line": 18826,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 0,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 4,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 8,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 12,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        10,
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.55.cpp",
+          "line": 19375,
+          "function": "sub_826CFDA8"
+        }
+      ]
+    },
+    {
+      "name": "sub_826752F8",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.78.cpp",
+      "line": 16797,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 264,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.11.cpp",
+          "line": 15258,
+          "function": "sub_826504D0"
+        }
+      ]
+    },
+    {
+      "name": "sub_82786AE0",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.79.cpp",
+      "line": 21220,
+      "shape": "field_update",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [
+        {
+          "bits": 32,
+          "offset": 31532,
+          "base_register": 3
+        }
+      ],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 31532,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        10,
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.77.cpp",
+          "line": 23551,
+          "function": "sub_82775498"
+        }
+      ]
+    },
+    {
+      "name": "sub_8260F630",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.45.cpp",
+      "line": 13394,
+      "shape": "field_update",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [
+        {
+          "bits": 32,
+          "offset": 1376,
+          "base_register": 3
+        }
+      ],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 1376,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.80.cpp",
+          "line": 13140,
+          "function": "sub_825FA018"
+        }
+      ]
+    },
+    {
+      "name": "sub_82458500",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.51.cpp",
+      "line": 1878,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 8,
+          "offset": 600,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": []
+    },
+    {
+      "name": "sub_8246BDA0",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.51.cpp",
+      "line": 2423,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 8,
+          "offset": 644,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": []
+    },
+    {
+      "name": "sub_824A6D10",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.51.cpp",
+      "line": 3887,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 244,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 432,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 628,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 776,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 956,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 1228,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 1500,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 1376,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": []
+    },
+    {
+      "name": "sub_826F67B8",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.51.cpp",
+      "line": 20642,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 36,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.39.cpp",
+          "line": 20460,
+          "function": "sub_826F3D90"
+        }
+      ]
+    },
+    {
+      "name": "sub_82697098",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.86.cpp",
+      "line": 17620,
+      "shape": "field_copy",
+      "pointer_registers": [
+        3,
+        4
+      ],
+      "loads": [
+        {
+          "bits": 32,
+          "offset": 28,
+          "base_register": 3
+        }
+      ],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 0,
+          "base_register": 4
+        }
+      ],
+      "modified_registers": [
+        3,
+        11
+      ],
+      "callers": []
+    },
+    {
+      "name": "sub_8243F2B8",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.36.cpp",
+      "line": 1107,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 16,
+          "offset": 210,
+          "base_register": 3
+        },
+        {
+          "bits": 16,
+          "offset": 212,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.40.cpp",
+          "line": 4087,
+          "function": "sub_824A8890"
+        }
+      ]
+    },
+    {
+      "name": "sub_8247BAA8",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.36.cpp",
+      "line": 2693,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 208,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.40.cpp",
+          "line": 1659,
+          "function": "sub_82451BD8"
+        }
+      ]
+    },
+    {
+      "name": "sub_825FB320",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.22.cpp",
+      "line": 12890,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 4,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 0,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.2.cpp",
+          "line": 13346,
+          "function": "sub_825F55F0"
+        }
+      ]
+    },
+    {
+      "name": "sub_82685F00",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.22.cpp",
+      "line": 16757,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 56,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 40,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": []
+    },
+    {
+      "name": "sub_8241BAD0",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.5.cpp",
+      "line": 186,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 0,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 4,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 8,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 12,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 16,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.45.cpp",
+          "line": 15944,
+          "function": "sub_82668B90"
+        }
+      ]
+    },
+    {
+      "name": "sub_825D8E20",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.5.cpp",
+      "line": 11773,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 13872,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.75.cpp",
+          "line": 12760,
+          "function": "sub_825E83B0"
+        }
+      ]
+    },
+    {
+      "name": "sub_826DA0E0",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.5.cpp",
+      "line": 19204,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 23,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 19,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.7.cpp",
+          "line": 19437,
+          "function": "sub_826DB290"
+        }
+      ]
+    },
+    {
+      "name": "sub_82703600",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.23.cpp",
+      "line": 20191,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 56,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.69.cpp",
+          "line": 20890,
+          "function": "sub_827053E8"
+        }
+      ]
+    },
+    {
+      "name": "sub_82703610",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.23.cpp",
+      "line": 20199,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 64,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.69.cpp",
+          "line": 20904,
+          "function": "sub_827053E8"
+        }
+      ]
+    },
+    {
+      "name": "sub_82481810",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.37.cpp",
+      "line": 2835,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 16,
+          "offset": 358,
+          "base_register": 3
+        },
+        {
+          "bits": 8,
+          "offset": 363,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        10,
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.82.cpp",
+          "line": 4719,
+          "function": "sub_8248CBF8"
+        }
+      ]
+    },
+    {
+      "name": "sub_826E08F8",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.21.cpp",
+      "line": 19486,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 16,
+          "offset": 0,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        3
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.36.cpp",
+          "line": 19636,
+          "function": "sub_826E1840"
+        }
+      ]
+    },
+    {
+      "name": "sub_82779F40",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.21.cpp",
+      "line": 23294,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 31144,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.19.cpp",
+          "line": 21565,
+          "function": "sub_8270A698"
+        }
+      ]
+    },
+    {
+      "name": "sub_8276ACF0",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.35.cpp",
+      "line": 23207,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 52,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": []
+    },
+    {
+      "name": "sub_8275D990",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.7.cpp",
+      "line": 22288,
+      "shape": "field_copy",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [
+        {
+          "bits": 32,
+          "offset": 248,
+          "base_register": 3
+        }
+      ],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 284,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 476,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 4036,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 4044,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        10,
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.54.cpp",
+          "line": 28333,
+          "function": "sub_82745208"
+        }
+      ]
+    },
+    {
+      "name": "sub_8276AAA8",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.7.cpp",
+      "line": 22892,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 12,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.54.cpp",
+          "line": 20888,
+          "function": "sub_82705960"
+        }
+      ]
+    },
+    {
+      "name": "sub_82707B08",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.6.cpp",
+      "line": 20468,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 64,
+          "offset": 48,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 44,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 56,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 60,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        10,
+        11
+      ],
+      "callers": []
+    },
+    {
+      "name": "sub_827868D0",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.6.cpp",
+      "line": 23498,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 30636,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 30616,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 30620,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 30624,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 30628,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 30632,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.30.cpp",
+          "line": 25141,
+          "function": "sub_8277D250"
+        }
+      ]
+    },
+    {
+      "name": "sub_828290B0",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.6.cpp",
+      "line": 27662,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 7872,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.62.cpp",
+          "line": 25492,
+          "function": "sub_8277A8F8"
+        }
+      ]
+    },
+    {
+      "name": "sub_82770198",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.34.cpp",
+      "line": 23400,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 444,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": []
+    },
+    {
+      "name": "sub_827D30F8",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.34.cpp",
+      "line": 25426,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 14552,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.35.cpp",
+          "line": 30665,
+          "function": "sub_828761A0"
+        }
+      ]
+    },
+    {
+      "name": "sub_82418CF8",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.24.cpp",
+      "line": 120,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 16,
+          "offset": 0,
+          "base_register": 3
+        },
+        {
+          "bits": 16,
+          "offset": 2,
+          "base_register": 3
+        },
+        {
+          "bits": 16,
+          "offset": 4,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.82.cpp",
+          "line": 7357,
+          "function": "sub_82512D88"
+        }
+      ]
+    },
+    {
+      "name": "sub_826DA050",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.24.cpp",
+      "line": 19118,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 15,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.71.cpp",
+          "line": 18531,
+          "function": "sub_826DB288"
+        }
+      ]
+    },
+    {
+      "name": "sub_826A8678",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.30.cpp",
+      "line": 18208,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 0,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 4,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 8,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 12,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 16,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.78.cpp",
+          "line": 18511,
+          "function": "sub_826A7C38"
+        }
+      ]
+    },
+    {
+      "name": "sub_826E08A8",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.30.cpp",
+      "line": 19907,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 16,
+          "offset": 7,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.36.cpp",
+          "line": 19700,
+          "function": "sub_826E1840"
+        }
+      ]
+    },
+    {
+      "name": "sub_8246B050",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.18.cpp",
+      "line": 2349,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 8,
+          "offset": 233,
+          "base_register": 3
+        },
+        {
+          "bits": 8,
+          "offset": 382,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": []
+    },
+    {
+      "name": "sub_8246B7B8",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.18.cpp",
+      "line": 2361,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 8,
+          "offset": 1600,
+          "base_register": 3
+        },
+        {
+          "bits": 8,
+          "offset": 1668,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.55.cpp",
+          "line": 7262,
+          "function": "sub_8251F300"
+        }
+      ]
+    },
+    {
+      "name": "sub_826B7F00",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.18.cpp",
+      "line": 18620,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3,
+        4
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 88,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 84,
+          "base_register": 4
+        }
+      ],
+      "modified_registers": [],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.34.cpp",
+          "line": 18955,
+          "function": "sub_826AFF60"
+        }
+      ]
+    },
+    {
+      "name": "sub_826DDB68",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.2.cpp",
+      "line": 19999,
+      "shape": "field_update",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [
+        {
+          "bits": 32,
+          "offset": 200,
+          "base_register": 3
+        }
+      ],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 200,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.0.cpp",
+          "line": 19142,
+          "function": "sub_826DF930"
+        }
+      ]
+    },
+    {
+      "name": "sub_826F40C8",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.2.cpp",
+      "line": 20588,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 368,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.32.cpp",
+          "line": 20289,
+          "function": "sub_826F3B00"
+        }
+      ]
+    },
+    {
+      "name": "sub_8247BB58",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.3.cpp",
+      "line": 2744,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 356,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.49.cpp",
+          "line": 5317,
+          "function": "sub_824D0FE8"
+        }
+      ]
+    },
+    {
+      "name": "sub_825E1638",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.3.cpp",
+      "line": 12326,
+      "shape": "field_copy",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [
+        {
+          "bits": 32,
+          "offset": 13716,
+          "base_register": 3
+        }
+      ],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 48,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.69.cpp",
+          "line": 1169,
+          "function": "sub_82417310"
+        }
+      ]
+    },
+    {
+      "name": "sub_82627A48",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.3.cpp",
+      "line": 14350,
+      "shape": "field_update",
+      "pointer_registers": [
+        3,
+        4
+      ],
+      "loads": [
+        {
+          "bits": 32,
+          "offset": 0,
+          "base_register": 3
+        }
+      ],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 0,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 4,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 8,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 12,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 16,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 16,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 0,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 4,
+          "base_register": 4
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.10.cpp",
+          "line": 32464,
+          "function": "sub_82903BB0"
+        }
+      ]
+    },
+    {
+      "name": "sub_824A6C20",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.19.cpp",
+      "line": 3783,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 8,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 280,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 156,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": []
+    },
+    {
+      "name": "sub_824BD338",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.19.cpp",
+      "line": 4340,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 8,
+          "offset": 1664,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.34.cpp",
+          "line": 6590,
+          "function": "sub_8250A418"
+        }
+      ]
+    },
+    {
+      "name": "sub_825D7F98",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.31.cpp",
+      "line": 12410,
+      "shape": "field_update",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [
+        {
+          "bits": 64,
+          "offset": 16,
+          "base_register": 3
+        }
+      ],
+      "stores": [
+        {
+          "bits": 8,
+          "offset": 10499,
+          "base_register": 3
+        },
+        {
+          "bits": 64,
+          "offset": 16,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": []
+    },
+    {
+      "name": "sub_826DAC98",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.31.cpp",
+      "line": 19769,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 16,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        3
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.27.cpp",
+          "line": 19173,
+          "function": "sub_826D1F30"
+        }
+      ]
+    },
+    {
+      "name": "sub_826F23B8",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.31.cpp",
+      "line": 20349,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 16,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.80.cpp",
+          "line": 20044,
+          "function": "sub_826F0F10"
+        }
+      ]
+    },
+    {
+      "name": "sub_8247BAC8",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.25.cpp",
+      "line": 2821,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 208,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.16.cpp",
+          "line": 1721,
+          "function": "sub_82451CB8"
+        }
+      ]
+    },
+    {
+      "name": "sub_8287A0F0",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.27.cpp",
+      "line": 30018,
+      "shape": "field_setter",
+      "pointer_registers": [
+        4
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 0,
+          "base_register": 4
+        }
+      ],
+      "modified_registers": [
+        3,
+        11
+      ],
+      "callers": []
+    },
+    {
+      "name": "sub_824124E0",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.1.cpp",
+      "line": 13,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 0,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 4,
+          "base_register": 3
+        },
+        {
+          "bits": 8,
+          "offset": 8,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        10,
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.54.cpp",
+          "line": 521,
+          "function": "sub_82426C18"
+        }
+      ]
+    },
+    {
+      "name": "sub_82415240",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.1.cpp",
+      "line": 29,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 88,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.21.cpp",
+          "line": 1812,
+          "function": "sub_82453138"
+        }
+      ]
+    },
+    {
+      "name": "sub_8243EC48",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.1.cpp",
+      "line": 1116,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 8,
+          "offset": 0,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.24.cpp",
+          "line": 2948,
+          "function": "sub_82478710"
+        }
+      ]
+    },
+    {
+      "name": "sub_8276ACC8",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.26.cpp",
+      "line": 22831,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 44,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 48,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 52,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.47.cpp",
+          "line": 20382,
+          "function": "sub_827035B0"
+        }
+      ]
+    },
+    {
+      "name": "sub_826CF5B0",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.16.cpp",
+      "line": 19133,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        4
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 4,
+          "base_register": 4
+        },
+        {
+          "bits": 32,
+          "offset": 0,
+          "base_register": 4
+        },
+        {
+          "bits": 32,
+          "offset": 8,
+          "base_register": 4
+        }
+      ],
+      "modified_registers": [
+        10,
+        11
+      ],
+      "callers": []
+    },
+    {
+      "name": "sub_8276AF08",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.16.cpp",
+      "line": 23282,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 512,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": []
+    },
+    {
+      "name": "sub_825D8378",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.28.cpp",
+      "line": 12293,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 12188,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": []
+    },
+    {
+      "name": "sub_825D8E00",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.28.cpp",
+      "line": 12339,
+      "shape": "field_update",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [
+        {
+          "bits": 64,
+          "offset": 16,
+          "base_register": 3
+        }
+      ],
+      "stores": [
+        {
+          "bits": 8,
+          "offset": 10562,
+          "base_register": 3
+        },
+        {
+          "bits": 64,
+          "offset": 16,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": []
+    },
+    {
+      "name": "sub_82776AE8",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.28.cpp",
+      "line": 23877,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 30624,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 30628,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.68.cpp",
+          "line": 20378,
+          "function": "sub_8270B8E8"
+        }
+      ]
+    },
+    {
+      "name": "sub_824BD358",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.14.cpp",
+      "line": 4395,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 8,
+          "offset": 1665,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": []
+    },
+    {
+      "name": "sub_8263D298",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.14.cpp",
+      "line": 15294,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 4,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": []
+    },
+    {
+      "name": "sub_826746D8",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.14.cpp",
+      "line": 16654,
+      "shape": "field_update",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [
+        {
+          "bits": 32,
+          "offset": 152,
+          "base_register": 3
+        }
+      ],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 152,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.56.cpp",
+          "line": 15506,
+          "function": "sub_8264E340"
+        }
+      ]
+    },
+    {
+      "name": "sub_82703608",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.14.cpp",
+      "line": 20972,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 60,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.69.cpp",
+          "line": 20897,
+          "function": "sub_827053E8"
+        }
+      ]
+    },
+    {
+      "name": "sub_82703780",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.14.cpp",
+      "line": 20988,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 76,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.59.cpp",
+          "line": 21002,
+          "function": "sub_82706108"
+        }
+      ]
+    },
+    {
+      "name": "sub_825E3B50",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.15.cpp",
+      "line": 12345,
+      "shape": "field_copy",
+      "pointer_registers": [
+        3,
+        5
+      ],
+      "loads": [
+        {
+          "bits": 32,
+          "offset": 13820,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 13824,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 21836,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 13828,
+          "base_register": 3
+        }
+      ],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 0,
+          "base_register": 5
+        },
+        {
+          "bits": 32,
+          "offset": 4,
+          "base_register": 5
+        },
+        {
+          "bits": 32,
+          "offset": 8,
+          "base_register": 5
+        },
+        {
+          "bits": 32,
+          "offset": 12,
+          "base_register": 5
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.29.cpp",
+          "line": 98,
+          "function": "sub_82417A70"
+        }
+      ]
+    },
+    {
+      "name": "sub_82449FE8",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.29.cpp",
+      "line": 1441,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 920,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 392,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": []
+    },
+    {
+      "name": "sub_824A5BC0",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.29.cpp",
+      "line": 3918,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 16,
+          "offset": 6,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": []
+    },
+    {
+      "name": "sub_824A4610",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.11.cpp",
+      "line": 3796,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 8,
+          "offset": 1188,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.82.cpp",
+          "line": 3551,
+          "function": "sub_8248CBF8"
+        }
+      ]
+    },
+    {
+      "name": "sub_824A5BD0",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.11.cpp",
+      "line": 3877,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 36,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 184,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": []
+    },
+    {
+      "name": "sub_824A6080",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.11.cpp",
+      "line": 3887,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 76,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 264,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 412,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": []
+    },
+    {
+      "name": "sub_8260F3B8",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.11.cpp",
+      "line": 13318,
+      "shape": "field_update",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [
+        {
+          "bits": 32,
+          "offset": 1376,
+          "base_register": 3
+        }
+      ],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 1376,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.80.cpp",
+          "line": 13277,
+          "function": "sub_825FA018"
+        }
+      ]
+    },
+    {
+      "name": "sub_826746E8",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.38.cpp",
+      "line": 16529,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 116,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": []
+    },
+    {
+      "name": "sub_82674768",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.38.cpp",
+      "line": 16539,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 116,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": []
+    },
+    {
+      "name": "sub_825D7FD8",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.10.cpp",
+      "line": 12098,
+      "shape": "field_update",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [
+        {
+          "bits": 64,
+          "offset": 16,
+          "base_register": 3
+        }
+      ],
+      "stores": [
+        {
+          "bits": 8,
+          "offset": 10497,
+          "base_register": 3
+        },
+        {
+          "bits": 64,
+          "offset": 16,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": []
+    },
+    {
+      "name": "sub_82449540",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.12.cpp",
+      "line": 1388,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 8,
+          "offset": 568,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": []
+    },
+    {
+      "name": "sub_826B5720",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.12.cpp",
+      "line": 18661,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 0,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 4,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.40.cpp",
+          "line": 2873,
+          "function": "sub_82481B40"
+        }
+      ]
+    },
+    {
+      "name": "sub_826B7E48",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.12.cpp",
+      "line": 18823,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 80,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": []
+    },
+    {
+      "name": "sub_827749F0",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.12.cpp",
+      "line": 23689,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 44,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 48,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 52,
+          "base_register": 3
+        },
+        {
+          "bits": 64,
+          "offset": 56,
+          "base_register": 3
+        },
+        {
+          "bits": 64,
+          "offset": 64,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 92,
+          "base_register": 3
+        },
+        {
+          "bits": 64,
+          "offset": 72,
+          "base_register": 3
+        },
+        {
+          "bits": 64,
+          "offset": 80,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 88,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        10,
+        11
+      ],
+      "callers": []
+    },
+    {
+      "name": "sub_82735528",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.9.cpp",
+      "line": 20911,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 0,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 4,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 16,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 20,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 32,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 36,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 48,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 52,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": []
+    },
+    {
+      "name": "sub_8276DF18",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.9.cpp",
+      "line": 22416,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 284,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": []
+    },
+    {
+      "name": "sub_82642238",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.13.cpp",
+      "line": 15175,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 52,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": []
+    },
+    {
+      "name": "sub_8276AC90",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.13.cpp",
+      "line": 22546,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 48,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 52,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 44,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.69.cpp",
+          "line": 20540,
+          "function": "sub_82702A28"
+        }
+      ]
+    },
+    {
+      "name": "sub_8276ACE0",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.13.cpp",
+      "line": 22560,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 44,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": []
+    },
+    {
+      "name": "sub_8276ACE8",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.13.cpp",
+      "line": 22568,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 48,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": []
+    },
+    {
+      "name": "sub_8241E6A8",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.48.cpp",
+      "line": 192,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 8,
+          "offset": 80,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.55.cpp",
+          "line": 7269,
+          "function": "sub_8251F300"
+        }
+      ]
+    },
+    {
+      "name": "sub_826B8BD0",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.48.cpp",
+      "line": 18507,
+      "shape": "field_update",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [
+        {
+          "bits": 32,
+          "offset": 60,
+          "base_register": 3
+        }
+      ],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 20,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 24,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 28,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 60,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": []
+    },
+    {
+      "name": "sub_828333E8",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.48.cpp",
+      "line": 28296,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 0,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 4,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 12,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 16,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.30.cpp",
+          "line": 24724,
+          "function": "sub_8277D250"
+        }
+      ]
+    },
+    {
+      "name": "sub_824119A0",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.60.cpp",
+      "line": 3,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 0,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 4,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 8,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        10,
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.84.cpp",
+          "line": 3953,
+          "function": "sub_824A3A18"
+        }
+      ]
+    },
+    {
+      "name": "sub_824119B8",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.61.cpp",
+      "line": 3,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 0,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.40.cpp",
+          "line": 19044,
+          "function": "sub_826CA080"
+        }
+      ]
+    },
+    {
+      "name": "sub_82422C00",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.61.cpp",
+      "line": 361,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 0,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 4,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 8,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 12,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 16,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 20,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 24,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.31.cpp",
+          "line": 33136,
+          "function": "sub_828ED390"
+        }
+      ]
+    },
+    {
+      "name": "sub_824A4938",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.75.cpp",
+      "line": 3680,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 8,
+          "offset": 1726,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.66.cpp",
+          "line": 6654,
+          "function": "sub_824F29E8"
+        }
+      ]
+    },
+    {
+      "name": "sub_824BD348",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.75.cpp",
+      "line": 4252,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 8,
+          "offset": 1664,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.42.cpp",
+          "line": 3527,
+          "function": "sub_8248EA00"
+        }
+      ]
+    },
+    {
+      "name": "sub_824C01D8",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.75.cpp",
+      "line": 4355,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 8,
+          "offset": 1672,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": []
+    },
+    {
+      "name": "sub_8267EF90",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.75.cpp",
+      "line": 16664,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 96,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.14.cpp",
+          "line": 16729,
+          "function": "sub_826751B0"
+        }
+      ]
+    },
+    {
+      "name": "sub_8281D530",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.49.cpp",
+      "line": 27172,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 20,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 0,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 8,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 44,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 48,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 56,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.43.cpp",
+          "line": 23475,
+          "function": "sub_82779FA0"
+        }
+      ]
+    },
+    {
+      "name": "sub_824119D8",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.63.cpp",
+      "line": 3,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 0,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.86.cpp",
+          "line": 6704,
+          "function": "sub_825049A0"
+        }
+      ]
+    },
+    {
+      "name": "sub_82703618",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.77.cpp",
+      "line": 20531,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 68,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.69.cpp",
+          "line": 20917,
+          "function": "sub_827053E8"
+        }
+      ]
+    },
+    {
+      "name": "sub_8261D1A0",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.76.cpp",
+      "line": 14334,
+      "shape": "field_setter",
+      "pointer_registers": [
+        6
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 0,
+          "base_register": 6
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": []
+    },
+    {
+      "name": "sub_824119C8",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.62.cpp",
+      "line": 3,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 0,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 4,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.63.cpp",
+          "line": 601,
+          "function": "sub_82429530"
+        }
+      ]
+    },
+    {
+      "name": "sub_8261D198",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.62.cpp",
+      "line": 14055,
+      "shape": "field_setter",
+      "pointer_registers": [
+        6
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 0,
+          "base_register": 6
+        }
+      ],
+      "modified_registers": [],
+      "callers": []
+    },
+    {
+      "name": "sub_82804948",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.62.cpp",
+      "line": 26388,
+      "shape": "field_copy",
+      "pointer_registers": [
+        3,
+        4
+      ],
+      "loads": [
+        {
+          "bits": 8,
+          "offset": 16,
+          "base_register": 3
+        }
+      ],
+      "stores": [
+        {
+          "bits": 8,
+          "offset": 0,
+          "base_register": 4
+        }
+      ],
+      "modified_registers": [
+        3,
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.28.cpp",
+          "line": 23587,
+          "function": "sub_8276D980"
+        }
+      ]
+    },
+    {
+      "name": "sub_824A4930",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.66.cpp",
+      "line": 3790,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 8,
+          "offset": 440,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": []
+    },
+    {
+      "name": "sub_825D7FF8",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.72.cpp",
+      "line": 12275,
+      "shape": "field_update",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [
+        {
+          "bits": 64,
+          "offset": 16,
+          "base_register": 3
+        }
+      ],
+      "stores": [
+        {
+          "bits": 8,
+          "offset": 10495,
+          "base_register": 3
+        },
+        {
+          "bits": 64,
+          "offset": 16,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": []
+    },
+    {
+      "name": "sub_826E08E8",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.72.cpp",
+      "line": 19824,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 0,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        3
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.12.cpp",
+          "line": 20285,
+          "function": "sub_826E1DF0"
+        }
+      ]
+    },
+    {
+      "name": "sub_82411A30",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.67.cpp",
+      "line": 3,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 8,
+          "offset": 0,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 4,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 8,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 12,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        9,
+        10,
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.25.cpp",
+          "line": 459,
+          "function": "sub_824257D0"
+        }
+      ]
+    },
+    {
+      "name": "sub_824BBDB0",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.67.cpp",
+      "line": 4303,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 1744,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.82.cpp",
+          "line": 3625,
+          "function": "sub_8248CBF8"
+        }
+      ]
+    },
+    {
+      "name": "sub_825D8038",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.67.cpp",
+      "line": 12161,
+      "shape": "field_update",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [
+        {
+          "bits": 64,
+          "offset": 16,
+          "base_register": 3
+        }
+      ],
+      "stores": [
+        {
+          "bits": 8,
+          "offset": 10493,
+          "base_register": 3
+        },
+        {
+          "bits": 64,
+          "offset": 16,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": []
+    },
+    {
+      "name": "sub_82638770",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.67.cpp",
+      "line": 15057,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 464,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": []
+    },
+    {
+      "name": "sub_826F4148",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.67.cpp",
+      "line": 19606,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 352,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.24.cpp",
+          "line": 19801,
+          "function": "sub_826F1358"
+        }
+      ]
+    },
+    {
+      "name": "sub_827701A8",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.67.cpp",
+      "line": 22548,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 448,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": []
+    },
+    {
+      "name": "sub_827EF458",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.71.cpp",
+      "line": 24873,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 60,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 68,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 0,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 72,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 76,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.18.cpp",
+          "line": 21847,
+          "function": "sub_8273F890"
+        }
+      ]
+    },
+    {
+      "name": "sub_824119F8",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.65.cpp",
+      "line": 3,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 0,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.86.cpp",
+          "line": 6677,
+          "function": "sub_825049A0"
+        }
+      ]
+    },
+    {
+      "name": "sub_825D8018",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.65.cpp",
+      "line": 12064,
+      "shape": "field_update",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [
+        {
+          "bits": 64,
+          "offset": 16,
+          "base_register": 3
+        }
+      ],
+      "stores": [
+        {
+          "bits": 8,
+          "offset": 10494,
+          "base_register": 3
+        },
+        {
+          "bits": 64,
+          "offset": 16,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": []
+    },
+    {
+      "name": "sub_82697818",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.65.cpp",
+      "line": 18419,
+      "shape": "field_copy",
+      "pointer_registers": [
+        3,
+        4
+      ],
+      "loads": [
+        {
+          "bits": 16,
+          "offset": 8,
+          "base_register": 3
+        }
+      ],
+      "stores": [
+        {
+          "bits": 16,
+          "offset": 0,
+          "base_register": 4
+        }
+      ],
+      "modified_registers": [
+        3,
+        11
+      ],
+      "callers": []
+    },
+    {
+      "name": "sub_82411988",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.59.cpp",
+      "line": 3,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 0,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 4,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 8,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        10,
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.55.cpp",
+          "line": 2937,
+          "function": "sub_82482380"
+        }
+      ]
+    },
+    {
+      "name": "sub_8269A468",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.59.cpp",
+      "line": 17835,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 32,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        3
+      ],
+      "callers": []
+    },
+    {
+      "name": "sub_82703A40",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.59.cpp",
+      "line": 20569,
+      "shape": "field_copy",
+      "pointer_registers": [
+        3,
+        4
+      ],
+      "loads": [
+        {
+          "bits": 32,
+          "offset": 56,
+          "base_register": 3
+        }
+      ],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 0,
+          "base_register": 4
+        }
+      ],
+      "modified_registers": [
+        3,
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.64.cpp",
+          "line": 23343,
+          "function": "sub_82771928"
+        }
+      ]
+    },
+    {
+      "name": "sub_825D7FB8",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.58.cpp",
+      "line": 11921,
+      "shape": "field_update",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [
+        {
+          "bits": 64,
+          "offset": 16,
+          "base_register": 3
+        }
+      ],
+      "stores": [
+        {
+          "bits": 8,
+          "offset": 10498,
+          "base_register": 3
+        },
+        {
+          "bits": 64,
+          "offset": 16,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": []
+    },
+    {
+      "name": "sub_825DD830",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.58.cpp",
+      "line": 12075,
+      "shape": "field_update",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [
+        {
+          "bits": 64,
+          "offset": 16,
+          "base_register": 3
+        }
+      ],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 12120,
+          "base_register": 3
+        },
+        {
+          "bits": 64,
+          "offset": 16,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.83.cpp",
+          "line": 20114,
+          "function": "sub_826F5290"
+        }
+      ]
+    },
+    {
+      "name": "sub_824119E8",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.64.cpp",
+      "line": 3,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 0,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 4,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.81.cpp",
+          "line": 2967,
+          "function": "sub_82481BF0"
+        }
+      ]
+    },
+    {
+      "name": "sub_8267EF80",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.64.cpp",
+      "line": 16832,
+      "shape": "field_setter",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 96,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.5.cpp",
+          "line": 16109,
+          "function": "sub_82675198"
+        }
+      ]
+    },
+    {
+      "name": "sub_82770670",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.64.cpp",
+      "line": 23231,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 32,
+          "offset": 56,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 60,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 64,
+          "base_register": 3
+        },
+        {
+          "bits": 32,
+          "offset": 68,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.56.cpp",
+          "line": 23377,
+          "function": "sub_82771028"
+        }
+      ]
+    },
+    {
+      "name": "sub_8242A2D8",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.70.cpp",
+      "line": 628,
+      "shape": "fixed_record",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [],
+      "stores": [
+        {
+          "bits": 8,
+          "offset": 1,
+          "base_register": 3
+        },
+        {
+          "bits": 8,
+          "offset": 2,
+          "base_register": 3
+        },
+        {
+          "bits": 8,
+          "offset": 3,
+          "base_register": 3
+        },
+        {
+          "bits": 8,
+          "offset": 0,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [],
+      "callers": [
+        {
+          "file": "guardian_heroes/generated/default/guardian_heroes_recomp.83.cpp",
+          "line": 32879,
+          "function": "sub_828ECFE0"
+        }
+      ]
+    },
+    {
+      "name": "sub_825EA330",
+      "source": "guardian_heroes/generated/default/guardian_heroes_recomp.70.cpp",
+      "line": 12401,
+      "shape": "field_update",
+      "pointer_registers": [
+        3
+      ],
+      "loads": [
+        {
+          "bits": 8,
+          "offset": 11071,
+          "base_register": 3
+        }
+      ],
+      "stores": [
+        {
+          "bits": 8,
+          "offset": 11071,
+          "base_register": 3
+        }
+      ],
+      "modified_registers": [
+        11
+      ],
+      "callers": []
+    }
+  ]
+}

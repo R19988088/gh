@@ -1,0 +1,2252 @@
+[
+  {
+    "id": 0,
+    "en": "We were crowned in laurels of white， and delivered to the Skyborn's palace in the heavens.",
+    "zh": "我们戴上洁白的桂冠，被迎入云端的天界人宫殿。"
+  },
+  {
+    "id": 1,
+    "en": "From there， far above the coils of clouds that held blue sky to green earth， we gazed down at the world as the sun fled over the horizon.",
+    "zh": "云海将蓝天与绿野相连，我们立于云端之上，俯瞰夕阳渐落的世界。"
+  },
+  {
+    "id": 2,
+    "en": "How could war be waged in so perfect a place? It seemed impossible， like a dream.",
+    "zh": "如此完美的地方，怎会燃起战火？一切恍若梦境，令人难以置信。"
+  },
+  {
+    "id": 3,
+    "en": "Our battle was over.",
+    "zh": "我们的战斗结束了。"
+  },
+  {
+    "id": 4,
+    "en": "But down below， another struggle was beginning.",
+    "zh": "可大地上，另一场斗争才刚刚开始。"
+  },
+  {
+    "id": 5,
+    "en": "Would humanity prove themselves worthy of the Second Age we had won? We watched， and waited...",
+    "zh": "人类能否配得上我们赢来的第二纪元？我们静静注视，等待着……"
+  },
+  {
+    "id": 6,
+    "en": "There was a flash of light， and then a voice cut through the haze， beckoning us.",
+    "zh": "一道光芒闪过，接着，一个声音穿透迷雾，呼唤着我们。"
+  },
+  {
+    "id": 7,
+    "en": "When we awoke， we found ourselves on human soil. By our side was the black knight， whose cause we now knew was joined with ours.",
+    "zh": "醒来时，我们已回到人类的土地。黑骑士站在身旁，如今我们明白，他与我们志向相同。"
+  },
+  {
+    "id": 8,
+    "en": "How strange to think the Earthblood's conqueror， the old man we'd seen as our greatest adversary， might have just saved our lives.",
+    "zh": "真是不可思议。那个征服了地界人、曾被我们视为头号强敌的老人，或许刚救了我们的命。"
+  },
+  {
+    "id": 9,
+    "en": "And that his actions， which we once condemned， now bore the tint of justice.",
+    "zh": "就连他那些曾被我们唾弃的所作所为，如今也染上了几分正义的色彩。"
+  },
+  {
+    "id": 10,
+    "en": "Had we done right for the world?",
+    "zh": "我们真的为这个世界做了正确的事吗？"
+  },
+  {
+    "id": 11,
+    "en": "We had set it free-- but also， cut it loose.",
+    "zh": "我们给了它自由，却也斩断了它的依靠。"
+  },
+  {
+    "id": 12,
+    "en": "Nothing to tether us， or keep us safe.",
+    "zh": "再没有什么束缚我们，也再没有什么庇护我们。"
+  },
+  {
+    "id": 13,
+    "en": "Our strength as a race would now be tested in new ways.",
+    "zh": "人类这个种族的力量，即将迎来全新的考验。"
+  },
+  {
+    "id": 14,
+    "en": "We vowed to face that challenge unflinching.",
+    "zh": "我们发誓，绝不退缩。"
+  },
+  {
+    "id": 15,
+    "en": "Our victory would mean something... It had to.",
+    "zh": "我们的胜利一定要有意义……必须如此。"
+  },
+  {
+    "id": 16,
+    "en": "We had slain any who dared stand against us.",
+    "zh": "凡敢阻挡我们的人，都已死在我们手中。"
+  },
+  {
+    "id": 17,
+    "en": "Had all this killing somehow subtracted from the righteousness of our cause?",
+    "zh": "这些杀戮，是否也让我们的正义蒙上了阴影？"
+  },
+  {
+    "id": 18,
+    "en": "We chose not to regret.",
+    "zh": "我们选择不去后悔。"
+  },
+  {
+    "id": 19,
+    "en": "It seemed more fitting to honor the lives we had taken...",
+    "zh": "比起懊悔，更应当告慰那些逝去的生命……"
+  },
+  {
+    "id": 20,
+    "en": "by building a bright future in their name.",
+    "zh": "以他们之名，创造光明的未来。"
+  },
+  {
+    "id": 21,
+    "en": "What strength humankind possesses!",
+    "zh": "人类竟有如此强大的力量！"
+  },
+  {
+    "id": 22,
+    "en": "We chose to bow to the workings of the universe， saw them as immutable-- but you broke that mold and severed the chains that bind us.",
+    "zh": "我们曾顺从宇宙的法则，认定它不可改变……而你们打破了常规，斩断了束缚我们的锁链。"
+  },
+  {
+    "id": 23,
+    "en": "For your courage， I will deliver you back to human soil.",
+    "zh": "为嘉奖你们的勇气，我会送你们回到人类的土地。"
+  },
+  {
+    "id": 24,
+    "en": "But know this: peace is not yours yet.",
+    "zh": "但要记住：和平尚未降临。"
+  },
+  {
+    "id": 25,
+    "en": "He will find a new champion; perhaps he may even champion himself.",
+    "zh": "他会另选代行者，甚至可能亲自出手。"
+  },
+  {
+    "id": 26,
+    "en": "And it will fall to you to face him.",
+    "zh": "到那时，仍须由你们迎战。"
+  },
+  {
+    "id": 27,
+    "en": "We swear to lend you our strength when that hour comes.",
+    "zh": "我们发誓，届时必将助你们一臂之力。"
+  },
+  {
+    "id": 28,
+    "en": "Together， we will keep this world you have won safe from his whims.",
+    "zh": "我们将共同守护你们赢来的世界，不再任他摆布。"
+  },
+  {
+    "id": 29,
+    "en": "But remember: power alone will not bring you peace.",
+    "zh": "但切记：单凭力量，换不来和平。"
+  },
+  {
+    "id": 30,
+    "en": "Nor will anyone follow you into a future bought with blood.",
+    "zh": "用鲜血换来的未来，也不会有人追随。"
+  },
+  {
+    "id": 31,
+    "en": "This， I can tell you from experience.",
+    "zh": "这一点，我深有体会。"
+  },
+  {
+    "id": 32,
+    "en": "If you choose to rule the world in the same way you saved it， then I fear one day you and I must clash.",
+    "zh": "若你们打算用拯救世界的方式来统治世界，恐怕你我终有一战。"
+  },
+  {
+    "id": 33,
+    "en": "For all our sakes， let us pray that day never comes.",
+    "zh": "为了所有人，但愿那一天永远不会到来。"
+  },
+  {
+    "id": 34,
+    "en": "The royal knights are coming!",
+    "zh": "王国骑士来了！"
+  },
+  {
+    "id": 35,
+    "en": "You have to go. Now!",
+    "zh": "快走！马上！"
+  },
+  {
+    "id": 36,
+    "en": "Protect that sword!",
+    "zh": "保护好那把剑！"
+  },
+  {
+    "id": 37,
+    "en": "Uh， 'scuse me? Who are you?",
+    "zh": "呃，打扰一下？你是谁？"
+  },
+  {
+    "id": 38,
+    "en": "Where did SHE come from?",
+    "zh": "这女人从哪儿冒出来的？"
+  },
+  {
+    "id": 39,
+    "en": "Er， the ladies' room is down the hall， miss.",
+    "zh": "呃，小姐，女厕在走廊那头。"
+  },
+  {
+    "id": 40,
+    "en": "Dang... Ever heard of knocking?",
+    "zh": "啧……不知道先敲门吗？"
+  },
+  {
+    "id": 41,
+    "en": "Okay， this is starting to get weird.",
+    "zh": "好吧，事情开始不对劲了。"
+  },
+  {
+    "id": 42,
+    "en": "You heard the young lady. To the balcony!",
+    "zh": "没听见这位小姐的话吗？去阳台！"
+  },
+  {
+    "id": 43,
+    "en": "How many men did he...!? That's the sword， no mistake.",
+    "zh": "他到底干掉了多少人……！？没错，就是那把剑。"
+  },
+  {
+    "id": 44,
+    "en": "Time to make a quick exit， and look cool doing it.",
+    "zh": "该潇洒地闪人了。"
+  },
+  {
+    "id": 45,
+    "en": "Gonna have to jump. Urp... What floor are we on again?",
+    "zh": "看来只能跳了。呃……这是几楼来着？"
+  },
+  {
+    "id": 46,
+    "en": "A true gentleman brings the fight outdoors.",
+    "zh": "真正的绅士，打架都去屋外。"
+  },
+  {
+    "id": 47,
+    "en": "Hey， tell the innkeeper that THIS SHOW ROCKS!",
+    "zh": "喂，替我告诉老板：这场表演棒极了！"
+  },
+  {
+    "id": 48,
+    "en": "I'll explain later， just--",
+    "zh": "待会儿再解释，先——"
+  },
+  {
+    "id": 49,
+    "en": "Ugh， there goes my evening.",
+    "zh": "唉，今晚算是泡汤了。"
+  },
+  {
+    "id": 50,
+    "en": "But what business could the king's men have with us?",
+    "zh": "可国王的人找我们做什么？"
+  },
+  {
+    "id": 51,
+    "en": "What? I don't even...",
+    "zh": "什么？我都还没……"
+  },
+  {
+    "id": 52,
+    "en": "Those knights look like they mean business.",
+    "zh": "那些骑士看着可不是来闹着玩的。"
+  },
+  {
+    "id": 53,
+    "en": "The only way out of here is down!",
+    "zh": "想出去，就只能往下跳了！"
+  },
+  {
+    "id": 54,
+    "en": "But what if it's room service?",
+    "zh": "万一是客房服务呢？"
+  },
+  {
+    "id": 55,
+    "en": "All these soldiers... That sword MUST be the one.",
+    "zh": "出动了这么多士兵……那一定就是传说之剑。"
+  },
+  {
+    "id": 56,
+    "en": "You punks owe me for room and board!",
+    "zh": "你们几个混小子还欠我房钱饭钱呢！"
+  },
+  {
+    "id": 57,
+    "en": "Oh crap. Look at the inn! I smell a lawsuit...",
+    "zh": "糟了，旅馆都成那样了！怕是要吃官司……"
+  },
+  {
+    "id": 58,
+    "en": "The heat is on. Which means... I had best be off!",
+    "zh": "火烧眉毛了。这就意味着……我得开溜！"
+  },
+  {
+    "id": 59,
+    "en": "Is that satin I smell burning?",
+    "zh": "怎么闻着像是缎子烧起来了？"
+  },
+  {
+    "id": 60,
+    "en": "You were right， Randy! The Sword of Legend WASN'T just a fairy tale.",
+    "zh": "兰迪，你说得对！传说之剑还真不是童话。"
+  },
+  {
+    "id": 61,
+    "en": "Doesn't seem all that-- HYAH!--special， though.",
+    "zh": "不过感觉也没——嘿呀！——什么特别的嘛。"
+  },
+  {
+    "id": 62,
+    "en": "Wh-Whoa! Han， be careful!",
+    "zh": "哇、哇！哈恩，小心点！"
+  },
+  {
+    "id": 63,
+    "en": "That's centuries old! What if it's fragile?",
+    "zh": "这可是几百年前的东西！弄坏了怎么办？"
+  },
+  {
+    "id": 64,
+    "en": "Bah! A sword that breaks is like a dog that meows.",
+    "zh": "呸！会断的剑，就跟会喵喵叫的狗一样荒唐。"
+  },
+  {
+    "id": 65,
+    "en": "Um， what? A-Anyway， there's no proof we've even got the right sword yet.",
+    "zh": "呃，什么？总、总之，还不能确定我们找对了剑。"
+  },
+  {
+    "id": 66,
+    "en": "You know how to find out? Go stab us some DINNER.",
+    "zh": "知道怎么确认吗？拿它给咱们扎点晚饭回来。"
+  },
+  {
+    "id": 67,
+    "en": "I've got legendary hunger.",
+    "zh": "我都饿成传说了。"
+  },
+  {
+    "id": 68,
+    "en": "Um， how are we supposed to outrun an army!?",
+    "zh": "呃，我们怎么跑得过一整支军队啊！？"
+  },
+  {
+    "id": 69,
+    "en": "Split up. A hundred kittens bite harder than one lion!",
+    "zh": "分头跑！一百只小猫咬起来，总比一头狮子狠！"
+  },
+  {
+    "id": 70,
+    "en": "It's the sword they want.",
+    "zh": "他们要的是剑。"
+  },
+  {
+    "id": 71,
+    "en": "But we WORKED for that sword!",
+    "zh": "可这剑是我们辛苦找来的！"
+  },
+  {
+    "id": 72,
+    "en": "We can discuss it later. Just run! Meet you at the cemetery outside of town.",
+    "zh": "以后再说，快跑！在城外墓地会合。"
+  },
+  {
+    "id": 73,
+    "en": "Valgar.",
+    "zh": "瓦尔加。"
+  },
+  {
+    "id": 74,
+    "en": "You wound me， Serena.",
+    "zh": "瑟蕾娜，你真让我伤心。"
+  },
+  {
+    "id": 75,
+    "en": "How could the captain of the Red Order betray her fellow knights?",
+    "zh": "红之骑士团的团长，怎能背叛自己的同袍？"
+  },
+  {
+    "id": 76,
+    "en": "Did you feel unloved?",
+    "zh": "是觉得没人疼你吗？"
+  },
+  {
+    "id": 77,
+    "en": "I won't let you have the sword.",
+    "zh": "我不会把剑交给你。"
+  },
+  {
+    "id": 78,
+    "en": "No?",
+    "zh": "是吗？"
+  },
+  {
+    "id": 79,
+    "en": "Then die in disgrace!",
+    "zh": "那就背负着耻辱去死吧！"
+  },
+  {
+    "id": 80,
+    "en": "Damn their iron deviltry!",
+    "zh": "该死的铁疙瘩！"
+  },
+  {
+    "id": 81,
+    "en": "Pfft. “Sword of Legend“? This cuts like a butter knife!",
+    "zh": "嘁，什么“传说之剑”？连切黄油都费劲！"
+  },
+  {
+    "id": 82,
+    "en": "How unfair is this!?",
+    "zh": "这也太不公平了吧！？"
+  },
+  {
+    "id": 83,
+    "en": "So， Death wears metal robes.",
+    "zh": "原来死神披的是铁袍。"
+  },
+  {
+    "id": 84,
+    "en": "No fair!",
+    "zh": "耍赖！"
+  },
+  {
+    "id": 85,
+    "en": "What did we ever do to you?",
+    "zh": "我们到底哪里惹到你们了？"
+  },
+  {
+    "id": 86,
+    "en": "Stand back， guys! It's time I took this Sword of Legend through the motions!",
+    "zh": "大家退后！该让我试试这把传说之剑了！"
+  },
+  {
+    "id": 87,
+    "en": "Oww! What the... What gives?",
+    "zh": "哎哟！什么……搞什么啊？"
+  },
+  {
+    "id": 88,
+    "en": "Hey! Whose side is he on?",
+    "zh": "喂！他到底是哪边的？"
+  },
+  {
+    "id": 89,
+    "en": "Stop it!",
+    "zh": "住手！"
+  },
+  {
+    "id": 90,
+    "en": "He... he stopped. Wait a second...",
+    "zh": "他……停下了。等一下……"
+  },
+  {
+    "id": 91,
+    "en": "You think he has to obey us?",
+    "zh": "难道他必须听我们的话？"
+  },
+  {
+    "id": 92,
+    "en": "This is incredible.",
+    "zh": "真是难以置信。"
+  },
+  {
+    "id": 93,
+    "en": "An undead hero， returned to light our darkened world.",
+    "zh": "不死英雄归来，要为这黑暗的世界带来光明。"
+  },
+  {
+    "id": 94,
+    "en": "Perhaps it is time you shed a little light of your own.",
+    "zh": "或许你也该把真相说清楚了。"
+  },
+  {
+    "id": 95,
+    "en": "Holy schnitzel! Where'd they get that big golden freak!?",
+    "zh": "我的老天！他们从哪儿弄来这么个金灿灿的大怪物！？"
+  },
+  {
+    "id": 96,
+    "en": "Rrgh! Kill them swiftly， my pretties! My reputation isn't getting any more reputable!",
+    "zh": "可恶！宝贝们，快杀了他们！我的名声可经不起再折腾了！"
+  },
+  {
+    "id": 97,
+    "en": "The answers can wait. Let's give our new ally a command!",
+    "zh": "有话待会儿再说。先给这位新伙伴下个命令！"
+  },
+  {
+    "id": 98,
+    "en": "How d-d-dare you! No one drags Lord Zur's face through the mud and lives to--",
+    "zh": "你、你、你们好大的胆子！敢让祖尔大人颜面扫地的人，从来没一个能活——"
+  },
+  {
+    "id": 99,
+    "en": "Nyaah! What NOW?",
+    "zh": "呀啊！这回又怎么了？"
+  },
+  {
+    "id": 100,
+    "en": "Skeletons!? Eek!",
+    "zh": "骷髅！？呀！"
+  },
+  {
+    "id": 101,
+    "en": "The sword--it's raising a whole army! Will they not serve its cause?",
+    "zh": "那把剑……唤醒了一整支军队！难道他们也会听从它的号令？"
+  },
+  {
+    "id": 102,
+    "en": "Great， now the dead walk? This warrior sure knows how to liven up a cemetery.",
+    "zh": "好家伙，死人都起来散步了？这战士还真能让墓地热闹起来。"
+  },
+  {
+    "id": 103,
+    "en": "But that armor... Wouldn't royal knights have been interred by the castle?",
+    "zh": "可那身铠甲……王国骑士不该葬在城堡附近吗？"
+  },
+  {
+    "id": 104,
+    "en": "Looks like our golden child is waking up more corpses.",
+    "zh": "看来咱们这位金大个儿又叫醒了更多尸体。"
+  },
+  {
+    "id": 105,
+    "en": "But what are royal knights doing buried in a commoners' cemetery?",
+    "zh": "可王国骑士怎么会埋在平民墓地里？"
+  },
+  {
+    "id": 106,
+    "en": "This warrior's power seems to be resonating with the town's cemetery.",
+    "zh": "这位战士的力量，似乎与镇上的墓地产生了共鸣。"
+  },
+  {
+    "id": 107,
+    "en": "A strange thing， though， that these “townsfolk“ are clad in royal armor.",
+    "zh": "奇怪的是，这些“镇民”竟穿着王国骑士的铠甲。"
+  },
+  {
+    "id": 108,
+    "en": "Sweet!",
+    "zh": "厉害啊！"
+  },
+  {
+    "id": 109,
+    "en": "Not even I can raise the dead!",
+    "zh": "连我都没法让死人复活！"
+  },
+  {
+    "id": 110,
+    "en": "Wait， who buries commoners with swords and armor?",
+    "zh": "等等，谁会给平民陪葬刀剑铠甲啊？"
+  },
+  {
+    "id": 111,
+    "en": "Hey! This is not cool!",
+    "zh": "喂！这可不好玩！"
+  },
+  {
+    "id": 112,
+    "en": "I didn't sign up to fight a legion of stinky dead things!",
+    "zh": "我可没答应要跟一大群臭烘烘的死人打架！"
+  },
+  {
+    "id": 113,
+    "en": "No wonder Kanon insisted the Black Order and I accompany you.",
+    "zh": "难怪卡农坚持让我和黑之骑士团陪你来。"
+  },
+  {
+    "id": 114,
+    "en": "Stealing swords is a thug's job， but a blade that awakens an undead menace?",
+    "zh": "偷剑不过是地痞的活儿，可这剑竟能唤醒不死怪物？"
+  },
+  {
+    "id": 115,
+    "en": "That's my line of work.",
+    "zh": "这才是我的差事。"
+  },
+  {
+    "id": 116,
+    "en": "Step aside， Zur.",
+    "zh": "让开，祖尔。"
+  },
+  {
+    "id": 117,
+    "en": "Heck no! This is my chance to look good...er than I always do!",
+    "zh": "休想！这可是让我更加……英明神武的大好机会！"
+  },
+  {
+    "id": 118,
+    "en": "You， sir， are an assistant. Ahem! Stress on those first three letters.",
+    "zh": "先生，你只是个副手。咳！重点是那个“副”字。"
+  },
+  {
+    "id": 119,
+    "en": "Have it your way.",
+    "zh": "随你的便。"
+  },
+  {
+    "id": 120,
+    "en": "Now， my pretties! Fetch me that sword， or it's worm-gut porridge for a week!",
+    "zh": "来吧，宝贝们！给我夺下那把剑，不然就连吃一星期蛆肠粥！"
+  },
+  {
+    "id": 121,
+    "en": "Truly impressive.",
+    "zh": "真是了不起。"
+  },
+  {
+    "id": 122,
+    "en": "But I， Lord Zur， will prevail! ...Right after these messages.",
+    "zh": "但我祖尔大人终将获胜！……先插播一段广告。"
+  },
+  {
+    "id": 123,
+    "en": "Looks like the Sword of Legend already had an owner.",
+    "zh": "看来这把传说之剑早就有主人了。"
+  },
+  {
+    "id": 124,
+    "en": "I believed we were searching for the Muramasa.",
+    "zh": "我以为我们要找的是村正。"
+  },
+  {
+    "id": 125,
+    "en": "What blade is this?",
+    "zh": "这到底是什么剑？"
+  },
+  {
+    "id": 126,
+    "en": "My belief is that this sword belonged to a great hero in ages past. The forces of darkness feared its baneful bite--but I never dreamed it had the power to resurrect its former master.",
+    "zh": "我想，这把剑属于远古的一位伟大英雄。黑暗势力畏惧它的锋芒……可我从未想到，它竟能让昔日的主人复活。"
+  },
+  {
+    "id": 127,
+    "en": "For centuries， the royal line who sit the throne have tried to find this weapon.",
+    "zh": "几百年来，坐在王座上的王室一直在寻找这把武器。"
+  },
+  {
+    "id": 128,
+    "en": "Now I understand why. This warrior is capable of ending their wicked reign!",
+    "zh": "现在我明白了。这个战士有能力终结他们的暴政！"
+  },
+  {
+    "id": 129,
+    "en": "I will admit， the people tire of the crown's attempts to force magic down their throats.",
+    "zh": "我承认，百姓早就受够了王室强迫大家使用魔法。"
+  },
+  {
+    "id": 130,
+    "en": "But none of us are fools enough to revolt!",
+    "zh": "可我们又不傻，才不会造反！"
+  },
+  {
+    "id": 131,
+    "en": "This should have been my battle. Not yours.",
+    "zh": "这本该是我的战斗，不该把你们卷进来。"
+  },
+  {
+    "id": 132,
+    "en": "But neither did I expect to be so doggedly pursued. Alone， I will not last till dawn. Sadly， neither will you.",
+    "zh": "但我也没料到，他们会如此穷追不舍。我独自一人，撑不到天亮。遗憾的是，你们也一样。"
+  },
+  {
+    "id": 133,
+    "en": "If it's a reward you expect for finding the sword， then prepare to fill your wallets with blood and misery.",
+    "zh": "若你们还指望凭找到宝剑领赏，就准备好用鲜血与苦难装满钱袋吧。"
+  },
+  {
+    "id": 134,
+    "en": "You are enemies of the throne. If you want to live， we must leave here at once.",
+    "zh": "你们已经是王室的敌人。想活命，就得立刻离开。"
+  },
+  {
+    "id": 135,
+    "en": "My teacher lives in the wildwood. (And he's gonna tan my hide when he finds out about this.)",
+    "zh": "我师父住在野林里。（他知道这事后，肯定要扒了我的皮。）"
+  },
+  {
+    "id": 136,
+    "en": "Enemies， shmenemies. We've got a friggin' undead warrior! What's the problem?",
+    "zh": "敌人就敌人呗。咱们可有个不死战士！怕什么？"
+  },
+  {
+    "id": 137,
+    "en": "The soldiers assembled in that village plan to rebel against the kingdom. Perhaps they will aid us.",
+    "zh": "那个村子里集结的士兵正打算反抗王国。他们也许能帮助我们。"
+  },
+  {
+    "id": 138,
+    "en": "No wonder Kanon insisted the Black Order and I help investigate.",
+    "zh": "难怪卡农坚持要我和黑之骑士团帮忙调查。"
+  },
+  {
+    "id": 139,
+    "en": "Stealing swords is a job for a thug like Zur， but a blade that awakens an undead menace?",
+    "zh": "偷剑是祖尔那种地痞干的事，可这剑竟能唤醒不死怪物？"
+  },
+  {
+    "id": 140,
+    "en": "Poor fools. You should have stayed home today.",
+    "zh": "可怜的蠢货。今天你们就该老老实实待在家里。"
+  },
+  {
+    "id": 141,
+    "en": "Rabble! A sharp blade only serves a sharp mind.",
+    "zh": "乌合之众！利刃只配交给有头脑的人。"
+  },
+  {
+    "id": 142,
+    "en": "I fight to save our land， not for glory or riches.",
+    "zh": "我为拯救这片土地而战，不为名利。"
+  },
+  {
+    "id": 143,
+    "en": "I'll be on my way now， if you feel sufficiently bloodied.",
+    "zh": "若你们的血流够了，我就告辞了。"
+  },
+  {
+    "id": 144,
+    "en": "Nice， let me shake your-- Wait， which piece is your hand?",
+    "zh": "不错，握个手吧——等等，你的手是哪一块？"
+  },
+  {
+    "id": 145,
+    "en": "Sorry we crashed your party and broke all your bones. It happens.",
+    "zh": "抱歉，砸了你们的场子，还打碎了你们的骨头。常有的事。"
+  },
+  {
+    "id": 146,
+    "en": "Do I look like I have time for this?",
+    "zh": "看我像是有空陪你们玩吗？"
+  },
+  {
+    "id": 147,
+    "en": "There， had your fun? I'm out of here.",
+    "zh": "怎么样，玩够了？我走了。"
+  },
+  {
+    "id": 148,
+    "en": "Had enough Randy Fu?",
+    "zh": "见识够兰迪功夫了吗？"
+  },
+  {
+    "id": 149,
+    "en": "Where did you train， in a barn?",
+    "zh": "你的功夫是在猪圈里练的吗？"
+  },
+  {
+    "id": 150,
+    "en": "What， did we take a take a wrong turn? Other way， guys!",
+    "zh": "怎么，走错路了？伙计们，走另一边！"
+  },
+  {
+    "id": 151,
+    "en": "Stop distracting me! I'm gonna forget the plot!",
+    "zh": "别再分我的心了！剧情都快记不住了！"
+  },
+  {
+    "id": 152,
+    "en": "Well done， friend. I think you nearly scratched me.",
+    "zh": "打得不错，朋友。差点就划到我了。"
+  },
+  {
+    "id": 153,
+    "en": "Your deaths shall be bricks in the great wall of hope.",
+    "zh": "你们的尸骨，将成为希望长城的砖石。"
+  },
+  {
+    "id": 154,
+    "en": "Apologies， warriors， but I have no time to waste.",
+    "zh": "抱歉，各位战士，我没空耽搁。"
+  },
+  {
+    "id": 155,
+    "en": "I have a long road ahead， but please， feel free to play amongst yourselves.",
+    "zh": "我还有很长的路要走，你们尽管自己玩吧。"
+  },
+  {
+    "id": 156,
+    "en": "Omigosh! How'd I do that?",
+    "zh": "天哪！我怎么做到的？"
+  },
+  {
+    "id": 157,
+    "en": "Potty break!",
+    "zh": "我要上厕所啦！"
+  },
+  {
+    "id": 158,
+    "en": "Sorry， Nicoley's got to save the world. Next time， okay?",
+    "zh": "抱歉啦，小妮可得去拯救世界。下次再玩，好吗？"
+  },
+  {
+    "id": 159,
+    "en": "Sorry， I know you can't help it， but you're REALLY boring.",
+    "zh": "抱歉，我知道这不能怪你，可你实在太无聊啦。"
+  },
+  {
+    "id": 160,
+    "en": "This “monster“ looks just like Randy's familiar!",
+    "zh": "这只“怪物”跟兰迪的使魔一模一样！"
+  },
+  {
+    "id": 161,
+    "en": "Then you must be his teacher.",
+    "zh": "那么，你一定就是他的老师。"
+  },
+  {
+    "id": 162,
+    "en": "Down， bunny! Geez， Randy's familiar never acts this crazy.",
+    "zh": "兔子，趴下！真是的，兰迪的使魔可没这么疯。"
+  },
+  {
+    "id": 163,
+    "en": "Are you his teacher?",
+    "zh": "你是他的老师吗？"
+  },
+  {
+    "id": 164,
+    "en": "Teach? Is that you? Tell Mid to chill out!",
+    "zh": "师父？是你吗？快让米德冷静点！"
+  },
+  {
+    "id": 165,
+    "en": "What kind of familiar attacks people he KNOWS?",
+    "zh": "哪有使魔连认识的人都打的？"
+  },
+  {
+    "id": 166,
+    "en": "What manner of trickery...",
+    "zh": "这是何种妖术……"
+  },
+  {
+    "id": 167,
+    "en": "Hmm， this lethal lepus looks very familiar. Do you know a boy named Randy?",
+    "zh": "嗯，这只凶兔看着颇为眼熟。你可认识一个叫兰迪的少年？"
+  },
+  {
+    "id": 168,
+    "en": "Hey， little guy! You look just like Nando!",
+    "zh": "嘿，小家伙！你长得跟南多一模一样！"
+  },
+  {
+    "id": 169,
+    "en": "So the teacher Randy always talks about--I guess that must be you.",
+    "zh": "兰迪总挂在嘴边的师父……应该就是你吧。"
+  },
+  {
+    "id": 170,
+    "en": "Indeed. I taught Randy what spells he knows. But， for all his eagerness， I fear he's still a bit green.",
+    "zh": "不错，兰迪的法术都是我教的。只是他虽有热情，火候却还差得远。"
+  },
+  {
+    "id": 171,
+    "en": "I hope you will accept my apology for Mid's behavior. He's quite protective.",
+    "zh": "米德失礼了，还望见谅。他护主心切。"
+  },
+  {
+    "id": 172,
+    "en": "Why hello there， Randy. Back for more magical instruction? Or is little Nando giving you trouble?",
+    "zh": "哟，兰迪，你好啊。又来学法术？还是小南多给你惹麻烦了？"
+  },
+  {
+    "id": 173,
+    "en": "Indeed. I taught Randy what spells he knows. I can see you sling a bit of white magic yourself.",
+    "zh": "不错，兰迪的法术都是我教的。看得出，你也会几手白魔法。"
+  },
+  {
+    "id": 174,
+    "en": "It's us who owe an apology. The king's men are out for blood， and now we have brought them to your doorstep.",
+    "zh": "该道歉的是我们。国王的人要取我们性命，现在我们把他们引到您家门口了。"
+  },
+  {
+    "id": 175,
+    "en": "We didn't think ahead. We've been so busy running from the royal knights...",
+    "zh": "我们没想那么多，一直忙着躲王国骑士……"
+  },
+  {
+    "id": 176,
+    "en": "Hey， MY rabbit behaves! Look， Teach， we really need your help. I kind of， um， went looking for that sword we talked about.",
+    "zh": "喂，我的兔子可乖了！师父，我们真的需要你帮忙。我那个……去找了咱们说过的那把剑。"
+  },
+  {
+    "id": 177,
+    "en": "And now we're， um， fugitives， wanted by the kingdom... Oops?",
+    "zh": "结果现在，呃，我们成了王国通缉的逃犯……哎呀？"
+  },
+  {
+    "id": 178,
+    "en": "A good thing， that.",
+    "zh": "那倒是件好事。"
+  },
+  {
+    "id": 179,
+    "en": "I fear you may need his protection again very soon.",
+    "zh": "恐怕很快，你们又得靠他来保护了。"
+  },
+  {
+    "id": 180,
+    "en": "We're sorry， too... that RANDY DIDN'T TELL US!",
+    "zh": "我们也很抱歉……都怪兰迪根本没告诉我们！"
+  },
+  {
+    "id": 181,
+    "en": "So， you found the sword. Kanon the Grey will stop at nothing to retrieve it. You've brought great danger upon yourselves.",
+    "zh": "这么说，你们找到了那把剑。灰袍卡农会不惜一切把它夺回。你们惹上大麻烦了。"
+  },
+  {
+    "id": 182,
+    "en": "I suppose that deathly warrior over there is somehow connected to all of this? Come， we must find a safer place to discuss this.",
+    "zh": "那边那位死气沉沉的战士，想必也与此事有关？来，我们得找个安全的地方详谈。"
+  },
+  {
+    "id": 183,
+    "en": "Sorry， these bushes are taken.",
+    "zh": "抱歉，这丛灌木已经有人了。"
+  },
+  {
+    "id": 184,
+    "en": "A mage? Now why would you be cowering in the wildwood? Unless you've been naughty.",
+    "zh": "魔法师？怎么躲到野林里来了？莫不是干了什么坏事？"
+  },
+  {
+    "id": 185,
+    "en": "Take him away!",
+    "zh": "把他带走！"
+  },
+  {
+    "id": 186,
+    "en": "You've threatened my kingdom. These crimes must be punished.",
+    "zh": "你们威胁了我的王国。这些罪行必须受到惩罚。"
+  },
+  {
+    "id": 187,
+    "en": "Right now!",
+    "zh": "就在现在！"
+  },
+  {
+    "id": 188,
+    "en": "No， Prince Valgar. Don't soil your blades for these rabble.",
+    "zh": "不，瓦尔加王子。别让这些贱民脏了你的剑。"
+  },
+  {
+    "id": 189,
+    "en": "Let the Red Order handle this.",
+    "zh": "交给红之骑士团吧。"
+  },
+  {
+    "id": 190,
+    "en": "You and I can watch from afar， love. Wouldn't want you to get hit by flying bodies.",
+    "zh": "亲爱的，你我在远处看着就好。可别让飞来的尸体砸到你。"
+  },
+  {
+    "id": 191,
+    "en": "Well? Kill them!",
+    "zh": "还等什么？杀了他们！"
+  },
+  {
+    "id": 192,
+    "en": "When I said， “Kill them!“ I was talking to MY men! Rrgh!",
+    "zh": "我说“杀了他们”，是对我的人说的！可恶！"
+  },
+  {
+    "id": 193,
+    "en": "Serena captained a soft band of knights， but I will break them--after I break you.",
+    "zh": "瑟蕾娜带出来的骑士都软弱不堪。我会好好调教他们……先收拾了你再说。"
+  },
+  {
+    "id": 194,
+    "en": "The king's wrath is wakened. We've already bled that rebel village trying to find you. How many more must die?",
+    "zh": "国王已经震怒。为了找你们，我们已血洗了那个反叛村庄。还想让多少人送命？"
+  },
+  {
+    "id": 195,
+    "en": "No one will ever harbor you. Just surrender!",
+    "zh": "没人敢收留你们。乖乖投降吧！"
+  },
+  {
+    "id": 196,
+    "en": "Prince Valgar， stand aside.",
+    "zh": "瓦尔加王子，让开。"
+  },
+  {
+    "id": 197,
+    "en": "Let the Red Knight spill blood.",
+    "zh": "让红骑士来见血吧。"
+  },
+  {
+    "id": 198,
+    "en": "Katrina!",
+    "zh": "卡特莉娜！"
+  },
+  {
+    "id": 199,
+    "en": "Going to kill me， boy? Then do it.",
+    "zh": "小子，想杀我？那就动手。"
+  },
+  {
+    "id": 200,
+    "en": "If you truly believe murder is royal behavior.",
+    "zh": "如果你真觉得，滥杀才是王族的风范。"
+  },
+  {
+    "id": 201,
+    "en": "Rrgh...",
+    "zh": "可恶……"
+  },
+  {
+    "id": 202,
+    "en": "You've stirred up more than that warrior now.",
+    "zh": "这回你们惊动的，可不止那位战士。"
+  },
+  {
+    "id": 203,
+    "en": "Kanon will redouble his efforts to capture you.",
+    "zh": "卡农会加倍追捕你们。"
+  },
+  {
+    "id": 204,
+    "en": "He'll unleash his sorcery and metal golems upon the land--",
+    "zh": "他会将魔法和钢铁魔像倾泻到这片土地上——"
+  },
+  {
+    "id": 205,
+    "en": "I will never let that happen! I have already sworn to bring his tyranny to an end.",
+    "zh": "我绝不允许！我早已发誓，要终结他的暴政。"
+  },
+  {
+    "id": 206,
+    "en": "Hey! He may have power， but we've got the sword and three hundred pounds of undead fury. I think we can take him.",
+    "zh": "嘿！他是厉害，可我们有宝剑，还有三百磅重的不死怒火。我看打得赢。"
+  },
+  {
+    "id": 207,
+    "en": "Don't say any more， Teach. I messed up bad， didn't I?",
+    "zh": "别说了，师父。我这回闯大祸了，对吧？"
+  },
+  {
+    "id": 208,
+    "en": "And this isn't like the time I lit your hair on fire...",
+    "zh": "跟上次烧着你头发可不是一回事……"
+  },
+  {
+    "id": 209,
+    "en": "We'll stop Kanon. I promise. Magic should be a choice， not royal policy.",
+    "zh": "我们一定会阻止卡农，我保证。魔法该由人自己选择，不该是王国的强制法令。"
+  },
+  {
+    "id": 210,
+    "en": "When war casts shadows upon my fields， it is my feet I plant.",
+    "zh": "战火的阴影笼罩田野时，我便挺身而立。"
+  },
+  {
+    "id": 211,
+    "en": "Yes--feet of defiance! I swear to make a stand against Kanon!",
+    "zh": "不错，双脚扎根，绝不屈服！我发誓与卡农抗争到底！"
+  },
+  {
+    "id": 212,
+    "en": "Relax. When life hands you lemons， make some apple juice! Me and Gin'll take Kanon down.",
+    "zh": "放轻松。人生给你柠檬，你就榨杯苹果汁！我和银次郎会摆平卡农的。"
+  },
+  {
+    "id": 213,
+    "en": "Very well.",
+    "zh": "好吧。"
+  },
+  {
+    "id": 214,
+    "en": "Our land does need a savior. I shall pray you are up to the task.",
+    "zh": "这片土地确实需要救星。愿你们有能力担起这个重任。"
+  },
+  {
+    "id": 215,
+    "en": "Something else is troubling me. Has that black knight not heard the truth from his father? That their bloodline are not true royalty?",
+    "zh": "还有一件事让我在意。那个黑骑士，难道没从父亲那里听说真相？他们这一脉，并非真正的王族。"
+  },
+  {
+    "id": 216,
+    "en": "Don't be absurd!",
+    "zh": "别开玩笑了！"
+  },
+  {
+    "id": 217,
+    "en": "What puppet is so blind as to not see his strings?",
+    "zh": "哪有傀儡瞎到连自己的提线都看不见？"
+  },
+  {
+    "id": 218,
+    "en": "He's a willing participant.",
+    "zh": "他是心甘情愿的帮凶。"
+  },
+  {
+    "id": 219,
+    "en": "If not， how could he go around murdering innocents?",
+    "zh": "否则，怎会四处残杀无辜？"
+  },
+  {
+    "id": 220,
+    "en": "How could he burn farmland to ashes and starve his fellow man? Even if he doesn't know he's a puppet， he still let himself become one. He is guilty!",
+    "zh": "怎会焚毁农田，让同胞挨饿？就算不知道自己是傀儡，也是他亲手把自己变成傀儡的。他有罪！"
+  },
+  {
+    "id": 221,
+    "en": "Whoa whoa， time out. The king's not a king!?",
+    "zh": "等等，暂停！国王不是国王！？"
+  },
+  {
+    "id": 222,
+    "en": "He's got a crown， don't he?",
+    "zh": "他不是戴着王冠吗？"
+  },
+  {
+    "id": 223,
+    "en": "Wait! You're saying somebody just swapped a new king in?",
+    "zh": "等等！你是说，有人偷偷换了个国王？"
+  },
+  {
+    "id": 224,
+    "en": "But that's ridiculous! The people would never let that happen... right?",
+    "zh": "可这也太荒唐了！百姓怎么会答应……对吧？"
+  },
+  {
+    "id": 225,
+    "en": "A puppet monarchy?",
+    "zh": "傀儡王室？"
+  },
+  {
+    "id": 226,
+    "en": "Then all these radical policies--who devised them if not the king!?",
+    "zh": "那这些激进的政令……不是国王的话，又是谁定的！？"
+  },
+  {
+    "id": 227,
+    "en": "Not true royalty? You mean...",
+    "zh": "不是真正的王族？你是说……"
+  },
+  {
+    "id": 228,
+    "en": "I pay taxes to a FRAUD?",
+    "zh": "我一直在给骗子交税？"
+  },
+  {
+    "id": 229,
+    "en": "Calm down. You must learn to see more than the truth that is right in front of you.",
+    "zh": "冷静些。你们要学会看清眼前表象背后的真相。"
+  },
+  {
+    "id": 230,
+    "en": "Not so fast， love!",
+    "zh": "别急着走呀，亲爱的！"
+  },
+  {
+    "id": 231,
+    "en": "Sorry， Prince Valgar. She's mine!",
+    "zh": "抱歉了，瓦尔加王子。她是我的！"
+  },
+  {
+    "id": 232,
+    "en": "You left us， Serena. I'll peel that armor from your corpse.",
+    "zh": "瑟蕾娜，你抛下了我们。我要从你的尸体上剥下这身铠甲。"
+  },
+  {
+    "id": 233,
+    "en": "Knights of the Red Order! Greet your former captain.",
+    "zh": "红之骑士团的各位！向你们的前团长问个好。"
+  },
+  {
+    "id": 234,
+    "en": "Ha! Who trained those wimps? Oh， that's right...",
+    "zh": "哈！是谁教出了这群废物？哦，对了……"
+  },
+  {
+    "id": 235,
+    "en": "It was YOU.",
+    "zh": "是你啊。"
+  },
+  {
+    "id": 236,
+    "en": "The king's wrath is wakened.",
+    "zh": "国王已经震怒。"
+  },
+  {
+    "id": 237,
+    "en": "We've already bled that rebel village trying to find you. How many more must die?",
+    "zh": "为了找你们，我们已血洗了那个反叛村庄。还想让多少人送命？"
+  },
+  {
+    "id": 238,
+    "en": "Come， Serena， let us embrace! I must thank you for making me captain!",
+    "zh": "来吧，瑟蕾娜，拥抱一下！我得谢谢你让我当上了团长！"
+  },
+  {
+    "id": 239,
+    "en": "Run， Lord Kanon!",
+    "zh": "卡农大人，快跑！"
+  },
+  {
+    "id": 240,
+    "en": "They are a force of nature!",
+    "zh": "他们简直势不可挡！"
+  },
+  {
+    "id": 241,
+    "en": "The black wizard is here!?",
+    "zh": "黑魔法师在这里！？"
+  },
+  {
+    "id": 242,
+    "en": "There's only room for one",
+    "zh": "这里容得下的卡农，"
+  },
+  {
+    "id": 243,
+    "en": "“cannon“ here， and it's me!",
+    "zh": "只有我这一门大炮！"
+  },
+  {
+    "id": 244,
+    "en": "Did he just say “Kanon“?",
+    "zh": "他刚才说“卡农”了？"
+  },
+  {
+    "id": 245,
+    "en": "Kanon the Grey serves the royal family!",
+    "zh": "灰袍卡农可是为王室效力的！"
+  },
+  {
+    "id": 246,
+    "en": "The king's top advisor... I wonder if he takes advice as poorly as he gives it.",
+    "zh": "国王的首席顾问……不知道他听取建议，是不是也跟出主意一样差劲。"
+  },
+  {
+    "id": 247,
+    "en": "No mage faces the black wizard and lives! I'll， uh... I'll be standing by the door， guys.",
+    "zh": "没人能在面对黑魔法师后活下来！我，呃……我就守在门边了，伙计们。"
+  },
+  {
+    "id": 248,
+    "en": "Stand your ground， cowards!",
+    "zh": "守住阵地，懦夫！"
+  },
+  {
+    "id": 249,
+    "en": "Ah， Serena.",
+    "zh": "啊，瑟蕾娜。"
+  },
+  {
+    "id": 250,
+    "en": "Hoping to captain the Red Order again? You know， most traitors have the good sense not to return.",
+    "zh": "想回来继续当红之骑士团团长？要知道，大多数叛徒都识趣，不会自投罗网。"
+  },
+  {
+    "id": 251,
+    "en": "You know full well why I have returned.",
+    "zh": "你很清楚我为何回来。"
+  },
+  {
+    "id": 252,
+    "en": "Ha ha ha ha!",
+    "zh": "哈哈哈哈！"
+  },
+  {
+    "id": 253,
+    "en": "Do I?",
+    "zh": "是吗？"
+  },
+  {
+    "id": 254,
+    "en": "I thought you would take shelter with the resistance. My mistake. I should have kept more soldiers here.",
+    "zh": "我以为你会投奔反抗军。失算了，早该多留些士兵在这里。"
+  },
+  {
+    "id": 255,
+    "en": "Still， I suppose a pile of dead rebels and their families does make a statement.",
+    "zh": "不过，一堆死去的叛军和他们的家人，想必也足够表明我的态度了。"
+  },
+  {
+    "id": 256,
+    "en": "Now， your turn. Meet Silver， your executioner!",
+    "zh": "现在轮到你了。见见希尔弗，你的刽子手！"
+  },
+  {
+    "id": 257,
+    "en": "Die， you impostor!",
+    "zh": "去死吧，篡位的骗子！"
+  },
+  {
+    "id": 258,
+    "en": "You destroyed the royal family and replaced them with pawns who forced magic on my people!",
+    "zh": "你灭了真正的王室，又扶植傀儡，强迫我的人民使用魔法！"
+  },
+  {
+    "id": 259,
+    "en": "Ha ha ha ha! Cracked a few history books， have we? Speaking of impostors...",
+    "zh": "哈哈哈哈！翻了几本史书，是吧？说起骗子……"
+  },
+  {
+    "id": 260,
+    "en": "You posed as a knight and moved up the ranks just to steal information about the sword. Liar liar， Serena.",
+    "zh": "你伪装成骑士，一路爬上高位，只为窃取宝剑的情报。瑟蕾娜，你可真会骗人。"
+  },
+  {
+    "id": 261,
+    "en": "Whoa， time out! Is that true?",
+    "zh": "等等，暂停！这是真的？"
+  },
+  {
+    "id": 262,
+    "en": "The royal family's a fake?",
+    "zh": "王室是假的？"
+  },
+  {
+    "id": 263,
+    "en": "Yes， well， this has all been very enlightening， but in the end， I still hold power.",
+    "zh": "是，是，大家都长了不少见识。不过说到底，权力仍在我手里。"
+  },
+  {
+    "id": 264,
+    "en": "Here， why don't you and my pets frolic a bit while I deal with important affairs?",
+    "zh": "这样吧，你们陪我的宠物好好玩玩，我去处理要事。"
+  },
+  {
+    "id": 265,
+    "en": "Without these mechs， the castle will be vulnerable.",
+    "zh": "这些机甲被毁，城堡就失去了防守。"
+  },
+  {
+    "id": 266,
+    "en": "We can strike Kanon down!",
+    "zh": "我们可以击败卡农！"
+  },
+  {
+    "id": 267,
+    "en": "Help me storm the castle， and end his puppet tyranny!",
+    "zh": "帮我攻入城堡，终结他的傀儡暴政！"
+  },
+  {
+    "id": 268,
+    "en": "Bam! Who just turned your mechs into wrecks? Me. I did.",
+    "zh": "砰！谁把你们的机甲打成了废铁？是我，就是我。"
+  },
+  {
+    "id": 269,
+    "en": "Next on the list: Kanon. Come on!",
+    "zh": "接下来轮到卡农。走吧！"
+  },
+  {
+    "id": 270,
+    "en": "I bet that got their attention.",
+    "zh": "这下他们该注意到我们了。"
+  },
+  {
+    "id": 271,
+    "en": "C'mon! Let's corner Kanon and try to make sense of all this.",
+    "zh": "走！堵住卡农，把整件事问个明白。"
+  },
+  {
+    "id": 272,
+    "en": "The metal puppets have fallen.",
+    "zh": "钢铁傀儡已然倒下。"
+  },
+  {
+    "id": 273,
+    "en": "Now， to face the puppet wearing a robe and crown.",
+    "zh": "该去会会那披着长袍、戴着王冠的傀儡了。"
+  },
+  {
+    "id": 274,
+    "en": "Look at this mess! My tax money!",
+    "zh": "看看这一地狼藉！我的税钱啊！"
+  },
+  {
+    "id": 275,
+    "en": "C'mon， Goldie， let's make Gramps cough up a refund!",
+    "zh": "走，金大个儿，让那老头把钱退回来！"
+  },
+  {
+    "id": 276,
+    "en": "Huh!? Back up.",
+    "zh": "啊！？等等。"
+  },
+  {
+    "id": 277,
+    "en": "The king isn't really king!? You lying son of a cyclops!",
+    "zh": "国王不是真国王！？你这个满口胡话的独眼怪崽子！"
+  },
+  {
+    "id": 278,
+    "en": "A puppet monarchy!",
+    "zh": "原来是傀儡王室！"
+  },
+  {
+    "id": 279,
+    "en": "No wonder the people suffer.",
+    "zh": "难怪百姓受苦。"
+  },
+  {
+    "id": 280,
+    "en": "Hey! What did I miss?",
+    "zh": "喂！我错过什么了？"
+  },
+  {
+    "id": 281,
+    "en": "What are you talking about?",
+    "zh": "你们在说什么？"
+  },
+  {
+    "id": 282,
+    "en": "What has gotten into the royal knights?",
+    "zh": "王国骑士到底怎么了？"
+  },
+  {
+    "id": 283,
+    "en": "They've never attacked the village head on!",
+    "zh": "他们从没这样正面进攻村庄啊！"
+  },
+  {
+    "id": 284,
+    "en": "Save... the villagers... Nngh...",
+    "zh": "救……村民……唔……"
+  },
+  {
+    "id": 285,
+    "en": "Rebels never say... dnnnngh...",
+    "zh": "叛军永不……呃啊……"
+  },
+  {
+    "id": 286,
+    "en": "Once I have you in the air， you will never know the peace of crashing to the ground!",
+    "zh": "一旦被我打上天，你就休想安稳落地！"
+  },
+  {
+    "id": 287,
+    "en": "I'd stay， were you worth the effort of sharpening my sword.",
+    "zh": "要是你值得我磨一回剑，我倒愿意留下。"
+  },
+  {
+    "id": 288,
+    "en": "Why stay? Will swatting flies make me stronger?",
+    "zh": "何必久留？拍苍蝇能让我变强吗？"
+  },
+  {
+    "id": 289,
+    "en": "Weaker than week-old bread!",
+    "zh": "比放了一星期的面包还软！"
+  },
+  {
+    "id": 290,
+    "en": "Sorry， but the village is kind of under attack， y'know?",
+    "zh": "抱歉，村子正挨打呢，你知道吧？"
+  },
+  {
+    "id": 291,
+    "en": "You just flopped worse than Nando's ears.",
+    "zh": "你耷拉得比南多的耳朵还厉害。"
+  },
+  {
+    "id": 292,
+    "en": "Sucks to be you!",
+    "zh": "算你倒霉！"
+  },
+  {
+    "id": 293,
+    "en": "Keep still. It will hurt less.",
+    "zh": "别动，就不会那么疼。"
+  },
+  {
+    "id": 294,
+    "en": "Another day， perhaps.",
+    "zh": "改日再战吧。"
+  },
+  {
+    "id": 295,
+    "en": "Apologies， warriors， but time is of the essence.",
+    "zh": "抱歉，各位战士，时间紧迫。"
+  },
+  {
+    "id": 296,
+    "en": "Omigosh! I should make a career out of this!",
+    "zh": "天哪！我该靠这个吃饭！"
+  },
+  {
+    "id": 297,
+    "en": "See my smiley? He's frowning at you.",
+    "zh": "看见我的笑脸了吗？它正在对你皱眉呢。"
+  },
+  {
+    "id": 298,
+    "en": "Nya ha ha! The jig is up， rebel sympathizers! I knew you were all in cahoots.",
+    "zh": "哇哈哈！露馅了吧，你们这帮叛军同党！我就知道你们勾结在一起。"
+  },
+  {
+    "id": 299,
+    "en": "You cannot pull the wool over Lord Zur's eyes. Now perish!",
+    "zh": "休想蒙蔽祖尔大人的双眼。现在去死吧！"
+  },
+  {
+    "id": 300,
+    "en": "Mother bucket! What the heck is that!?",
+    "zh": "妈了个桶！那究竟是什么鬼东西！？"
+  },
+  {
+    "id": 301,
+    "en": "At last! It's activating! Hear thee， Golem God! I order you to destroy all who  serve the royal bloodline!",
+    "zh": "终于！启动了！听令，魔像神！消灭所有效忠王族血脉的人！"
+  },
+  {
+    "id": 302,
+    "en": "Mommy... Why do the big creatures always hate me?",
+    "zh": "妈妈呀……为什么大块头总跟我过不去？"
+  },
+  {
+    "id": 303,
+    "en": "SERVANTS OF THE ROYAL BLOODLINE... DETECTED!",
+    "zh": "发现……王族血脉的追随者！"
+  },
+  {
+    "id": 304,
+    "en": "Interesting.",
+    "zh": "有意思。"
+  },
+  {
+    "id": 305,
+    "en": "Hey! Not at us!",
+    "zh": "喂！别打我们！"
+  },
+  {
+    "id": 306,
+    "en": "Bwa ha ha! That machine knows its bloodlines!",
+    "zh": "哇哈哈！这机器可真认得王族血脉！"
+  },
+  {
+    "id": 307,
+    "en": "And apparently， so do you.",
+    "zh": "看来，你也认得。"
+  },
+  {
+    "id": 308,
+    "en": "Bah! Where's the glory in offing some green-armored wimp?",
+    "zh": "呸！杀个穿绿甲的废物，有什么值得炫耀的？"
+  },
+  {
+    "id": 309,
+    "en": "You nincompoops are the only fugitives that matter. Now get ready for a Zur-prise!",
+    "zh": "你们这些笨蛋才是要紧的逃犯。准备领教祖尔大人的惊喜吧！"
+  },
+  {
+    "id": 310,
+    "en": "There! I like these odds better! Attack， my pretties!",
+    "zh": "这才对！现在胜算好多了！宝贝们，进攻！"
+  },
+  {
+    "id": 311,
+    "en": "Have you all lost your mind?",
+    "zh": "你们全疯了吗？"
+  },
+  {
+    "id": 312,
+    "en": "How dare you lay your hands on me--a national treasure! Lord Kanon will hear of this!",
+    "zh": "竟敢对我动手！我可是国宝！这事我一定要告诉卡农大人！"
+  },
+  {
+    "id": 313,
+    "en": "Why not go cry to the king?",
+    "zh": "怎么不去找国王哭诉？"
+  },
+  {
+    "id": 314,
+    "en": "...Because you know the truth.",
+    "zh": "……因为你知道真相。"
+  },
+  {
+    "id": 315,
+    "en": "I watched you at the castle. You always had a hand in Kanon's slimiest affairs.",
+    "zh": "我在城堡里见过你。卡农那些肮脏勾当，总有你一份。"
+  },
+  {
+    "id": 316,
+    "en": "He told you， didn't he?",
+    "zh": "他都告诉你了，对吧？"
+  },
+  {
+    "id": 317,
+    "en": "That he destroyed the true royal family. That the king we have now is just a puppet--",
+    "zh": "是他灭了真正的王室。如今的国王不过是个傀儡——"
+  },
+  {
+    "id": 318,
+    "en": "A dictator he put on the throne to seize power!",
+    "zh": "一个被他扶上王座、替他攫取权力的独裁者！"
+  },
+  {
+    "id": 319,
+    "en": "What!?",
+    "zh": "什么！？"
+  },
+  {
+    "id": 320,
+    "en": "The king is a fraud?",
+    "zh": "国王是个骗子？"
+  },
+  {
+    "id": 321,
+    "en": "You... you... you you YOU YOU YOU'RE NOT SUPPOSED TO KNOW THAT!",
+    "zh": "你……你……你你你你你不该知道这些！"
+  },
+  {
+    "id": 322,
+    "en": "You're just a lowly knight- captain with a... with a big golden freak for a friend!",
+    "zh": "你不过是个卑微的骑士团长，身边还带着个……金灿灿的大怪物！"
+  },
+  {
+    "id": 323,
+    "en": "Grrr... Hmph! So be it. The gloves are off. Schnitzel is about to get very， very real.",
+    "zh": "可恶……哼！好吧，我可不留情了。这下真要闹出大事了。"
+  },
+  {
+    "id": 324,
+    "en": "I will punish you as only Lord Zur can...",
+    "zh": "我要用祖尔大人独一无二的方式惩罚你们……"
+  },
+  {
+    "id": 325,
+    "en": "By disappearing!",
+    "zh": "我消失给你们看！"
+  },
+  {
+    "id": 326,
+    "en": "Serena， I served in the Blue Order. If the king's not a king， then am I not a knight?",
+    "zh": "瑟蕾娜，我曾为蓝之骑士团效力。国王若不是国王，那我也不算骑士了吗？"
+  },
+  {
+    "id": 327,
+    "en": "I don't have all the answers.",
+    "zh": "我也无法回答所有问题。"
+  },
+  {
+    "id": 328,
+    "en": "But I promise you: Kanon will not stop at forcing magic and machinery into our lives.",
+    "zh": "但我敢说，卡农绝不会止步于强迫我们接受魔法和机械。"
+  },
+  {
+    "id": 329,
+    "en": "He has some higher goal. Something that drives him...",
+    "zh": "他还有更大的目的。有某种东西驱使着他……"
+  },
+  {
+    "id": 330,
+    "en": "Like I care what makes him tick! He's a liar who's deceived us all.",
+    "zh": "谁管他打的什么算盘！他骗了我们所有人。"
+  },
+  {
+    "id": 331,
+    "en": "I'll tear down his little puppet show myself.",
+    "zh": "我要亲手砸烂他的傀儡戏。"
+  },
+  {
+    "id": 332,
+    "en": "Yeowch! What's the big idea?",
+    "zh": "哎哟！你搞什么鬼？"
+  },
+  {
+    "id": 333,
+    "en": "Stop! We are not the enemy!",
+    "zh": "住手！我们不是敌人！"
+  },
+  {
+    "id": 334,
+    "en": "Ack! What's it doing? Somebody call tech support!",
+    "zh": "啊！它在干什么？快找人来修修！"
+  },
+  {
+    "id": 335,
+    "en": "No way! So it's not that the king had a change of heart-- WE had a change of king!",
+    "zh": "不会吧！原来不是国王变了心，而是咱们换了个国王！"
+  },
+  {
+    "id": 336,
+    "en": "Puppet!? Is that true?",
+    "zh": "傀儡！？是真的吗？"
+  },
+  {
+    "id": 337,
+    "en": "Time out there， honey.",
+    "zh": "等等，亲爱的。"
+  },
+  {
+    "id": 338,
+    "en": "The king's a fraud?",
+    "zh": "国王是个骗子？"
+  },
+  {
+    "id": 339,
+    "en": "So the king is a fake?",
+    "zh": "所以国王是假的？"
+  },
+  {
+    "id": 340,
+    "en": "I can hardly believe it...",
+    "zh": "真让人难以相信……"
+  },
+  {
+    "id": 341,
+    "en": "All this time， we've been jerked around by a phony king?",
+    "zh": "这么久以来，我们都在被一个假国王耍得团团转？"
+  },
+  {
+    "id": 342,
+    "en": "Yeah， it's called insanity!",
+    "zh": "没错，他就是疯了！"
+  },
+  {
+    "id": 343,
+    "en": "He thinks he can lie to us and get away with it? He can think again! Right， Nando?",
+    "zh": "他以为骗了我们还能逍遥自在？做梦！对吧，南多？"
+  },
+  {
+    "id": 344,
+    "en": "These are dark times， when demons like him call themselves men. He will pay for deceiving the people!",
+    "zh": "妖孽竟敢自称为人，真是世道昏暗。他欺骗百姓，定要付出代价！"
+  },
+  {
+    "id": 345,
+    "en": "You know what we need? Someone of true royal blood! They'd know what to do.",
+    "zh": "知道我们需要什么吗？真正的王族！他们一定知道该怎么办。"
+  },
+  {
+    "id": 346,
+    "en": "Behold! How we burst from our skin-tight suits! Lo! Are our visages not awesomely cute?",
+    "zh": "看啊！我们挣脱紧身衣，闪亮登场！瞧！我们的面容是不是可爱得惊人？"
+  },
+  {
+    "id": 347,
+    "en": "Wow! It's us!  The kleptomaniacal Glutes!",
+    "zh": "哇！正是我们！偷遍天下的翘臀团！"
+  },
+  {
+    "id": 348,
+    "en": "Hey. Nice to rob ya.",
+    "zh": "嘿，很高兴抢劫你。"
+  },
+  {
+    "id": 349,
+    "en": "You buttinskies picked a bad day to crash Macho's turf.",
+    "zh": "你们这帮多管闲事的，今天可不该闯进马乔的地盘。"
+  },
+  {
+    "id": 350,
+    "en": "Macho demands appeasement in the form of that golden dude! Hand him over.",
+    "zh": "马乔要你们交出那个金灿灿的家伙，作为赔礼！"
+  },
+  {
+    "id": 351,
+    "en": "Never. He serves the kingdom， not rabble like you!",
+    "zh": "休想。他为王国效力，岂会听你们这些地痞的！"
+  },
+  {
+    "id": 352,
+    "en": "Ha! Good luck talking the “golden dude“ into it.",
+    "zh": "哈！你倒是试着说服那位“金大个儿”啊。"
+  },
+  {
+    "id": 353,
+    "en": "Have it your way. But Macho warns you! Peter Piper never picked pectorals like THESE.",
+    "zh": "随你的便。不过马乔警告你们！这般胸肌，可不是谁都练得出来的。"
+  },
+  {
+    "id": 354,
+    "en": "Wait， boss! Me and the boys'll bump these guys off. Watch!",
+    "zh": "等等，老大！我们几个就能干掉他们。看着吧！"
+  },
+  {
+    "id": 355,
+    "en": "How dare you send Macho's Glutes down the chute!? Grr...",
+    "zh": "竟敢把马乔的翘臀团打得屁滚尿流！？可恶……"
+  },
+  {
+    "id": 356,
+    "en": "You wield much strength， but Macho senses you are bullies.",
+    "zh": "你们确实很强，可马乔看得出，你们专会欺负人。"
+  },
+  {
+    "id": 357,
+    "en": "Boss! It's the royal knights!",
+    "zh": "老大！王国骑士来了！"
+  },
+  {
+    "id": 358,
+    "en": "Here to set Macho up? Hmph! You can go， trespassers. Your beating will come later!",
+    "zh": "想给马乔下套？哼！闯入者，这次放你们走，回头再收拾你们！"
+  },
+  {
+    "id": 359,
+    "en": "Macho must stay and pump iron. Pink， knightly iron!",
+    "zh": "马乔还得留下来练铁。穿粉红铠甲的骑士铁块！"
+  },
+  {
+    "id": 360,
+    "en": "Eep! Macho has decided Macho is too manly to fight girly royal lapdogs. Come， Glutes! Strut away swiftly， that we may rob another day!",
+    "zh": "呀！马乔决定了，马乔太有男子气概，不屑跟娘娘腔的王家走狗打架。翘臀团，走！快迈开雄壮的步子，改日再抢！"
+  },
+  {
+    "id": 361,
+    "en": "Ha! He wouldn't be caught undead in that outfit!",
+    "zh": "哈！就算死了，他也不肯穿你那身衣服！"
+  },
+  {
+    "id": 362,
+    "en": "A wise man does not take that which will destroy him.",
+    "zh": "智者不会伸手去取足以毁掉自己的东西。"
+  },
+  {
+    "id": 363,
+    "en": "Sorry! You're not his type!",
+    "zh": "抱歉！你不是他喜欢的类型！"
+  },
+  {
+    "id": 364,
+    "en": "Wha-Wha-Wha what what what WHAT ARE YOU DOING HERE? Didn't Valgar kill you yet?",
+    "zh": "你你你你你你怎么在这里？瓦尔加还没杀掉你们吗？"
+  },
+  {
+    "id": 365,
+    "en": "Don't just stand there， my pretties! Death formation!",
+    "zh": "宝贝们，别愣着！摆出死亡阵形！"
+  },
+  {
+    "id": 366,
+    "en": "Nya ha ha! I suppose you were hoping to pop in on your rebel villager friends?",
+    "zh": "哇哈哈！你们是想来探望村里那些叛军朋友吧？"
+  },
+  {
+    "id": 367,
+    "en": "Well， too bad! Because I “popped“ them first! They are now bloody cherries on my sundae of glory!",
+    "zh": "可惜呀！我已经先“照顾”过他们了！他们的血肉，如今都是我荣耀圣代上的樱桃！"
+  },
+  {
+    "id": 368,
+    "en": "My genius plan was to frame those muscly thugs for murder-- WAY TO RUIN IT!",
+    "zh": "我本来打算把杀人的罪名栽给那群肌肉混混……全被你们毁了！"
+  },
+  {
+    "id": 369,
+    "en": "Now the king looks bad， I look bad--and you're gonna look dead!",
+    "zh": "现在国王脸上无光，我也丢脸……而你们要丢命！"
+  },
+  {
+    "id": 370,
+    "en": "Are you insane? How dare you strike a member of the court! I am nobility!",
+    "zh": "你们疯了吗？竟敢袭击朝臣！我可是贵族！"
+  },
+  {
+    "id": 371,
+    "en": "You're a noble liar!",
+    "zh": "你是贵得离谱的骗子！"
+  },
+  {
+    "id": 372,
+    "en": "You know the truth. I watched you at the castle.",
+    "zh": "你知道真相。我在城堡里见过你。"
+  },
+  {
+    "id": 373,
+    "en": "You always had a hand in Kanon's slimiest affairs. He told you， didn't he?",
+    "zh": "卡农那些肮脏勾当，总有你一份。他都告诉你了，对吧？"
+  },
+  {
+    "id": 374,
+    "en": "That he destroyed the true royal family. That the king we have now is a puppet--a dictator he put on the throne to seize power!",
+    "zh": "是他灭了真正的王室。如今的国王，不过是被他扶上王座、替他攫取权力的傀儡独裁者！"
+  },
+  {
+    "id": 375,
+    "en": "What!? The king is a fraud?",
+    "zh": "什么！？国王是个骗子？"
+  },
+  {
+    "id": 376,
+    "en": "What? Somebody changed kings on us? But that's... crazy...",
+    "zh": "什么？有人偷偷换了国王？可这也……太荒唐了……"
+  },
+  {
+    "id": 377,
+    "en": "WHO TOLD YOU THAT!? You're just a knight-captain!",
+    "zh": "谁告诉你的！？你不过是个骑士团长！"
+  },
+  {
+    "id": 378,
+    "en": "A traitor with a big， ugly， smelly， golden， zombie LOSER  for a friend!",
+    "zh": "一个叛徒！还跟又大又丑又臭、金灿灿的废物僵尸做朋友！"
+  },
+  {
+    "id": 379,
+    "en": "Ugh， I cannot win. Lord Zur is defeated! Lord Zur will kiss your boots and praise your name!",
+    "zh": "唉，我赢不了了。祖尔大人认输了！祖尔大人愿意亲吻你们的靴子，歌颂你们的英名！"
+  },
+  {
+    "id": 380,
+    "en": "Pfft， in another lifetime!",
+    "zh": "嘁，下辈子吧！"
+  },
+  {
+    "id": 381,
+    "en": "So the king's not a king?",
+    "zh": "所以国王不是真国王？"
+  },
+  {
+    "id": 382,
+    "en": "So the king's a fake?",
+    "zh": "所以国王是假的？"
+  },
+  {
+    "id": 383,
+    "en": "I can hardly believe it.",
+    "zh": "真让人难以相信。"
+  },
+  {
+    "id": 384,
+    "en": "It must come as a shock.",
+    "zh": "这消息一定让你们很震惊。"
+  },
+  {
+    "id": 385,
+    "en": "But Kanon will not stop at forcing magic into our lives.",
+    "zh": "但卡农绝不会止步于强迫我们接受魔法。"
+  },
+  {
+    "id": 386,
+    "en": "He has some higher goal... something that drives him.",
+    "zh": "他还有更大的目的……有某种东西驱使着他。"
+  },
+  {
+    "id": 387,
+    "en": "Like I care what makes him tick! He's a liar.",
+    "zh": "谁管他打的什么算盘！他就是个骗子。"
+  },
+  {
+    "id": 388,
+    "en": "And I'm gonna make him pay.",
+    "zh": "我要让他付出代价。"
+  },
+  {
+    "id": 389,
+    "en": "Yeah， it's called insanity! He has no right to lie to us.",
+    "zh": "没错，他就是疯了！他凭什么骗我们。"
+  },
+  {
+    "id": 390,
+    "en": "Me and Nando won't allow it!",
+    "zh": "我和南多绝不答应！"
+  },
+  {
+    "id": 391,
+    "en": "These are dark times.",
+    "zh": "真是世道昏暗。"
+  },
+  {
+    "id": 392,
+    "en": "How can demons like him call themselves men? He will pay for deceiving the people!",
+    "zh": "妖孽竟敢自称为人？他欺骗百姓，定要付出代价！"
+  },
+  {
+    "id": 393,
+    "en": "You know what we need? Someone of true royal blood! They'd know how to fix all this.",
+    "zh": "知道我们需要什么吗？真正的王族！他们一定知道怎么收拾这烂摊子。"
+  },
+  {
+    "id": 394,
+    "en": "Gotta be at least one of 'em left somewhere， right?",
+    "zh": "总该还有一个活着吧？"
+  },
+  {
+    "id": 395,
+    "en": "Valgar. We're too late.",
+    "zh": "瓦尔加。我们来迟了。"
+  },
+  {
+    "id": 396,
+    "en": "That knight!? How did he get here so fast?",
+    "zh": "那个骑士！？他怎么这么快就到了？"
+  },
+  {
+    "id": 397,
+    "en": "I'm starting to feel like the ham on a knight sandwich.",
+    "zh": "我怎么觉得自己成了骑士三明治里的火腿。"
+  },
+  {
+    "id": 398,
+    "en": "The black knight... Tremendous. Few could mobilize their forces this quickly.",
+    "zh": "黑骑士……了不起。能如此迅速调动兵力的人，屈指可数。"
+  },
+  {
+    "id": 399,
+    "en": "An ambush? You can't ambush me! I AMBUSH YOU FIRST!",
+    "zh": "埋伏？还想埋伏我？我先埋伏了你！"
+  },
+  {
+    "id": 400,
+    "en": "So a common mage's power cannot hold you. No matter.",
+    "zh": "看来普通法师的力量困不住你们。无妨。"
+  },
+  {
+    "id": 401,
+    "en": "My quarrels， I prefer to settle with blades.",
+    "zh": "我更喜欢用刀剑解决恩怨。"
+  },
+  {
+    "id": 402,
+    "en": "A shame this fun won't last.",
+    "zh": "可惜，这乐子不会持续太久。"
+  },
+  {
+    "id": 403,
+    "en": "S-Stand your ground， men! They are lawless weaklings!",
+    "zh": "士、士兵们，守住！他们只是些目无法纪的弱者！"
+  },
+  {
+    "id": 404,
+    "en": "Hmph. I may have misjudged that monster's strength， but--",
+    "zh": "哼，我或许低估了那个怪物的力量，可——"
+  },
+  {
+    "id": 405,
+    "en": "Hey， what are you-- Ow! Trample THEM， not me!",
+    "zh": "喂，你干什——哎哟！踩他们，别踩我！"
+  },
+  {
+    "id": 406,
+    "en": "Enough!",
+    "zh": "够了！"
+  },
+  {
+    "id": 407,
+    "en": "Come， men!",
+    "zh": "士兵们，跟我来！"
+  },
+  {
+    "id": 408,
+    "en": "Well well， if it isn't my favorite gaggle of rebel sympathizers.",
+    "zh": "哟哟，这不是我最喜欢的那群叛军同党吗？"
+  },
+  {
+    "id": 409,
+    "en": "A shame you missed the magic as I ground your co-traitors into hamburgers! But fear not. My powerful golem will ensure that you--wait for it--ketchup.",
+    "zh": "可惜你们错过了好戏，没看见我把你们的同党碾成肉饼！别担心，我这强大的魔像马上就来……给你们添点番茄酱！"
+  },
+  {
+    "id": 410,
+    "en": "How dare you ruffle my... my royal neck ruffle!",
+    "zh": "竟敢弄皱我的……我的王室皱领！"
+  },
+  {
+    "id": 411,
+    "en": "This is property of the king!",
+    "zh": "这可是国王的财产！"
+  },
+  {
+    "id": 412,
+    "en": "Liar!",
+    "zh": "骗子！"
+  },
+  {
+    "id": 413,
+    "en": "The king is an imposter.",
+    "zh": "国王是冒牌货。"
+  },
+  {
+    "id": 414,
+    "en": "You always had a hand in Kanon's slimiest affairs.",
+    "zh": "卡农那些肮脏勾当，总有你一份。"
+  },
+  {
+    "id": 415,
+    "en": "So you know he destroyed the true royal family. The king we have now is a puppet he put on the throne to gain power!",
+    "zh": "所以你知道，是他灭了真正的王室。如今的国王，不过是被他扶上王座、替他攫取权力的傀儡！"
+  },
+  {
+    "id": 416,
+    "en": "A royal switch?",
+    "zh": "王室被掉包了？"
+  },
+  {
+    "id": 417,
+    "en": "Puppet!? Surely that can't be true?",
+    "zh": "傀儡！？这不可能是真的吧？"
+  },
+  {
+    "id": 418,
+    "en": "H-HOW DO YOU KNOW THAT!?",
+    "zh": "你、你怎么会知道！？"
+  },
+  {
+    "id": 419,
+    "en": "You're just a knight-captain! A traitor with a big golden FREAK for a friend.",
+    "zh": "你不过是个骑士团长！一个跟金灿灿大怪物做朋友的叛徒。"
+  },
+  {
+    "id": 420,
+    "en": "If you're not going to play fair... then take this! My ultimate weapon--",
+    "zh": "你们不肯公平较量……那就接招吧！我的最终绝招——"
+  },
+  {
+    "id": 421,
+    "en": "Hyper Dimensional Parallel Extra Strong Super Attack... HOOOOOOOOOOOOOOO! ...HO?",
+    "zh": "超次元平行特强超级攻击……喝啊啊啊啊啊啊啊！……啊？"
+  },
+  {
+    "id": 422,
+    "en": "Ho crap， it's not working.",
+    "zh": "啊，该死，没用啊。"
+  },
+  {
+    "id": 423,
+    "en": "I don't know the whole story.",
+    "zh": "事情的全貌，我也不清楚。"
+  },
+  {
+    "id": 424,
+    "en": "He thinks he can lie to us and get away with it? No way!",
+    "zh": "他以为骗了我们还能逍遥自在？休想！"
+  },
+  {
+    "id": 425,
+    "en": "These warriors...",
+    "zh": "这些战士……"
+  },
+  {
+    "id": 426,
+    "en": "They died in another age.",
+    "zh": "他们死于另一个时代。"
+  },
+  {
+    "id": 427,
+    "en": "Was there a war fought here? I don't savor killing men who already gave their life once.",
+    "zh": "这里曾发生过战争？我不愿再杀死这些早已献出生命的人。"
+  },
+  {
+    "id": 428,
+    "en": "Magic didn't bring these warriors back. Hatred did. You feel that rage in the air?",
+    "zh": "唤醒这些战士的不是魔法，而是仇恨。感受到空气中的怒火了吗？"
+  },
+  {
+    "id": 429,
+    "en": "I sense agony in this place. These fields were watered with blood. I wonder...",
+    "zh": "我能感到此地的苦痛。鲜血曾浸透这片原野。不知……"
+  },
+  {
+    "id": 430,
+    "en": "Who were these men?",
+    "zh": "他们生前究竟是谁？"
+  },
+  {
+    "id": 431,
+    "en": "A war must've been fought here long ago. The souls of the dead are screaming! Either that， or I have a migraine.",
+    "zh": "这里很久以前一定打过仗。亡者的灵魂正在尖叫！要不就是我偏头痛了。"
+  },
+  {
+    "id": 432,
+    "en": "Rrgh. Here already? It's these ghoulish pests...",
+    "zh": "可恶，这么快就追来了？都怪这些不死的害虫……"
+  },
+  {
+    "id": 433,
+    "en": "Have the dead no honor， attacking their fellow knights?",
+    "zh": "这些死人竟然袭击骑士同袍，还有没有荣誉可言？"
+  },
+  {
+    "id": 434,
+    "en": "Fellow knights? No... My ancestors lie here.",
+    "zh": "骑士同袍？不……这里长眠着我的先祖。"
+  },
+  {
+    "id": 435,
+    "en": "Rest now， kindred spirits. I promise you， the true monarchy you fought for will never be stamped out by the likes of him.",
+    "zh": "安息吧，同族的英魂。我向你们保证，你们誓死守护的真正王室，绝不会毁在他这种人手里。"
+  },
+  {
+    "id": 436,
+    "en": "I'm starting to understand...",
+    "zh": "我开始明白了……"
+  },
+  {
+    "id": 437,
+    "en": "This must be where the true royal family lies buried.",
+    "zh": "这里一定是真正王族的埋骨之地。"
+  },
+  {
+    "id": 438,
+    "en": "Ohhh. I get it now.",
+    "zh": "哦……我懂了。"
+  },
+  {
+    "id": 439,
+    "en": "This is where the real royalty was buried.",
+    "zh": "真正的王族就葬在这里。"
+  },
+  {
+    "id": 440,
+    "en": "You question their honor， but I know it to be real.",
+    "zh": "你质疑他们的荣誉，可我知道，那是真正的荣誉。"
+  },
+  {
+    "id": 441,
+    "en": "These warriors died in defense of the true monarchy.",
+    "zh": "这些战士是为保卫真正的王室而死。"
+  },
+  {
+    "id": 442,
+    "en": "Well， wouldn't you be ticked off if a bunch of impostors came along and stole your king's throne?",
+    "zh": "换成你，有一群冒牌货来抢了你国王的王位，你不生气？"
+  },
+  {
+    "id": 443,
+    "en": "What?",
+    "zh": "什么？"
+  },
+  {
+    "id": 444,
+    "en": "You're speaking nonsense.",
+    "zh": "一派胡言。"
+  },
+  {
+    "id": 445,
+    "en": "Huh? Something's...",
+    "zh": "嗯？好像有什么……"
+  },
+  {
+    "id": 446,
+    "en": "Ah! Feel that hatred! This warrior is unlike any we have faced!",
+    "zh": "啊！好深的恨意！这战士与我们以往的敌人都不同！"
+  },
+  {
+    "id": 447,
+    "en": "A captain? No， a general!",
+    "zh": "团长？不，是将军！"
+  },
+  {
+    "id": 448,
+    "en": "Whoever he was， he's on nobody's side now.",
+    "zh": "无论他生前是谁，如今都不站在任何一边。"
+  },
+  {
+    "id": 449,
+    "en": "Oh my grog. N-Nando， did you just wet yourself?",
+    "zh": "我的老天。南、南多，你刚才是不是吓尿了？"
+  }
+]

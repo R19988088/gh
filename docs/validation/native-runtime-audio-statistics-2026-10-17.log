@@ -1,0 +1,6 @@
+SDL driver=coreaudio; physical 'MacBook Air扬声器' before open: 2 ch, 48000 Hz
+CoreAudio device 129 element 0 mute=0 (read only)
+CoreAudio device 129 element 0 volume=0.2500 (read only)
+opened 'MacBook Air扬声器': 2 ch; submitting 2 ch
+endpoint statistics: submitted=120 consumed=120 silence=0 callbacks=30 max-submit-gap=0.037ms max-callback-gap=21.463ms
+CoreAudio endpoint callback consumed 120/120 nonzero FL/FR frames; physical audibility requires listener confirmation

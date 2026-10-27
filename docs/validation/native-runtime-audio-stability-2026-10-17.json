@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-17",
+  "workload": "Guardian Heroes Resume; title BGM client 2; MacBook Air speakers at 48 kHz stereo.",
+  "stable_audio_accepted": true,
+  "acceptance_scope": "Basic audible title audio and F9 restore, confirmed by the user.",
+  "user_feedback": {
+    "audio_normal": true,
+    "f9_normal": true,
+    "quote": "声音和 f9 正常"
+  },
+  "method": "Callback averages are weighted by invocation count. Each endpoint chunk contains 256 samples at 48000 Hz. The dense-build startup window ends from 4 seconds inclusive to 34 seconds exclusive after client 2 registration; no profiler runs inside this window.",
+  "per_callback_budget_ms": 5.333333,
+  "dense_pc_audio": {
+    "startup": {
+      "source_log": "/tmp/gh-native-dense-pc-title-runtime.log",
+      "pid": 35247,
+      "window_start": "2026-10-17 17:28:55.003000",
+      "window_end_exclusive": "2026-10-17 17:29:25.003000",
+      "callback_windows": 15,
+      "callback_count": 5633,
+      "weighted_callback_average_ms": 2.705,
+      "maximum_callback_ms": 15.291,
+      "endpoint": "79E7E0AC40",
+      "endpoint_windows": 22,
+      "submitted_chunks": 5632,
+      "consumed_chunks": 5633,
+      "silence_chunks": 7,
+      "silence_fraction": 0.001241,
+      "maximum_submit_gap_ms": 19.941,
+      "maximum_endpoint_callback_gap_ms": 28.732
+    },
+    "post_restore_30_second_window_collected": false
+  },
+  "release_restore_credit_fix": {
+    "behavior": "Every consumed restored endpoint frame returns its scheduler credit in Release builds. The FrameConsumed call executes outside the assertion.",
+    "runtime_evidence": {
+      "source_log": "/tmp/gh-native-credit-fixed-title-runtime.log",
+      "pid": 31674,
+      "saved_bytes": 357310404,
+      "restored_bytes": 357310404,
+      "restored_time": "2026-10-17 17:05:43.401000",
+      "window_start": "2026-10-17 17:05:47.401000",
+      "window_end_exclusive": "2026-10-17 17:06:17.401000",
+      "callback_windows": 15,
+      "callback_count": 2523,
+      "weighted_callback_average_ms": 10.73,
+      "maximum_callback_ms": 21.997,
+      "endpoint": "76AC281B80",
+      "endpoint_windows": 10,
+      "submitted_chunks": 2560,
+      "consumed_chunks": 2562,
+      "silence_chunks": 3170,
+      "silence_fraction": 0.553036,
+      "maximum_submit_gap_ms": 24.0,
+      "maximum_endpoint_callback_gap_ms": 24.077,
+      "continuous_nonzero_audio_after_restore": true
+    },
+    "basic_restore_accepted_by_user": true
+  },
+  "continuation_pc_membership": {
+    "behavior": "Fully contiguous 4-byte PC sets use range and alignment checks; sparse sets retain binary search. Current, Next, call and return PC validation, step budgets and snapshot semantics remain enforced.",
+    "baseline_profile": {
+      "file": "native-runtime-audio-continuation-profile-2026-10-17.json",
+      "samples": 14124,
+      "machine_run_self_ms": 6894,
+      "machine_run_self_fraction": 0.488105,
+      "current_pc_binary_search_self_ms": 2936,
+      "next_pc_binary_search_self_ms": 2319,
+      "return_pc_binary_search_self_ms": 54,
+      "binary_uuid": "988256ED-1B2F-3AA8-8F26-2ADF01ACB82E"
+    },
+    "profile_file": "native-runtime-audio-continuation-profile-2026-10-17.json"
+  },
+  "verification": {
+    "host_callback_and_guest_restore": {
+      "exit_code": 0,
+      "source_log": "/tmp/gh-native-audio-host-callback-green.log"
+    },
+    "endpoint_statistics": {
+      "exit_code": 0,
+      "submitted_chunks": 120,
+      "consumed_chunks": 120,
+      "silence_chunks": 0,
+      "callbacks": 30,
+      "reset_assertions_passed": true,
+      "source_log": "native-runtime-audio-statistics-2026-10-17.log"
+    },
+    "endpoint_rebuild": {
+      "single_stream_exit_code": 0,
+      "three_stream_exit_code": 0,
+      "restored_queued_frames": 112,
+      "consumed_restored_frames": 112,
+      "callbacks": 28,
+      "log": "native-runtime-audio-endpoint-rebuild-2026-10-17.log"
+    }
+  },
+  "callback_duration_semantics": "The measured wall time includes the guest producer wait: 0x82651940 unwraps the argument and enters 0x82651770, which signals the request event, waits on two guest objects (WaitAny), and transposes/submits 256x6 samples only when object 1 is signaled. It is not a measurement of local PCM mixing cost.",
+  "comparison_limits": [
+    "The credit-fix baseline is a post-F9 title window and the dense result is a startup title window; they are separate runs and not the same snapshot.",
+    "User acceptance covers basic audible audio and F9; long play and full-game coverage remain open."
+  ],
+  "conclusion": "Basic audio and F9 are accepted by the user. The dense PC path supplies the measured title audio within the 5.333 ms frame budget on average; its clean startup window contains 7 silence chunks among 5640 output chunks."
+}

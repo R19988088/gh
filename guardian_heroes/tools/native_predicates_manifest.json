@@ -1,0 +1,2312 @@
+[
+  {
+    "name": "sub_825AFF30",
+    "shape": "field_equals",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.55.cpp",
+    "line": 10982,
+    "instructions": [
+      "lhz r11,8(r3)",
+      "addi r11,r11,-29",
+      "cntlzw r10,r11",
+      "rlwinm r3,r10,27,31,31",
+      "blr "
+    ],
+    "width": 16,
+    "offset": 8,
+    "shift": 0,
+    "mask": 4294967295,
+    "expected": 29,
+    "clz_in_r11": false,
+    "caller": {
+      "kind": "data_pointer",
+      "references": [
+        "0x82339a00"
+      ]
+    }
+  },
+  {
+    "name": "sub_825D8740",
+    "shape": "field_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.41.cpp",
+    "line": 12085,
+    "instructions": [
+      "lbz r11,10540(r3)",
+      "clrlwi r3,r11,28",
+      "blr "
+    ],
+    "width": 8,
+    "offset": 10540,
+    "shift": 0,
+    "mask": 15,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_825C0B58",
+    "shape": "field_equals",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.54.cpp",
+    "line": 11380,
+    "instructions": [
+      "lhz r11,8(r3)",
+      "addi r11,r11,-18",
+      "cntlzw r10,r11",
+      "rlwinm r3,r10,27,31,31",
+      "blr "
+    ],
+    "width": 16,
+    "offset": 8,
+    "shift": 0,
+    "mask": 4294967295,
+    "expected": 18,
+    "clz_in_r11": false,
+    "caller": {
+      "kind": "data_pointer",
+      "references": [
+        "0x8233c3d8",
+        "0x8233f8bc"
+      ]
+    }
+  },
+  {
+    "name": "sub_8268D198",
+    "shape": "field_bits",
+    "caller": {
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.57.cpp",
+      "line": 18219,
+      "context": "\t// cmplwi cr6,r3,0\n\tctx.cr6.compare<uint32_t>(ctx.r3.u32, 0, ctx.xer);\n\t// beq cr6,0x8269a9cc\n\tif (ctx.cr6.eq) goto loc_8269A9CC;\n\t// addi r3,r3,24\n\tctx.r3.s64 = ctx.r3.s64 + 24;\n\t// bl 0x8268d198\n\tctx.lr = 0x8269A9B4;\nsub_8268D198(ctx, base);\n\n\t// clrlwi r3,r3,24\n\tctx.r3.u64 = ctx.r3.u32 & 0xFF;\n\t// addi r1,r1,96",
+      "kind": "direct"
+    },
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.54.cpp",
+    "line": 17464,
+    "instructions": [
+      "lwz r11,16(r3)",
+      "rlwinm r3,r11,30,29,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 16,
+    "shift": 2,
+    "mask": 7
+  },
+  {
+    "name": "sub_825D75D0",
+    "shape": "field_bits",
+    "caller": {
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.27.cpp",
+      "line": 164,
+      "context": "\tctx.lr = 0x82416C70;\n\tsub_825D7600(ctx, base);\n\t// stw r3,100(r30)\n\tREX_STORE_U32(ctx.r30.u32 + 100, ctx.r3.u32);\n\t// mr r3,r31\n\tctx.r3.u64 = ctx.r31.u64;\n\t// bl 0x825d75d0\n\tctx.lr = 0x82416C7C;\nsub_825D75D0(ctx, base);\n\n\t// stw r3,104(r30)\n\tREX_STORE_U32(ctx.r30.u32 + 104, ctx.r3.u32);\n\t// mr r3,r31",
+      "kind": "direct"
+    },
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.68.cpp",
+    "line": 11674,
+    "instructions": [
+      "lwz r11,10568(r3)",
+      "clrlwi r3,r11,29",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 10568,
+    "shift": 0,
+    "mask": 7
+  },
+  {
+    "name": "sub_825D7638",
+    "shape": "field_bits",
+    "caller": {
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.79.cpp",
+      "line": 1059,
+      "context": "\tctx.lr = 0x8243BC08;\n\tsub_825D76C8(ctx, base);\n\t// stw r3,244(r31)\n\tREX_STORE_U32(ctx.r31.u32 + 244, ctx.r3.u32);\n\t// lwz r3,32(r31)\n\tctx.r3.u64 = REX_LOAD_U32(ctx.r31.u32 + 32);\n\t// bl 0x825d7638\n\tctx.lr = 0x8243BC14;\nsub_825D7638(ctx, base);\n\n\t// stw r3,248(r31)\n\tREX_STORE_U32(ctx.r31.u32 + 248, ctx.r3.u32);\n\t// lwz r3,32(r31)",
+      "kind": "direct"
+    },
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.68.cpp",
+    "line": 11684,
+    "instructions": [
+      "lwz r11,10556(r3)",
+      "rlwinm r3,r11,29,31,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 10556,
+    "shift": 3,
+    "mask": 1
+  },
+  {
+    "name": "sub_82481850",
+    "shape": "field_equals",
+    "caller": {
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.82.cpp",
+      "line": 3476,
+      "context": "\t// cmpw cr6,r29,r3\n\tctx.cr6.compare<int32_t>(ctx.r29.s32, ctx.r3.s32, ctx.xer);\n\t// ble cr6,0x8248cdec\n\tif (!ctx.cr6.gt) goto loc_8248CDEC;\n\t// add r3,r31,r30\n\tctx.r3.u64 = ctx.r31.u64 + ctx.r30.u64;\n\t// bl 0x82481850\n\tctx.lr = 0x8248CD3C;\nsub_82481850(ctx, base);\n\n\t// clrlwi r11,r3,24\n\tctx.r11.u64 = ctx.r3.u32 & 0xFF;\n\t// cmplwi cr6,r11,0",
+      "kind": "direct"
+    },
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.81.cpp",
+    "line": 2897,
+    "instructions": [
+      "lhz r11,356(r3)",
+      "addi r11,r11,-3",
+      "cntlzw r10,r11",
+      "rlwinm r3,r10,27,31,31",
+      "blr "
+    ],
+    "width": 16,
+    "offset": 356,
+    "shift": 0,
+    "mask": 4294967295,
+    "expected": 3,
+    "clz_in_r11": false
+  },
+  {
+    "name": "sub_82448500",
+    "shape": "field_zero",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.57.cpp",
+    "line": 1320,
+    "instructions": [
+      "lbz r11,85(r3)",
+      "cntlzw r10,r11",
+      "rlwinm r3,r10,27,31,31",
+      "blr "
+    ],
+    "width": 8,
+    "offset": 85,
+    "shift": 0,
+    "mask": 4294967295,
+    "expected": 0,
+    "clz_in_r11": false,
+    "caller": {
+      "kind": "data_pointer",
+      "references": [
+        "0x8200f6fc"
+      ]
+    }
+  },
+  {
+    "name": "sub_82586D08",
+    "shape": "field_equals",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.57.cpp",
+    "line": 10193,
+    "instructions": [
+      "lhz r11,8(r3)",
+      "addi r11,r11,-13",
+      "cntlzw r10,r11",
+      "rlwinm r3,r10,27,31,31",
+      "blr "
+    ],
+    "width": 16,
+    "offset": 8,
+    "shift": 0,
+    "mask": 4294967295,
+    "expected": 13,
+    "clz_in_r11": false,
+    "caller": {
+      "kind": "data_pointer",
+      "references": [
+        "0x8232b234",
+        "0x8232f2d8",
+        "0x82336134",
+        "0x8233f4c8",
+        "0x823401a8"
+      ]
+    }
+  },
+  {
+    "name": "sub_8269A510",
+    "shape": "pointer_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.57.cpp",
+    "line": 18175,
+    "instructions": [
+      "lwz r11,16(r3)",
+      "lbz r10,7(r11)",
+      "rlwinm r3,r10,30,31,31",
+      "blr "
+    ],
+    "width": 8,
+    "offset": 7,
+    "shift": 2,
+    "mask": 1,
+    "pointer_offset": 16,
+    "caller": {
+      "kind": "data_pointer",
+      "references": [
+        "0x823a1398",
+        "0x823a19d4"
+      ]
+    }
+  },
+  {
+    "name": "sub_825D86E0",
+    "shape": "field_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.43.cpp",
+    "line": 12363,
+    "instructions": [
+      "lwz r11,10540(r3)",
+      "clrlwi r3,r11,28",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 10540,
+    "shift": 0,
+    "mask": 15,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_825D8750",
+    "shape": "field_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.43.cpp",
+    "line": 12373,
+    "instructions": [
+      "lwz r11,10540(r3)",
+      "rlwinm r3,r11,4,28,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 10540,
+    "shift": 28,
+    "mask": 15,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_825D7F88",
+    "shape": "field_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.84.cpp",
+    "line": 12264,
+    "instructions": [
+      "lwz r11,10548(r3)",
+      "rlwinm r3,r11,6,29,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 10548,
+    "shift": 26,
+    "mask": 7,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_82583CD8",
+    "shape": "field_equals",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.52.cpp",
+    "line": 9795,
+    "instructions": [
+      "lhz r11,8(r3)",
+      "addi r11,r11,-2",
+      "cntlzw r10,r11",
+      "rlwinm r3,r10,27,31,31",
+      "blr "
+    ],
+    "width": 16,
+    "offset": 8,
+    "shift": 0,
+    "mask": 4294967295,
+    "expected": 2,
+    "clz_in_r11": false,
+    "caller": {
+      "kind": "data_pointer",
+      "references": [
+        "0x8232e028",
+        "0x8232ff5c"
+      ]
+    }
+  },
+  {
+    "name": "sub_825D8700",
+    "shape": "field_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.52.cpp",
+    "line": 12191,
+    "instructions": [
+      "lwz r11,10540(r3)",
+      "rlwinm r3,r11,24,28,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 10540,
+    "shift": 8,
+    "mask": 15,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_825D87A0",
+    "shape": "field_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.52.cpp",
+    "line": 12201,
+    "instructions": [
+      "lhz r11,10544(r3)",
+      "clrlwi r3,r11,28",
+      "blr "
+    ],
+    "width": 16,
+    "offset": 10544,
+    "shift": 0,
+    "mask": 15,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_825D7758",
+    "shape": "field_bits",
+    "caller": {
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.27.cpp",
+      "line": 129,
+      "context": "\tctx.lr = 0x82416C34;\n\tsub_825D7878(ctx, base);\n\t// stw r3,80(r30)\n\tREX_STORE_U32(ctx.r30.u32 + 80, ctx.r3.u32);\n\t// mr r3,r31\n\tctx.r3.u64 = ctx.r31.u64;\n\t// bl 0x825d7758\n\tctx.lr = 0x82416C40;\nsub_825D7758(ctx, base);\n\n\t// stw r3,84(r30)\n\tREX_STORE_U32(ctx.r30.u32 + 84, ctx.r3.u32);\n\t// mr r3,r31",
+      "kind": "direct"
+    },
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.50.cpp",
+    "line": 12127,
+    "instructions": [
+      "lwz r11,12152(r3)",
+      "rlwinm r3,r11,27,29,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 12152,
+    "shift": 5,
+    "mask": 7
+  },
+  {
+    "name": "sub_825D7878",
+    "shape": "field_bits",
+    "caller": {
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.27.cpp",
+      "line": 122,
+      "context": "\tctx.lr = 0x82416C28;\n\tsub_825D77E8(ctx, base);\n\t// stw r3,76(r30)\n\tREX_STORE_U32(ctx.r30.u32 + 76, ctx.r3.u32);\n\t// mr r3,r31\n\tctx.r3.u64 = ctx.r31.u64;\n\t// bl 0x825d7878\n\tctx.lr = 0x82416C34;\nsub_825D7878(ctx, base);\n\n\t// stw r3,80(r30)\n\tREX_STORE_U32(ctx.r30.u32 + 80, ctx.r3.u32);\n\t// mr r3,r31",
+      "kind": "direct"
+    },
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.50.cpp",
+    "line": 12137,
+    "instructions": [
+      "lwz r11,12152(r3)",
+      "rlwinm r3,r11,24,27,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 12152,
+    "shift": 8,
+    "mask": 31
+  },
+  {
+    "name": "sub_825D7A60",
+    "shape": "field_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.50.cpp",
+    "line": 12147,
+    "instructions": [
+      "lwz r11,12156(r3)",
+      "rlwinm r3,r11,2,31,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 12156,
+    "shift": 30,
+    "mask": 1,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_825D8E40",
+    "shape": "field_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.50.cpp",
+    "line": 12225,
+    "instructions": [
+      "lwz r11,12156(r3)",
+      "rlwinm r3,r11,9,25,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 12156,
+    "shift": 23,
+    "mask": 127,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_824962E8",
+    "shape": "signed_byte",
+    "caller": {
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.82.cpp",
+      "line": 3225,
+      "context": "\tctx.cr6.compare<uint32_t>(ctx.r8.u32, 1, ctx.xer);\n\t// ble cr6,0x82486d14\n\tif (!ctx.cr6.gt) goto loc_82486D14;\n\t// bl 0x82495b00\n\tctx.lr = 0x82486CF8;\n\tsub_82495B00(ctx, base);\n\t// bl 0x824962e8\n\tctx.lr = 0x82486CFC;\nsub_824962E8(ctx, base);\n\n\t// cmpwi cr6,r3,1\n\tctx.cr6.compare<int32_t>(ctx.r3.s32, 1, ctx.xer);\n\t// mr r3,r31",
+      "kind": "direct"
+    },
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.78.cpp",
+    "line": 3500,
+    "instructions": [
+      "lbz r11,127(r3)",
+      "extsb r3,r11",
+      "blr "
+    ],
+    "width": 8,
+    "offset": 127,
+    "shift": 0,
+    "mask": 4294967295
+  },
+  {
+    "name": "sub_825D97A8",
+    "shape": "indexed_signed",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.78.cpp",
+    "line": 12640,
+    "instructions": [
+      "mulli r11,r4,24",
+      "add r11,r11,r3",
+      "lwz r11,1168(r11)",
+      "srawi r3,r11,27",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 1168,
+    "shift": 0,
+    "mask": 4294967295,
+    "stride": 24,
+    "left_shift": 0,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_825C6230",
+    "shape": "field_equals",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.45.cpp",
+    "line": 11221,
+    "instructions": [
+      "lhz r11,8(r3)",
+      "addi r11,r11,-3",
+      "cntlzw r10,r11",
+      "rlwinm r3,r10,27,31,31",
+      "blr "
+    ],
+    "width": 16,
+    "offset": 8,
+    "shift": 0,
+    "mask": 4294967295,
+    "expected": 3,
+    "clz_in_r11": false,
+    "caller": {
+      "kind": "data_pointer",
+      "references": [
+        "0x8234027c"
+      ]
+    }
+  },
+  {
+    "name": "sub_826A9080",
+    "shape": "field_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.51.cpp",
+    "line": 18372,
+    "instructions": [
+      "lwz r11,740(r3)",
+      "rlwinm r3,r11,2,31,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 740,
+    "shift": 30,
+    "mask": 1,
+    "caller": {
+      "kind": "data_pointer",
+      "references": [
+        "0x823a24c4"
+      ]
+    }
+  },
+  {
+    "name": "sub_826B8608",
+    "shape": "field_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.86.cpp",
+    "line": 18603,
+    "instructions": [
+      "lwz r11,396(r3)",
+      "rlwinm r3,r11,28,31,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 396,
+    "shift": 4,
+    "mask": 1,
+    "caller": {
+      "kind": "data_pointer",
+      "references": [
+        "0x823a25c4"
+      ]
+    }
+  },
+  {
+    "name": "sub_825D76C8",
+    "shape": "field_bits",
+    "caller": {
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.79.cpp",
+      "line": 1052,
+      "context": "\tctx.lr = 0x8243BBFC;\n\tsub_825D8B60(ctx, base);\n\t// stw r3,240(r31)\n\tREX_STORE_U32(ctx.r31.u32 + 240, ctx.r3.u32);\n\t// lwz r3,32(r31)\n\tctx.r3.u64 = REX_LOAD_U32(ctx.r31.u32 + 32);\n\t// bl 0x825d76c8\n\tctx.lr = 0x8243BC08;\nsub_825D76C8(ctx, base);\n\n\t// stw r3,244(r31)\n\tREX_STORE_U32(ctx.r31.u32 + 244, ctx.r3.u32);\n\t// lwz r3,32(r31)",
+      "kind": "direct"
+    },
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.36.cpp",
+    "line": 11829,
+    "instructions": [
+      "lwz r11,12156(r3)",
+      "rlwinm r3,r11,1,31,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 12156,
+    "shift": 31,
+    "mask": 1
+  },
+  {
+    "name": "sub_82586D20",
+    "shape": "field_equals",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.22.cpp",
+    "line": 9685,
+    "instructions": [
+      "lhz r11,8(r3)",
+      "addi r11,r11,-6",
+      "cntlzw r10,r11",
+      "rlwinm r3,r10,27,31,31",
+      "blr "
+    ],
+    "width": 16,
+    "offset": 8,
+    "shift": 0,
+    "mask": 4294967295,
+    "expected": 6,
+    "clz_in_r11": false,
+    "caller": {
+      "kind": "data_pointer",
+      "references": [
+        "0x82328d24",
+        "0x8232f2e4",
+        "0x82330ba8",
+        "0x82330e44",
+        "0x82333fa0",
+        "0x82334ec4",
+        "0x8233fdc4",
+        "0x82340fe0"
+      ]
+    }
+  },
+  {
+    "name": "sub_82481868",
+    "shape": "field_equals",
+    "caller": {
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.22.cpp",
+      "line": 5267,
+      "context": "\t// bl 0x82481810\n\tctx.lr = 0x824E3314;\n\tsub_82481810(ctx, base);\nloc_824E3314:\n\t// add r3,r31,r30\n\tctx.r3.u64 = ctx.r31.u64 + ctx.r30.u64;\n\t// bl 0x82481868\n\tctx.lr = 0x824E331C;\nsub_82481868(ctx, base);\n\n\t// clrlwi r11,r3,24\n\tctx.r11.u64 = ctx.r3.u32 & 0xFF;\n\t// cmplwi cr6,r11,0",
+      "kind": "direct"
+    },
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.37.cpp",
+    "line": 2849,
+    "instructions": [
+      "lhz r11,356(r3)",
+      "addi r11,r11,-5",
+      "cntlzw r10,r11",
+      "rlwinm r3,r10,27,31,31",
+      "blr "
+    ],
+    "width": 16,
+    "offset": 356,
+    "shift": 0,
+    "mask": 4294967295,
+    "expected": 5,
+    "clz_in_r11": false
+  },
+  {
+    "name": "sub_825D8DC0",
+    "shape": "field_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.37.cpp",
+    "line": 12330,
+    "instructions": [
+      "lwz r11,10560(r3)",
+      "rlwinm r3,r11,30,31,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 10560,
+    "shift": 2,
+    "mask": 1,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_825D9750",
+    "shape": "indexed_signed",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.37.cpp",
+    "line": 12352,
+    "instructions": [
+      "mulli r11,r4,24",
+      "add r11,r11,r3",
+      "lwz r11,1168(r11)",
+      "rlwinm r11,r11,5,0,26",
+      "srawi r3,r11,27",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 1168,
+    "shift": 0,
+    "mask": 4294967295,
+    "stride": 24,
+    "left_shift": 5,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_8269B548",
+    "shape": "pointer_bits",
+    "caller": {
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.16.cpp",
+      "line": 17842,
+      "context": "\t// lwz r10,36(r29)\n\tctx.r10.u64 = REX_LOAD_U32(ctx.r29.u32 + 36);\n\t// mr r3,r31\n\tctx.r3.u64 = ctx.r31.u64;\n\t// lwz r26,84(r10)\n\tctx.r26.u64 = REX_LOAD_U32(ctx.r10.u32 + 84);\n\t// bl 0x8269b548\n\tctx.lr = 0x8269177C;\nsub_8269B548(ctx, base);\n\n\t// subf r9,r27,r26\n\tctx.r9.u64 = ctx.r26.u64 - ctx.r27.u64;\n\t// cmpw cr6,r9,r3",
+      "kind": "direct"
+    },
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.37.cpp",
+    "line": 17920,
+    "instructions": [
+      "lwz r11,16(r3)",
+      "lwz r10,0(r11)",
+      "rlwinm r3,r10,27,8,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 0,
+    "shift": 5,
+    "mask": 16777215,
+    "pointer_offset": 16
+  },
+  {
+    "name": "sub_825D8710",
+    "shape": "field_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.21.cpp",
+    "line": 12252,
+    "instructions": [
+      "lwz r11,10540(r3)",
+      "rlwinm r3,r11,20,28,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 10540,
+    "shift": 12,
+    "mask": 15,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_825D87C0",
+    "shape": "field_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.21.cpp",
+    "line": 12262,
+    "instructions": [
+      "lbz r11,10544(r3)",
+      "clrlwi r3,r11,28",
+      "blr "
+    ],
+    "width": 8,
+    "offset": 10544,
+    "shift": 0,
+    "mask": 15,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_825D9800",
+    "shape": "indexed_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.21.cpp",
+    "line": 12304,
+    "instructions": [
+      "mulli r11,r4,24",
+      "add r11,r11,r3",
+      "lwz r11,1172(r11)",
+      "rlwinm r3,r11,30,31,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 1172,
+    "shift": 2,
+    "mask": 1,
+    "stride": 24,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_825D7958",
+    "shape": "field_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.35.cpp",
+    "line": 12265,
+    "instructions": [
+      "lhz r11,12152(r3)",
+      "clrlwi r3,r11,27",
+      "blr "
+    ],
+    "width": 16,
+    "offset": 12152,
+    "shift": 0,
+    "mask": 31,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_825D8B28",
+    "shape": "field_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.6.cpp",
+    "line": 12197,
+    "instructions": [
+      "lwz r11,10616(r3)",
+      "clrlwi r3,r11,30",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 10616,
+    "shift": 0,
+    "mask": 3,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_824D7120",
+    "shape": "field_equals",
+    "caller": {
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.45.cpp",
+      "line": 5374,
+      "context": "\tREX_STORE_U32(ea, ctx.r1.u32);\n\tctx.r1.u32 = ea;\n\t// mr r30,r3\n\tctx.r30.u64 = ctx.r3.u64;\n\t// addi r3,r3,2624\n\tctx.r3.s64 = ctx.r3.s64 + 2624;\n\t// bl 0x824d7120\n\tctx.lr = 0x824E3788;\nsub_824D7120(ctx, base);\n\n\t// clrlwi r11,r3,24\n\tctx.r11.u64 = ctx.r3.u32 & 0xFF;\n\t// cmplwi cr6,r11,0",
+      "kind": "direct"
+    },
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.34.cpp",
+    "line": 5031,
+    "instructions": [
+      "lhz r11,2504(r3)",
+      "addi r11,r11,-1",
+      "cntlzw r10,r11",
+      "rlwinm r3,r10,27,31,31",
+      "blr "
+    ],
+    "width": 16,
+    "offset": 2504,
+    "shift": 0,
+    "mask": 4294967295,
+    "expected": 1,
+    "clz_in_r11": false
+  },
+  {
+    "name": "sub_8269ECE8",
+    "shape": "pointer_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.34.cpp",
+    "line": 18010,
+    "instructions": [
+      "lwz r11,60(r3)",
+      "lwz r10,0(r11)",
+      "clrlwi r3,r10,16",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 0,
+    "shift": 0,
+    "mask": 65535,
+    "pointer_offset": 60,
+    "caller": {
+      "kind": "data_pointer",
+      "references": [
+        "0x823a19e4"
+      ]
+    }
+  },
+  {
+    "name": "sub_824A4B80",
+    "shape": "field_equals",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.20.cpp",
+    "line": 3816,
+    "instructions": [
+      "lhz r11,4(r3)",
+      "addi r11,r11,-3",
+      "cntlzw r10,r11",
+      "rlwinm r3,r10,27,31,31",
+      "blr "
+    ],
+    "width": 16,
+    "offset": 4,
+    "shift": 0,
+    "mask": 4294967295,
+    "expected": 3,
+    "clz_in_r11": false,
+    "caller": {
+      "kind": "data_pointer",
+      "references": [
+        "0x82018620"
+      ]
+    }
+  },
+  {
+    "name": "sub_82590CE0",
+    "shape": "field_equals",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.20.cpp",
+    "line": 9992,
+    "instructions": [
+      "lhz r11,8(r3)",
+      "addi r11,r11,-1",
+      "cntlzw r10,r11",
+      "rlwinm r3,r10,27,31,31",
+      "blr "
+    ],
+    "width": 16,
+    "offset": 8,
+    "shift": 0,
+    "mask": 4294967295,
+    "expected": 1,
+    "clz_in_r11": false,
+    "caller": {
+      "kind": "data_pointer",
+      "references": [
+        "0x82330e38"
+      ]
+    }
+  },
+  {
+    "name": "sub_825752E0",
+    "shape": "field_equals",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.30.cpp",
+    "line": 9756,
+    "instructions": [
+      "lhz r11,8(r3)",
+      "addi r11,r11,-9",
+      "cntlzw r10,r11",
+      "rlwinm r3,r10,27,31,31",
+      "blr "
+    ],
+    "width": 16,
+    "offset": 8,
+    "shift": 0,
+    "mask": 4294967295,
+    "expected": 9,
+    "clz_in_r11": false,
+    "caller": {
+      "kind": "data_pointer",
+      "references": [
+        "0x82328d48",
+        "0x82331460",
+        "0x823330e8",
+        "0x82333968"
+      ]
+    }
+  },
+  {
+    "name": "sub_82585EE0",
+    "shape": "field_equals",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.30.cpp",
+    "line": 10112,
+    "instructions": [
+      "lhz r11,8(r3)",
+      "addi r11,r11,-8",
+      "cntlzw r10,r11",
+      "rlwinm r3,r10,27,31,31",
+      "blr "
+    ],
+    "width": 16,
+    "offset": 8,
+    "shift": 0,
+    "mask": 4294967295,
+    "expected": 8,
+    "clz_in_r11": false,
+    "caller": {
+      "kind": "data_pointer",
+      "references": [
+        "0x82328160",
+        "0x82328d0c",
+        "0x8232b0a4",
+        "0x8232f16c",
+        "0x8232f2f0",
+        "0x8232f5e8",
+        "0x8232ff68",
+        "0x82333eb8",
+        "0x82333ec4",
+        "0x82334d78",
+        "0x82337174",
+        "0x8233e344"
+      ]
+    }
+  },
+  {
+    "name": "sub_825D7D70",
+    "shape": "field_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.30.cpp",
+    "line": 12429,
+    "instructions": [
+      "lwz r11,10548(r3)",
+      "rlwinm r3,r11,28,29,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 10548,
+    "shift": 4,
+    "mask": 7,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_825D7E88",
+    "shape": "field_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.30.cpp",
+    "line": 12439,
+    "instructions": [
+      "lwz r11,10548(r3)",
+      "rlwinm r3,r11,15,29,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 10548,
+    "shift": 17,
+    "mask": 7,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_82590CF8",
+    "shape": "field_equals",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.18.cpp",
+    "line": 10108,
+    "instructions": [
+      "lhz r11,8(r3)",
+      "addi r11,r11,-10",
+      "cntlzw r10,r11",
+      "rlwinm r3,r10,27,31,31",
+      "blr "
+    ],
+    "width": 16,
+    "offset": 8,
+    "shift": 0,
+    "mask": 4294967295,
+    "expected": 10,
+    "clz_in_r11": false,
+    "caller": {
+      "kind": "data_pointer",
+      "references": [
+        "0x82330e50",
+        "0x823372e0"
+      ]
+    }
+  },
+  {
+    "name": "sub_825D7E50",
+    "shape": "field_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.18.cpp",
+    "line": 12126,
+    "instructions": [
+      "lwz r11,10548(r3)",
+      "rlwinm r3,r11,21,29,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 10548,
+    "shift": 11,
+    "mask": 7,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_825D7F20",
+    "shape": "field_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.18.cpp",
+    "line": 12136,
+    "instructions": [
+      "lwz r11,10548(r3)",
+      "rlwinm r3,r11,9,29,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 10548,
+    "shift": 23,
+    "mask": 7,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_825D8720",
+    "shape": "field_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.18.cpp",
+    "line": 12186,
+    "instructions": [
+      "lhz r11,10540(r3)",
+      "clrlwi r3,r11,28",
+      "blr "
+    ],
+    "width": 16,
+    "offset": 10540,
+    "shift": 0,
+    "mask": 15,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_825D8780",
+    "shape": "field_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.18.cpp",
+    "line": 12196,
+    "instructions": [
+      "lwz r11,10544(r3)",
+      "rlwinm r3,r11,24,28,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 10544,
+    "shift": 8,
+    "mask": 15,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_825B69C0",
+    "shape": "field_equals",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.31.cpp",
+    "line": 11322,
+    "instructions": [
+      "lhz r11,8(r3)",
+      "addi r11,r11,-21",
+      "cntlzw r10,r11",
+      "rlwinm r3,r10,27,31,31",
+      "blr "
+    ],
+    "width": 16,
+    "offset": 8,
+    "shift": 0,
+    "mask": 4294967295,
+    "expected": 21,
+    "clz_in_r11": false,
+    "caller": {
+      "kind": "data_pointer",
+      "references": [
+        "0x8233d280"
+      ]
+    }
+  },
+  {
+    "name": "sub_825D7EB8",
+    "shape": "field_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.31.cpp",
+    "line": 12400,
+    "instructions": [
+      "lwz r11,10548(r3)",
+      "rlwinm r3,r11,18,29,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 10548,
+    "shift": 14,
+    "mask": 7,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_825D8B90",
+    "shape": "field_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.31.cpp",
+    "line": 12462,
+    "instructions": [
+      "lwz r11,10568(r3)",
+      "rlwinm r3,r11,11,31,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 10568,
+    "shift": 21,
+    "mask": 1,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_825D8DF0",
+    "shape": "field_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.31.cpp",
+    "line": 12472,
+    "instructions": [
+      "lwz r11,10560(r3)",
+      "rlwinm r3,r11,27,31,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 10560,
+    "shift": 5,
+    "mask": 1,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_825752C8",
+    "shape": "field_equals",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.33.cpp",
+    "line": 9674,
+    "instructions": [
+      "lhz r11,8(r3)",
+      "addi r11,r11,-15",
+      "cntlzw r10,r11",
+      "rlwinm r3,r10,27,31,31",
+      "blr "
+    ],
+    "width": 16,
+    "offset": 8,
+    "shift": 0,
+    "mask": 4294967295,
+    "expected": 15,
+    "clz_in_r11": false,
+    "caller": {
+      "kind": "data_pointer",
+      "references": [
+        "0x82328d00",
+        "0x82333974",
+        "0x82334d6c",
+        "0x8233d348"
+      ]
+    }
+  },
+  {
+    "name": "sub_825810D8",
+    "shape": "field_equals",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.33.cpp",
+    "line": 9955,
+    "instructions": [
+      "lhz r11,8(r3)",
+      "addi r11,r11,-11",
+      "cntlzw r10,r11",
+      "rlwinm r3,r10,27,31,31",
+      "blr "
+    ],
+    "width": 16,
+    "offset": 8,
+    "shift": 0,
+    "mask": 4294967295,
+    "expected": 11,
+    "clz_in_r11": false,
+    "caller": {
+      "kind": "data_pointer",
+      "references": [
+        "0x8232db3c",
+        "0x82334ed0",
+        "0x82337a7c",
+        "0x8233ef50"
+      ]
+    }
+  },
+  {
+    "name": "sub_825D8730",
+    "shape": "field_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.33.cpp",
+    "line": 12132,
+    "instructions": [
+      "lwz r11,10540(r3)",
+      "rlwinm r3,r11,12,28,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 10540,
+    "shift": 20,
+    "mask": 15,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_825CBD68",
+    "shape": "field_equals",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.27.cpp",
+    "line": 11657,
+    "instructions": [
+      "lhz r11,8(r3)",
+      "addi r11,r11,-31",
+      "cntlzw r10,r11",
+      "rlwinm r3,r10,27,31,31",
+      "blr "
+    ],
+    "width": 16,
+    "offset": 8,
+    "shift": 0,
+    "mask": 4294967295,
+    "expected": 31,
+    "clz_in_r11": false,
+    "caller": {
+      "kind": "data_pointer",
+      "references": [
+        "0x82333f0c",
+        "0x82341110"
+      ]
+    }
+  },
+  {
+    "name": "sub_8257BA90",
+    "shape": "field_equals",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.1.cpp",
+    "line": 9839,
+    "instructions": [
+      "lhz r11,8(r3)",
+      "addi r11,r11,-19",
+      "cntlzw r10,r11",
+      "rlwinm r3,r10,27,31,31",
+      "blr "
+    ],
+    "width": 16,
+    "offset": 8,
+    "shift": 0,
+    "mask": 4294967295,
+    "expected": 19,
+    "clz_in_r11": false,
+    "caller": {
+      "kind": "data_pointer",
+      "references": [
+        "0x8232b21c",
+        "0x8233cb28"
+      ]
+    }
+  },
+  {
+    "name": "sub_825D7D38",
+    "shape": "field_bits",
+    "caller": {
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.79.cpp",
+      "line": 1080,
+      "context": "\tctx.lr = 0x8243BC2C;\n\tsub_825D7D10(ctx, base);\n\t// stw r3,232(r31)\n\tREX_STORE_U32(ctx.r31.u32 + 232, ctx.r3.u32);\n\t// lwz r3,32(r31)\n\tctx.r3.u64 = REX_LOAD_U32(ctx.r31.u32 + 32);\n\t// bl 0x825d7d38\n\tctx.lr = 0x8243BC38;\nsub_825D7D38(ctx, base);\n\n\t// stw r3,236(r31)\n\tREX_STORE_U32(ctx.r31.u32 + 236, ctx.r3.u32);\n\t// lwz r3,32(r31)",
+      "kind": "direct"
+    },
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.32.cpp",
+    "line": 12342,
+    "instructions": [
+      "lwz r11,10548(r3)",
+      "rlwinm r3,r11,30,31,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 10548,
+    "shift": 2,
+    "mask": 1
+  },
+  {
+    "name": "sub_825D7CC8",
+    "shape": "field_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.17.cpp",
+    "line": 12092,
+    "instructions": [
+      "lwz r11,24264(r3)",
+      "clrlwi r3,r11,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 24264,
+    "shift": 0,
+    "mask": 1,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_8269A500",
+    "shape": "pointer_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.17.cpp",
+    "line": 17384,
+    "instructions": [
+      "lwz r11,16(r3)",
+      "lbz r10,7(r11)",
+      "rlwinm r3,r10,31,31,31",
+      "blr "
+    ],
+    "width": 8,
+    "offset": 7,
+    "shift": 1,
+    "mask": 1,
+    "pointer_offset": 16,
+    "caller": {
+      "kind": "data_pointer",
+      "references": [
+        "0x823a1394",
+        "0x823a19d0"
+      ]
+    }
+  },
+  {
+    "name": "sub_825D7600",
+    "shape": "field_bits",
+    "caller": {
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.27.cpp",
+      "line": 157,
+      "context": "\tctx.lr = 0x82416C64;\n\tsub_825D7AF0(ctx, base);\n\t// stw r3,96(r30)\n\tREX_STORE_U32(ctx.r30.u32 + 96, ctx.r3.u32);\n\t// mr r3,r31\n\tctx.r3.u64 = ctx.r31.u64;\n\t// bl 0x825d7600\n\tctx.lr = 0x82416C70;\nsub_825D7600(ctx, base);\n\n\t// stw r3,100(r30)\n\tREX_STORE_U32(ctx.r30.u32 + 100, ctx.r3.u32);\n\t// mr r3,r31",
+      "kind": "direct"
+    },
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.16.cpp",
+    "line": 11999,
+    "instructions": [
+      "lwz r11,10568(r3)",
+      "rlwinm r3,r11,29,24,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 10568,
+    "shift": 3,
+    "mask": 255
+  },
+  {
+    "name": "sub_825C0B40",
+    "shape": "field_equals",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.28.cpp",
+    "line": 11432,
+    "instructions": [
+      "lhz r11,8(r3)",
+      "addi r11,r11,-4",
+      "cntlzw r10,r11",
+      "rlwinm r3,r10,27,31,31",
+      "blr "
+    ],
+    "width": 16,
+    "offset": 8,
+    "shift": 0,
+    "mask": 4294967295,
+    "expected": 4,
+    "clz_in_r11": false,
+    "caller": {
+      "kind": "data_pointer",
+      "references": [
+        "0x82327dcc",
+        "0x8232b228",
+        "0x8232c5b0",
+        "0x82330b90",
+        "0x82333100",
+        "0x82333edc",
+        "0x82334d60",
+        "0x82334eb8",
+        "0x82337cc0",
+        "0x8233f8b0"
+      ]
+    }
+  },
+  {
+    "name": "sub_825D87B0",
+    "shape": "field_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.28.cpp",
+    "line": 12319,
+    "instructions": [
+      "lwz r11,10544(r3)",
+      "rlwinm r3,r11,12,28,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 10544,
+    "shift": 20,
+    "mask": 15,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_825D8BE8",
+    "shape": "field_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.28.cpp",
+    "line": 12329,
+    "instructions": [
+      "lwz r11,10556(r3)",
+      "rlwinm r3,r11,28,31,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 10556,
+    "shift": 4,
+    "mask": 1,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_8269A580",
+    "shape": "pointer_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.28.cpp",
+    "line": 17923,
+    "instructions": [
+      "lwz r11,16(r3)",
+      "lbz r10,7(r11)",
+      "clrlwi r3,r10,31",
+      "blr "
+    ],
+    "width": 8,
+    "offset": 7,
+    "shift": 0,
+    "mask": 1,
+    "pointer_offset": 16,
+    "caller": {
+      "kind": "data_pointer",
+      "references": [
+        "0x823a1320",
+        "0x823a1958"
+      ]
+    }
+  },
+  {
+    "name": "sub_82674758",
+    "shape": "field_zero",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.14.cpp",
+    "line": 16666,
+    "instructions": [
+      "lwz r11,116(r3)",
+      "cntlzw r11,r11",
+      "rlwinm r3,r11,27,31,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 116,
+    "shift": 0,
+    "mask": 4294967295,
+    "expected": 0,
+    "clz_in_r11": true,
+    "caller": {
+      "kind": "data_pointer",
+      "references": [
+        "0x8239b0dc",
+        "0x8239b10c",
+        "0x8239b140",
+        "0x8239edf8"
+      ]
+    }
+  },
+  {
+    "name": "sub_8269A520",
+    "shape": "pointer_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.14.cpp",
+    "line": 17972,
+    "instructions": [
+      "lwz r11,16(r3)",
+      "lbz r10,7(r11)",
+      "rlwinm r3,r10,29,31,31",
+      "blr "
+    ],
+    "width": 8,
+    "offset": 7,
+    "shift": 3,
+    "mask": 1,
+    "pointer_offset": 16,
+    "caller": {
+      "kind": "data_pointer",
+      "references": [
+        "0x823a139c",
+        "0x823a19d8"
+      ]
+    }
+  },
+  {
+    "name": "sub_82418EB8",
+    "shape": "field_zero",
+    "caller": {
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.69.cpp",
+      "line": 6449,
+      "context": "\tsub_82419338(ctx, base);\nloc_82505C78:\n\t// addi r30,r31,19632\n\tctx.r30.s64 = ctx.r31.s64 + 19632;\n\t// mr r3,r30\n\tctx.r3.u64 = ctx.r30.u64;\n\t// bl 0x82418eb8\n\tctx.lr = 0x82505C84;\nsub_82418EB8(ctx, base);\n\n\t// clrlwi r11,r3,24\n\tctx.r11.u64 = ctx.r3.u32 & 0xFF;\n\t// cmplwi cr6,r11,0",
+      "kind": "direct"
+    },
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.11.cpp",
+    "line": 127,
+    "instructions": [
+      "lwz r11,12(r3)",
+      "cntlzw r10,r11",
+      "rlwinm r3,r10,27,31,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 12,
+    "shift": 0,
+    "mask": 4294967295,
+    "expected": 0,
+    "clz_in_r11": false
+  },
+  {
+    "name": "sub_825BAAF8",
+    "shape": "field_equals",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.11.cpp",
+    "line": 11082,
+    "instructions": [
+      "lhz r11,8(r3)",
+      "addi r11,r11,-28",
+      "cntlzw r10,r11",
+      "rlwinm r3,r10,27,31,31",
+      "blr "
+    ],
+    "width": 16,
+    "offset": 8,
+    "shift": 0,
+    "mask": 4294967295,
+    "expected": 28,
+    "clz_in_r11": false,
+    "caller": {
+      "kind": "data_pointer",
+      "references": [
+        "0x8233e338"
+      ]
+    }
+  },
+  {
+    "name": "sub_826B8BF0",
+    "shape": "field_equals",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.11.cpp",
+    "line": 18130,
+    "instructions": [
+      "lwz r11,32(r3)",
+      "addi r11,r11,-997",
+      "cntlzw r11,r11",
+      "rlwinm r3,r11,27,31,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 32,
+    "shift": 0,
+    "mask": 4294967295,
+    "expected": 997,
+    "clz_in_r11": true,
+    "caller": {
+      "kind": "data_pointer",
+      "references": [
+        "0x823a25e8"
+      ]
+    }
+  },
+  {
+    "name": "sub_825D7F58",
+    "shape": "field_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.38.cpp",
+    "line": 12002,
+    "instructions": [
+      "lwz r11,10548(r3)",
+      "rlwinm r3,r11,3,29,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 10548,
+    "shift": 29,
+    "mask": 7,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_825D86F0",
+    "shape": "field_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.38.cpp",
+    "line": 12044,
+    "instructions": [
+      "lwz r11,10540(r3)",
+      "rlwinm r3,r11,28,28,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 10540,
+    "shift": 4,
+    "mask": 15,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_825D8790",
+    "shape": "field_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.38.cpp",
+    "line": 12054,
+    "instructions": [
+      "lwz r11,10544(r3)",
+      "rlwinm r3,r11,20,28,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 10544,
+    "shift": 12,
+    "mask": 15,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_825D78E8",
+    "shape": "field_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.10.cpp",
+    "line": 12031,
+    "instructions": [
+      "lwz r11,12152(r3)",
+      "rlwinm r3,r11,11,29,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 12152,
+    "shift": 21,
+    "mask": 7,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_825D7E18",
+    "shape": "field_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.10.cpp",
+    "line": 12078,
+    "instructions": [
+      "lwz r11,10548(r3)",
+      "rlwinm r3,r11,24,29,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 10548,
+    "shift": 8,
+    "mask": 7,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_825D7EE8",
+    "shape": "field_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.10.cpp",
+    "line": 12088,
+    "instructions": [
+      "lwz r11,10548(r3)",
+      "rlwinm r3,r11,12,29,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 10548,
+    "shift": 20,
+    "mask": 7,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_825C0B70",
+    "shape": "field_equals",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.12.cpp",
+    "line": 11338,
+    "instructions": [
+      "lhz r11,8(r3)",
+      "addi r11,r11,-7",
+      "cntlzw r10,r11",
+      "rlwinm r3,r10,27,31,31",
+      "blr "
+    ],
+    "width": 16,
+    "offset": 8,
+    "shift": 0,
+    "mask": 4294967295,
+    "expected": 7,
+    "clz_in_r11": false,
+    "caller": {
+      "kind": "data_pointer",
+      "references": [
+        "0x82328d18",
+        "0x8232b098",
+        "0x8232db30",
+        "0x8232f160",
+        "0x82330b9c",
+        "0x82331448",
+        "0x8233227c",
+        "0x82333ee8",
+        "0x82337168",
+        "0x82339a0c",
+        "0x8233f4b0",
+        "0x8233f8c8",
+        "0x8233fdb8",
+        "0x82340e90",
+        "0x82340fec",
+        "0x82340ffc",
+        "0x823411dc"
+      ]
+    }
+  },
+  {
+    "name": "sub_825D80A0",
+    "shape": "field_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.12.cpp",
+    "line": 12252,
+    "instructions": [
+      "lwz r11,10564(r3)",
+      "clrlwi r3,r11,26",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 10564,
+    "shift": 0,
+    "mask": 63,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_8268D130",
+    "shape": "field_bits",
+    "caller": {
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.78.cpp",
+      "line": 17352,
+      "context": "\tctx.lr = 0x82683560;\n\tsub_8264F520(ctx, base);\n\t// stw r3,16(r31)\n\tREX_STORE_U32(ctx.r31.u32 + 16, ctx.r3.u32);\n\t// addi r3,r1,80\n\tctx.r3.s64 = ctx.r1.s64 + 80;\n\t// bl 0x8268d130\n\tctx.lr = 0x8268356C;\nsub_8268D130(ctx, base);\n\n\t// stw r3,24(r31)\n\tREX_STORE_U32(ctx.r31.u32 + 24, ctx.r3.u32);\n\t// addi r1,r1,160",
+      "kind": "direct"
+    },
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.8.cpp",
+    "line": 16641,
+    "instructions": [
+      "lwz r11,12(r3)",
+      "rlwinm r3,r11,28,4,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 12,
+    "shift": 4,
+    "mask": 268435455
+  },
+  {
+    "name": "sub_825D8820",
+    "shape": "field_bits",
+    "caller": {
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.27.cpp",
+      "line": 185,
+      "context": "\tctx.lr = 0x82416C94;\n\tsub_825D7DB8(ctx, base);\n\t// stw r3,112(r30)\n\tREX_STORE_U32(ctx.r30.u32 + 112, ctx.r3.u32);\n\t// mr r3,r31\n\tctx.r3.u64 = ctx.r31.u64;\n\t// bl 0x825d8820\n\tctx.lr = 0x82416CA0;\nsub_825D8820(ctx, base);\n\n\t// stw r3,116(r30)\n\tREX_STORE_U32(ctx.r30.u32 + 116, ctx.r3.u32);\n\t// li r4,0",
+      "kind": "direct"
+    },
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.13.cpp",
+    "line": 12162,
+    "instructions": [
+      "lwz r11,10572(r3)",
+      "clrlwi r3,r11,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 10572,
+    "shift": 0,
+    "mask": 1
+  },
+  {
+    "name": "sub_825D8D90",
+    "shape": "field_bits",
+    "caller": {
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.79.cpp",
+      "line": 1094,
+      "context": "\tctx.lr = 0x8243BC44;\n\tsub_825D7DB8(ctx, base);\n\t// stw r3,256(r31)\n\tREX_STORE_U32(ctx.r31.u32 + 256, ctx.r3.u32);\n\t// lwz r3,32(r31)\n\tctx.r3.u64 = REX_LOAD_U32(ctx.r31.u32 + 32);\n\t// bl 0x825d8d90\n\tctx.lr = 0x8243BC50;\nsub_825D8D90(ctx, base);\n\n\t// stw r3,260(r31)\n\tREX_STORE_U32(ctx.r31.u32 + 260, ctx.r3.u32);\n\t// cmpwi cr6,r30,0",
+      "kind": "direct"
+    },
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.13.cpp",
+    "line": 12180,
+    "instructions": [
+      "lwz r11,10560(r3)",
+      "rlwinm r3,r11,29,31,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 10560,
+    "shift": 3,
+    "mask": 1
+  },
+  {
+    "name": "sub_825D91D8",
+    "shape": "indexed_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.13.cpp",
+    "line": 12190,
+    "instructions": [
+      "mulli r11,r4,24",
+      "add r11,r11,r3",
+      "lwz r11,1164(r11)",
+      "rlwinm r3,r11,9,30,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 1164,
+    "shift": 23,
+    "mask": 3,
+    "stride": 24,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_826B8088",
+    "shape": "field_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.13.cpp",
+    "line": 18337,
+    "instructions": [
+      "lwz r11,396(r3)",
+      "rlwinm r3,r11,1,31,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 396,
+    "shift": 31,
+    "mask": 1,
+    "caller": {
+      "kind": "data_pointer",
+      "references": [
+        "0x823a2574"
+      ]
+    }
+  },
+  {
+    "name": "sub_825722C8",
+    "shape": "field_equals",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.61.cpp",
+    "line": 9745,
+    "instructions": [
+      "lhz r11,8(r3)",
+      "addi r11,r11,-17",
+      "cntlzw r10,r11",
+      "rlwinm r3,r10,27,31,31",
+      "blr "
+    ],
+    "width": 16,
+    "offset": 8,
+    "shift": 0,
+    "mask": 4294967295,
+    "expected": 17,
+    "clz_in_r11": false,
+    "caller": {
+      "kind": "data_pointer",
+      "references": [
+        "0x823288e4",
+        "0x82337ccc"
+      ]
+    }
+  },
+  {
+    "name": "sub_82583CF0",
+    "shape": "field_equals",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.75.cpp",
+    "line": 9792,
+    "instructions": [
+      "lhz r11,8(r3)",
+      "addi r11,r11,-5",
+      "cntlzw r10,r11",
+      "rlwinm r3,r10,27,31,31",
+      "blr "
+    ],
+    "width": 16,
+    "offset": 8,
+    "shift": 0,
+    "mask": 4294967295,
+    "expected": 5,
+    "clz_in_r11": false,
+    "caller": {
+      "kind": "data_pointer",
+      "references": [
+        "0x82327dd8",
+        "0x823288d8",
+        "0x82328d30",
+        "0x82328d3c",
+        "0x8232b210",
+        "0x8232db48",
+        "0x8232e034",
+        "0x8232ff50",
+        "0x82332270",
+        "0x823330f4",
+        "0x82333ed0",
+        "0x823348e0",
+        "0x823348ec",
+        "0x82336128",
+        "0x823367f0",
+        "0x8233f4bc",
+        "0x82340270",
+        "0x823411d0"
+      ]
+    }
+  },
+  {
+    "name": "sub_825D8760",
+    "shape": "field_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.77.cpp",
+    "line": 12128,
+    "instructions": [
+      "lwz r11,10544(r3)",
+      "clrlwi r3,r11,28",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 10544,
+    "shift": 0,
+    "mask": 15,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_824962D8",
+    "shape": "signed_byte",
+    "caller": {
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.66.cpp",
+      "line": 4316,
+      "context": "\t__restgprlr_25(ctx, base);\n\treturn;\nloc_824AFBA0:\n\t// bl 0x82495b00\n\tctx.lr = 0x824AFBA4;\n\tsub_82495B00(ctx, base);\n\t// bl 0x824962d8\n\tctx.lr = 0x824AFBA8;\nsub_824962D8(ctx, base);\n\n\t// li r31,0\n\tctx.r31.s64 = 0;\n\t// li r11,7",
+      "kind": "direct"
+    },
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.76.cpp",
+    "line": 3496,
+    "instructions": [
+      "lbz r11,126(r3)",
+      "extsb r3,r11",
+      "blr "
+    ],
+    "width": 8,
+    "offset": 126,
+    "shift": 0,
+    "mask": 4294967295
+  },
+  {
+    "name": "sub_825B97E8",
+    "shape": "field_equals",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.62.cpp",
+    "line": 10882,
+    "instructions": [
+      "lhz r11,8(r3)",
+      "addi r11,r11,-16",
+      "cntlzw r10,r11",
+      "rlwinm r3,r10,27,31,31",
+      "blr "
+    ],
+    "width": 16,
+    "offset": 8,
+    "shift": 0,
+    "mask": 4294967295,
+    "expected": 16,
+    "clz_in_r11": false,
+    "caller": {
+      "kind": "data_pointer",
+      "references": [
+        "0x8233db70"
+      ]
+    }
+  },
+  {
+    "name": "sub_8256DBC8",
+    "shape": "field_equals",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.72.cpp",
+    "line": 9532,
+    "instructions": [
+      "lhz r11,8(r3)",
+      "addi r11,r11,-14",
+      "cntlzw r10,r11",
+      "rlwinm r3,r10,27,31,31",
+      "blr "
+    ],
+    "width": 16,
+    "offset": 8,
+    "shift": 0,
+    "mask": 4294967295,
+    "expected": 14,
+    "clz_in_r11": false,
+    "caller": {
+      "kind": "data_pointer",
+      "references": [
+        "0x82327dc0",
+        "0x8233b488"
+      ]
+    }
+  },
+  {
+    "name": "sub_825D8CF8",
+    "shape": "field_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.72.cpp",
+    "line": 12335,
+    "instructions": [
+      "lwz r11,12156(r3)",
+      "rlwinm r3,r11,12,29,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 12156,
+    "shift": 20,
+    "mask": 7,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_825D77E8",
+    "shape": "field_bits",
+    "caller": {
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.27.cpp",
+      "line": 115,
+      "context": "\tctx.lr = 0x82416C1C;\n\tsub_825D76C8(ctx, base);\n\t// stw r3,72(r30)\n\tREX_STORE_U32(ctx.r30.u32 + 72, ctx.r3.u32);\n\t// mr r3,r31\n\tctx.r3.u64 = ctx.r31.u64;\n\t// bl 0x825d77e8\n\tctx.lr = 0x82416C28;\nsub_825D77E8(ctx, base);\n\n\t// stw r3,76(r30)\n\tREX_STORE_U32(ctx.r30.u32 + 76, ctx.r3.u32);\n\t// mr r3,r31",
+      "kind": "direct"
+    },
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.73.cpp",
+    "line": 12234,
+    "instructions": [
+      "lwz r11,12152(r3)",
+      "clrlwi r3,r11,27",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 12152,
+    "shift": 0,
+    "mask": 31
+  },
+  {
+    "name": "sub_825D79C8",
+    "shape": "field_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.73.cpp",
+    "line": 12244,
+    "instructions": [
+      "lbz r11,12152(r3)",
+      "clrlwi r3,r11,27",
+      "blr "
+    ],
+    "width": 8,
+    "offset": 12152,
+    "shift": 0,
+    "mask": 31,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_825D96F8",
+    "shape": "indexed_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.73.cpp",
+    "line": 12375,
+    "instructions": [
+      "mulli r11,r4,24",
+      "add r11,r11,r3",
+      "lwz r11,1172(r11)",
+      "rlwinm r3,r11,29,30,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 1172,
+    "shift": 3,
+    "mask": 3,
+    "stride": 24,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_825D8770",
+    "shape": "field_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.67.cpp",
+    "line": 12195,
+    "instructions": [
+      "lwz r11,10544(r3)",
+      "rlwinm r3,r11,28,28,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 10544,
+    "shift": 4,
+    "mask": 15,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_825D8B60",
+    "shape": "field_bits",
+    "caller": {
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.79.cpp",
+      "line": 1045,
+      "context": "\t// mr r31,r3\n\tctx.r31.u64 = ctx.r3.u64;\n\t// lwz r3,32(r3)\n\tctx.r3.u64 = REX_LOAD_U32(ctx.r3.u32 + 32);\n\t// mr r30,r4\n\tctx.r30.u64 = ctx.r4.u64;\n\t// bl 0x825d8b60\n\tctx.lr = 0x8243BBFC;\nsub_825D8B60(ctx, base);\n\n\t// stw r3,240(r31)\n\tREX_STORE_U32(ctx.r31.u32 + 240, ctx.r3.u32);\n\t// lwz r3,32(r31)",
+      "kind": "direct"
+    },
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.67.cpp",
+    "line": 12205,
+    "instructions": [
+      "lwz r11,10688(r3)",
+      "clrlwi r3,r11,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 10688,
+    "shift": 0,
+    "mask": 1
+  },
+  {
+    "name": "sub_825D8D60",
+    "shape": "field_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.67.cpp",
+    "line": 12215,
+    "instructions": [
+      "lwz r11,12156(r3)",
+      "rlwinm r3,r11,15,29,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 12156,
+    "shift": 17,
+    "mask": 7,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_8258A048",
+    "shape": "field_equals",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.59.cpp",
+    "line": 9984,
+    "instructions": [
+      "lhz r11,8(r3)",
+      "addi r11,r11,-12",
+      "cntlzw r10,r11",
+      "rlwinm r3,r10,27,31,31",
+      "blr "
+    ],
+    "width": 16,
+    "offset": 8,
+    "shift": 0,
+    "mask": 4294967295,
+    "expected": 12,
+    "clz_in_r11": false,
+    "caller": {
+      "kind": "data_pointer",
+      "references": [
+        "0x8232f5f4",
+        "0x82331454",
+        "0x82337a70",
+        "0x82340e9c"
+      ]
+    }
+  },
+  {
+    "name": "sub_825D7C28",
+    "shape": "field_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.58.cpp",
+    "line": 11881,
+    "instructions": [
+      "lwz r11,10680(r3)",
+      "rlwinm r3,r11,22,31,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 10680,
+    "shift": 10,
+    "mask": 1,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_825D8248",
+    "shape": "field_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.58.cpp",
+    "line": 11935,
+    "instructions": [
+      "lwz r11,10568(r3)",
+      "rlwinm r3,r11,17,31,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 10568,
+    "shift": 15,
+    "mask": 1,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_825D87D0",
+    "shape": "field_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.64.cpp",
+    "line": 12269,
+    "instructions": [
+      "lwz r11,10544(r3)",
+      "rlwinm r3,r11,4,28,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 10544,
+    "shift": 28,
+    "mask": 15,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  },
+  {
+    "name": "sub_825D7AF0",
+    "shape": "field_bits",
+    "caller": {
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.27.cpp",
+      "line": 150,
+      "context": "\tctx.lr = 0x82416C58;\n\tsub_825D7AA8(ctx, base);\n\t// stw r3,92(r30)\n\tREX_STORE_U32(ctx.r30.u32 + 92, ctx.r3.u32);\n\t// mr r3,r31\n\tctx.r3.u64 = ctx.r31.u64;\n\t// bl 0x825d7af0\n\tctx.lr = 0x82416C64;\nsub_825D7AF0(ctx, base);\n\n\t// stw r3,96(r30)\n\tREX_STORE_U32(ctx.r30.u32 + 96, ctx.r3.u32);\n\t// mr r3,r31",
+      "kind": "direct"
+    },
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.70.cpp",
+    "line": 11846,
+    "instructions": [
+      "lwz r11,10556(r3)",
+      "clrlwi r3,r11,29",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 10556,
+    "shift": 0,
+    "mask": 7
+  },
+  {
+    "name": "sub_825D7DE8",
+    "shape": "field_bits",
+    "file": "guardian_heroes/generated/default/guardian_heroes_recomp.70.cpp",
+    "line": 11878,
+    "instructions": [
+      "lwz r11,10548(r3)",
+      "rlwinm r3,r11,25,31,31",
+      "blr "
+    ],
+    "width": 32,
+    "offset": 10548,
+    "shift": 7,
+    "mask": 1,
+    "caller": {
+      "kind": "not_found",
+      "references": []
+    }
+  }
+]

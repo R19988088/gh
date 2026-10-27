@@ -1,0 +1,303 @@
+// XMA context execution derived from Xenia, Copyright 2021 Ben Vanik.
+// Released under the BSD license; see rexglue-sdk-main/LICENSE.
+#pragma once
+#include "gh_audio_xma.h"
+#include "gh_kernel.h"
+#include <array>
+#include <atomic>
+#include <bit>
+#include <cstring>
+#include <functional>
+#include <mutex>
+#include <string>
+#include <string_view>
+
+namespace gh::audio {
+struct GuestAudioMemory {
+  std::function<uint8_t*(uint32_t)> virtual_address;
+  std::function<uint8_t*(uint32_t)> physical_address;
+  std::function<void(std::string_view)> log;
+  std::function<bool()> cancelled;
+};
+
+class OutputRing {
+ public:
+  OutputRing(uint8_t* buffer, uint32_t capacity) : buffer_(buffer), capacity_(capacity) {}
+  void set_read_offset(uint32_t offset) { read_ = capacity_ ? offset % capacity_ : 0; }
+  void set_write_offset(uint32_t offset) { write_ = capacity_ ? offset % capacity_ : 0; }
+  uint32_t write_offset() const { return write_; }
+  bool empty() const { return read_ == write_; }
+  uint32_t write_count() const {
+    return read_ == write_ ? capacity_ : read_ > write_ ? read_ - write_ : capacity_ - write_ + read_;
+  }
+  void Write(const uint8_t* data, size_t count);
+ private:
+  uint8_t* buffer_;
+  uint32_t capacity_;
+  uint32_t read_ = 0, write_ = 0;
+};
+
+struct XmaContextData {
+  // DWORD 0
+  uint32_t input_buffer_0_packet_count : 12;  // XMASetInputBuffer0, number of
+                                              // 2KB packets. Max 4095 packets.
+                                              // These packets form a block.
+  uint32_t loop_count : 8;                    // +12bit, XMASetLoopData NumLoops
+  uint32_t input_buffer_0_valid : 1;          // +20bit, XMAIsInputBuffer0Valid
+  uint32_t input_buffer_1_valid : 1;          // +21bit, XMAIsInputBuffer1Valid
+  uint32_t output_buffer_block_count : 5;     // +22bit SizeWrite 256byte blocks
+  uint32_t output_buffer_write_offset : 5;    // +27bit
+                                              // XMAGetOutputBufferWriteOffset
+                                              // AKA OffsetWrite
+
+  // DWORD 1
+  uint32_t input_buffer_1_packet_count : 12;  // XMASetInputBuffer1, number of
+                                              // 2KB packets. Max 4095 packets.
+                                              // These packets form a block.
+  uint32_t loop_subframe_end : 2;             // +12bit, XMAPlaybackSetLoop
+                                              // dwLoopSubframeEnd: last loop frame
+                                              // plays subframes 0..end
+  uint32_t unk_dword_1_a : 3;                 // +14bit
+  uint32_t loop_subframe_skip : 3;            // +17bit, XMAPlaybackSetLoop
+                                              // dwLoopSubframeSkip: subframes to
+                                              // discard at loop start; 4 = whole
+                                              // warm-up frame (frame-aligned loops)
+  uint32_t subframe_decode_count : 4;         // +20bit
+  uint32_t output_buffer_padding : 3;         // +24bit, extra output buffer blocks
+                                              // reserved per decoded frame
+  uint32_t sample_rate : 2;                   // +27bit enum of sample rates
+  uint32_t is_stereo : 1;                     // +29bit
+  uint32_t unk_dword_1_c : 1;                 // +30bit
+  uint32_t output_buffer_valid : 1;           // +31bit, XMAIsOutputBufferValid
+
+  // DWORD 2
+  uint32_t input_buffer_read_offset : 26;  // XMAGetInputBufferReadOffset
+  uint32_t error_status : 5;               // ErrorStatus
+  uint32_t error_set : 1;                  // ErrorSet
+
+  // DWORD 3
+  uint32_t loop_start : 26;          // XMASetLoopData LoopStartOffset
+                                     // frame offset in bits
+  uint32_t parser_error_status : 5;  // ParserErrorStatus
+  uint32_t parser_error_set : 1;     // ParserErrorSet
+
+  // DWORD 4
+  uint32_t loop_end : 26;        // XMASetLoopData LoopEndOffset
+                                 // frame offset in bits
+  uint32_t packet_metadata : 5;  // XMAGetPacketMetadata
+  uint32_t current_buffer : 1;   // ?
+
+  // DWORD 5
+  uint32_t input_buffer_0_ptr;  // physical address
+  // DWORD 6
+  uint32_t input_buffer_1_ptr;  // physical address
+  // DWORD 7
+  uint32_t output_buffer_ptr;  // physical address
+  // DWORD 8
+  uint32_t work_buffer_ptr;  // PtrOverlapAdd(?)
+
+  // DWORD 9
+  // +0bit, XMAGetOutputBufferReadOffset AKA WriteBufferOffsetRead
+  uint32_t output_buffer_read_offset : 5;
+  uint32_t : 25;
+  uint32_t stop_when_done : 1;       // +30bit
+  uint32_t interrupt_when_done : 1;  // +31bit
+
+  // DWORD 10-15
+  uint32_t unk_dwords_10_15[6];  // reserved?
+
+  explicit XmaContextData(const void* ptr) {
+    auto bytes = static_cast<const uint8_t*>(ptr);
+    for (size_t i = 0; i < sizeof(*this) / 4; ++i) {
+      uint32_t word;
+      std::memcpy(&word, bytes + i * 4, 4);
+      word = std::byteswap(word);
+      std::memcpy(reinterpret_cast<uint8_t*>(this) + i * 4, &word, 4);
+    }
+  }
+
+  void Store(void* ptr) const {
+    for (size_t i = 0; i < sizeof(*this) / 4; ++i) {
+      uint32_t word;
+      std::memcpy(&word, reinterpret_cast<const uint8_t*>(this) + i * 4, 4);
+      word = std::byteswap(word);
+      std::memcpy(static_cast<uint8_t*>(ptr) + i * 4, &word, 4);
+    }
+  }
+
+  bool IsInputBufferValid(uint8_t buffer_index) const {
+    return buffer_index == 0 ? input_buffer_0_valid : input_buffer_1_valid;
+  }
+
+  bool IsCurrentInputBufferValid() const { return IsInputBufferValid(current_buffer); }
+
+  bool IsAnyInputBufferValid() const { return input_buffer_0_valid || input_buffer_1_valid; }
+
+  uint32_t GetInputBufferAddress(uint8_t buffer_index) const {
+    return buffer_index == 0 ? input_buffer_0_ptr : input_buffer_1_ptr;
+  }
+
+  uint32_t GetCurrentInputBufferAddress() const { return GetInputBufferAddress(current_buffer); }
+
+  uint32_t GetInputBufferPacketCount(uint8_t buffer_index) const {
+    return buffer_index == 0 ? input_buffer_0_packet_count : input_buffer_1_packet_count;
+  }
+
+  uint32_t GetCurrentInputBufferPacketCount() const {
+    return GetInputBufferPacketCount(current_buffer);
+  }
+
+  bool IsConsumeOnlyContext() const {
+    return (input_buffer_0_packet_count | input_buffer_1_packet_count) == 0;
+  }
+};
+static_assert(sizeof(XmaContextData) == 64);
+
+struct kPacketInfo {
+  uint8_t frame_count_ = 0;
+  uint8_t current_frame_ = 0;
+  uint32_t current_frame_size_ = 0;
+
+  bool isLastFrameInPacket() const {
+    return frame_count_ == 0 || current_frame_ == frame_count_ - 1;
+  }
+};
+
+static constexpr int kIdToSampleRate[4] = {24000, 32000, 44100, 48000};
+
+class XmaContext {
+ public:
+  static const uint32_t kBytesPerPacket = 2048;
+  static const uint32_t kBitsPerPacket = kBytesPerPacket * 8;
+  static const uint32_t kBitsPerPacketHeader = 32;
+  static const uint32_t kBitsPerFrameHeader = 15;
+  static const uint32_t kBytesPerPacketHeader = 4;
+  static const uint32_t kBytesPerPacketData = kBytesPerPacket - kBytesPerPacketHeader;
+
+  static const uint32_t kBytesPerSample = 2;
+  static const uint32_t kSamplesPerFrame = 512;
+  static const uint32_t kSamplesPerSubframe = 128;
+  static const uint32_t kBytesPerFrameChannel = kSamplesPerFrame * kBytesPerSample;
+  static const uint32_t kBytesPerSubframeChannel = kSamplesPerSubframe * kBytesPerSample;
+
+  static const uint32_t kOutputBytesPerBlock = 256;
+  static const uint32_t kOutputMaxSizeBytes = 31 * kOutputBytesPerBlock;
+  static const uint32_t kMaxFrameSizeinBits = 0x4000 - kBitsPerPacketHeader;
+
+  // The bitstream declares a start padding that the hardware discards. FFmpeg's
+  // xmaframes decoder parses that field and drops it on the floor
+  // (wmaprodec.c decode_frame, "start skip"), emitting the padding as ordinary
+  // output, so its sample numbering runs this far ahead of the numbering the
+  // guest's loop offsets use. Measured at 192 on every wave checked. Left
+  // uncorrected it costs each loop wrap its final 192 samples.
+  static const uint32_t kDecoderStartPadding = 192;
+  static_assert(kDecoderStartPadding < kSamplesPerFrame,
+                "start padding must fit inside one decoded frame");
+
+  explicit XmaContext();
+  ~XmaContext();
+
+  int Setup(uint32_t id, GuestAudioMemory memory, uint32_t guest_ptr);
+  bool Work();
+
+  void Enable();
+  bool Block(bool poll);
+  void Clear();
+  void Disable();
+  void Release();
+  struct State {
+    uint32_t version = 1, id = 0, guest_ptr = 0;
+    bool allocated = false, enabled = false, completion_signaled = false;
+    std::vector<uint8_t> decoder;
+    std::array<uint8_t, kBytesPerFrameChannel * 2> raw_frame{}, carry_frame{};
+    int32_t remaining_subframe_blocks = 0;
+    uint8_t remaining_subframes = 0, loop_output_limit = 0;
+    bool loop_start_skip_pending = false, carry_valid = false;
+    uint8_t pending_output_limit = 0, pending_start_skip = 0;
+  };
+  State SaveState();
+  bool RestoreState(const State& state);
+
+  uint32_t id() { return id_; }
+  uint32_t guest_ptr() { return guest_ptr_; }
+  bool is_allocated() { return is_allocated_.load(std::memory_order_acquire); }
+  bool is_enabled() { return is_enabled_.load(std::memory_order_acquire); }
+
+  void set_is_allocated(bool is_allocated) {
+    is_allocated_.store(is_allocated, std::memory_order_release);
+  }
+  void set_is_enabled(bool is_enabled) { is_enabled_.store(is_enabled, std::memory_order_release); }
+
+  void SignalWorkDone() { work_completion_event_.Set(); }
+  void WaitForWorkDone() { work_completion_event_.Wait(); }
+
+ private:
+  static void SwapInputBuffer(XmaContextData* data);
+  static int GetSampleRate(int id);
+  static int16_t GetPacketNumber(size_t size, size_t bit_offset);
+  static uint32_t GetCurrentInputBufferSize(XmaContextData* data);
+
+  kPacketInfo GetPacketInfo(uint8_t* packet, uint32_t frame_offset);
+  uint32_t GetAmountOfBitsToRead(uint32_t remaining_stream_bits, uint32_t frame_size);
+  const uint8_t* GetNextPacket(XmaContextData* data, uint32_t next_packet_index,
+                               uint32_t current_input_packet_count);
+  uint32_t GetNextPacketReadOffset(uint8_t* buffer, uint32_t next_packet_index,
+                                   uint32_t current_input_packet_count);
+  uint8_t* GetCurrentInputBuffer(XmaContextData* data);
+
+  void Decode(XmaContextData* data);
+  void Consume(OutputRing* output_rb, const XmaContextData* data);
+  void UpdateLoopStatus(XmaContextData* data);
+  void ClearLocked(XmaContextData* data);
+  void ResetDecoderState();
+
+  OutputRing PrepareOutputRingBuffer(XmaContextData* data);
+  int PrepareDecoder(int sample_rate, bool is_two_channel);
+  void PreparePacket(uint32_t frame_size, uint32_t frame_padding);
+
+  void StoreContextMerged(const XmaContextData& data, const XmaContextData& initial_data,
+                          uint8_t* context_ptr);
+
+
+  GuestAudioMemory memory_;
+  gh::kernel::Event work_completion_event_{false};
+
+  uint32_t id_ = 0;
+  uint32_t guest_ptr_ = 0;
+  std::mutex lock_;
+  std::atomic<bool> is_allocated_ = false;
+  std::atomic<bool> is_enabled_ = false;
+
+  void Log(std::string message) const { if (memory_.log) memory_.log(message); }
+  XmaFrameDecoder decoder_;
+  uint32_t prepared_packet_size_ = 0;
+
+  // Packet data buffer (two packets worth for split frame handling)
+  std::array<uint8_t, kBytesPerPacketData * 2> input_buffer_{};
+  // First byte contains bit offset information
+  std::array<uint8_t, 1 + 4096> xma_frame_{};
+  // Conversion buffer for up to 2-channel frame
+  std::array<uint8_t, kBytesPerFrameChannel * 2> raw_frame_;
+  // Freshly decoded block, before start-padding realignment
+  std::array<uint8_t, kBytesPerFrameChannel * 2> decoded_frame_;
+  // Tail of the previous decoded block, awaiting the next block's padding head
+  std::array<uint8_t, kBytesPerFrameChannel * 2> carry_frame_;
+
+  // Output buffer tracking
+  int32_t remaining_subframe_blocks_in_output_buffer_ = 0;
+  uint8_t current_frame_remaining_subframes_ = 0;
+
+  // Loop subframe precision state
+  uint8_t loop_frame_output_limit_ = 0;
+  bool loop_start_skip_pending_ = false;
+
+  // Start-padding realignment state. Attributes belong to the frame whose
+  // samples are still being assembled, so they land one decode after the frame
+  // they describe.
+  bool carry_valid_ = false;
+  uint8_t pending_output_limit_ = 0;
+  uint8_t pending_start_skip_ = 0;
+};
+
+
+}  // namespace gh::audio

@@ -1,0 +1,424 @@
+[2026-10-17 15:47:00.891] [info] [core] [t11134437] Loaded Vulkan runtime from /Users/ddd/Documents/xbla-守护英雄/guardian_heroes/out/native-app/Guardian Heroes Resume.app/Contents/MacOS/vulkan/lib/libvulkan.1.dylib
+[2026-10-17 15:47:00.997] [info] [core] [t11134437] Vulkan instance API version 1.4.357. Enabled layers and extensions:
+[2026-10-17 15:47:00.997] [info] [core] [t11134437] * VK_KHR_surface
+[2026-10-17 15:47:00.997] [info] [core] [t11134437] * VK_EXT_debug_utils
+[2026-10-17 15:47:00.997] [info] [core] [t11134437] * VK_EXT_metal_surface
+[2026-10-17 15:47:00.997] [info] [core] [t11134437] * VK_KHR_portability_enumeration
+[2026-10-17 15:47:00.997] [warning] [core] [t11134437] Available Vulkan physical devices (use the 'vulkan_device' configuration variable to force a specific device):
+[2026-10-17 15:47:00.997] [warning] [core] [t11134437] * 0: Apple M5
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] Vulkan device 'Apple M5': API 1.3.357, vendor 0x106B, device 0x1B00020A, driver version 0x28A1
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] Enabled Vulkan device extensions:
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * VK_KHR_portability_subset
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * VK_KHR_swapchain
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * VK_EXT_fragment_shader_interlock
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * VK_EXT_memory_budget
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * VK_EXT_robustness2
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * VK_EXT_shader_stencil_export
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] Vulkan device properties and enabled features:
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * driverID: Moltenvk
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * driverName: MoltenVK
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * driverInfo: 1.4.1
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * conformanceVersion: 1.4.4.0
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * maxImageDimension2D: 32768
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * maxImageDimension3D: 2048
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * maxImageDimensionCube: 32768
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * maxImageArrayLayers: 2048
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * maxStorageBufferRange: 4294967295
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * maxSamplerAllocationCount: 500000
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * maxPerStageDescriptorSamplers: 16
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * maxPerStageDescriptorStorageBuffers: 31
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * maxPerStageDescriptorSampledImages: 256
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * maxPerStageResources: 287
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * maxVertexOutputComponents: 124
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * maxTessellationEvaluationOutputComponents: 124
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * maxGeometryInputComponents: 0
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * maxGeometryOutputComponents: 0
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * maxFragmentInputComponents: 124
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * maxFragmentCombinedOutputResources: 287
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * maxSamplerAnisotropy: 16
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * maxViewportDimensions[0]: 32768
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * maxViewportDimensions[1]: 32768
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * minUniformBufferOffsetAlignment: 16
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * minStorageBufferOffsetAlignment: 16
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * maxFramebufferWidth: 32768
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * maxFramebufferHeight: 32768
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * framebufferColorSampleCounts: { 1 | 2 | 4 | 8 }
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * framebufferDepthSampleCounts: { 1 | 2 | 4 | 8 }
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * framebufferStencilSampleCounts: { 1 | 2 | 4 | 8 }
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * framebufferNoAttachmentsSampleCounts: { 1 | 2 | 4 | 8 }
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * sampledImageColorSampleCounts: { 1 | 2 | 4 | 8 }
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * sampledImageIntegerSampleCounts: { 1 | 2 | 4 | 8 }
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * sampledImageDepthSampleCounts: { 1 | 2 | 4 | 8 }
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * sampledImageStencilSampleCounts: { 1 | 2 | 4 | 8 }
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * standardSampleLocations: 1
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * optimalBufferCopyOffsetAlignment: 16
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * optimalBufferCopyRowPitchAlignment: 1
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * nonCoherentAtomSize: 16
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * robustBufferAccess
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * fullDrawIndexUint32
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * independentBlend
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * tessellationShader
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * sampleRateShading
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * depthClamp
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * fillModeNonSolid
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * samplerAnisotropy
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * occlusionQueryPrecise
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * vertexPipelineStoresAndAtomics
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * fragmentStoresAndAtomics
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * shaderClipDistance
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * samplerMirrorClampToEdge
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * uniformBufferStandardLayout
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * scalarBlockLayout
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * shaderDemoteToHelperInvocation
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * dynamicRendering
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * constantAlphaColorBlendFactors
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * imageViewFormatReinterpretation
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * imageViewFormatSwizzle
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * separateStencilMaskRef
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * shaderSampleRateInterpolationFunctions
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * shaderSignedZeroInfNanPreserveFloat32: 1
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * shaderDenormFlushToZeroFloat32: 0
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * shaderRoundingModeRTEFloat32: 1
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * fragmentShaderSampleInterlock
+[2026-10-17 15:47:00.998] [info] [core] [t11134437] * fragmentShaderPixelInterlock
+[2026-10-17 15:47:00.998] [info] [gpu] [t11134437] Vulkan Info ({ General }, ID 0: Loader Message): vkCreateDevice layer callstack setup to: (object 0: Instance 0x7aef855000)
+[2026-10-17 15:47:00.998] [info] [gpu] [t11134437] Vulkan Info ({ General }, ID 0: Loader Message):    <Application> (object 0: Instance 0x7aef855000)
+[2026-10-17 15:47:00.998] [info] [gpu] [t11134437] Vulkan Info ({ General }, ID 0: Loader Message):      || (object 0: Instance 0x7aef855000)
+[2026-10-17 15:47:00.998] [info] [gpu] [t11134437] Vulkan Info ({ General }, ID 0: Loader Message):    <Loader> (object 0: Instance 0x7aef855000)
+[2026-10-17 15:47:00.998] [info] [gpu] [t11134437] Vulkan Info ({ General }, ID 0: Loader Message):      || (object 0: Instance 0x7aef855000)
+[2026-10-17 15:47:00.998] [info] [gpu] [t11134437] Vulkan Info ({ General }, ID 0: Loader Message):    <Device> (object 0: Instance 0x7aef855000)
+[2026-10-17 15:47:00.998] [info] [gpu] [t11134437] Vulkan Info ({ General }, ID 0: Loader Message):        Using "Apple M5" with driver: "/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/out/native-app/Guardian Heroes Continuation.app/Contents/MacOS/vulkan/lib/libMoltenVK.dylib" (object 0: Instance 0x7aef855000)
+[2026-10-17 15:47:00.998] [info] [gpu] [t11134437] Vulkan Info ({ General }, ID 0: mvk-info): Vulkan semaphores using MTLEvent. (object 0: Device 0x7aedc6e018)
+[2026-10-17 15:47:01.004] [info] [gpu] [t11134437] Vulkan Info ({ General }, ID 0: mvk-info): Descriptor sets binding resources using Metal3 argument buffers. (object 0: Device 0x7aedc6e018)
+[2026-10-17 15:47:01.006] [info] [gpu] [t11134437] Vulkan Info ({ General }, ID 0: mvk-info): Created VkDevice to run on GPU Apple M5 with the following 6 Vulkan extensions enabled:
+	VK_KHR_portability_subset v1
+	VK_KHR_swapchain v70
+	VK_EXT_fragment_shader_interlock v1
+	VK_EXT_memory_budget v1
+	VK_EXT_robustness2 v1
+	VK_EXT_shader_stencil_export v1 (object 0: Device 0x7aedc6e018)
+[2026-10-17 15:47:01.070] [info] [gpu] [t11134437] Vulkan Info ({ General }, ID 0: mvk-info): Created 3 swapchain images with size (2560, 1440) and contents scale 2.0 in layer CAMetalLayer: SDL3_cocoametalview (0x7aede80d20) on screen Built-in Retina Display. (object 0: SwapchainKHR 0x7aedd9e400)
+[2026-10-17 15:47:01.070] [info] [core] [t11134437] VulkanPresenter: Created 2560x1440 swapchain with format 44, color space 0, presentation mode 0
+[2026-10-17 15:47:01.071] [info] [sys] [t11134437] Guest memory arena mapped: virtual base 0x0000007000000000, physical base 0x0000007100000000
+[2026-10-17 15:47:01.077] [info] [gpu] [t11134593] Vulkan sparse binding is not used for shared memory emulation - video memory usage may increase significantly because a full 512 MB buffer will be created
+[2026-10-17 15:47:01.078] [warning] [gpu] [t11134593] Vulkan geometryShader is not supported by the device; primitive fallback conversion/expansion paths will be used
+[2026-10-17 15:47:01.078] [info] [core] [t11134437] Function table initialized for module: code=82410000-8290A93C, image=82000000-82A50000
+[2026-10-17 15:47:01.176] [warning] [core] [t11134437] SDL GameControllerDB: file 'gamecontrollerdb.txt' does not exist.
+[2026-10-17 15:47:01.176] [info] [core] [t11134437] SDL input driver initialized successfully
+[2026-10-17 15:47:01.338] [info] [core] [t11134437] Initializing shader storage for title 58410B2B...
+[2026-10-17 15:47:01.455] [warning] [sys] [t11134632] GetProcAddressByOrdinal: function XInputdFFGetDeviceInfo (0282) in xboxkrnl - no native implementation
+[2026-10-17 15:47:01.456] [warning] [krnl] [t11134632] ERROR: XexGetProcedureAddress ordinal 642 (0x282) in 'xboxkrnl' not found!
+[2026-10-17 15:47:01.456] [warning] [sys] [t11134632] GetProcAddressByOrdinal: function XInputdFFSetEffect (0283) in xboxkrnl - no native implementation
+[2026-10-17 15:47:01.456] [warning] [krnl] [t11134632] ERROR: XexGetProcedureAddress ordinal 643 (0x283) in 'xboxkrnl' not found!
+[2026-10-17 15:47:01.456] [warning] [sys] [t11134632] GetProcAddressByOrdinal: function XInputdFFUpdateEffect (0284) in xboxkrnl - no native implementation
+[2026-10-17 15:47:01.456] [warning] [krnl] [t11134632] ERROR: XexGetProcedureAddress ordinal 644 (0x284) in 'xboxkrnl' not found!
+[2026-10-17 15:47:01.456] [warning] [sys] [t11134632] GetProcAddressByOrdinal: function XInputdFFEffectOperation (0285) in xboxkrnl - no native implementation
+[2026-10-17 15:47:01.456] [warning] [krnl] [t11134632] ERROR: XexGetProcedureAddress ordinal 645 (0x285) in 'xboxkrnl' not found!
+[2026-10-17 15:47:01.456] [warning] [sys] [t11134632] GetProcAddressByOrdinal: function XInputdFFDeviceControl (0286) in xboxkrnl - no native implementation
+[2026-10-17 15:47:01.456] [warning] [krnl] [t11134632] ERROR: XexGetProcedureAddress ordinal 646 (0x286) in 'xboxkrnl' not found!
+[2026-10-17 15:47:01.456] [warning] [sys] [t11134632] GetProcAddressByOrdinal: function XInputdFFSetDeviceGain (0287) in xboxkrnl - no native implementation
+[2026-10-17 15:47:01.456] [warning] [krnl] [t11134632] ERROR: XexGetProcedureAddress ordinal 647 (0x287) in 'xboxkrnl' not found!
+[2026-10-17 15:47:01.456] [warning] [sys] [t11134632] GetProcAddressByOrdinal: function XInputdFFCancelIo (0288) in xboxkrnl - no native implementation
+[2026-10-17 15:47:01.456] [warning] [krnl] [t11134632] ERROR: XexGetProcedureAddress ordinal 648 (0x288) in 'xboxkrnl' not found!
+[2026-10-17 15:47:01.456] [warning] [sys] [t11134632] GetProcAddressByOrdinal: function XInputdFFSetRumble (0289) in xboxkrnl - no native implementation
+[2026-10-17 15:47:01.456] [warning] [krnl] [t11134632] ERROR: XexGetProcedureAddress ordinal 649 (0x289) in 'xboxkrnl' not found!
+[2026-10-17 15:47:01.456] [warning] [sys] [t11134632] GetProcAddressByOrdinal: function XamPartyGetUserList (0AFF) in xam - no native implementation
+[2026-10-17 15:47:01.456] [warning] [krnl] [t11134632] ERROR: XexGetProcedureAddress ordinal 2815 (0xAFF) in 'xam' not found!
+[2026-10-17 15:47:01.456] [warning] [sys] [t11134632] GetProcAddressByOrdinal: function XamPartySendGameInvites (0B00) in xam - no native implementation
+[2026-10-17 15:47:01.456] [warning] [krnl] [t11134632] ERROR: XexGetProcedureAddress ordinal 2816 (0xB00) in 'xam' not found!
+[2026-10-17 15:47:01.456] [warning] [sys] [t11134632] GetProcAddressByOrdinal: function XamPartySetCustomData (0B0B) in xam - no native implementation
+[2026-10-17 15:47:01.456] [warning] [krnl] [t11134632] ERROR: XexGetProcedureAddress ordinal 2827 (0xB0B) in 'xam' not found!
+[2026-10-17 15:47:01.457] [warning] [sys] [t11134632] GetProcAddressByOrdinal: function XamPartyGetBandwidth (0B10) in xam - no native implementation
+[2026-10-17 15:47:01.457] [warning] [krnl] [t11134632] ERROR: XexGetProcedureAddress ordinal 2832 (0xB10) in 'xam' not found!
+[2026-10-17 15:47:01.932] [info] [apu] [t11134632] audio endpoint 'MacBook Air扬声器': 2 ch, 48000 Hz, format 0x8120; submitting 2 ch
+[2026-10-17 15:47:01.933] [info] [gpu] [t11134632] SetInterruptCallback(825E5C68, 40013B80)
+[2026-10-17 15:47:02.082] [info] [apu] [t11134592] Audio frame probe #0: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:02.082] [info] [apu] [t11134592] Audio frame probe #1: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:02.083] [info] [apu] [t11134592] Audio frame probe #2: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:03.414] [info] [apu] [t11134592] Audio frame probe #256: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:04.780] [info] [apu] [t11134592] Audio frame probe #512: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:06.145] [info] [apu] [t11134592] Audio frame probe #768: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:07.510] [info] [apu] [t11134592] Audio frame probe #1024: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:08.876] [info] [apu] [t11134592] Audio frame probe #1280: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:10.241] [info] [apu] [t11134592] Audio frame probe #1536: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:11.606] [info] [apu] [t11134592] Audio frame probe #1792: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:12.972] [info] [apu] [t11134592] Audio frame probe #2048: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:14.337] [info] [apu] [t11134592] Audio frame probe #2304: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:15.703] [info] [apu] [t11134592] Audio frame probe #2560: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:17.068] [info] [apu] [t11134592] Audio frame probe #2816: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:17.343] [info] [apu] [t11134632] audio endpoint 'MacBook Air扬声器': 2 ch, 48000 Hz, format 0x8120; submitting 2 ch
+[2026-10-17 15:47:17.344] [info] [apu] [t11134592] Audio frame probe #0: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:17.344] [info] [apu] [t11134592] Audio frame probe #1: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:17.345] [info] [apu] [t11134592] Audio frame probe #2: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:17.358] [info] [gpu] [t11134593] Creating graphics pipeline state with VS 1E6883FCCDE1F688
+[2026-10-17 15:47:17.361] [info] [gpu] [t11134615] Creating graphics pipeline state with VS 1E6883FCCDE1F688, PS A4A965C189287B99
+[2026-10-17 15:47:17.363] [info] [gpu] [t11134593] Creating graphics pipeline state with VS AC70E22B0BDE4517
+[2026-10-17 15:47:17.365] [info] [gpu] [t11134616] Creating graphics pipeline state with VS AC70E22B0BDE4517, PS FD700CEA89D03287
+[2026-10-17 15:47:17.367] [warning] [gpu] [t11134593] Skipping Vulkan frame presentation due to async placeholder draw usage in this frame
+[2026-10-17 15:47:18.433] [info] [apu] [t11134592] Audio frame probe #3072: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:18.575] [info] [gpu] [t11134593] Creating graphics pipeline state with VS B4ED697CB92C1759
+[2026-10-17 15:47:18.577] [info] [gpu] [t11134617] Creating graphics pipeline state with VS B4ED697CB92C1759, PS 447E29CDEA8CADB4
+[2026-10-17 15:47:18.599] [warning] [gpu] [t11134437] Vulkan Warning ({ Validation }, ID 0: mvk-warn): VK_ERROR_FEATURE_NOT_PRESENT: Metal does not support disabling primitive restart. (object 0: Pipeline 0x7aeafede00)
+[2026-10-17 15:47:18.604] [info] [apu] [t11134849] audio endpoint 'MacBook Air扬声器': 2 ch, 48000 Hz, format 0x8120; submitting 2 ch
+[2026-10-17 15:47:18.606] [info] [apu] [t11134592] Audio frame probe #0: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:18.606] [info] [apu] [t11134592] Audio frame probe #1: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:18.607] [info] [apu] [t11134592] Audio frame probe #2: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:18.671] [info] [apu] [t11134592] Audio frame probe #256: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:19.804] [info] [apu] [t11134592] Audio frame probe #3328: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:20.035] [info] [apu] [t11134592] Audio frame probe #512: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:21.172] [info] [apu] [t11134592] Audio frame probe #3584: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:21.235] [info] [apu] [t11134592] Audio frame probe #256: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:21.435] [info] [apu] [t11134592] Audio frame probe #768: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:22.534] [info] [apu] [t11134592] Audio frame probe #3840: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:22.794] [info] [apu] [t11134592] Audio frame probe #1024: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:23.899] [info] [apu] [t11134592] Audio frame probe #4096: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:24.153] [info] [apu] [t11134592] Audio frame probe #1280: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:24.345] [info] [apu] [t11134592] Audio frame probe #512: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:25.263] [info] [apu] [t11134592] Audio frame probe #4352: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:25.525] [info] [apu] [t11134592] Audio frame probe #1536: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:26.627] [info] [apu] [t11134592] Audio frame probe #4608: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:26.885] [info] [apu] [t11134592] Audio frame probe #1792: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:27.137] [info] [apu] [t11134592] Audio frame probe #768: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:27.992] [info] [apu] [t11134592] Audio frame probe #4864: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:28.255] [info] [apu] [t11134592] Audio frame probe #2048: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:29.364] [info] [apu] [t11134592] Audio frame probe #5120: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:29.621] [info] [apu] [t11134592] Audio frame probe #2304: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:29.653] [error] [apu] [t11134632] XmaContext: reset context 0
+[2026-10-17 15:47:29.665] [info] [gpu] [t11134593] Creating graphics pipeline state with VS B4ED697CB92C1759
+[2026-10-17 15:47:29.666] [info] [gpu] [t11134619] Creating graphics pipeline state with VS B4ED697CB92C1759, PS 447E29CDEA8CADB4
+[2026-10-17 15:47:29.796] [info] [apu] [t11134592] Audio frame probe #1024: peak FL=0.093190 FR=0.104275 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+[2026-10-17 15:47:30.731] [info] [apu] [t11134592] Audio frame probe #5376: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:30.981] [info] [apu] [t11134592] Audio frame probe #2560: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:32.095] [info] [apu] [t11134592] Audio frame probe #5632: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:32.353] [info] [apu] [t11134592] Audio frame probe #2816: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:32.821] [info] [apu] [t11134592] Audio frame probe #1280: peak FL=0.173628 FR=0.346084 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+[2026-10-17 15:47:33.454] [info] [apu] [t11134592] Audio frame probe #5888: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:33.717] [info] [apu] [t11134592] Audio frame probe #3072: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:34.820] [info] [apu] [t11134592] Audio frame probe #6144: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:35.082] [info] [apu] [t11134592] Audio frame probe #3328: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:35.587] [info] [apu] [t11134592] Audio frame probe #1536: peak FL=0.156263 FR=0.136077 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+[2026-10-17 15:47:36.186] [info] [apu] [t11134592] Audio frame probe #6400: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:36.441] [info] [apu] [t11134592] Audio frame probe #3584: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:37.551] [info] [apu] [t11134592] Audio frame probe #6656: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:37.812] [info] [apu] [t11134592] Audio frame probe #3840: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:38.341] [info] [apu] [t11134592] Audio frame probe #1792: peak FL=0.144110 FR=0.293361 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+[2026-10-17 15:47:39.047] [info] [apu] [t11134592] Audio frame probe #6912: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:39.303] [info] [apu] [t11134592] Audio frame probe #4096: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:40.415] [info] [apu] [t11134592] Audio frame probe #7168: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:41.253] [info] [apu] [t11134592] Audio frame probe #4352: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:42.350] [info] [apu] [t11134592] Audio frame probe #7424: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:43.055] [info] [apu] [t11134592] Audio frame probe #4608: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:43.722] [info] [apu] [t11134592] Audio frame probe #7680: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:44.373] [info] [apu] [t11134592] Audio frame probe #2048: peak FL=0.115723 FR=0.079628 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+[2026-10-17 15:47:44.423] [info] [apu] [t11134592] Audio frame probe #4864: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:45.083] [info] [apu] [t11134592] Audio frame probe #7936: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:45.790] [info] [apu] [t11134592] Audio frame probe #5120: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:46.447] [info] [apu] [t11134592] Audio frame probe #8192: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:47.088] [info] [apu] [t11134592] Audio frame probe #2304: peak FL=0.186530 FR=0.217770 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+[2026-10-17 15:47:47.158] [info] [apu] [t11134592] Audio frame probe #5376: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:47.810] [info] [apu] [t11134592] Audio frame probe #8448: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:48.520] [info] [apu] [t11134592] Audio frame probe #5632: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:49.185] [info] [apu] [t11134592] Audio frame probe #8704: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:49.970] [info] [apu] [t11134592] Audio frame probe #5888: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:50.491] [info] [apu] [t11134592] Audio frame probe #2560: peak FL=0.289447 FR=0.301364 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+[2026-10-17 15:47:50.619] [info] [gpu] [t11134593] Creating graphics pipeline state with VS AC70E22B0BDE4517
+[2026-10-17 15:47:50.621] [warning] [gpu] [t11134593] Vulkan Warning ({ Validation }, ID 0: mvk-warn): VK_ERROR_FEATURE_NOT_PRESENT: Metal does not support disabling primitive restart. (object 0: Pipeline 0x7aeafeea00)
+[2026-10-17 15:47:50.622] [info] [gpu] [t11134620] Creating graphics pipeline state with VS AC70E22B0BDE4517, PS FD700CEA89D03287
+[2026-10-17 15:47:50.622] [warning] [gpu] [t11134620] Vulkan Warning ({ Validation }, ID 0: mvk-warn): VK_ERROR_FEATURE_NOT_PRESENT: Metal does not support disabling primitive restart. (object 0: Pipeline 0x7aeafef600)
+[2026-10-17 15:47:50.636] [info] [apu] [t11134592] Audio frame probe #8960: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:50.856] [info] [gpu] [t11134593] Creating graphics pipeline state with VS A09BCB75B61F29ED
+[2026-10-17 15:47:50.859] [info] [gpu] [t11134621] Creating graphics pipeline state with VS A09BCB75B61F29ED, PS 45B599FFF30CC85B
+[2026-10-17 15:47:50.870] [info] [gpu] [t11134593] Creating graphics pipeline state with VS B4ED697CB92C1759
+[2026-10-17 15:47:50.870] [info] [gpu] [t11134593] Creating graphics pipeline state with VS B4ED697CB92C1759
+[2026-10-17 15:47:50.870] [info] [gpu] [t11134615] Creating graphics pipeline state with VS B4ED697CB92C1759, PS 447E29CDEA8CADB4
+[2026-10-17 15:47:50.871] [info] [gpu] [t11134616] Creating graphics pipeline state with VS B4ED697CB92C1759, PS 447E29CDEA8CADB4
+[2026-10-17 15:47:50.872] [info] [gpu] [t11134593] Creating graphics pipeline state with VS AC70E22B0BDE4517
+[2026-10-17 15:47:50.872] [info] [gpu] [t11134593] Creating graphics pipeline state with VS AC70E22B0BDE4517
+[2026-10-17 15:47:50.872] [info] [gpu] [t11134618] Creating graphics pipeline state with VS AC70E22B0BDE4517, PS FD700CEA89D03287
+[2026-10-17 15:47:50.873] [warning] [gpu] [t11134593] Vulkan Warning ({ Validation }, ID 0: mvk-warn): VK_ERROR_FEATURE_NOT_PRESENT: Metal does not support disabling primitive restart. (object 0: Pipeline 0x7aea8cd800)
+[2026-10-17 15:47:50.873] [info] [gpu] [t11134617] Creating graphics pipeline state with VS AC70E22B0BDE4517, PS FD700CEA89D03287
+[2026-10-17 15:47:50.876] [warning] [gpu] [t11134617] Vulkan Warning ({ Validation }, ID 0: mvk-warn): VK_ERROR_FEATURE_NOT_PRESENT: Metal does not support disabling primitive restart. (object 0: Pipeline 0x7aea8cea00)
+[2026-10-17 15:47:51.319] [info] [gpu] [t11134593] Creating graphics pipeline state with VS AC70E22B0BDE4517
+[2026-10-17 15:47:51.320] [info] [gpu] [t11134619] Creating graphics pipeline state with VS AC70E22B0BDE4517, PS FD700CEA89D03287
+[2026-10-17 15:47:51.342] [info] [apu] [t11134592] Audio frame probe #6144: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:51.670] [info] [gpu] [t11134593] Creating graphics pipeline state with VS B4ED697CB92C1759
+[2026-10-17 15:47:51.671] [info] [gpu] [t11134620] Creating graphics pipeline state with VS B4ED697CB92C1759, PS 222466E08B41AA9A
+[2026-10-17 15:47:51.672] [error] [apu] [t11134632] XmaContext: reset context 0
+[2026-10-17 15:47:51.674] [info] [gpu] [t11134593] Creating graphics pipeline state with VS B4ED697CB92C1759
+[2026-10-17 15:47:51.674] [info] [gpu] [t11134621] Creating graphics pipeline state with VS B4ED697CB92C1759, PS 447E29CDEA8CADB4
+[2026-10-17 15:47:51.993] [info] [apu] [t11134592] Audio frame probe #9216: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:52.139] [error] [apu] [t11134632] XmaContext: reset context 1
+[2026-10-17 15:47:52.353] [error] [apu] [t11134632] XmaContext: reset context 2
+[2026-10-17 15:47:52.628] [error] [apu] [t11134632] XmaContext: reset context 3
+[2026-10-17 15:47:52.727] [info] [apu] [t11134592] Audio frame probe #6400: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:53.382] [info] [apu] [t11134592] Audio frame probe #9472: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:55.097] [info] [apu] [t11134592] Audio frame probe #6656: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:55.693] [info] [apu] [t11134592] Audio frame probe #9728: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:56.493] [info] [apu] [t11134592] Audio frame probe #2816: peak FL=0.322522 FR=0.300064 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+[2026-10-17 15:47:56.627] [info] [apu] [t11134592] Audio frame probe #6912: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:57.282] [info] [apu] [t11134592] Audio frame probe #9984: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:58.338] [info] [apu] [t11134592] Audio frame probe #7168: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:58.669] [info] [apu] [t11134592] Audio frame probe #10240: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:47:59.694] [info] [apu] [t11134592] Audio frame probe #7424: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:00.035] [info] [apu] [t11134592] Audio frame probe #10496: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:01.063] [info] [apu] [t11134592] Audio frame probe #7680: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:01.406] [info] [apu] [t11134592] Audio frame probe #10752: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:01.664] [info] [apu] [t11134592] Audio frame probe #3072: peak FL=0.072011 FR=0.079712 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+[2026-10-17 15:48:02.425] [info] [apu] [t11134592] Audio frame probe #7936: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:02.781] [info] [apu] [t11134592] Audio frame probe #11008: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:03.790] [info] [apu] [t11134592] Audio frame probe #8192: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:04.130] [info] [apu] [t11134592] Audio frame probe #11264: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:04.647] [error] [apu] [t11134632] XmaContext: reset context 0
+[2026-10-17 15:48:04.705] [info] [gpu] [t11134593] Creating graphics pipeline state with VS 1E6883FCCDE1F688
+[2026-10-17 15:48:04.706] [info] [gpu] [t11134618] Creating graphics pipeline state with VS 1E6883FCCDE1F688, PS A4A965C189287B99
+[2026-10-17 15:48:04.707] [info] [gpu] [t11134593] Creating graphics pipeline state with VS B4ED697CB92C1759
+[2026-10-17 15:48:04.709] [info] [gpu] [t11134615] Creating graphics pipeline state with VS B4ED697CB92C1759, PS 5E6E5E0A54C6DDC4
+[2026-10-17 15:48:04.710] [info] [gpu] [t11134593] Creating graphics pipeline state with VS B4ED697CB92C1759
+[2026-10-17 15:48:04.712] [info] [gpu] [t11134616] Creating graphics pipeline state with VS B4ED697CB92C1759, PS D2C53468F40D2CC5
+[2026-10-17 15:48:04.715] [info] [gpu] [t11134593] Creating graphics pipeline state with VS B4ED697CB92C1759
+[2026-10-17 15:48:04.717] [warning] [gpu] [t11134593] Vulkan Warning ({ Validation }, ID 0: mvk-warn): VK_ERROR_FEATURE_NOT_PRESENT: Metal does not support disabling primitive restart. (object 0: Pipeline 0x7aea981200)
+[2026-10-17 15:48:04.717] [info] [gpu] [t11134617] Creating graphics pipeline state with VS B4ED697CB92C1759, PS 447E29CDEA8CADB4
+[2026-10-17 15:48:04.718] [warning] [gpu] [t11134617] Vulkan Warning ({ Validation }, ID 0: mvk-warn): VK_ERROR_FEATURE_NOT_PRESENT: Metal does not support disabling primitive restart. (object 0: Pipeline 0x7aea981800)
+[2026-10-17 15:48:04.719] [info] [gpu] [t11134593] Creating graphics pipeline state with VS B4ED697CB92C1759
+[2026-10-17 15:48:04.719] [info] [gpu] [t11134619] Creating graphics pipeline state with VS B4ED697CB92C1759, PS A3740A92D3D7D011
+[2026-10-17 15:48:05.109] [info] [apu] [t11134592] Audio frame probe #3328: peak FL=0.291704 FR=0.142054 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+[2026-10-17 15:48:05.156] [info] [apu] [t11134592] Audio frame probe #8448: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:05.502] [info] [apu] [t11134592] Audio frame probe #11520: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:06.146] [error] [apu] [t11134632] XmaContext: reset context 1
+[2026-10-17 15:48:06.484] [error] [apu] [t11134632] XmaContext: reset context 2
+[2026-10-17 15:48:06.528] [info] [apu] [t11134592] Audio frame probe #8704: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:06.862] [info] [apu] [t11134592] Audio frame probe #11776: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:07.832] [error] [apu] [t11134632] XmaContext: reset context 3
+[2026-10-17 15:48:07.888] [info] [apu] [t11134592] Audio frame probe #8960: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:07.940] [error] [apu] [t11134632] XmaContext: reset context 4
+[2026-10-17 15:48:08.066] [error] [apu] [t11134632] XmaContext: reset context 3
+[2026-10-17 15:48:08.164] [error] [apu] [t11134632] XmaContext: reset context 4
+[2026-10-17 15:48:08.233] [info] [apu] [t11134592] Audio frame probe #12032: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:08.308] [error] [apu] [t11134632] XmaContext: reset context 3
+[2026-10-17 15:48:08.408] [error] [apu] [t11134632] XmaContext: reset context 1
+[2026-10-17 15:48:08.535] [error] [apu] [t11134632] XmaContext: reset context 3
+[2026-10-17 15:48:08.722] [error] [apu] [t11134632] XmaContext: reset context 1
+[2026-10-17 15:48:08.846] [error] [apu] [t11134632] XmaContext: reset context 2
+[2026-10-17 15:48:08.989] [error] [apu] [t11134632] XmaContext: reset context 1
+[2026-10-17 15:48:09.001] [info] [apu] [t11134592] Audio frame probe #3584: peak FL=0.237122 FR=0.152699 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+[2026-10-17 15:48:09.128] [error] [apu] [t11134632] XmaContext: reset context 2
+[2026-10-17 15:48:09.257] [error] [apu] [t11134632] XmaContext: reset context 1
+[2026-10-17 15:48:09.261] [info] [apu] [t11134592] Audio frame probe #9216: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:09.389] [error] [apu] [t11134632] XmaContext: reset context 2
+[2026-10-17 15:48:09.543] [error] [apu] [t11134632] XmaContext: reset context 1
+[2026-10-17 15:48:09.602] [info] [apu] [t11134592] Audio frame probe #12288: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:09.671] [error] [apu] [t11134632] XmaContext: reset context 2
+[2026-10-17 15:48:09.807] [error] [apu] [t11134632] XmaContext: reset context 1
+[2026-10-17 15:48:10.026] [error] [apu] [t11134632] XmaContext: reset context 1
+[2026-10-17 15:48:10.142] [error] [apu] [t11134632] XmaContext: reset context 2
+[2026-10-17 15:48:10.272] [error] [apu] [t11134632] XmaContext: reset context 1
+[2026-10-17 15:48:10.564] [error] [apu] [t11134632] XmaContext: reset context 2
+[2026-10-17 15:48:10.648] [info] [apu] [t11134592] Audio frame probe #9472: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:10.727] [error] [apu] [t11134632] XmaContext: reset context 1
+[2026-10-17 15:48:10.903] [error] [apu] [t11134632] XmaContext: reset context 2
+[2026-10-17 15:48:10.987] [info] [apu] [t11134592] Audio frame probe #12544: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:11.037] [error] [apu] [t11134632] XmaContext: reset context 1
+[2026-10-17 15:48:11.183] [error] [apu] [t11134632] XmaContext: reset context 2
+[2026-10-17 15:48:11.490] [error] [apu] [t11134632] XmaContext: reset context 1
+[2026-10-17 15:48:11.624] [error] [apu] [t11134632] XmaContext: reset context 2
+[2026-10-17 15:48:11.757] [error] [apu] [t11134632] XmaContext: reset context 1
+[2026-10-17 15:48:11.906] [error] [apu] [t11134632] XmaContext: reset context 2
+[2026-10-17 15:48:12.064] [error] [apu] [t11134632] XmaContext: reset context 1
+[2026-10-17 15:48:12.082] [info] [apu] [t11134592] Audio frame probe #9728: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:12.260] [error] [apu] [t11134632] XmaContext: reset context 2
+[2026-10-17 15:48:12.422] [info] [apu] [t11134592] Audio frame probe #12800: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:12.486] [error] [apu] [t11134632] XmaContext: reset context 1
+[2026-10-17 15:48:12.614] [info] [gpu] [t11134593] Creating graphics pipeline state with VS AC70E22B0BDE4517
+[2026-10-17 15:48:12.616] [info] [gpu] [t11134620] Creating graphics pipeline state with VS AC70E22B0BDE4517, PS FD700CEA89D03287
+[2026-10-17 15:48:13.445] [info] [apu] [t11134592] Audio frame probe #9984: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:13.598] [info] [apu] [t11134592] Audio frame probe #3840: peak FL=0.221272 FR=0.292533 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+[2026-10-17 15:48:13.839] [info] [apu] [t11134592] Audio frame probe #13056: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:14.863] [info] [apu] [t11134592] Audio frame probe #10240: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:15.204] [info] [apu] [t11134592] Audio frame probe #13312: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:16.230] [info] [apu] [t11134592] Audio frame probe #10496: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:16.577] [info] [apu] [t11134592] Audio frame probe #13568: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:16.745] [info] [apu] [t11134592] Audio frame probe #4096: peak FL=0.252054 FR=0.319211 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+[2026-10-17 15:48:17.596] [info] [apu] [t11134592] Audio frame probe #10752: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:17.938] [info] [apu] [t11134592] Audio frame probe #13824: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:18.969] [info] [apu] [t11134592] Audio frame probe #11008: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:19.306] [info] [apu] [t11134592] Audio frame probe #14080: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:19.903] [info] [apu] [t11134592] Audio frame probe #4352: peak FL=0.004818 FR=0.004817 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+[2026-10-17 15:48:20.327] [info] [apu] [t11134592] Audio frame probe #11264: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:20.669] [info] [apu] [t11134592] Audio frame probe #14336: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:20.839] [error] [apu] [t11134632] XmaContext: reset context 1
+[2026-10-17 15:48:20.928] [error] [apu] [t11134632] XmaContext: reset context 2
+[2026-10-17 15:48:21.698] [info] [apu] [t11134592] Audio frame probe #11520: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:21.962] [error] [apu] [t11134632] XmaContext: reset context 1
+[2026-10-17 15:48:22.031] [info] [apu] [t11134592] Audio frame probe #14592: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:22.393] [info] [gpu] [t11134593] Creating graphics pipeline state with VS B4ED697CB92C1759
+[2026-10-17 15:48:22.393] [info] [gpu] [t11134621] Creating graphics pipeline state with VS B4ED697CB92C1759, PS 447E29CDEA8CADB4
+[2026-10-17 15:48:23.056] [info] [apu] [t11134592] Audio frame probe #11776: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:23.065] [error] [apu] [t11134632] XmaContext: reset context 1
+[2026-10-17 15:48:23.189] [info] [apu] [t11134592] Audio frame probe #4608: peak FL=0.833941 FR=0.807222 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+[2026-10-17 15:48:23.400] [info] [apu] [t11134592] Audio frame probe #14848: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:24.182] [error] [apu] [t11134632] XmaContext: reset context 1
+[2026-10-17 15:48:24.312] [error] [apu] [t11134632] XmaContext: reset context 2
+[2026-10-17 15:48:24.421] [error] [apu] [t11134632] XmaContext: reset context 1
+[2026-10-17 15:48:24.421] [info] [apu] [t11134592] Audio frame probe #12032: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:24.511] [error] [apu] [t11134632] XmaContext: reset context 2
+[2026-10-17 15:48:24.612] [error] [apu] [t11134632] XmaContext: reset context 1
+[2026-10-17 15:48:24.730] [error] [apu] [t11134632] XmaContext: reset context 2
+[2026-10-17 15:48:24.760] [info] [apu] [t11134592] Audio frame probe #15104: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:24.831] [error] [apu] [t11134632] XmaContext: reset context 1
+[2026-10-17 15:48:24.929] [error] [apu] [t11134632] XmaContext: reset context 2
+[2026-10-17 15:48:25.034] [error] [apu] [t11134632] XmaContext: reset context 1
+[2026-10-17 15:48:25.137] [error] [apu] [t11134632] XmaContext: reset context 2
+[2026-10-17 15:48:25.791] [info] [apu] [t11134592] Audio frame probe #12288: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:26.130] [info] [apu] [t11134592] Audio frame probe #15360: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:26.762] [info] [apu] [t11134592] Audio frame probe #4864: peak FL=0.153328 FR=0.262330 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+[2026-10-17 15:48:27.159] [info] [apu] [t11134592] Audio frame probe #12544: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:27.498] [info] [apu] [t11134592] Audio frame probe #15616: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:29.710] [info] [core] [t11136669] Running-state snapshot saved (515508145 bytes)
+[2026-10-17 15:48:29.902] [info] [apu] [t11134592] Audio frame probe #12800: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:30.247] [info] [apu] [t11134592] Audio frame probe #15872: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:31.302] [info] [apu] [t11134592] Audio frame probe #13056: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:31.608] [info] [apu] [t11134592] Audio frame probe #16128: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:31.761] [info] [apu] [t11134592] Audio frame probe #5120: peak FL=0.253934 FR=0.401344 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+[2026-10-17 15:48:31.880] [error] [apu] [t11134632] XmaContext: reset context 1
+[2026-10-17 15:48:31.983] [error] [apu] [t11134632] XmaContext: reset context 2
+[2026-10-17 15:48:32.260] [error] [apu] [t11134632] XmaContext: reset context 1
+[2026-10-17 15:48:32.662] [info] [apu] [t11134592] Audio frame probe #13312: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:32.988] [info] [apu] [t11134592] Audio frame probe #16384: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:33.664] [error] [apu] [t11134632] XmaContext: reset context 1
+[2026-10-17 15:48:33.779] [error] [apu] [t11134632] XmaContext: reset context 2
+[2026-10-17 15:48:34.022] [info] [apu] [t11134592] Audio frame probe #13568: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:34.046] [error] [apu] [t11134632] XmaContext: reset context 3
+[2026-10-17 15:48:34.346] [info] [apu] [t11134592] Audio frame probe #16640: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:34.496] [error] [apu] [t11134632] XmaContext: reset context 4
+[2026-10-17 15:48:34.500] [error] [apu] [t11134632] XmaContext: reset context 5
+[2026-10-17 15:48:34.816] [error] [apu] [t11134632] XmaContext: reset context 1
+[2026-10-17 15:48:34.925] [error] [apu] [t11134632] XmaContext: reset context 2
+[2026-10-17 15:48:35.017] [error] [apu] [t11134632] XmaContext: reset context 1
+[2026-10-17 15:48:35.078] [error] [apu] [t11134632] XmaContext: reset context 3
+[2026-10-17 15:48:35.157] [error] [apu] [t11134632] XmaContext: reset context 2
+[2026-10-17 15:48:35.265] [error] [apu] [t11134632] XmaContext: reset context 1
+[2026-10-17 15:48:35.395] [info] [apu] [t11134592] Audio frame probe #13824: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:35.402] [error] [apu] [t11134632] XmaContext: reset context 2
+[2026-10-17 15:48:35.611] [error] [apu] [t11134632] XmaContext: reset context 1
+[2026-10-17 15:48:35.616] [info] [apu] [t11134592] Audio frame probe #5376: peak FL=0.455771 FR=0.466424 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+[2026-10-17 15:48:35.684] [error] [apu] [t11134632] XmaContext: reset context 2
+[2026-10-17 15:48:35.705] [info] [apu] [t11134592] Audio frame probe #16896: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:35.723] [error] [apu] [t11134632] XmaContext: reset context 6
+[2026-10-17 15:48:35.818] [error] [apu] [t11134632] XmaContext: reset context 1
+[2026-10-17 15:48:35.988] [error] [apu] [t11134632] XmaContext: reset context 1
+[2026-10-17 15:48:37.530] [info] [apu] [t11136787] audio endpoint 'MacBook Air扬声器': 2 ch, 48000 Hz, format 0x8120; submitting 2 ch
+[2026-10-17 15:48:37.530] [info] [apu] [t11136787] audio endpoint 'MacBook Air扬声器': 2 ch, 48000 Hz, format 0x8120; submitting 2 ch
+[2026-10-17 15:48:37.530] [info] [apu] [t11136787] audio endpoint 'MacBook Air扬声器': 2 ch, 48000 Hz, format 0x8120; submitting 2 ch
+[2026-10-17 15:48:37.532] [info] [core] [t11136787] Running-state snapshot restored (515508145 bytes)
+[2026-10-17 15:48:37.532] [info] [apu] [t11134592] Audio frame probe #0: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:37.533] [info] [apu] [t11134592] Audio frame probe #1: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:37.533] [info] [apu] [t11134592] Audio frame probe #2: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:37.534] [info] [apu] [t11134592] Audio frame probe #0: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:37.534] [info] [apu] [t11134592] Audio frame probe #1: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:37.534] [info] [apu] [t11134592] Audio frame probe #2: peak FL=0.000000 FR=0.000000 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=0/0/0/0/0/0
+[2026-10-17 15:48:37.544] [info] [apu] [t11134592] Audio frame probe #0: peak FL=0.259794 FR=0.251355 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+[2026-10-17 15:48:37.553] [info] [apu] [t11134592] Audio frame probe #1: peak FL=0.262199 FR=0.193780 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+[2026-10-17 15:48:37.563] [info] [apu] [t11134592] Audio frame probe #2: peak FL=0.219034 FR=0.118217 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+[2026-10-17 15:48:40.180] [info] [core] [t11134437] Window closing, shutting down...
+[2026-10-17 15:48:40.181] [info] [core] [t11134637] Execution complete
+[2026-10-17 15:48:40.182] [info] [core] [t11134437] Title terminated; hard-exiting process.

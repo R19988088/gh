@@ -1,0 +1,175 @@
+{
+  "recorded_at_utc": "2026-10-17T09:39:42.776448+00:00",
+  "runtime": {
+    "fixture": "guardian_heroes_runtime_snapshot_test",
+    "exit_code": 0,
+    "real_guest_threads": 2,
+    "devices": "test doubles",
+    "kernel_and_memory": "project Runtime, KernelState, XThread and OS-backed guest memory",
+    "covers": [
+      "bounded stream refusal releases original guest hosts",
+      "exact saved registers and restored heap",
+      "fresh host threads behind shared start gate",
+      "device ownership before heap replacement",
+      "destructive failure keeps devices and guest clock stopped",
+      "Shutdown releases owned clock stop"
+    ],
+    "log": "native-runtime-snapshot-2026-10-17.log",
+    "validated_at_utc": "2026-10-17T06:43:44.391953+00:00"
+  },
+  "audio": {
+    "fixture": "guardian_heroes_audio_system_state_test",
+    "exit_code": 0,
+    "covers": [
+      "XA2D XMA, endpoint and credit bytes",
+      "real guest heap ownership across restore",
+      "extra client removal",
+      "failed restore rejects Resume",
+      "legacy XAUD read",
+      "Release callback consumes a real restored endpoint frame and returns a scheduler credit",
+      "native audio worker join completes before kernel teardown"
+    ],
+    "log": "native-runtime-audio-snapshot-2026-10-17.log",
+    "release_ndebug_enabled": true,
+    "regression_failed_before_fix": true
+  },
+  "gpu": {
+    "fixture": "guardian_heroes_gpu_snapshot_test",
+    "exit_code": 0,
+    "physical_device": "Apple M5",
+    "backend": "project Vulkan via project-built MoltenVK",
+    "snapshot_bytes": 10586944,
+    "covers": [
+      "CPU/PM4/register/gamma/shader state",
+      "GPU-authoritative shared pages with stale CPU memory",
+      "delayed readback history",
+      "active query accumulation across snapshot",
+      "raw color32/color64 NaN and SNORM codes per MSAA sample",
+      "float32 depth and stencil8 per sample",
+      "raw EDRAM",
+      "independent UNORM24/FLOAT24 host owners",
+      "bounded-stream failure preserves active query",
+      "shutdown while paused"
+    ],
+    "log": "native-runtime-gpu-snapshot-2026-10-17.log"
+  },
+  "loaded_title_full_runtime_roundtrip_accepted": true,
+  "kernel_continuation": {
+    "fixture": "guardian_heroes_continuation_restore_test",
+    "exit_code": 0,
+    "covers": [
+      "fresh native owners and exact counters",
+      "mutant recursion and abandonment",
+      "timer deadline, period, APC owner rebinding and retired owner",
+      "created-suspended count, prestart APC and startup arguments",
+      "retired guest storage and scratch cleanup",
+      "deferred dispatch queue/in-flight pause",
+      "post-stop deferred queue refusal",
+      "deferred work resumes exactly once",
+      "paused dispatch teardown",
+      "primary executable outside user-module list and auxiliary module reuse without page reload",
+      "host callback uses compiled path with arguments/result/stack preservation while guest threads retain Machine restore"
+    ],
+    "log": "native-runtime-kernel-continuation-2026-10-17.log",
+    "validated_at_utc": "2026-10-17T08:13:25.252558+00:00"
+  },
+  "queued_imports": {
+    "fixture": "guardian_heroes_continuation_waits_test",
+    "exit_code": 0,
+    "real_guest_threads": 5,
+    "covers": [
+      "fresh native owners behind shared gate",
+      "closed original guest handle retains anonymous wait object",
+      "Pulse and WaitAll preserve consumed signals",
+      "SignalAndWait signals exactly once across restore",
+      "KeDelay preserves guest-time deadline",
+      "alertable APC delivered once",
+      "in-place frame-only restore rejects pending imports without changing original waits",
+      "foreign APC readiness inspection is nonblocking and preserves target IRQL",
+      "direct guest APC insertion wakes a sleeping alertable queued waiter after guest lock release"
+    ],
+    "log": "native-runtime-queued-imports-2026-10-17.log"
+  },
+  "focused_wait_semantics": {
+    "kernel_runner": "tests/run_gh_kernel_test.py",
+    "kernel_exit_code": 0,
+    "machine_runner": "tests/run_gh_guest_continuation_test.py",
+    "machine_exit_code": 0,
+    "covers": [
+      "persistent FIFO across reverse host recreation",
+      "completed Pulse outcome survives reset and serialization",
+      "WaitAll does not partially consume",
+      "abandoned mutant acquired by captured native waiter",
+      "mixed native waiter precedes later queued waiter without producer-thread APC execution",
+      "fresh queued call at budget boundary begins after restore gate; saved pending binds before gate"
+    ],
+    "pc_membership": {
+      "fixture_exit_code": 0,
+      "log": "native-runtime-pc-membership-2026-10-17.log",
+      "covers": [
+        "dense and sparse PC membership",
+        "holes, unaligned and boundary PCs",
+        "one-step and zero-step budgets",
+        "Save/Restore retains exact PC legality"
+      ]
+    }
+  },
+  "xfile_continuation": {
+    "format": "FIL1",
+    "fixture": "guardian_heroes_xfile_continuation_test",
+    "exit_code": 0,
+    "covers": [
+      "quiescent asynchronous-mode read/write position",
+      "unconsumed and consumed auto-reset completion signal",
+      "mounted root reopen without resolving a nonexistent parent",
+      "directory query wildcard and cursor",
+      "SetFindPattern and FindNext continuation",
+      "completion-port association and delete-on-close refusal before output",
+      "legacy file reader"
+    ],
+    "external_files": "Existing VFS files reopen by path and access; host file contents are not rolled back.",
+    "log": "native-runtime-xfile-continuation-2026-10-17.log",
+    "validated_at_utc": "2026-10-17T07:14:23.297803+00:00"
+  },
+  "loaded_title_save": {
+    "observed": true,
+    "bytes": 515508145,
+    "log": "native-runtime-loaded-title-2026-10-17.log",
+    "snapshot_audio_endpoint": "MacBook Air扬声器",
+    "restore_accepted": true,
+    "user_confirmed_normal_f5_f9": true,
+    "audio_audible": true,
+    "audio_stutter_reported": true,
+    "latest_restore_audio_regression": false,
+    "latest_restore_audio_regression_bytes": 357310452,
+    "latest_restore_audio_regression_fixed_in_release": true,
+    "latest_restored_bytes": 357310404,
+    "latest_restore_nonzero_pcm_continues": true,
+    "latest_build_human_hearing_confirmation_pending": false,
+    "user_confirmed_current_audio_and_f9_normal": true,
+    "latest_user_feedback": "声音和 f9 正常"
+  },
+  "audio_endpoint": {
+    "runner": "tests/run_gh_audio_endpoint_test.py",
+    "exit_code": 0,
+    "device": "MacBook Air扬声器",
+    "driver": "coreaudio",
+    "preferred_channels_before_open": 2,
+    "opened_channels": 2,
+    "submitted_channels": 2,
+    "consumed_nonzero_guest_frames": 120,
+    "hardware_mute_read_only": false,
+    "hardware_volume_read_only": 0.25,
+    "game_audio_audibility_verified": true,
+    "log": "native-runtime-audio-endpoint-2026-10-17.log",
+    "validated_at_utc": "2026-10-17T07:47:03.927278+00:00",
+    "stable_game_audio_verified": true,
+    "stable_game_audio_scope": "Current loaded-title listening confirmed by user; long playback remains open."
+  },
+  "final_build_abi_fixtures": {
+    "restore_exit_code": 0,
+    "waits_exit_code": 0,
+    "release_credit_exit_code": 0,
+    "build_log": "native-runtime-final-build-2026-10-17.log"
+  }
+}

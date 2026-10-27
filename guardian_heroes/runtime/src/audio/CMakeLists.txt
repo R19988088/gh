@@ -1,0 +1,6 @@
+add_library(rexaudio INTERFACE)
+add_library(rex::audio ALIAS rexaudio)
+target_link_libraries(rexaudio INTERFACE rexcore)
+if(NOT REXGLUE_PLATFORM_SWITCH)
+    target_link_libraries(rexaudio INTERFACE SDL3::SDL3)
+endif()

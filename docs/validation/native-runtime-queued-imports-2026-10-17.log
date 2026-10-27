@@ -1,0 +1,4 @@
+[info] [sys] Guest memory arena mapped: virtual base 0x0000007000000000, physical base 0x0000007100000000
+[warning] [sys] Runtime::SetupVfs: No game_data_root specified, skipping VFS setup
+[info] [core] Function table initialized for module: code=82000000-82000100, image=82000000-82010000
+Queued guest imports: read-only foreign APC inspection, direct-insert indefinite native wake, fresh native owners, closed original handle, Pulse/WaitAll, exactly-once signal, guest-time delay and alertable APC restore passed

@@ -1,0 +1,2252 @@
+[
+  {
+    "id": 450,
+    "en": "Ah! Here is a peerless knight.",
+    "zh": "啊！真是一位举世无双的骑士。"
+  },
+  {
+    "id": 451,
+    "en": "(A shame he wants to kill us.)",
+    "zh": "（可惜他想杀我们。）"
+  },
+  {
+    "id": 452,
+    "en": "Hi， um， I'm Nicole!",
+    "zh": "你好，那个，我叫妮可！"
+  },
+  {
+    "id": 453,
+    "en": "Let's be friends? No?",
+    "zh": "我们做朋友吧？不行吗？"
+  },
+  {
+    "id": 454,
+    "en": "Hm? What now?",
+    "zh": "嗯？又怎么了？"
+  },
+  {
+    "id": 455,
+    "en": "This sword...",
+    "zh": "这把剑……"
+  },
+  {
+    "id": 456,
+    "en": "You want me to have it? All right...",
+    "zh": "你想把它交给我？好吧……"
+  },
+  {
+    "id": 457,
+    "en": "Feels... incredible. Full of fury， and power!",
+    "zh": "这感觉……难以置信。充满了愤怒与力量！"
+  },
+  {
+    "id": 458,
+    "en": "It's like... he's speaking to me through the sword--telling me everything he went through.",
+    "zh": "就像……他正透过这把剑对我说话，诉说自己经历的一切。"
+  },
+  {
+    "id": 459,
+    "en": "Well， don't worry， friend. I'll finish what you started!",
+    "zh": "别担心，朋友。你的未竟之志，我来完成！"
+  },
+  {
+    "id": 460,
+    "en": "Rest in peace， valiant knight of the true crown.",
+    "zh": "安息吧，忠于真正王室的英勇骑士。"
+  },
+  {
+    "id": 461,
+    "en": "I wish we had not come to blows. But I swear to strike down the source of our pain!",
+    "zh": "真希望我们不曾兵刃相向。但我发誓，必将斩断这苦痛的根源！"
+  },
+  {
+    "id": 462,
+    "en": "It must take some SERIOUS hard feelings to un-die.",
+    "zh": "得是多大的怨气，才能死了又爬起来啊。"
+  },
+  {
+    "id": 463,
+    "en": "I hope he rests easier knowing we've taken up his torch.",
+    "zh": "我们接过了他的遗志，但愿他能安息。"
+  },
+  {
+    "id": 464,
+    "en": "Your soul is at war， even in death. You feel betrayed.",
+    "zh": "哪怕身死，你的灵魂仍在交战。你感到自己被背叛了。"
+  },
+  {
+    "id": 465,
+    "en": "I understand.",
+    "zh": "我明白。"
+  },
+  {
+    "id": 466,
+    "en": "The voices have gone silent.",
+    "zh": "那些声音沉寂了。"
+  },
+  {
+    "id": 467,
+    "en": "I hope they're at peace.",
+    "zh": "愿他们安息。"
+  },
+  {
+    "id": 468,
+    "en": "I have become aware that a bit of the old royal bloodline has dripped into the present.",
+    "zh": "我发现，旧王族的一丝血脉竟然流传到了如今。"
+  },
+  {
+    "id": 469,
+    "en": "A woman: one who could have been a great knight， but has chosen instead to sow disorder in the kingdom's finest moment.",
+    "zh": "是个女人。本可以成为伟大的骑士，却偏偏要在王国最辉煌的时刻兴风作浪。"
+  },
+  {
+    "id": 470,
+    "en": "Why， Serena? Your family died generations ago and the world moved on.",
+    "zh": "为什么呢，瑟蕾娜？你的家族早在几代前就死绝了，世人也早已忘却。"
+  },
+  {
+    "id": 471,
+    "en": "Hold your tongue， snake!",
+    "zh": "闭嘴，毒蛇！"
+  },
+  {
+    "id": 472,
+    "en": "The world never moved on. You dragged it off its wheels!",
+    "zh": "世人从未忘却。是你把世界拖入了深渊！"
+  },
+  {
+    "id": 473,
+    "en": "My kin died so the magic of a dark wizard could mock the true glory of the throne!",
+    "zh": "我的族人被杀，只为让一个黑魔法师的妖术践踏王室真正的荣耀！"
+  },
+  {
+    "id": 474,
+    "en": "You do have spirit. I can see a bit of the old queen's fire in you.",
+    "zh": "你倒是很有骨气。我能从你身上看见旧王后当年的几分烈性。"
+  },
+  {
+    "id": 475,
+    "en": "That look of defiance was the last expression she wore， my little princess.",
+    "zh": "小公主，你这不屈的眼神，也是她临死前最后的表情。"
+  },
+  {
+    "id": 476,
+    "en": "P-Princess!?",
+    "zh": "公、公主！？"
+  },
+  {
+    "id": 477,
+    "en": "Serena's... a princess? (So much for asking her out.)",
+    "zh": "瑟蕾娜……是公主？（这下没戏约她出去了。）"
+  },
+  {
+    "id": 478,
+    "en": "Ah! I might have known! Her patriotic spirit， her clarity of mind--these are royal traits!",
+    "zh": "啊！我早该看出来！她的爱国之心，她的清明睿智……这都是王者风范！"
+  },
+  {
+    "id": 479,
+    "en": "Sometimes it feels like everyone's a princess but me.",
+    "zh": "有时候真觉得，除了我，人人都是公主。"
+  },
+  {
+    "id": 480,
+    "en": "No! You're lying! My family has ruled this land since ancient times!",
+    "zh": "不！你在撒谎！我的家族自古便统治着这片土地！"
+  },
+  {
+    "id": 481,
+    "en": "Father would have spoken of it， were House Valgar not the first to sit the throne!",
+    "zh": "如果瓦尔加家族不是最早登上王座的，父王一定会告诉我！"
+  },
+  {
+    "id": 482,
+    "en": "Ha ha ha ha! I remember a warrior... He fought to his last breath the night your family was destroyed. Scores of my men died on his blade before he expired on the outskirts of town.",
+    "zh": "哈哈哈哈！我还记得一个战士……你家族覆灭的那夜，他奋战至最后一息。我的士兵数十人死于他剑下，他最后也倒在了城外。"
+  },
+  {
+    "id": 483,
+    "en": "How very fitting that he should lead the last of you to me today!",
+    "zh": "如今竟由他将你们家族最后的血脉带到我面前，真是再合适不过了！"
+  },
+  {
+    "id": 484,
+    "en": "I see. Then he is more than just some hero whose bones washed white with history.",
+    "zh": "原来如此。那么，他不只是某个早已被历史遗忘的英雄。"
+  },
+  {
+    "id": 485,
+    "en": "He was a brave man who tried to protect my family.",
+    "zh": "他是一位曾为保护我家族而战的勇士。"
+  },
+  {
+    "id": 486,
+    "en": "The old king said before he died--",
+    "zh": "老国王临死前说过——"
+  },
+  {
+    "id": 487,
+    "en": "“Mine is a kingdom of swords.  These crimes， too， shall be  avenged by the sword.“",
+    "zh": "“吾之王国，乃剑之王国。这等罪行，也必将由剑来讨还。”"
+  },
+  {
+    "id": 488,
+    "en": "As a precaution， I ordered my soldiers to gather every scrap of steel and iron.",
+    "zh": "以防万一，我命令士兵搜遍了所有的钢铁兵刃。"
+  },
+  {
+    "id": 489,
+    "en": "Not one sword in the realm had such power. But it appears I gave up too quickly.",
+    "zh": "全国竟没有一把剑拥有那种力量。看来是我放弃得太早。"
+  },
+  {
+    "id": 490,
+    "en": "The most powerful weapon in existence， unearthed by a ragtag band of nobodies! Ha! Had they and the sword found me instead of you， all of us would have been spared so much misery.",
+    "zh": "世上最强大的武器，居然让一群乌合之众挖了出来！哈！他们要是带着剑来投奔我，而不是你，大家都能少受多少苦啊。"
+  },
+  {
+    "id": 491,
+    "en": "Explain yourself， Kanon. You already wielded absolute power in all but name.",
+    "zh": "把话说清楚，卡农。你早就有了至高无上的权力，只差一个名号。"
+  },
+  {
+    "id": 492,
+    "en": "What's so important that you had to destroy my family!?",
+    "zh": "到底有什么事，值得你灭我全族！？"
+  },
+  {
+    "id": 493,
+    "en": "Did you know our world was once home to three races?",
+    "zh": "你们可知道，这个世界曾有三个种族？"
+  },
+  {
+    "id": 494,
+    "en": "Heaven and earth were ruled by two warring tribes called the Skyborn and the Earthblood.",
+    "zh": "统治天空与大地的，是两个相互征战的种族：天界人与地界人。"
+  },
+  {
+    "id": 495,
+    "en": "As they fought viciously to eradicate each other，",
+    "zh": "他们为将对方斩尽杀绝而激烈厮杀时，"
+  },
+  {
+    "id": 496,
+    "en": "the third race--our race-- could only cower in fear.",
+    "zh": "第三个种族，也就是我们，只能在恐惧中瑟缩。"
+  },
+  {
+    "id": 497,
+    "en": "But that changed when the Skyborn gave humans a gift: power to see nature's workings.",
+    "zh": "但天界人送给人类一件礼物，改变了这一切：洞悉自然法则的力量。"
+  },
+  {
+    "id": 498,
+    "en": "So grateful were we for this “majestic logic，“ or “magic，“ we chose to help the Skyborn.",
+    "zh": "我们对这套“玄妙之理”，也就是“魔法”，感激不尽，于是选择帮助天界人。"
+  },
+  {
+    "id": 499,
+    "en": "We battled the Earthblood at the cost of many human lives.",
+    "zh": "我们与地界人作战，为此牺牲了无数人类。"
+  },
+  {
+    "id": 500,
+    "en": "In the end， we did what the Skyborn never could， and cast the Earthblood into darkness.",
+    "zh": "最终，我们做到了天界人未能做到的事，将地界人逐入黑暗。"
+  },
+  {
+    "id": 501,
+    "en": "But did the Skyborn thank us? Ha!",
+    "zh": "可天界人感谢我们了吗？哈！"
+  },
+  {
+    "id": 502,
+    "en": "Oh， how the jealous fiends thanked us.",
+    "zh": "那些嫉妒成性的恶鬼，真是好一番“感谢”！"
+  },
+  {
+    "id": 503,
+    "en": "Fearful of our god-like power， they cast us into the same dark prison as the Earthblood. We who gave our lives for them!",
+    "zh": "他们惧怕我们比肩神明的力量，将我们与地界人一起关进了黑暗牢狱！我们可是曾为他们舍命的人啊！"
+  },
+  {
+    "id": 504,
+    "en": "Only the magically uninclined were spared， sparking a dreary epoch called the Age of Swords.",
+    "zh": "只有不通魔法的人得以幸免，于是，枯燥的“剑之时代”开始了。"
+  },
+  {
+    "id": 505,
+    "en": "I waited an eternity for the moment I could escape my prison and restore magic to a world that sorely lacked it.",
+    "zh": "我等待了无尽的岁月，只为逃出牢狱，将魔法带回这个失去它的世界。"
+  },
+  {
+    "id": 506,
+    "en": "I subjugated the Earthblood's leader， and， in time， clawed my way back to freedom.",
+    "zh": "我降服了地界人的首领，历经漫长岁月，终于重获自由。"
+  },
+  {
+    "id": 507,
+    "en": "But when I told the royal family of the great power men had lost， they scoffed! The ungrateful fools deserved to be killed and replaced.",
+    "zh": "可我告诉王室，人类曾失去多么伟大的力量时，他们竟嗤之以鼻！这群忘恩负义的蠢货，活该被杀，活该被取代。"
+  },
+  {
+    "id": 508,
+    "en": "Replaced with us? My family are puppets for some VENDETTA?",
+    "zh": "被我们取代？我的家族只是你用来复仇的傀儡？"
+  },
+  {
+    "id": 509,
+    "en": "Vendetta? Don't be petty. Humanity wants and needs this!",
+    "zh": "复仇？别想得这么狭隘。人类渴望它，也需要它！"
+  },
+  {
+    "id": 510,
+    "en": "I warned you against choosing swords over sorcery， young Valgar. The king， at least， knows better than to try and pull his own strings.",
+    "zh": "年轻的瓦尔加，我早就告诫过你，不要弃魔法而选刀剑。至少国王懂得，傀儡就不该妄图自己拉线。"
+  },
+  {
+    "id": 511,
+    "en": "Father is colluding with you? No... he would never...",
+    "zh": "父王在与你串通？不……他绝不会……"
+  },
+  {
+    "id": 512,
+    "en": "My business now is with the band who found the sword.",
+    "zh": "现在，我要和找到宝剑的几位谈谈。"
+  },
+  {
+    "id": 513,
+    "en": "That woman has led you astray and put your lives in danger.",
+    "zh": "那个女人误导了你们，害你们身陷险境。"
+  },
+  {
+    "id": 514,
+    "en": "Soon a world balanced by magic will be upon us. Why not think about your fellow man， and fight on behalf of the future we all deserve， hmm?",
+    "zh": "以魔法维系平衡的世界即将到来。何不为人类同胞想想，为我们应得的未来而战，嗯？"
+  },
+  {
+    "id": 515,
+    "en": "No. I'm a visionary!",
+    "zh": "不，我是远见卓识之人！"
+  },
+  {
+    "id": 516,
+    "en": "The world will spin the way I want it to spin. With magic，  humanity will become the strongest race of all!",
+    "zh": "世界将遵我的意愿运转。有了魔法，人类将成为最强大的种族！"
+  },
+  {
+    "id": 517,
+    "en": "Nngh!? Impossible! Nothing can break that spell! What ARE you?",
+    "zh": "呃！？不可能！没有什么能破除那个咒术！你到底是什么？"
+  },
+  {
+    "id": 518,
+    "en": "I shall pick you apart until I find my answer!",
+    "zh": "我非把你拆个彻底，查出答案不可！"
+  },
+  {
+    "id": 519,
+    "en": "Fools! You will regret... siding with the Skyborn...",
+    "zh": "蠢货！站在天界人那边……你们会后悔的……"
+  },
+  {
+    "id": 520,
+    "en": "Ye who see magic's evils for what they are--come to me.",
+    "zh": "看清魔法罪恶本质之人啊……到我这里来。"
+  },
+  {
+    "id": 521,
+    "en": "Enter my realm without fear， for I have been waiting.",
+    "zh": "不必畏惧，进入我的领域吧。我已等候多时。"
+  },
+  {
+    "id": 522,
+    "en": "The old monarchy forced my hand. They simply could not be brought to see the truth.",
+    "zh": "是旧王室逼我动手的。他们根本不愿认清真相。"
+  },
+  {
+    "id": 523,
+    "en": "Nngh!? Impossible! Nothing can break that spell! Such incredible power...",
+    "zh": "呃！？不可能！没有什么能破除那个咒术！如此惊人的力量……"
+  },
+  {
+    "id": 524,
+    "en": "But you mistake me for a mage. I AM A MASTER!",
+    "zh": "但别把我当成普通法师。我可是大魔导师！"
+  },
+  {
+    "id": 525,
+    "en": "Word of your exploits has spread quickly， warriors.",
+    "zh": "战士们，你们的事迹已传遍各地。"
+  },
+  {
+    "id": 526,
+    "en": "Our own attempts to stand up to Kanon cost us our village and families. But today... You gave us vengeance and victory in one great stroke!",
+    "zh": "我们曾试图反抗卡农，却赔上了村庄和家人。可今天……你们一举为我们报了仇，赢得了胜利！"
+  },
+  {
+    "id": 527,
+    "en": "Bah! As long as the Skyborn rule on high， we will never have peace! The Earthblood answer to me now. With their power， I can finally set this world right!",
+    "zh": "呸！只要天界人仍高居云端，我们就永无宁日！地界人如今听我号令。有他们的力量，我终于能让世界回归正轨！"
+  },
+  {
+    "id": 528,
+    "en": "You will regret being reborn into this world， fool! All of you will!",
+    "zh": "蠢货，你会后悔重返人世！你们所有人都会后悔！"
+  },
+  {
+    "id": 529,
+    "en": "What have you done? This world will crumble without me! The Skyborn and Earthblood... will tear it apart...",
+    "zh": "你们干了什么？没有我，这个世界会崩溃！天界人和地界人……会把它撕成碎片……"
+  },
+  {
+    "id": 530,
+    "en": "Force brought me the power of the Earthblood， and force gave humanity back the power your forefathers died for!",
+    "zh": "我用武力夺得地界人的力量，也用武力，为人类夺回你们先祖为之献身的力量！"
+  },
+  {
+    "id": 531,
+    "en": "Now， force will tear the proud Skyborn out of the heavens!",
+    "zh": "现在，我要用武力，把高傲的天界人从天上拖下来！"
+  },
+  {
+    "id": 532,
+    "en": "Nngh!? Impossible! Nothing can break that spell! We shall settle this later.",
+    "zh": "呃！？不可能！没有什么能破除那个咒术！这笔账，稍后再算。"
+  },
+  {
+    "id": 533,
+    "en": "If you spoke truly， then these other races may be a threat.",
+    "zh": "若你所言属实，另外两个种族或许确是威胁。"
+  },
+  {
+    "id": 534,
+    "en": "But that does not absolve you.",
+    "zh": "但这并不能洗清你的罪孽。"
+  },
+  {
+    "id": 535,
+    "en": "It ends now. By the sword!",
+    "zh": "一切就此了结。以剑为断！"
+  },
+  {
+    "id": 536,
+    "en": "Ah， but you have just sealed your own fate. The Skyborn are watching!",
+    "zh": "啊，可你们刚刚亲手断送了自己的命。天界人正看着呢！"
+  },
+  {
+    "id": 537,
+    "en": "You know the truth--and more damning still， they have seen that you believe me! You have already been judged.",
+    "zh": "你们知道了真相……更致命的是，他们看出你们相信我！你们的判决已经定下。"
+  },
+  {
+    "id": 538,
+    "en": "Warriors! Do not be afraid. I wish you no harm.",
+    "zh": "战士们，不要害怕。我无意伤害你们。"
+  },
+  {
+    "id": 539,
+    "en": "There is a matter we must discuss. You wish to face Kanon? I can arrange for that... briefly.",
+    "zh": "有一件事必须与你们商谈。你们想面对卡农？我可以安排……片刻。"
+  },
+  {
+    "id": 540,
+    "en": "I must have a way with monsters.",
+    "zh": "看来我还挺会对付怪物。"
+  },
+  {
+    "id": 541,
+    "en": "But it is time you and I severed our ties once and for all!",
+    "zh": "但你我之间的纠葛，也该彻底了断了！"
+  },
+  {
+    "id": 542,
+    "en": "WHY!? Why can I not kill you? It's that accursed sword. What secret does it hold?",
+    "zh": "为什么！？为什么我杀不死你？是那把该死的剑。它到底藏着什么秘密？"
+  },
+  {
+    "id": 543,
+    "en": "Graaah! Now even mortal men are walking around with these monsters' blades!",
+    "zh": "可恶！如今连凡人都带着这些怪物的剑，招摇过市了！"
+  },
+  {
+    "id": 544,
+    "en": "What secrets do the accursed things hold?",
+    "zh": "这些该死的东西究竟藏着什么秘密？"
+  },
+  {
+    "id": 545,
+    "en": "You haven't seen one because they come from a better time!",
+    "zh": "你没见过，是因为它们来自一个更好的时代！"
+  },
+  {
+    "id": 546,
+    "en": "Before your magic polluted the world， there was an Age of Swords. Blades like this belonged to knights who served the true king--died protecting him from pretenders like your father!",
+    "zh": "在你的魔法污染世界之前，曾有一个剑之时代。这样的剑，属于侍奉真正国王的骑士……他们为保护国王，死于你父亲这样的篡位者之手！"
+  },
+  {
+    "id": 547,
+    "en": "What jape is this? True king? Pretenders?",
+    "zh": "开什么玩笑？真正的国王？篡位者？"
+  },
+  {
+    "id": 548,
+    "en": "Your mind's as far gone as these skeletons'. Shall I put you to rest by their side?",
+    "zh": "你的脑子也跟这些骷髅一样腐朽了。要我送你去陪他们长眠吗？"
+  },
+  {
+    "id": 549,
+    "en": "Would that you could， my prince. But it seems more direct intervention is required.",
+    "zh": "王子殿下，真希望你办得到。但看来，我必须亲自插手了。"
+  },
+  {
+    "id": 550,
+    "en": "Still alive?",
+    "zh": "还活着？"
+  },
+  {
+    "id": 551,
+    "en": "Our knights are getting soft.",
+    "zh": "我们的骑士真是越来越不中用了。"
+  },
+  {
+    "id": 552,
+    "en": "Compared to the ones who served the true monarchy， your men are like babes in armor.",
+    "zh": "比起侍奉真正王室的骑士，你的人不过是穿着铠甲的婴儿。"
+  },
+  {
+    "id": 553,
+    "en": "Maybe you need a true crown to serve to show your potential.",
+    "zh": "也许得侍奉真正的王室，你才能发挥潜力。"
+  },
+  {
+    "id": 554,
+    "en": "You need a real king to make a real knight， buddy.",
+    "zh": "伙计，得有真国王，才有真骑士。"
+  },
+  {
+    "id": 555,
+    "en": "Ha! One impostor breeds another.",
+    "zh": "哈！冒牌货只会养出冒牌货。"
+  },
+  {
+    "id": 556,
+    "en": "Yeah， well， if they were the REAL royal knights， we would have got our butts handed to us!",
+    "zh": "是啊，要他们是真正的王国骑士，我们早就被揍趴下了！"
+  },
+  {
+    "id": 557,
+    "en": "What are you implying?",
+    "zh": "你们在暗示什么？"
+  },
+  {
+    "id": 558,
+    "en": "I've had more of this farce than I can stomach. En garde!",
+    "zh": "这场闹剧我已忍无可忍。拔剑吧！"
+  },
+  {
+    "id": 559,
+    "en": "It's a bird! It's a plane!",
+    "zh": "是鸟！是飞机！"
+  },
+  {
+    "id": 560,
+    "en": "Nope， it's our sexy frames! Who takes from the flabby and gives to the stacked? Just us， baby: the Glutes are back!",
+    "zh": "错啦，是我们性感的身躯！谁专抢肥肉、接济肌肉？就是我们！翘臀团回来啦！"
+  },
+  {
+    "id": 561,
+    "en": "Whoopsy-daisy. Who do you think owns this wasteland?",
+    "zh": "哎呀呀。知道这片荒地归谁管吗？"
+  },
+  {
+    "id": 562,
+    "en": "Time to pay up in gold!",
+    "zh": "该拿金子来交路费了！"
+  },
+  {
+    "id": 563,
+    "en": "Or... I guess we accept golden warriors. Wait'll the boss gets a load of him!",
+    "zh": "或者……金灿灿的战士也行。老大见了他准乐坏！"
+  },
+  {
+    "id": 564,
+    "en": "What， you guys again? Ugh， you know the drill. Buns in gear， brigands! Take 'em to the boss.",
+    "zh": "什么，又是你们？唉，规矩都懂。强盗们，翘臀动起来！带他们去见老大。"
+  },
+  {
+    "id": 565,
+    "en": "Ha! Well met， trespassers.",
+    "zh": "哈！幸会啊，闯入者。"
+  },
+  {
+    "id": 566,
+    "en": "Macho applauds your gumption as only Macho can.",
+    "zh": "马乔要用马乔独有的方式，赞赏你们的胆量。"
+  },
+  {
+    "id": 567,
+    "en": "Have you come bearing gifts?",
+    "zh": "带礼物来了吗？"
+  },
+  {
+    "id": 568,
+    "en": "That golden warrior will do.",
+    "zh": "那个金灿灿的战士就不错。"
+  },
+  {
+    "id": 569,
+    "en": "You still owe Macho a golden warrior. Once he joins the Glutes， his well-textured armor will be oiled daily!",
+    "zh": "你们还欠马乔一个金灿灿的战士。他若加入翘臀团，那身精致的铠甲，每天都能抹油保养！"
+  },
+  {
+    "id": 570,
+    "en": "Ugh. Put a shirt on， knave!",
+    "zh": "恶心。把衣服穿上，贱民！"
+  },
+  {
+    "id": 571,
+    "en": "Ha! You take YOUR shirt OFF， weakling!",
+    "zh": "哈！你才该脱掉衣服呢，弱鸡！"
+  },
+  {
+    "id": 572,
+    "en": "Those are some sweet biceps for a prince whose family likes magic more than muscle! How much do those blades weigh?",
+    "zh": "王子一家明明更爱魔法、不爱肌肉，二头肌倒练得不错！你那对剑有多重？"
+  },
+  {
+    "id": 573,
+    "en": "Er... Macho. May I ask you a question?",
+    "zh": "呃……马乔。我能问你件事吗？"
+  },
+  {
+    "id": 574,
+    "en": "Where did you get the sword in that box?",
+    "zh": "箱子里的剑，你是从哪里弄来的？"
+  },
+  {
+    "id": 575,
+    "en": "Ah! You like Macho's beefy sword?",
+    "zh": "啊！看上马乔这把雄壮宝剑了？"
+  },
+  {
+    "id": 576,
+    "en": "This was our prize from robbing a royal storehouse. Why a bunch of wizard wimps would want it eludes Macho.",
+    "zh": "这是我们抢劫王室仓库的战利品。那些软弱的魔法师留着它做什么，马乔可想不通。"
+  },
+  {
+    "id": 577,
+    "en": "Want it? Our knights would never bother with a vulgar scrap of metal like that.",
+    "zh": "留着它？我们的骑士才不会稀罕这么块粗俗的废铁。"
+  },
+  {
+    "id": 578,
+    "en": "Correct. Yours would not.",
+    "zh": "不错，你们的骑士不会。"
+  },
+  {
+    "id": 579,
+    "en": "This is from the Age of Swords， when the true monarchy wielded it against traitors like Kanon... and you!",
+    "zh": "这把剑来自剑之时代。当年真正的王室，就是用它对抗卡农……以及你这样的叛徒！"
+  },
+  {
+    "id": 580,
+    "en": "More implications. What is this about?",
+    "zh": "又在含沙射影。到底什么意思？"
+  },
+  {
+    "id": 581,
+    "en": "What? Will you not cease these childish stories?",
+    "zh": "什么？你们还要继续讲这些幼稚故事吗？"
+  },
+  {
+    "id": 582,
+    "en": "Ugh， it reeks of butt-sweat in here. I need some air.",
+    "zh": "呕，这里满是屁股汗味。我得出去透口气。"
+  },
+  {
+    "id": 583,
+    "en": "Hmph. You low-life thieves can count yourselves lucky. Next time I see you is the day I cut you down!",
+    "zh": "哼，你们这些下贱盗贼，算你们走运。下次见面，就是你们的死期！"
+  },
+  {
+    "id": 584,
+    "en": "Macho senses inner conflict...",
+    "zh": "马乔感受到了内心的矛盾……"
+  },
+  {
+    "id": 585,
+    "en": "In him， but also in you. You are taking on the crown?",
+    "zh": "他有，你们也有。你们要对抗王室？"
+  },
+  {
+    "id": 586,
+    "en": "Then go! Bring tone back to this dark and flabby world!",
+    "zh": "那就去吧！让这个黑暗松垮的世界，重新绷紧肌肉！"
+  },
+  {
+    "id": 587,
+    "en": "You rogues have kept too many secrets from me. What is it you think you know!?",
+    "zh": "你们这些恶徒瞒了我太多。你们到底知道些什么！？"
+  },
+  {
+    "id": 588,
+    "en": "I will tell you!",
+    "zh": "我来告诉你！"
+  },
+  {
+    "id": 589,
+    "en": "Enemies of the crown! You have taken your last step.",
+    "zh": "王室的敌人！你们到此为止了。"
+  },
+  {
+    "id": 590,
+    "en": "I cannot allow you to push my kingdom toward destruction!",
+    "zh": "我绝不容许你们将我的王国推向毁灭！"
+  },
+  {
+    "id": 591,
+    "en": "Why， Valgar?",
+    "zh": "为什么，瓦尔加？"
+  },
+  {
+    "id": 592,
+    "en": "Because you and your father would rather do it yourself?",
+    "zh": "因为你和你父亲想亲自动手？"
+  },
+  {
+    "id": 593,
+    "en": "Yeah， that's your job， right? How's it feel to choke people with magic WE DON'T WANT!?",
+    "zh": "是啊，那不是你们的活儿吗？拿我们根本不想要的魔法勒住百姓的脖子，感觉如何！？"
+  },
+  {
+    "id": 594,
+    "en": "Us? You're the ones taking magic and twisting it! Magic is about free choice!",
+    "zh": "我们？滥用、扭曲魔法的明明是你们！魔法本该让人自由选择！"
+  },
+  {
+    "id": 595,
+    "en": "Yes， I see the destruction you speak of--and before me， the destroyer!",
+    "zh": "不错，我看见了你所说的毁灭……也看见了眼前的毁灭者！"
+  },
+  {
+    "id": 596,
+    "en": "I'll push as many kingdoms toward destruction as I want! Wait， that came out wrong.",
+    "zh": "我想毁几个王国就毁几个！等等，这话好像不对。"
+  },
+  {
+    "id": 597,
+    "en": "Shut up!",
+    "zh": "闭嘴！"
+  },
+  {
+    "id": 598,
+    "en": "Well， you have improved a bit， I see.",
+    "zh": "看来，你们确实进步了一点。"
+  },
+  {
+    "id": 599,
+    "en": "Let's take this outside， where there's room to beat on you!",
+    "zh": "去外面打，才有地方好好收拾你们！"
+  },
+  {
+    "id": 600,
+    "en": "The world will spin the way I want it to spin. With magic，   humanity will become the strongest race of all!",
+    "zh": "世界将遵我的意愿运转。有了魔法，人类将成为最强大的种族！"
+  },
+  {
+    "id": 601,
+    "en": "Now， where were we?",
+    "zh": "刚才说到哪儿了？"
+  },
+  {
+    "id": 602,
+    "en": "You... nngh， DARE!",
+    "zh": "你……呃，竟敢！"
+  },
+  {
+    "id": 603,
+    "en": "Hee hee hee! Why good morning， good knight! (See what I did there?)",
+    "zh": "嘻嘻嘻！早上好呀，好骑士！还没跟你道晚安呢！"
+  },
+  {
+    "id": 604,
+    "en": "Zur? Get your buffoons out of the way!",
+    "zh": "祖尔？让你的那群蠢货让路！"
+  },
+  {
+    "id": 605,
+    "en": "My goodness! Who tinkled in your spaulders?",
+    "zh": "哎呀！谁往你的肩甲里撒尿了，这么大火气？"
+  },
+  {
+    "id": 606,
+    "en": "I have business with you.",
+    "zh": "我找你有事。"
+  },
+  {
+    "id": 607,
+    "en": "What are you-- What “business“?",
+    "zh": "你在……什么“事”？"
+  },
+  {
+    "id": 608,
+    "en": "Oh， how about your arrest and/or execution? What were Lord Kanon's exact words? Ah yes. “The fool would rather die than know the truth.“",
+    "zh": "比如，逮捕你，或者处决你？卡农大人原话怎么说来着？啊，对了。“那蠢货宁死也不肯认清真相。”"
+  },
+  {
+    "id": 609,
+    "en": "Isn't he thoughtful? You must be so pooped from pretending to be a prince all the time!",
+    "zh": "他多体贴啊！你成天装王子，一定累坏了吧！"
+  },
+  {
+    "id": 610,
+    "en": "Something else has come up. I will deal with you later!",
+    "zh": "眼下有别的事。回头再收拾你！"
+  },
+  {
+    "id": 611,
+    "en": "Where is Kanon?",
+    "zh": "卡农在哪儿？"
+  },
+  {
+    "id": 612,
+    "en": "Take me to him. Now!",
+    "zh": "带我去见他。马上！"
+  },
+  {
+    "id": 613,
+    "en": "B-But I'm just the messenger!",
+    "zh": "可、可我只是个传话的！"
+  },
+  {
+    "id": 614,
+    "en": "I don't care who's real and who's a fraud! I stick with the winners! See? We're tight!",
+    "zh": "我才不管谁真谁假！我只跟赢家站一边！看见没？我们关系铁着呢！"
+  },
+  {
+    "id": 615,
+    "en": "Correct! Power is Justice.   And justice calls for great power!",
+    "zh": "正确！力量即正义。而正义，需要强大的力量！"
+  },
+  {
+    "id": 616,
+    "en": "Now what kind of reckless  fools would pick a fight with the Blue Order?",
+    "zh": "究竟是怎样不知死活的蠢货，敢找蓝之骑士团的麻烦？"
+  },
+  {
+    "id": 617,
+    "en": "Gash? What are you doing here?",
+    "zh": "加修？你怎么会在这里？"
+  },
+  {
+    "id": 618,
+    "en": "Urp!",
+    "zh": "呃！"
+  },
+  {
+    "id": 619,
+    "en": "Uh... ohhhhh.",
+    "zh": "呃……糟喽。"
+  },
+  {
+    "id": 620,
+    "en": "Hiya， Captain.",
+    "zh": "嗨，团长。"
+  },
+  {
+    "id": 621,
+    "en": "Fancy meeting you here.",
+    "zh": "真巧，在这儿碰到你。"
+  },
+  {
+    "id": 622,
+    "en": "Ick! So much for safety in the woods.",
+    "zh": "讨厌！还以为树林里会安全呢。"
+  },
+  {
+    "id": 623,
+    "en": "An unfortunate encounter.",
+    "zh": "真是冤家路窄。"
+  },
+  {
+    "id": 624,
+    "en": "But now that we know the truth about the crown， this is a battle we must fight!",
+    "zh": "不过，既然已知王室的真相，这一战就避无可避！"
+  },
+  {
+    "id": 625,
+    "en": "Oh， sweet!",
+    "zh": "哦，太好了！"
+  },
+  {
+    "id": 626,
+    "en": "I'm dressed to match!",
+    "zh": "我这身打扮正好配你们！"
+  },
+  {
+    "id": 627,
+    "en": "Oh， so you're the bunch causing all the ruckus.",
+    "zh": "哦，原来闹出这么大动静的就是你们。"
+  },
+  {
+    "id": 628,
+    "en": "Serena， is that you?",
+    "zh": "瑟蕾娜，是你吗？"
+  },
+  {
+    "id": 629,
+    "en": "So you're one of the rebels holding His Majesty's feet to the fire? Hmm， can't solve this one with practice swords.",
+    "zh": "你也成了让陛下焦头烂额的叛党？嗯，这回可不能拿练习剑解决了。"
+  },
+  {
+    "id": 630,
+    "en": "Han， is that you?",
+    "zh": "哈恩，是你吗？"
+  },
+  {
+    "id": 631,
+    "en": "Huh. Ya mean you're one of the rebels holding His Majesty's feet to the fire? Guess it's time for another contest.",
+    "zh": "呵，你也成了让陛下焦头烂额的叛党？看来得再比一场了。"
+  },
+  {
+    "id": 632,
+    "en": "All right， you blue dogs! Go find the princess! I'll be done here in a second.",
+    "zh": "好了，你们这些蓝皮狗！去找公主！我马上就能收拾完这里。"
+  },
+  {
+    "id": 633,
+    "en": "The princess? She's run away again?",
+    "zh": "公主？她又跑出来了？"
+  },
+  {
+    "id": 634,
+    "en": "Princess... Lucia's here!?",
+    "zh": "公主……露西亚在这里！？"
+  },
+  {
+    "id": 635,
+    "en": "Guess I need work.",
+    "zh": "看来还得练啊。"
+  },
+  {
+    "id": 636,
+    "en": "That Serena... Nngh! She fights like a dragon.",
+    "zh": "瑟蕾娜那家伙……唔！凶得像条龙。"
+  },
+  {
+    "id": 637,
+    "en": "Well fought， Han...",
+    "zh": "打得好，哈恩……"
+  },
+  {
+    "id": 638,
+    "en": "A fearful monster... Wrong color armor， though.",
+    "zh": "真是可怕的怪物……可惜铠甲颜色不对。"
+  },
+  {
+    "id": 639,
+    "en": "Idiots! Don't worry about me! Do your job!",
+    "zh": "笨蛋！别管我！去办你们的正事！"
+  },
+  {
+    "id": 640,
+    "en": "Fools! Arrgh... You have a job to do!",
+    "zh": "蠢货！呃啊……你们还有任务！"
+  },
+  {
+    "id": 641,
+    "en": "Hey!  My gang is mid-klepto， and you're muscling in on our prospecto.",
+    "zh": "喂！我们正在行窃，你们却来抢这门生意。"
+  },
+  {
+    "id": 642,
+    "en": "I was right. Princess Lucia...",
+    "zh": "我猜得没错。露西亚公主……"
+  },
+  {
+    "id": 643,
+    "en": "No wonder Gash came in person.",
+    "zh": "难怪加修会亲自过来。"
+  },
+  {
+    "id": 644,
+    "en": "Huh? That's Lucia!",
+    "zh": "咦？那是露西亚！"
+  },
+  {
+    "id": 645,
+    "en": "The captain said she'd run away again...",
+    "zh": "团长说她又溜出来了……"
+  },
+  {
+    "id": 646,
+    "en": "We Glutes know the scuttlebutt! Miss Princess here ditches the castle a lot. Guess she loves breakin' the rules! Just one prob--she ain't got no jewels.",
+    "zh": "我们翘臀团消息灵通！这位公主小姐三天两头溜出城堡。看来就是爱违抗规矩！可惜就一点不好——身上一颗宝石都没有。"
+  },
+  {
+    "id": 647,
+    "en": "Han? Why are you here? It's not... true， is it?",
+    "zh": "哈恩？你为什么在这里？难道……那些都是真的？"
+  },
+  {
+    "id": 648,
+    "en": "Lucia! Where are you? Why can't you just stay put!?",
+    "zh": "露西亚！你在哪儿？就不能安分待着吗！？"
+  },
+  {
+    "id": 649,
+    "en": "Uh-oh. Another rowdy baddy! C'mon， boys--let's skedaddy!",
+    "zh": "哎哟，又来了个凶神恶煞！兄弟们，快跑吧！"
+  },
+  {
+    "id": 650,
+    "en": "You!",
+    "zh": "是你！"
+  },
+  {
+    "id": 651,
+    "en": "Don't， Brother. These warriors just saved me from bandits.",
+    "zh": "别动手，哥哥。是这些战士从强盗手中救了我。"
+  },
+  {
+    "id": 652,
+    "en": "Besides， you need to know why I left the castle this time.",
+    "zh": "而且，你得知道我这次为什么离开城堡。"
+  },
+  {
+    "id": 653,
+    "en": "It wasn't out of curiosity!",
+    "zh": "这次不是因为好奇！"
+  },
+  {
+    "id": 654,
+    "en": "Why， then?",
+    "zh": "那是为什么？"
+  },
+  {
+    "id": 655,
+    "en": "There is no excuse for disrupting life at the castle for these excursions!",
+    "zh": "无论如何，也不能为了你私自出游，就搅得城堡不得安宁！"
+  },
+  {
+    "id": 656,
+    "en": "Yes there is. I found out something I shouldn't have.",
+    "zh": "这次可以。我发现了不该知道的事。"
+  },
+  {
+    "id": 657,
+    "en": "I overheard a conversation between Kanon and a horrible monster. It was terrifying!",
+    "zh": "我偷听到卡农跟一个可怕怪物的谈话。吓死人了！"
+  },
+  {
+    "id": 658,
+    "en": "I know why they want to force magic on the world... and who you and I really are.",
+    "zh": "我知道他们为什么要逼全世界接受魔法……也知道你我真正的身份了。"
+  },
+  {
+    "id": 659,
+    "en": "It is not polite to eavesdrop， Princess. I must punish you.",
+    "zh": "偷听可不礼貌，公主。我得惩罚你。"
+  },
+  {
+    "id": 660,
+    "en": "Lucia， find someplace to hide.",
+    "zh": "露西亚，找地方躲起来。"
+  },
+  {
+    "id": 661,
+    "en": "Not the castle--it isn't safe.",
+    "zh": "别回城堡，那里不安全。"
+  },
+  {
+    "id": 662,
+    "en": "But Brother...",
+    "zh": "可是，哥哥……"
+  },
+  {
+    "id": 663,
+    "en": "Go. Now!",
+    "zh": "走！马上！"
+  },
+  {
+    "id": 664,
+    "en": "Nice， let me shake your... Wait， which piece is your hand?",
+    "zh": "不错，握个手吧……等等，你的手是哪一块？"
+  },
+  {
+    "id": 665,
+    "en": "You slippery rogues.",
+    "zh": "你们这些滑头恶徒。"
+  },
+  {
+    "id": 666,
+    "en": "Luck cannot save you now!",
+    "zh": "这次运气可救不了你们！"
+  },
+  {
+    "id": 667,
+    "en": "Don't!",
+    "zh": "住手！"
+  },
+  {
+    "id": 668,
+    "en": "Lucia! Why are you here?",
+    "zh": "露西亚！你怎么在这里？"
+  },
+  {
+    "id": 669,
+    "en": "This is a battlefield! Get back inside the castle!",
+    "zh": "这里是战场！快回城堡里去！"
+  },
+  {
+    "id": 670,
+    "en": "Lucia?",
+    "zh": "露西亚？"
+  },
+  {
+    "id": 671,
+    "en": "Stop this， Brother. Our family is bringing ruin to the kingdom!",
+    "zh": "别打了，哥哥。我们的家族正在把王国推向毁灭！"
+  },
+  {
+    "id": 672,
+    "en": "Don't be dramatic， Princess. The people may be slow to adopt magic at the scale I-- we desire， but such is progress.",
+    "zh": "公主，别说得这么夸张。百姓接受魔法的速度，也许跟不上我……我们期望的规模，但进步总是如此。"
+  },
+  {
+    "id": 673,
+    "en": "No one “adopts“ anything!",
+    "zh": "谁也没有“接受”任何东西！"
+  },
+  {
+    "id": 674,
+    "en": "You give them no choice， just as you give my family no choices. I know the truth!",
+    "zh": "你根本没给他们选择，就像没给我们家族选择一样。我知道真相了！"
+  },
+  {
+    "id": 675,
+    "en": "Then I suggest you WATCH YOUR TONE.",
+    "zh": "那我劝你注意语气。"
+  },
+  {
+    "id": 676,
+    "en": "You're not royalty. You are a figurehead， one I can cut off and replace as I see fit!",
+    "zh": "你不是什么王族。你只是我摆在台上的人偶，想砍掉换一个，随时都可以！"
+  },
+  {
+    "id": 677,
+    "en": "Lucia， leave here at once.",
+    "zh": "露西亚，立刻离开这里。"
+  },
+  {
+    "id": 678,
+    "en": "Kanon has lost his mind!",
+    "zh": "卡农已经疯了！"
+  },
+  {
+    "id": 679,
+    "en": "No! I will not leave until he is punished!",
+    "zh": "不！不惩罚他，我就不走！"
+  },
+  {
+    "id": 680,
+    "en": "I said go， Lucia! Now!",
+    "zh": "我叫你走，露西亚！马上！"
+  },
+  {
+    "id": 681,
+    "en": "Be at peace， humans.",
+    "zh": "人类，安心吧。"
+  },
+  {
+    "id": 682,
+    "en": "You stand in the Skyborn's heavenly realm， far above the earth.",
+    "zh": "你们如今身处远离大地的高空，天界人的圣域。"
+  },
+  {
+    "id": 683,
+    "en": "I summoned you to my side so that you might understand our intentions.",
+    "zh": "我召你们前来，是为了让你们明白我们的意图。"
+  },
+  {
+    "id": 684,
+    "en": "While battling Kanon， you must have sensed the wicked forces at work; he was relegated to the darkness for a reason.",
+    "zh": "与卡农作战时，你们想必已经感受到了邪恶的力量。他被放逐黑暗，自有其缘由。"
+  },
+  {
+    "id": 685,
+    "en": "But now we face a larger threat: an Earthblood who hides among your royalty.",
+    "zh": "但现在，有个更大的威胁：一个地界人，正藏在你们的王族之中。"
+  },
+  {
+    "id": 686,
+    "en": "She has tricked Kanon into sheltering her in the castle.",
+    "zh": "她骗取了卡农的信任，藏身城堡。"
+  },
+  {
+    "id": 687,
+    "en": "To keep humanity safe， you must slay this impostor and all who answer to her.",
+    "zh": "为了人类的安危，你们必须杀死这个冒牌货，以及所有听命于她的人。"
+  },
+  {
+    "id": 688,
+    "en": "May the Skyborn count on you?",
+    "zh": "天界人可以信赖你们吗？"
+  },
+  {
+    "id": 689,
+    "en": "A fine answer. I will speed you on to the castle. Go， and purge your world of evil!",
+    "zh": "答得好。我会立刻送你们去城堡。去吧，将邪恶逐出你们的世界！"
+  },
+  {
+    "id": 690,
+    "en": "As you wish.",
+    "zh": "如你们所愿。"
+  },
+  {
+    "id": 691,
+    "en": "Then I shall return you to the castle.",
+    "zh": "那我就送你们回城堡。"
+  },
+  {
+    "id": 692,
+    "en": "You question us? Unwise.",
+    "zh": "你们竟敢质疑我们？不明智。"
+  },
+  {
+    "id": 693,
+    "en": "Take a moment to reflect upon the error of your ways.",
+    "zh": "好好反省你们的错误吧。"
+  },
+  {
+    "id": 694,
+    "en": "We acknowledge your strength.",
+    "zh": "我们认可你们的力量。"
+  },
+  {
+    "id": 695,
+    "en": "Now， show us you have wisdom. The Earthblood seek to break this world's delicate balance!",
+    "zh": "现在，向我们证明你们也有智慧。地界人妄图打破这个世界脆弱的平衡！"
+  },
+  {
+    "id": 696,
+    "en": "You have the power to intervene.",
+    "zh": "你们有能力阻止他们。"
+  },
+  {
+    "id": 697,
+    "en": "What is your answer?",
+    "zh": "你们如何回答？"
+  },
+  {
+    "id": 698,
+    "en": "Will you slay the Earthblood's pawns， starting with this man?",
+    "zh": "你们愿意从这个人开始，杀死地界人的爪牙吗？"
+  },
+  {
+    "id": 699,
+    "en": "Correct.",
+    "zh": "正确。"
+  },
+  {
+    "id": 700,
+    "en": "However， this man has been cleansed of evil. The question was a test.",
+    "zh": "不过，此人已被净化，除去了邪念。刚才的问题只是考验。"
+  },
+  {
+    "id": 701,
+    "en": "He is your adversary no more.",
+    "zh": "他已不再是你们的敌人。"
+  },
+  {
+    "id": 702,
+    "en": "The Valgar whose life you must take is that of this boy's father， King Valgar-- the Earthblood impostor.",
+    "zh": "你们必须杀死的瓦尔加，是这少年的父亲，瓦尔加国王……那个地界人冒牌货。"
+  },
+  {
+    "id": 703,
+    "en": "That is your right.",
+    "zh": "这是你们的权利。"
+  },
+  {
+    "id": 704,
+    "en": "Then go now， and end this conflict as ordinary warriors.",
+    "zh": "那就去吧，以凡人战士的身份，结束这场纷争。"
+  },
+  {
+    "id": 705,
+    "en": "A foolish reply. It has cost you a powerful ally!",
+    "zh": "愚蠢的回答。你们因此失去了一位强大的盟友！"
+  },
+  {
+    "id": 706,
+    "en": "Leave our sacred realm!",
+    "zh": "离开我们的圣域！"
+  },
+  {
+    "id": 707,
+    "en": "I have made many mistakes. I know that now.",
+    "zh": "我犯下了太多错误。如今，我终于明白了。"
+  },
+  {
+    "id": 708,
+    "en": "I thought the blood in my veins was justification enough for all my actions.",
+    "zh": "我以为自己身上的血统，足以成为一切行为的理由。"
+  },
+  {
+    "id": 709,
+    "en": "Instead of serving my subjects， I sought only to serve myself. Words cannot express my shame.",
+    "zh": "我只知满足私欲，不曾为臣民着想。这份羞愧，言语无法表达。"
+  },
+  {
+    "id": 710,
+    "en": "But I vow to change that! From this day forward， my life belongs to my people. I will defend them at any cost!",
+    "zh": "但我发誓要改变！从今往后，我的生命属于百姓。我会不惜一切保护他们！"
+  },
+  {
+    "id": 711,
+    "en": "So， you man-creatures have refused the Skyborn's help， but wish the Earthblood harm?",
+    "zh": "这么说，你们这些人类拒绝了天界人的帮助，却还想与地界人为敌？"
+  },
+  {
+    "id": 712,
+    "en": "Foolish. But， as you wish.",
+    "zh": "愚蠢。不过，如你们所愿。"
+  },
+  {
+    "id": 713,
+    "en": "I look forward to seeing if your kind has learned anything during my long slumber.",
+    "zh": "我倒想看看，在我漫长的沉睡中，你们这一族究竟长进了多少。"
+  },
+  {
+    "id": 714,
+    "en": "Is that true!? The king is a demon doppelganger?",
+    "zh": "是真的吗！？国王是恶魔冒充的？"
+  },
+  {
+    "id": 715,
+    "en": "What!? You mean the king is some kind of demon?",
+    "zh": "什么！？你是说，国王是某种恶魔？"
+  },
+  {
+    "id": 716,
+    "en": "No way! The king's not human!?",
+    "zh": "不会吧！国王不是人类！？"
+  },
+  {
+    "id": 717,
+    "en": "Our kingdom， ruled by another race? Could it be true?",
+    "zh": "我们的王国，竟由异族统治？这是真的吗？"
+  },
+  {
+    "id": 718,
+    "en": "Wow. Guess they'll put a",
+    "zh": "哇，看来现在随便什么家伙，"
+  },
+  {
+    "id": 719,
+    "en": "crown on just about anybody.",
+    "zh": "都能戴王冠了。"
+  },
+  {
+    "id": 720,
+    "en": "Fortune smiles upon us! Let's smash these doors down and put an end to the tyrants!",
+    "zh": "天助我等！砸开这几扇门，终结暴君的统治吧！"
+  },
+  {
+    "id": 721,
+    "en": "Evil still lurks in the castle.",
+    "zh": "城堡里仍潜伏着邪恶。"
+  },
+  {
+    "id": 722,
+    "en": "But we'll soon fix that. You liberate the town!",
+    "zh": "不过很快就能解决。你们去解放城镇！"
+  },
+  {
+    "id": 723,
+    "en": "Wait! Bad idea.",
+    "zh": "等等！这样不行。"
+  },
+  {
+    "id": 724,
+    "en": "The king will be guarded by a host of magical creatures. The castle should be our job. You take care of the town!",
+    "zh": "国王身边一定守着大批魔物。城堡交给我们，你们去照顾镇上！"
+  },
+  {
+    "id": 725,
+    "en": "Not so fast! Kanon will have trained other mages. It's not safe.",
+    "zh": "别急！卡农一定训练了别的法师，那里不安全。"
+  },
+  {
+    "id": 726,
+    "en": "Take care of the townspeople. We'll storm the castle.",
+    "zh": "照顾好镇民。城堡由我们来攻。"
+  },
+  {
+    "id": 727,
+    "en": "Don't be fools! You underestimate the royal family's dark powers.",
+    "zh": "别犯傻！你们低估了王室的黑暗力量。"
+  },
+  {
+    "id": 728,
+    "en": "Stay here. Liberating the castle must fall to us.",
+    "zh": "留在这里。解放城堡的重任，必须由我们承担。"
+  },
+  {
+    "id": 729,
+    "en": "Actually， we were going for “covert.“ Green stands out.",
+    "zh": "其实我们打算偷偷潜入。绿色太显眼了。"
+  },
+  {
+    "id": 730,
+    "en": "But why don't you babysi-- I mean PROTECT the townsfolk?",
+    "zh": "不如你们去照看……我是说，保护镇民吧？"
+  },
+  {
+    "id": 731,
+    "en": "Ye who despise the powers of evil， I commend you.",
+    "zh": "憎恶邪恶力量之人啊，我赞赏你们。"
+  },
+  {
+    "id": 732,
+    "en": "One day， you shall serve us as a powerful force. The Earthblood hide within the castle walls. Go now-- and end them!",
+    "zh": "终有一天，你们将成为我们的强大战力。地界人藏在城堡内。去吧……消灭他们！"
+  },
+  {
+    "id": 733,
+    "en": "If you wish to protect the people， you must exterminate the false monarchy.",
+    "zh": "想保护百姓，就必须铲除虚假的王室。"
+  },
+  {
+    "id": 734,
+    "en": "Come to me， warriors. I will help you see this task through.",
+    "zh": "战士们，到我这里来。我会助你们完成此事。"
+  },
+  {
+    "id": 735,
+    "en": "Father! Is it true?",
+    "zh": "父王！这是真的吗？"
+  },
+  {
+    "id": 736,
+    "en": "Kanon said we are not of royal blood! That we are just pawns in his schemes to bend  the world to the way of magic!",
+    "zh": "卡农说，我们并非王族血脉！我们只是他用来让世界臣服魔法的棋子！"
+  },
+  {
+    "id": 737,
+    "en": "So what if we are? Let Kanon have his way with the kingdom. It's no concern of ours.",
+    "zh": "是又如何？让卡农随意摆布王国就是，与我们何干。"
+  },
+  {
+    "id": 738,
+    "en": "Did those words truly just issue from the mouth of THE KING?",
+    "zh": "这话，当真出自一国之君的口中？"
+  },
+  {
+    "id": 739,
+    "en": "I'll end your reign right here!",
+    "zh": "我要在此终结你的统治！"
+  },
+  {
+    "id": 740,
+    "en": "Oh yes， Valgar. Threaten him now， AFTER he's brought the land to ruin. Very noble.",
+    "zh": "哦，真好，瓦尔加。非等他把国土糟蹋完了，你才来威胁他。真高尚啊。"
+  },
+  {
+    "id": 741,
+    "en": "Need some counseling， guys?",
+    "zh": "各位，要不要做个心理咨询？"
+  },
+  {
+    "id": 742,
+    "en": "Step into my office.",
+    "zh": "请进我的诊室。"
+  },
+  {
+    "id": 743,
+    "en": "Couldn't you have had this conversation a few chapters ago? Really.",
+    "zh": "这话你们就不能早几章再谈吗？真是的。"
+  },
+  {
+    "id": 744,
+    "en": "A family squabble?",
+    "zh": "家庭争执？"
+  },
+  {
+    "id": 745,
+    "en": "How heartbreaking.",
+    "zh": "真令人心碎。"
+  },
+  {
+    "id": 746,
+    "en": "Oh， they're having some warm-and-fuzzy time! That's so sweet!",
+    "zh": "哦，他们一家正在温馨谈心呢！真甜蜜！"
+  },
+  {
+    "id": 747,
+    "en": "Hmph. You again? Stay out of this!",
+    "zh": "哼，又是你们？少管闲事！"
+  },
+  {
+    "id": 748,
+    "en": "You shameless puppet!",
+    "zh": "无耻的傀儡！"
+  },
+  {
+    "id": 749,
+    "en": "Our land is in shambles. Don't you care?",
+    "zh": "国土已满目疮痍，你就毫不在乎？"
+  },
+  {
+    "id": 750,
+    "en": "If you don't care about your people， then it's time you vacated the throne.",
+    "zh": "既然不关心百姓，就该从王座上滚下来了。"
+  },
+  {
+    "id": 751,
+    "en": "I'm with Valgar. This king's a royal donkey.",
+    "zh": "我站瓦尔加这边。这国王就是头戴王冠的蠢驴。"
+  },
+  {
+    "id": 752,
+    "en": "I am appalled. You have no claim to a kingdom you do not love!",
+    "zh": "真令我愤慨。不爱这个王国，你就不配统治它！"
+  },
+  {
+    "id": 753,
+    "en": "You're a terrible king! I bet you didn't even read my letters!",
+    "zh": "你是个烂国王！肯定连我写的信都没读！"
+  },
+  {
+    "id": 754,
+    "en": "Ha ha ha ha! Why should the Earthblood care what befalls the human realm?",
+    "zh": "哈哈哈哈！人类的国度变成什么样，与地界人何干？"
+  },
+  {
+    "id": 755,
+    "en": "You creatures are stepping stones to a higher purpose.",
+    "zh": "你们这些生物，不过是通往更高目标的垫脚石。"
+  },
+  {
+    "id": 756,
+    "en": "Farewell， fools. The time to shed this hideous disguise has drawn near.",
+    "zh": "再见，蠢货们。脱下这身丑陋伪装的时刻，快到了。"
+  },
+  {
+    "id": 757,
+    "en": "Warriors capable of ending the Earthblood! At last...",
+    "zh": "能消灭地界人的战士！终于……"
+  },
+  {
+    "id": 758,
+    "en": "I have been waiting for mortals of your caliber.",
+    "zh": "我一直在等你们这样的凡人。"
+  },
+  {
+    "id": 759,
+    "en": "Come to my side， brave ones.",
+    "zh": "勇者们，到我这里来。"
+  },
+  {
+    "id": 760,
+    "en": "Why would you seize the throne， if not for power?",
+    "zh": "若不是为了权力，你为什么要夺取王位？"
+  },
+  {
+    "id": 761,
+    "en": "You became a king just so Kanon could get all the power?",
+    "zh": "你当国王，就是为了把权力全让给卡农？"
+  },
+  {
+    "id": 762,
+    "en": "So， you became a king， but you don't care about power?",
+    "zh": "所以，你当上了国王，却根本不在乎权力？"
+  },
+  {
+    "id": 763,
+    "en": "How， in good conscience， could you cede power to a madman?",
+    "zh": "将大权交给疯子，你的良心怎能安宁？"
+  },
+  {
+    "id": 764,
+    "en": "Why would you want to be king if you don't make the rules?",
+    "zh": "规矩都不能自己定，那你当国王干什么？"
+  },
+  {
+    "id": 765,
+    "en": "Ha ha ha! I seek more power than this human realm could ever offer.",
+    "zh": "哈哈哈！我追求的力量，远远超出这个人类国度所能给予的。"
+  },
+  {
+    "id": 766,
+    "en": "But being king has its advantages; I could keep a  watchful eye on Kanon while we Earthblood gathered strength.",
+    "zh": "但当国王自有好处。在我们地界人积蓄力量时，我能牢牢盯住卡农。"
+  },
+  {
+    "id": 767,
+    "en": "Soon， our use for this human world will end. Unless， of course， it were to yield capable warriors. Survive this next trial， and you may look upon my true form.",
+    "zh": "很快，这个人类世界就不再有用。当然，除非这里能出现称职的战士。熬过下一场考验，你们便能见到我的真身。"
+  },
+  {
+    "id": 768,
+    "en": "No， Valgar! Killing the king achieves nothing!",
+    "zh": "不，瓦尔加！杀死国王毫无意义！"
+  },
+  {
+    "id": 769,
+    "en": "Stop it! Killing the king won't solve anything!",
+    "zh": "住手！杀了国王解决不了任何事！"
+  },
+  {
+    "id": 770,
+    "en": "Whoa， whoa， time out! What is going on here?",
+    "zh": "等等，暂停！到底怎么回事？"
+  },
+  {
+    "id": 771,
+    "en": "Easy， lad. Taking your father's life will not undo his mistakes.",
+    "zh": "冷静些，年轻人。杀死父亲，也无法挽回他的过错。"
+  },
+  {
+    "id": 772,
+    "en": "Hey! Boys!",
+    "zh": "喂！男孩子们！"
+  },
+  {
+    "id": 773,
+    "en": "Do you need to take a time out?",
+    "zh": "要不要先冷静一下？"
+  },
+  {
+    "id": 774,
+    "en": "Ha ha ha ha! You and your human sympathy.",
+    "zh": "哈哈哈哈！你们人类这可笑的同情心。"
+  },
+  {
+    "id": 775,
+    "en": "Instead of worrying about me， worry about Kanon.",
+    "zh": "与其替我担心，不如担心卡农。"
+  },
+  {
+    "id": 776,
+    "en": "His creations still stand poised to overrun your land.",
+    "zh": "他的造物仍蓄势待发，随时会踏平你们的土地。"
+  },
+  {
+    "id": 777,
+    "en": "At last， the king is dead! We are free of his wicked tyranny!",
+    "zh": "国王终于死了！我们摆脱他的残暴统治了！"
+  },
+  {
+    "id": 778,
+    "en": "Ooh， celebrities!",
+    "zh": "哦，大英雄来啦！"
+  },
+  {
+    "id": 779,
+    "en": "We must sing of your exploits. But first， find the prince! We'll secure the throne.",
+    "zh": "我们定要歌颂你们的功绩。不过先去找王子吧！我们守住王座。"
+  },
+  {
+    "id": 780,
+    "en": "What!? Father!",
+    "zh": "什么！？父王！"
+  },
+  {
+    "id": 781,
+    "en": "He just... vanished...",
+    "zh": "他竟然……消失了……"
+  },
+  {
+    "id": 782,
+    "en": "Huh? What manner of creature...",
+    "zh": "嗯？这是什么生物……"
+  },
+  {
+    "id": 783,
+    "en": "Great， what the heck is attacking us now!?",
+    "zh": "真好，这回又是什么鬼东西在打我们！？"
+  },
+  {
+    "id": 784,
+    "en": "Who invited these uglies?",
+    "zh": "谁把这些丑八怪叫来的？"
+  },
+  {
+    "id": 785,
+    "en": "Hm? These beasts are not from our world.",
+    "zh": "嗯？这些野兽不属于我们的世界。"
+  },
+  {
+    "id": 786,
+    "en": "Ugh! Giant lizards!",
+    "zh": "呕！好大的蜥蜴！"
+  },
+  {
+    "id": 787,
+    "en": "Birds? Goats? Whatever.",
+    "zh": "鸟？山羊？管它呢。"
+  },
+  {
+    "id": 788,
+    "en": "Father... is possessed? No， I refuse to accept it!",
+    "zh": "父王……被附身了？不，我不相信！"
+  },
+  {
+    "id": 789,
+    "en": "The mechs! They're still operative!?",
+    "zh": "机甲！它们还能动！？"
+  },
+  {
+    "id": 790,
+    "en": "At last! Warriors who can stand against the Earthblood!",
+    "zh": "终于！能与地界人抗衡的战士！"
+  },
+  {
+    "id": 791,
+    "en": "Perhaps you can rid this world of its true evils.",
+    "zh": "或许，你们能铲除这个世界真正的邪恶。"
+  },
+  {
+    "id": 792,
+    "en": "Annngh!",
+    "zh": "呃啊！"
+  },
+  {
+    "id": 793,
+    "en": "You intractable pests! I refuse to play games with you any longer!",
+    "zh": "你们这帮顽固的害虫！我不想再陪你们玩了！"
+  },
+  {
+    "id": 794,
+    "en": "My thoughts exactly!",
+    "zh": "正合我意！"
+  },
+  {
+    "id": 795,
+    "en": "Fools. What did that solve?",
+    "zh": "蠢货。这又解决了什么？"
+  },
+  {
+    "id": 796,
+    "en": "Not even death... will quell this rage...",
+    "zh": "纵然一死……也无法平息这怒火……"
+  },
+  {
+    "id": 797,
+    "en": "It grieves me to say this... but you were right. I believed in Kanon--that he would revive our kingdom， keep our people safe with his mechs and golems.",
+    "zh": "我很不愿承认……但你们说得对。我曾深信卡农，认为他能复兴王国，用机甲与魔像守护百姓。"
+  },
+  {
+    "id": 798,
+    "en": "I thought I would be the cornerstone of our future.",
+    "zh": "我以为自己将成为未来的基石。"
+  },
+  {
+    "id": 799,
+    "en": "Not some smoothed pebble on his game board...",
+    "zh": "谁知，只是他棋盘上一颗磨圆的小石子……"
+  },
+  {
+    "id": 800,
+    "en": "What have I done?",
+    "zh": "我究竟做了什么？"
+  },
+  {
+    "id": 801,
+    "en": "Our kingdom can be rebuilt， but not with regret or sorrow. Join us， Valgar. If you fight as fiercely for good as you did for evil， we've hope yet.",
+    "zh": "王国可以重建，但靠懊悔和悲伤不行。加入我们吧，瓦尔加。若你能像昔日作恶时一样，奋勇为善，我们就还有希望。"
+  },
+  {
+    "id": 802,
+    "en": "The Skyborn and Earthblood?",
+    "zh": "天界人和地界人？"
+  },
+  {
+    "id": 803,
+    "en": "You intend to face them!?",
+    "zh": "你们要挑战他们！？"
+  },
+  {
+    "id": 804,
+    "en": "Kanon's mechs. Yes， we must stop them!",
+    "zh": "卡农的机甲。没错，必须阻止它们！"
+  },
+  {
+    "id": 805,
+    "en": "I know of a tunnel further in. Kanon had it sealed off， but perhaps now... Come with me.",
+    "zh": "我知道里面有条隧道。卡农把它封死了，但现在或许……跟我来。"
+  },
+  {
+    "id": 806,
+    "en": "You've just talked a lot， that's what. How about a little action?",
+    "zh": "你光顾着说了一大堆。是不是该行动了？"
+  },
+  {
+    "id": 807,
+    "en": "News flash， Pebble--",
+    "zh": "小石子，告诉你个新消息——"
+  },
+  {
+    "id": 808,
+    "en": "The world isn't safe yet! Pull it together!",
+    "zh": "世界还没安全呢！振作起来！"
+  },
+  {
+    "id": 809,
+    "en": "Save your regrets.",
+    "zh": "收起你的悔恨。"
+  },
+  {
+    "id": 810,
+    "en": "A lion with a singed tail must wear his mane more proudly!",
+    "zh": "尾巴烧焦的狮子，更该昂首挺起鬃毛！"
+  },
+  {
+    "id": 811,
+    "en": "Aw， save it. You've got the whole rest of your life to feel bad!",
+    "zh": "唉，省省吧。往后的日子，还够你难受一辈子！"
+  },
+  {
+    "id": 812,
+    "en": "Right now， you need to focus on not screwing up worse.",
+    "zh": "眼下，你得先想想怎么别再把事情搞砸。"
+  },
+  {
+    "id": 813,
+    "en": "What!? They've caught me? Impossible! My power exceeds theirs!",
+    "zh": "什么！？他们抓到我了？不可能！我的力量明明比他们强！"
+  },
+  {
+    "id": 814,
+    "en": "And mine yours.",
+    "zh": "而我的力量，比你更强。"
+  },
+  {
+    "id": 815,
+    "en": "King Valgar? But... how the devil did you get here?",
+    "zh": "瓦尔加国王？可是……你到底怎么到这里来的？"
+  },
+  {
+    "id": 816,
+    "en": "Fool. You style yourself “Conqueror of the Earthblood.“ But no human conquers US.",
+    "zh": "蠢货。你自称“地界人的征服者”。可没有人类能征服我们。"
+  },
+  {
+    "id": 817,
+    "en": "Did you think we'd forgotten that you helped the Skyborn banish us to darkness? Die， you pathetic pawn.",
+    "zh": "你以为我们忘了吗，是你帮天界人将我们放逐黑暗！去死吧，可悲的棋子。"
+  },
+  {
+    "id": 818,
+    "en": "I learned a thing or two from Kanon about replacing kings.",
+    "zh": "从卡农那里，我也学了几手替换国王的把戏。"
+  },
+  {
+    "id": 819,
+    "en": "And now that our power has sufficiently returned， WE shall tear the Skyborn from the heavens! That vengeance was never his right!",
+    "zh": "如今，我们的力量已恢复得足够多。该由我们把天界人从天上拖下来！这复仇之权，从来不属于他！"
+  },
+  {
+    "id": 820,
+    "en": "Be comforted， humans. You stand before the ruler of the Earthblood， the greatest of all races.",
+    "zh": "安心吧，人类。站在你们面前的，是最强种族地界人的统治者。"
+  },
+  {
+    "id": 821,
+    "en": "I have observed many battles over the eons， but you fight unlike any other man-creatures. You possess... exceptional traits. Therefore， I wish to share a secret with you.",
+    "zh": "漫长岁月中，我见过无数战斗，但你们的战斗方式与其他人类全然不同。你们拥有……非凡的特质。所以，我愿与你们分享一个秘密。"
+  },
+  {
+    "id": 822,
+    "en": "Your race and mine began the same.",
+    "zh": "你我两族，原本同出一源。"
+  },
+  {
+    "id": 823,
+    "en": "Kanon has only told you half of what you need to know. But listen， and I can give you the absolute truth. I can reveal this world's true evil.",
+    "zh": "卡农只告诉了你们一半的真相。但听我说，我能告诉你们完整的事实，揭露这个世界真正的邪恶。"
+  },
+  {
+    "id": 824,
+    "en": "Humans! Always making it about race. But ignoring the truth will not exempt you from it.",
+    "zh": "人类！总把一切归结于种族差异。但无视真相，并不能让你们置身事外。"
+  },
+  {
+    "id": 825,
+    "en": "So that is your only concern?",
+    "zh": "所以，你们只关心这个？"
+  },
+  {
+    "id": 826,
+    "en": "Your tiny slice of the world? Then go. Seek your own purpose.",
+    "zh": "只关心自己那一小片天地？那就走吧，寻找你们自己的目标。"
+  },
+  {
+    "id": 827,
+    "en": "A brave answer.",
+    "zh": "勇敢的回答。"
+  },
+  {
+    "id": 828,
+    "en": "Ahead you shall be pitted against my Earthblood kin. Should you defeat them， I will accept you as worthy warriors.",
+    "zh": "前方，我的地界人同胞将与你们交手。若能战胜他们，我就承认你们是合格的战士。"
+  },
+  {
+    "id": 829,
+    "en": "This cannot be... The king， a demon!?",
+    "zh": "不可能……国王竟是恶魔！？"
+  },
+  {
+    "id": 830,
+    "en": "A demon wearing the crown? What next?",
+    "zh": "恶魔戴王冠？接下来还会怎样？"
+  },
+  {
+    "id": 831,
+    "en": "First the king's a fraud， and now he's a DEMON fraud? I give up.",
+    "zh": "先说国王是假的，现在又说他是个假扮国王的恶魔？我服了。"
+  },
+  {
+    "id": 832,
+    "en": "A demon king! Where do the deceptions end?",
+    "zh": "恶魔国王！这些骗局何时才能结束？"
+  },
+  {
+    "id": 833,
+    "en": "This is mind-blowing!",
+    "zh": "太惊人了！"
+  },
+  {
+    "id": 834,
+    "en": "The king is a chick! (I think?)",
+    "zh": "国王居然是个女的！（好像是？）"
+  },
+  {
+    "id": 835,
+    "en": "Hmph. Enter the self-styled “royal entourage.“",
+    "zh": "哼，自称“王室随从”的家伙们也登场了。"
+  },
+  {
+    "id": 836,
+    "en": "How long did it take you and Kanon to concoct that absurd fairy tale?",
+    "zh": "你跟卡农编这荒唐故事，花了多久？"
+  },
+  {
+    "id": 837,
+    "en": "You and he are alike: the only royal blood in your veins is that which you have leeched away from my family in your quest for power!",
+    "zh": "你跟他一样！你们体内唯一的王族之血，就是你们为夺权，从我家人身上吸走的血！"
+  },
+  {
+    "id": 838,
+    "en": "Ha ha ha! Can not even the land's finest knight--the king's own SON--see the facts that lie so plain beneath the surface?",
+    "zh": "哈哈哈！竟连王国最优秀的骑士，国王亲生的儿子，都看不清这表象之下再明显不过的事实？"
+  },
+  {
+    "id": 839,
+    "en": "There is no one in this kingdom you can trust-- not even me.",
+    "zh": "这个王国里，没有任何人值得你信任……包括我。"
+  },
+  {
+    "id": 840,
+    "en": "Kanon spoke truly， I'm afraid. He manipulated me and my kin， intending to use our power and wage war upon the Skyborn.",
+    "zh": "恐怕卡农说的是真的。他操纵我和我的族人，妄图利用我们的力量向天界人开战。"
+  },
+  {
+    "id": 841,
+    "en": "But that vengeance was never his right! It is ours， the Earthblood's destiny to tear those tyrants from the heavens!",
+    "zh": "但这复仇之权从来不属于他！将那些暴君从天上拖下来，是我们地界人的宿命！"
+  },
+  {
+    "id": 842,
+    "en": "You monster! What have you done with my father!?",
+    "zh": "你这怪物！你把我的父王怎么样了！？"
+  },
+  {
+    "id": 843,
+    "en": "All of these lies must stop! I am the true prince， and this throne is mine to defend!",
+    "zh": "这些谎言该结束了！我是真正的王子，我要守住这个王位！"
+  },
+  {
+    "id": 844,
+    "en": "Oh， shut up， you weevil.",
+    "zh": "哦，闭嘴吧，小虫子。"
+  },
+  {
+    "id": 845,
+    "en": "Take the throne; the affairs of this world are beneath us.",
+    "zh": "王位拿去便是。这个世界的俗务，不值得我们过问。"
+  },
+  {
+    "id": 846,
+    "en": "Just as our affairs are no concern of yours.",
+    "zh": "同样，我们的事也轮不到你来管。"
+  },
+  {
+    "id": 847,
+    "en": "And so the truth is laid bare.",
+    "zh": "如今，真相已彻底揭晓。"
+  },
+  {
+    "id": 848,
+    "en": "Your kingdom has been dancing at the end of that Earthblood monster's strings.",
+    "zh": "你们的王国，一直被那个地界人怪物牵线操纵。"
+  },
+  {
+    "id": 849,
+    "en": "Time grows short. The Earthblood will conquer your lands on their way to the skies.",
+    "zh": "时间不多了。地界人通往天空之路，将踏平你们的土地。"
+  },
+  {
+    "id": 850,
+    "en": "Rise up now， ye warriors-- and protect your human world!",
+    "zh": "战士们，奋起吧……保护你们人类的世界！"
+  },
+  {
+    "id": 851,
+    "en": "Valgar! BABE! Help is on the way!",
+    "zh": "瓦尔加！宝贝！救兵来了！"
+  },
+  {
+    "id": 852,
+    "en": "Do I know how to make an entrance or what? Forget Nick! “Right in the Zur of time!“ That's what they oughta say!",
+    "zh": "我这登场够精彩吧？什么“千钧一发”！以后得说“祖尔一到，危机全消”！"
+  },
+  {
+    "id": 853,
+    "en": "You anarchists are persistent.",
+    "zh": "你们这些乱党，真是阴魂不散。"
+  },
+  {
+    "id": 854,
+    "en": "I refuse to believe Kanon's lies about the throne.",
+    "zh": "我绝不相信卡农关于王位的谎言。"
+  },
+  {
+    "id": 855,
+    "en": "But even if they are true， and the Earthblood or whatever they're called are where we get our power--so what?",
+    "zh": "可就算是真的，什么地界人也好，别的什么也罢，我们的力量来自他们，那又如何？"
+  },
+  {
+    "id": 856,
+    "en": "I will seize the throne from my weakling father and bring the demons in line!",
+    "zh": "我要从软弱的父王手中夺取王位，再让那些恶魔乖乖听命！"
+  },
+  {
+    "id": 857,
+    "en": "Ha ha ha! Stupid boy. He hasn't the slightest idea who has been controlling whom.",
+    "zh": "哈哈哈！愚蠢的小子。他根本不知道，到底是谁在操纵谁。"
+  },
+  {
+    "id": 858,
+    "en": "I'd like to see you try!",
+    "zh": "我倒要看看，你有什么本事！"
+  },
+  {
+    "id": 859,
+    "en": "Foolish man-creature.",
+    "zh": "愚蠢的人类。"
+  },
+  {
+    "id": 860,
+    "en": "Do you really think we Earthblood would bow down to one as weak as you?",
+    "zh": "你真以为，我们地界人会向你这样的弱者低头？"
+  },
+  {
+    "id": 861,
+    "en": "We no longer need you humans to shelter us while we nurse ourselves back to full strength. We are ready to destroy the Skyborn now!",
+    "zh": "我们已不再需要人类庇护，来慢慢恢复力量。现在，我们已能消灭天界人了！"
+  },
+  {
+    "id": 862,
+    "en": "What!? Kanon's familiars...",
+    "zh": "什么！？卡农的使魔……"
+  },
+  {
+    "id": 863,
+    "en": "They were Earthblood!? I have been deceived!",
+    "zh": "竟是地界人！？我被骗了！"
+  },
+  {
+    "id": 864,
+    "en": "Impossible! A demon was posing as the king!?",
+    "zh": "不可能！竟是恶魔假扮国王！？"
+  },
+  {
+    "id": 865,
+    "en": "What!? The king's a demon!",
+    "zh": "什么！？国王是恶魔！"
+  },
+  {
+    "id": 866,
+    "en": "Um， did the king just turn into a demon?",
+    "zh": "呃，国王刚刚是不是变成恶魔了？"
+  },
+  {
+    "id": 867,
+    "en": "What!? The king was a demon in disguise all along?",
+    "zh": "什么！？国王一直都是恶魔假扮的？"
+  },
+  {
+    "id": 868,
+    "en": "Whoa! I guess they'll give a crown to anybody these days.",
+    "zh": "哇！如今真是什么家伙都能戴王冠了。"
+  },
+  {
+    "id": 869,
+    "en": "Know your place， humans.",
+    "zh": "认清自己的身份，人类。"
+  },
+  {
+    "id": 870,
+    "en": "There is no room for your kind in this eternal struggle between Earthblood and Skyborn.",
+    "zh": "地界人与天界人这场永恒的争斗，没有你们插手的余地。"
+  },
+  {
+    "id": 871,
+    "en": "If you try to interfere， I will not hesitate to wipe you from existence!",
+    "zh": "胆敢干涉，我就毫不犹豫地将你们彻底抹杀！"
+  },
+  {
+    "id": 872,
+    "en": "So these are the Earthblood.",
+    "zh": "原来，这就是地界人。"
+  },
+  {
+    "id": 873,
+    "en": "So these are Earthblood.",
+    "zh": "原来，这些就是地界人。"
+  },
+  {
+    "id": 874,
+    "en": "Gross! These are Earthblood?",
+    "zh": "好恶心！这就是地界人？"
+  },
+  {
+    "id": 875,
+    "en": "So， these grotesque monsters are the Earthblood's true form.",
+    "zh": "原来，这些丑陋怪物才是地界人的真面目。"
+  },
+  {
+    "id": 876,
+    "en": "Eww， nasty! They smell like dirty!",
+    "zh": "呕，恶心！一股脏兮兮的味道！"
+  },
+  {
+    "id": 877,
+    "en": "I summoned you to my side so that you might understand our intentions. Listen well to what I have to say.",
+    "zh": "我召你们前来，是为了让你们明白我们的意图。仔细听好。"
+  },
+  {
+    "id": 878,
+    "en": "If you wish you save your world， you need to open your eyes to a greater threat.",
+    "zh": "想拯救你们的世界，就必须认清更大的威胁。"
+  },
+  {
+    "id": 879,
+    "en": "One of the Earthblood hides among your human royalty.",
+    "zh": "有一个地界人，藏在你们人类的王族之中。"
+  },
+  {
+    "id": 880,
+    "en": "She has tricked Kanon into sheltering her in the castle， and intends to plunge the world into darkness.",
+    "zh": "她骗取卡农的信任，藏身城堡，妄图将世界拖入黑暗。"
+  },
+  {
+    "id": 881,
+    "en": "You must decide: will you destroy all pawns of the Earthblood， starting with this man?",
+    "zh": "做出选择吧：你们愿意从这个人开始，消灭地界人的所有爪牙吗？"
+  },
+  {
+    "id": 882,
+    "en": "However， we have already purged this man's heart of evil.",
+    "zh": "不过，我们已经清除了此人心中的邪恶。"
+  },
+  {
+    "id": 883,
+    "en": "The prince is no longer the adversary you need fear.",
+    "zh": "王子已不再是你们需要畏惧的敌人。"
+  },
+  {
+    "id": 884,
+    "en": "The danger is King Valgar， who is really the Earthblood ruler.",
+    "zh": "真正的威胁，是瓦尔加国王。他其实就是地界人的统治者。"
+  },
+  {
+    "id": 885,
+    "en": "Ah. A bold reply， or a desperate attempt to escape?",
+    "zh": "啊，勇敢的回答。还是说，只是想趁机逃走？"
+  },
+  {
+    "id": 886,
+    "en": "Very well， so be it. We will release you and this man. Go， fight your petty battle.",
+    "zh": "好吧，就这样。我们放你们和此人离开。去打你们那微不足道的仗吧。"
+  },
+  {
+    "id": 887,
+    "en": "A foolish reply. It has cost you a powerful ally. May you wander forever in your human halls of ignorance!",
+    "zh": "愚蠢的回答。你们因此失去了一位强大的盟友。愿你们永远迷失在人类的无知之中！"
+  },
+  {
+    "id": 888,
+    "en": "I realize now I have been fighting for the wrong cause.",
+    "zh": "我终于明白，我一直都站错了立场。"
+  },
+  {
+    "id": 889,
+    "en": "What I have seen here all but proves Kanon spoke the truth.",
+    "zh": "在这里的所见所闻，几乎已证实卡农所言不虚。"
+  },
+  {
+    "id": 890,
+    "en": "I know apologies come cheap...",
+    "zh": "我知道，道歉轻而易举……"
+  },
+  {
+    "id": 891,
+    "en": "But I am sorry. From this day forward， I promise my life belongs to my people. I will defend them at any cost!",
+    "zh": "但我确实深感抱歉。从今往后，我发誓，我的生命属于百姓。我会不惜一切保护他们！"
+  },
+  {
+    "id": 892,
+    "en": "That cannot be! The king is a demon doppelganger?",
+    "zh": "不可能！国王是恶魔冒充的？"
+  },
+  {
+    "id": 893,
+    "en": "You're kidding!? The king's not human?",
+    "zh": "开什么玩笑！？国王不是人类？"
+  },
+  {
+    "id": 894,
+    "en": "Is that true!? Our kingdom is secretly under demon rule?",
+    "zh": "是真的吗！？我们的王国，一直被恶魔暗中统治？"
+  },
+  {
+    "id": 895,
+    "en": "The king's a demon!? Whoa!",
+    "zh": "国王是恶魔！？天哪！"
+  },
+  {
+    "id": 896,
+    "en": "I ask again: listen to what I have to say. I can reveal the true nature of this world.",
+    "zh": "我再说一次：听我说完。我能揭示这个世界的真正面目。"
+  },
+  {
+    "id": 897,
+    "en": "I have observed many battles over the eons， but you possess qualities unlike any other man-creatures I have seen.",
+    "zh": "漫长岁月中，我见过无数战斗，但你们拥有我从未在其他人类身上见过的特质。"
+  },
+  {
+    "id": 898,
+    "en": "Therefore， I wish to share a secret with you: your race and mine began the same.",
+    "zh": "所以，我愿与你们分享一个秘密：你我两族，原本同出一源。"
+  },
+  {
+    "id": 899,
+    "en": "Then I am afraid you and I must sever our ties. Permanently!",
+    "zh": "那么恐怕，你我的关系只能就此斩断。彻底斩断！"
+  }
+]

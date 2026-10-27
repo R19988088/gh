@@ -1,0 +1,24 @@
+Actual loaded-title Release diagnosis, 2026-10-17 (Asia/Shanghai)
+Process: 29943, Guardian Heroes Resume, /tmp/gh-native-audio-self-repro-runtime.log
+F5: 16:46:10.066; F9: 16:46:51.484; 357310403 bytes.
+After restore: 3 nonzero PCM submissions, then scheduler blocked on credits.
+
+LLDB live process observations (read-only queries and one-shot breakpoints):
+SDL_GetCurrentAudioDriver(): coreaudio.
+SDL logical IDs: 81, 85, 89; SDL_AudioDevicePaused(): false for all 3.
+SDL_GetAudioStreamAvailable/Queued(logical 81's bound stream): 0 / 0.
+CoreAudio AudioQueueGetProperty(kAudioQueueProperty_IsRunning): status 0, running 1.
+PlaybackBufferReadyCallback: one-shot breakpoint hit on SDLAudioP67.
+SdlOutput::Impl::Callback: one-shot breakpoint hit, additional_amount=8192,
+total_amount=8192; call stack SDL_GetAudioStreamDataAdjustGain ->
+SDL_PlaybackAudioThreadIterate -> PlaybackBufferReadyCallback.
+ClientScheduler::FrameConsumed breakpoint did not hit after restore.
+
+Source: AudioSystem::Restore's consumed lambda contains only
+assert_true(clients_.FrameConsumed(id)). With NDEBUG, rex_assert(expr) is
+((void)(false && (expr))), so restored callbacks do not return credits.
+Initial RegisterClient evaluates FrameConsumed before its assertion and works.
+
+User authorized subsequent self-operated restores and process destruction.
+After collecting the restored-state evidence, LLDB process kill exited PID 29943
+with status 9. No unrelated process was terminated.

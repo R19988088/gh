@@ -1,0 +1,5 @@
+[info] [sys] Guest memory arena mapped: virtual base 0x0000007000000000, physical base 0x0000007100000000
+[warning] [sys] Runtime::SetupVfs: No game_data_root specified, skipping VFS setup
+[info] [core] Function table initialized for module: code=82000000-82000100, image=82000000-82010000
+[error] [sys] Runtime snapshot failed: ByteStream write exceeds buffer
+Runtime snapshot: two live threads, exact saved registers, heap/device ordering, fresh hosts and failed-restore paused boundary passed (test devices)

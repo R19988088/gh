@@ -1,0 +1,190 @@
+{
+  "recorded_at_utc": "2026-10-17T09:28:08.829605+00:00",
+  "scope": "macOS arm64 Release build and source, include, archive and dynamic-library provenance",
+  "runtime_implementation_origin": "Project-maintained source fork of the retained BSD-licensed ReXGlue/Xenia implementation, together with project runtime services.",
+  "build": {
+    "native_only": true,
+    "configuration": "Release",
+    "architecture": "arm64",
+    "deployment_target": "13.3",
+    "reported_exit_code": 0,
+    "log": "/tmp/gh-native-pc-membership-build.log",
+    "executable": "guardian_heroes/out/native-app/guardian_heroes",
+    "executable_size_bytes": 54031168,
+    "executable_architecture_observed_with": "/usr/bin/lipo -archs"
+  },
+  "compile_database": {
+    "path": "guardian_heroes/out/native-app/compile_commands.json",
+    "configured_command_count": 1077,
+    "includes_excluded_test_targets": true,
+    "source_counts_by_location": {
+      "build_generated_sources": 96,
+      "checked_in_generated_guest": 89,
+      "project_runtime_fork": 156,
+      "project_sources": 160,
+      "test_sources": 9,
+      "vendored_third_party": 567
+    },
+    "source_files_outside_project": [],
+    "explicit_include_roots_outside_project": [],
+    "sdk_path_mentions_in_commands": 0,
+    "gpu_command_count": 39,
+    "gpu_commands_preserving_strict_fp_aliasing_and_char8_options": 37,
+    "gpu_commands_disabling_rtti": 0,
+    "includes_excluded_title_continuation_and_test_targets": true
+  },
+  "link": {
+    "build_graph": "guardian_heroes/out/native-app/build.ninja",
+    "sdk_path_mentions_in_build_graph": 0,
+    "linked_static_archives": [
+      "guardian_heroes/out/native-app/runtime/src/system/libguardian_heroes_runtime.a",
+      "guardian_heroes/out/native-app/runtime/src/graphics/libguardian_heroes_gpu.a",
+      "guardian_heroes/out/native-app/libguardian_heroes_native.a",
+      "guardian_heroes/out/native-app/libguardian_heroes_filesystem.a",
+      "guardian_heroes/out/native-app/libguardian_heroes_clock.a",
+      "guardian_heroes/out/native-app/libguardian_heroes_threading.a",
+      "guardian_heroes/out/native-app/libguardian_heroes_gpu_backend.a",
+      "guardian_heroes/out/native-app/libguardian_heroes_graphics.a",
+      "guardian_heroes/out/native-app/libguardian_heroes_gpu_shader.a",
+      "guardian_heroes/out/native-app/runtime/thirdparty/libaes128.a",
+      "guardian_heroes/out/native-app/runtime/thirdparty/libo1heap.a",
+      "guardian_heroes/out/native-app/libguardian_heroes_memory_service.a",
+      "guardian_heroes/out/native-app/libguardian_heroes_guest_arena.a",
+      "guardian_heroes/out/native-app/libguardian_heroes_heap.a",
+      "guardian_heroes/out/native-app/libguardian_heroes_mmio.a",
+      "guardian_heroes/out/native-app/libguardian_heroes_xenos_math.a",
+      "guardian_heroes/out/native-app/runtime/thirdparty/spdlog/libspdlog.a",
+      "guardian_heroes/out/native-app/runtime/thirdparty/xxHash/cmake_unofficial/libxxhash.a",
+      "guardian_heroes/out/native-app/libguardian_heroes_host_memory.a",
+      "guardian_heroes/out/native-app/libguardian_heroes_audio_sdl.a",
+      "guardian_heroes/out/native-app/runtime/thirdparty/sdl3/libSDL3.a",
+      "guardian_heroes/out/native-app/libguardian_heroes_audio.a",
+      "guardian_heroes/out/native-app/libguardian_heroes_audio_xma.a",
+      "guardian_heroes/out/native-app/libguardian_heroes_kernel.a",
+      "guardian_heroes/out/native-app/libguardian_heroes_xma_packet.a",
+      "guardian_heroes/out/native-app/runtime/thirdparty/liblibavcodec.a",
+      "guardian_heroes/out/native-app/runtime/thirdparty/liblibavutil.a",
+      "guardian_heroes/out/native-app/libguardian_heroes_image.a",
+      "guardian_heroes/out/native-app/runtime/thirdparty/libmspack.a",
+      "guardian_heroes/out/native-app/libguardian_heroes_image_metadata.a",
+      "guardian_heroes/out/native-app/runtime/thirdparty/fmt/libfmt.a",
+      "guardian_heroes/out/native-app/runtime/thirdparty/glslang/SPIRV/libSPIRV.a",
+      "guardian_heroes/out/native-app/runtime/thirdparty/glslang/glslang/libglslang.a",
+      "guardian_heroes/out/native-app/runtime/thirdparty/glslang/glslang/libMachineIndependent.a",
+      "guardian_heroes/out/native-app/runtime/thirdparty/glslang/glslang/libGenericCodeGen.a",
+      "guardian_heroes/out/native-app/runtime/thirdparty/glslang/glslang/OSDependent/Unix/libOSDependent.a",
+      "guardian_heroes/out/native-app/runtime/thirdparty/glslang/OGLCompilersDLL/libOGLCompiler.a"
+    ],
+    "all_linked_static_archives_under_project_build": true,
+    "dependency_inspection_tool": "/usr/bin/otool -L",
+    "executable_dynamic_dependencies": [
+      "/usr/lib/libSystem.B.dylib",
+      "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+      "/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia",
+      "/System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo",
+      "/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa",
+      "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
+      "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+      "/System/Library/Frameworks/ForceFeedback.framework/Versions/A/ForceFeedback",
+      "/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon",
+      "/System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio",
+      "/System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox",
+      "/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation",
+      "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+      "/System/Library/Frameworks/GameController.framework/Versions/A/GameController",
+      "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+      "/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore",
+      "/System/Library/Frameworks/CoreHaptics.framework/Versions/A/CoreHaptics",
+      "/usr/lib/libc++.1.dylib",
+      "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+      "/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics",
+      "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
+      "/usr/lib/libobjc.A.dylib"
+    ],
+    "executable_non_system_dynamic_dependencies": [],
+    "sdk_dynamic_dependencies_observed": [],
+    "directly_linked_runtime_archive": "guardian_heroes/out/native-app/runtime/src/system/libguardian_heroes_runtime.a",
+    "directly_linked_gpu_archive": "guardian_heroes/out/native-app/runtime/src/graphics/libguardian_heroes_gpu.a"
+  },
+  "staged_dynamic_libraries": [
+    {
+      "path": "guardian_heroes/out/native-app/vulkan/lib/libvulkan.1.dylib",
+      "source_root": "guardian_heroes/runtime/thirdparty/vulkan-loader",
+      "built_artifact": "guardian_heroes/out/native-app/runtime/thirdparty/vulkan-loader/loader/libvulkan.1.4.357.dylib",
+      "size_bytes": 698960,
+      "byte_identical_to_built_artifact": true,
+      "install_name": "@rpath/libvulkan.1.dylib",
+      "dynamic_dependencies": [
+        "/usr/lib/libSystem.B.dylib",
+        "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation"
+      ],
+      "non_system_dynamic_dependencies": []
+    },
+    {
+      "path": "guardian_heroes/out/native-app/vulkan/lib/libMoltenVK.dylib",
+      "source_root": "guardian_heroes/runtime/thirdparty/moltenvk",
+      "built_artifact": "guardian_heroes/out/native-app/runtime/thirdparty/moltenvk/MoltenVK/libMoltenVK.1.4.1.dylib",
+      "size_bytes": 5092832,
+      "byte_identical_to_built_artifact": true,
+      "install_name": "@rpath/libMoltenVK.1.dylib",
+      "dynamic_dependencies": [
+        "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+        "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+        "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+        "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+        "/System/Library/Frameworks/IOSurface.framework/Versions/A/IOSurface",
+        "/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore",
+        "/usr/lib/libc++.1.dylib",
+        "/usr/lib/libSystem.B.dylib",
+        "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+        "/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics",
+        "/usr/lib/libobjc.A.dylib"
+      ],
+      "non_system_dynamic_dependencies": []
+    },
+    {
+      "path": "guardian_heroes/out/native-app/libTracyClient.dylib",
+      "source_root": "guardian_heroes/runtime/thirdparty/tracy",
+      "built_artifact": "guardian_heroes/out/native-app/runtime/thirdparty/libTracyClient.dylib",
+      "size_bytes": 315960,
+      "byte_identical_to_built_artifact": true,
+      "install_name": "@rpath/libTracyClient.dylib",
+      "dynamic_dependencies": [
+        "/usr/lib/libc++.1.dylib",
+        "/usr/lib/libSystem.B.dylib"
+      ],
+      "non_system_dynamic_dependencies": []
+    }
+  ],
+  "vulkan_icd": {
+    "path": "guardian_heroes/out/native-app/vulkan/share/vulkan/icd.d/MoltenVK_icd.json",
+    "source": "guardian_heroes/runtime/cmake/MoltenVK_icd.json",
+    "library_path": "../../../lib/libMoltenVK.dylib",
+    "resolved_library": "guardian_heroes/out/native-app/vulkan/lib/libMoltenVK.dylib"
+  },
+  "runtime_observation_in_this_record": false,
+  "visual_acceptance_assessed": false,
+  "audio_acceptance_assessed": false,
+  "staging": {
+    "recorded_at_utc": "2026-10-17T07:46:57.316507+00:00",
+    "bundles": [
+      "/Users/ddd/Documents/xbla-守护英雄/Guardian Heroes.app",
+      "/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/out/native-app/Guardian Heroes Native.app",
+      "/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/out/native-app/Guardian Heroes Continuation.app",
+      "/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/out/native-app/Guardian Heroes Resume.app"
+    ],
+    "retained_backup": "/var/folders/4x/tx555hxd20lb1v6c7zsf3nym0000gn/T/gh-before-audio-endpoint-1zs9npfd",
+    "replacement": "atomic APFS clone pathname replacement; running process mappings retained"
+  },
+  "continuation_build": {
+    "binary": "/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/out/native-app/guardian_heroes_continuation_app",
+    "size_bytes": 121273104,
+    "compiled_steps": 13046,
+    "atomic_host_entries": 2051,
+    "queued_import_entries": 5,
+    "unsupported_entries": 0,
+    "log": "/tmp/gh-native-audio-physical-endpoint-build.log",
+    "executable_size_bytes": 121290512
+  },
+  "snapshot_validation_bundle": "/Users/ddd/Documents/xbla-守护英雄/guardian_heroes/out/native-app/Guardian Heroes Resume.app"
+}

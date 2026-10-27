@@ -1,0 +1,2761 @@
+{
+  "count": 200,
+  "shapes": {
+    "chain_offset": 5,
+    "global_base": 5,
+    "chain": 19,
+    "subobject": 10,
+    "global": 66,
+    "field": 92,
+    "address": 3
+  },
+  "functions": [
+    {
+      "name": "sub_824E21D8",
+      "shape": "chain_offset",
+      "params": [
+        65536,
+        4,
+        29084,
+        32
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.80.cpp",
+      "line": 5265,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.0.cpp",
+        "line": 9842,
+        "context": "\tREX_STORE_U32(ctx.r31.u32 + 48, ctx.r3.u32);\n\t// mr r3,r31\n\tctx.r3.u64 = ctx.r31.u64;\n\t// bl 0x824e21d8\n\tctx.lr = 0x825A58C8;\n\tsub_824E21D8(ctx, base);\n\t// mr r4,r3\n\tctx.r4.u64 = ctx.r3.u64;\n\t// mr r3,r31\n\tctx.r3.u64 = ctx.r31.u64;"
+      }
+    },
+    {
+      "name": "sub_824E21F0",
+      "shape": "chain_offset",
+      "params": [
+        65536,
+        4,
+        29088,
+        32
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.56.cpp",
+      "line": 5412,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.0.cpp",
+        "line": 9858,
+        "context": "\tREX_STORE_U32(ctx.r31.u32 + 52, ctx.r3.u32);\n\t// mr r3,r31\n\tctx.r3.u64 = ctx.r31.u64;\n\t// bl 0x824e21f0\n\tctx.lr = 0x825A58E4;\n\tsub_824E21F0(ctx, base);\n\t// mr r4,r3\n\tctx.r4.u64 = ctx.r3.u64;\n\t// mr r3,r31\n\tctx.r3.u64 = ctx.r31.u64;"
+      }
+    },
+    {
+      "name": "sub_824E2208",
+      "shape": "chain_offset",
+      "params": [
+        65536,
+        4,
+        29092,
+        32
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.49.cpp",
+      "line": 5547,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.0.cpp",
+        "line": 9874,
+        "context": "\tREX_STORE_U32(ctx.r31.u32 + 56, ctx.r3.u32);\n\t// mr r3,r31\n\tctx.r3.u64 = ctx.r31.u64;\n\t// bl 0x824e2208\n\tctx.lr = 0x825A5900;\n\tsub_824E2208(ctx, base);\n\t// mr r4,r3\n\tctx.r4.u64 = ctx.r3.u64;\n\t// mr r3,r31\n\tctx.r3.u64 = ctx.r31.u64;"
+      }
+    },
+    {
+      "name": "sub_824E2220",
+      "shape": "chain_offset",
+      "params": [
+        65536,
+        4,
+        29096,
+        32
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.80.cpp",
+      "line": 5279,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.0.cpp",
+        "line": 9890,
+        "context": "\tREX_STORE_U32(ctx.r31.u32 + 60, ctx.r3.u32);\n\t// mr r3,r31\n\tctx.r3.u64 = ctx.r31.u64;\n\t// bl 0x824e2220\n\tctx.lr = 0x825A591C;\n\tsub_824E2220(ctx, base);\n\t// mr r4,r3\n\tctx.r4.u64 = ctx.r3.u64;\n\t// mr r3,r31\n\tctx.r3.u64 = ctx.r31.u64;"
+      }
+    },
+    {
+      "name": "sub_824E2238",
+      "shape": "chain_offset",
+      "params": [
+        65536,
+        4,
+        29100,
+        32
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.58.cpp",
+      "line": 5366,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.0.cpp",
+        "line": 9906,
+        "context": "\tREX_STORE_U32(ctx.r31.u32 + 64, ctx.r3.u32);\n\t// mr r3,r31\n\tctx.r3.u64 = ctx.r31.u64;\n\t// bl 0x824e2238\n\tctx.lr = 0x825A5938;\n\tsub_824E2238(ctx, base);\n\t// mr r4,r3\n\tctx.r4.u64 = ctx.r3.u64;\n\t// mr r3,r31\n\tctx.r3.u64 = ctx.r31.u64;"
+      }
+    },
+    {
+      "name": "sub_824118E8",
+      "shape": "global_base",
+      "params": [
+        -2103967744,
+        -16600,
+        8,
+        67
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.50.cpp",
+      "line": 3,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.14.cpp",
+        "line": 6008,
+        "context": "\tctx.cr6.compare<uint32_t>(ctx.r6.u32, 0, ctx.xer);\n\t// beq cr6,0x824dac9c\n\tif (ctx.cr6.eq) goto loc_824DAC9C;\n\t// bl 0x824118e8\n\tctx.lr = 0x824DAB9C;\n\tsub_824118E8(ctx, base);\n\t// clrlwi r11,r3,24\n\tctx.r11.u64 = ctx.r3.u32 & 0xFF;\n\t// cntlzw r10,r11\n\tctx.r10.u64 = ctx.r11.u32 == 0 ? 32 : __builtin_clz(ctx.r11.u32);"
+      }
+    },
+    {
+      "name": "sub_82411908",
+      "shape": "global_base",
+      "params": [
+        -2103967744,
+        -16600,
+        8,
+        64
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.52.cpp",
+      "line": 3,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.14.cpp",
+        "line": 6041,
+        "context": "\tctx.cr6.compare<uint32_t>(ctx.r6.u32, 0, ctx.xer);\n\t// beq cr6,0x824dac9c\n\tif (ctx.cr6.eq) goto loc_824DAC9C;\n\t// bl 0x82411908\n\tctx.lr = 0x824DABD8;\n\tsub_82411908(ctx, base);\n\t// clrlwi r11,r3,24\n\tctx.r11.u64 = ctx.r3.u32 & 0xFF;\n\t// cntlzw r10,r11\n\tctx.r10.u64 = ctx.r11.u32 == 0 ? 32 : __builtin_clz(ctx.r11.u32);"
+      }
+    },
+    {
+      "name": "sub_82411928",
+      "shape": "global_base",
+      "params": [
+        -2103967744,
+        -16600,
+        8,
+        65
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.54.cpp",
+      "line": 3,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.14.cpp",
+        "line": 6074,
+        "context": "\tctx.cr6.compare<uint32_t>(ctx.r6.u32, 0, ctx.xer);\n\t// beq cr6,0x824dac9c\n\tif (ctx.cr6.eq) goto loc_824DAC9C;\n\t// bl 0x82411928\n\tctx.lr = 0x824DAC14;\n\tsub_82411928(ctx, base);\n\t// clrlwi r11,r3,24\n\tctx.r11.u64 = ctx.r3.u32 & 0xFF;\n\t// cntlzw r10,r11\n\tctx.r10.u64 = ctx.r11.u32 == 0 ? 32 : __builtin_clz(ctx.r11.u32);"
+      }
+    },
+    {
+      "name": "sub_82411948",
+      "shape": "global_base",
+      "params": [
+        -2103967744,
+        -16600,
+        8,
+        66
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.56.cpp",
+      "line": 3,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.14.cpp",
+        "line": 6107,
+        "context": "\tctx.cr6.compare<uint32_t>(ctx.r6.u32, 0, ctx.xer);\n\t// beq cr6,0x824dac9c\n\tif (ctx.cr6.eq) goto loc_824DAC9C;\n\t// bl 0x82411948\n\tctx.lr = 0x824DAC50;\n\tsub_82411948(ctx, base);\n\t// clrlwi r11,r3,24\n\tctx.r11.u64 = ctx.r3.u32 & 0xFF;\n\t// cntlzw r10,r11\n\tctx.r10.u64 = ctx.r11.u32 == 0 ? 32 : __builtin_clz(ctx.r11.u32);"
+      }
+    },
+    {
+      "name": "sub_82415690",
+      "shape": "global_base",
+      "params": [
+        -2103967744,
+        -5048,
+        8,
+        66
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.83.cpp",
+      "line": 30,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.14.cpp",
+        "line": 6782,
+        "context": "\tctx.lr = 0x825069A8;\n\tsub_824156A0(ctx, base);\nloc_825069A8:\n\t// bl 0x82415690\n\tctx.lr = 0x825069AC;\n\tsub_82415690(ctx, base);\n\t// clrlwi r11,r3,24\n\tctx.r11.u64 = ctx.r3.u32 & 0xFF;\n\t// cmplwi cr6,r11,0\n\tctx.cr6.compare<uint32_t>(ctx.r11.u32, 0, ctx.xer);"
+      }
+    },
+    {
+      "name": "sub_825CED98",
+      "shape": "chain",
+      "params": [
+        13,
+        256,
+        32,
+        332
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.68.cpp",
+      "line": 11415,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.11.cpp",
+        "line": 641,
+        "context": "\tea = -160 + ctx.r1.u32;\n\tREX_STORE_U32(ea, ctx.r1.u32);\n\tctx.r1.u32 = ea;\n\t// bl 0x825ced98\n\tctx.lr = 0x8242A888;\n\tsub_825CED98(ctx, base);\n\t// lis r11,-32255\n\tctx.r11.s64 = -2113863680;\n\t// addi r4,r11,-27744\n\tctx.r4.s64 = ctx.r11.s64 + -27744;"
+      }
+    },
+    {
+      "name": "sub_826E0960",
+      "shape": "chain",
+      "params": [
+        3,
+        0,
+        16,
+        7
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.83.cpp",
+      "line": 19542,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.53.cpp",
+        "line": 19323,
+        "context": "\tctx.r3.s64 = ctx.r1.s64 + 100;\n\t// clrlwi r18,r11,16\n\tctx.r18.u64 = ctx.r11.u32 & 0xFFFF;\n\t// bl 0x826e0960\n\tctx.lr = 0x826D4570;\n\tsub_826E0960(ctx, base);\n\t// addi r11,r1,96\n\tctx.r11.s64 = ctx.r1.s64 + 96;\n\t// mr r6,r3\n\tctx.r6.u64 = ctx.r3.u64;"
+      }
+    },
+    {
+      "name": "sub_82709A28",
+      "shape": "chain",
+      "params": [
+        3,
+        12,
+        32,
+        2792
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.43.cpp",
+      "line": 20911,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.40.cpp",
+        "line": 24540,
+        "context": "\tREX_STORE_U32(ctx.r31.u32 + ctx.r30.u32, ctx.r10.u32);\n\t// addi r31,r31,4\n\tctx.r31.s64 = ctx.r31.s64 + 4;\n\t// bl 0x82709a28\n\tctx.lr = 0x8278E0FC;\n\tsub_82709A28(ctx, base);\n\t// mr r28,r3\n\tctx.r28.u64 = ctx.r3.u64;\n\t// mr r5,r3\n\tctx.r5.u64 = ctx.r3.u64;"
+      }
+    },
+    {
+      "name": "sub_82709CC0",
+      "shape": "chain",
+      "params": [
+        3,
+        12,
+        32,
+        31104
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.5.cpp",
+      "line": 20422,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.35.cpp",
+        "line": 20872,
+        "context": "loc_826F9644:\n\t// mr r3,r30\n\tctx.r3.u64 = ctx.r30.u64;\n\t// bl 0x82709cc0\n\tctx.lr = 0x826F964C;\n\tsub_82709CC0(ctx, base);\n\t// cmpwi cr6,r3,0\n\tctx.cr6.compare<int32_t>(ctx.r3.s32, 0, ctx.xer);\n\t// ble cr6,0x826f96b8\n\tif (!ctx.cr6.gt) goto loc_826F96B8;"
+      }
+    },
+    {
+      "name": "sub_824E21C8",
+      "shape": "subobject",
+      "params": [
+        4,
+        65536,
+        28840
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.56.cpp",
+      "line": 5400,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.0.cpp",
+        "line": 9026,
+        "context": "\tif (!ctx.cr6.eq) goto loc_82584028;\n\t// mr r3,r31\n\tctx.r3.u64 = ctx.r31.u64;\n\t// bl 0x824e21c8\n\tctx.lr = 0x82583EB8;\n\tsub_824E21C8(ctx, base);\n\t// addi r10,r3,16\n\tctx.r10.s64 = ctx.r3.s64 + 16;\n\t// lwz r9,0(r10)\n\tctx.r9.u64 = REX_LOAD_U32(ctx.r10.u32 + 0);"
+      }
+    },
+    {
+      "name": "sub_824E2250",
+      "shape": "subobject",
+      "params": [
+        4,
+        65536,
+        20868
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.56.cpp",
+      "line": 5426,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.1.cpp",
+        "line": 12021,
+        "context": "loc_825C5910:\n\t// mr r3,r31\n\tctx.r3.u64 = ctx.r31.u64;\n\t// bl 0x824e2250\n\tctx.lr = 0x825C5918;\n\tsub_824E2250(ctx, base);\n\t// bl 0x824d0be8\n\tctx.lr = 0x825C591C;\n\tsub_824D0BE8(ctx, base);\n\t// clrlwi r11,r3,24"
+      }
+    },
+    {
+      "name": "sub_824E2260",
+      "shape": "subobject",
+      "params": [
+        4,
+        65536,
+        25108
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.37.cpp",
+      "line": 5423,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.15.cpp",
+        "line": 10672,
+        "context": "\tif (ctx.cr6.eq) goto loc_825923A0;\n\t// mr r3,r31\n\tctx.r3.u64 = ctx.r31.u64;\n\t// bl 0x824e2260\n\tctx.lr = 0x82592304;\n\tsub_824E2260(ctx, base);\n\t// li r4,5\n\tctx.r4.s64 = 5;\n\t// bl 0x824d0ef8\n\tctx.lr = 0x8259230C;"
+      }
+    },
+    {
+      "name": "sub_824100E0",
+      "shape": "global",
+      "params": [
+        -2103967744,
+        8,
+        -20076
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.1.cpp",
+      "line": 3,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.33.cpp",
+        "line": 596,
+        "context": "\tea = -96 + ctx.r1.u32;\n\tREX_STORE_U32(ea, ctx.r1.u32);\n\tctx.r1.u32 = ea;\n\t// bl 0x824100e0\n\tctx.lr = 0x82429838;\n\tsub_824100E0(ctx, base);\n\t// clrlwi r11,r3,24\n\tctx.r11.u64 = ctx.r3.u32 & 0xFF;\n\t// cmplwi cr6,r11,0\n\tctx.cr6.compare<uint32_t>(ctx.r11.u32, 0, ctx.xer);"
+      }
+    },
+    {
+      "name": "sub_82410150",
+      "shape": "global",
+      "params": [
+        -2103967744,
+        8,
+        -20087
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.7.cpp",
+      "line": 3,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.14.cpp",
+        "line": 6140,
+        "context": "\tctx.cr6.compare<uint32_t>(ctx.r6.u32, 0, ctx.xer);\n\t// beq cr6,0x824dac9c\n\tif (ctx.cr6.eq) goto loc_824DAC9C;\n\t// bl 0x82410150\n\tctx.lr = 0x824DAC8C;\n\tsub_82410150(ctx, base);\n\t// clrlwi r11,r3,24\n\tctx.r11.u64 = ctx.r3.u32 & 0xFF;\n\t// cntlzw r10,r11\n\tctx.r10.u64 = ctx.r11.u32 == 0 ? 32 : __builtin_clz(ctx.r11.u32);"
+      }
+    },
+    {
+      "name": "sub_82410170",
+      "shape": "global",
+      "params": [
+        -2103967744,
+        8,
+        -20088
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.9.cpp",
+      "line": 3,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.5.cpp",
+        "line": 479,
+        "context": "\tctx.cr6.compare<uint32_t>(ctx.r11.u32, 0, ctx.xer);\n\t// beq cr6,0x824260a8\n\tif (ctx.cr6.eq) goto loc_824260A8;\n\t// bl 0x82410170\n\tctx.lr = 0x82425F50;\n\tsub_82410170(ctx, base);\n\t// clrlwi r11,r3,24\n\tctx.r11.u64 = ctx.r3.u32 & 0xFF;\n\t// cmplwi cr6,r11,0\n\tctx.cr6.compare<uint32_t>(ctx.r11.u32, 0, ctx.xer);"
+      }
+    },
+    {
+      "name": "sub_82411888",
+      "shape": "global",
+      "params": [
+        -2103967744,
+        32,
+        -16948
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.45.cpp",
+      "line": 3,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.0.cpp",
+        "line": 375,
+        "context": "\t// bl 0x82421d10\n\tctx.lr = 0x82421F40;\n\tsub_82421D10(ctx, base);\n\t// bl 0x82411888\n\tctx.lr = 0x82421F44;\n\tsub_82411888(ctx, base);\n\t// lfs f0,12(r31)\n\tctx.fpscr.disableFlushMode();\n\ttemp.u32 = REX_LOAD_U32(ctx.r31.u32 + 12);\n\tctx.f0.f64 = double(temp.f32);"
+      }
+    },
+    {
+      "name": "sub_824118D8",
+      "shape": "global",
+      "params": [
+        -2103967744,
+        32,
+        -16932
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.49.cpp",
+      "line": 3,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.14.cpp",
+        "line": 5542,
+        "context": "\t// b 0x824dac9c\n\tgoto loc_824DAC9C;\nloc_824DA8E4:\n\t// bl 0x824118d8\n\tctx.lr = 0x824DA8E8;\n\tsub_824118D8(ctx, base);\n\t// lfs f0,72(r3)\n\tctx.fpscr.disableFlushMode();\n\ttemp.u32 = REX_LOAD_U32(ctx.r3.u32 + 72);\n\tctx.f0.f64 = double(temp.f32);"
+      }
+    },
+    {
+      "name": "sub_82419D38",
+      "shape": "global",
+      "params": [
+        -2103967744,
+        8,
+        -4460
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.17.cpp",
+      "line": 157,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.38.cpp",
+        "line": 5638,
+        "context": "\t// bl 0x82419d30\n\tctx.lr = 0x824E9778;\n\tsub_82419D30(ctx, base);\n\t// bl 0x82419d38\n\tctx.lr = 0x824E977C;\n\tsub_82419D38(ctx, base);\n\t// clrlwi r11,r3,24\n\tctx.r11.u64 = ctx.r3.u32 & 0xFF;\n\t// cmplwi cr6,r11,0\n\tctx.cr6.compare<uint32_t>(ctx.r11.u32, 0, ctx.xer);"
+      }
+    },
+    {
+      "name": "sub_82419D48",
+      "shape": "global",
+      "params": [
+        -2103967744,
+        8,
+        -4459
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.77.cpp",
+      "line": 145,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.0.cpp",
+        "line": 90,
+        "context": "\t// bl 0x824165e8\n\tctx.lr = 0x82410070;\n\tsub_824165E8(ctx, base);\n\t// bl 0x82419d48\n\tctx.lr = 0x82410074;\n\tsub_82419D48(ctx, base);\n\t// clrlwi r11,r3,24\n\tctx.r11.u64 = ctx.r3.u32 & 0xFF;\n\t// cmplwi cr6,r11,0\n\tctx.cr6.compare<uint32_t>(ctx.r11.u32, 0, ctx.xer);"
+      }
+    },
+    {
+      "name": "sub_82419D70",
+      "shape": "global",
+      "params": [
+        -2103902208,
+        8,
+        4354
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.35.cpp",
+      "line": 158,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.0.cpp",
+        "line": 99,
+        "context": "\tctx.cr6.compare<uint32_t>(ctx.r11.u32, 0, ctx.xer);\n\t// bne cr6,0x82410090\n\tif (!ctx.cr6.eq) goto loc_82410090;\n\t// bl 0x82419d70\n\tctx.lr = 0x82410084;\n\tsub_82419D70(ctx, base);\n\t// clrlwi r11,r3,24\n\tctx.r11.u64 = ctx.r3.u32 & 0xFF;\n\t// cmplwi cr6,r11,0\n\tctx.cr6.compare<uint32_t>(ctx.r11.u32, 0, ctx.xer);"
+      }
+    },
+    {
+      "name": "sub_82419DA0",
+      "shape": "global",
+      "params": [
+        -2103902208,
+        8,
+        4355
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.63.cpp",
+      "line": 164,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.55.cpp",
+        "line": 5838,
+        "context": "\tctx.cr6.compare<int32_t>(ctx.r3.s32, 0, ctx.xer);\n\t// bne cr6,0x8248e9f0\n\tif (!ctx.cr6.eq) goto loc_8248E9F0;\n\t// bl 0x82419da0\n\tctx.lr = 0x8248E8EC;\n\tsub_82419DA0(ctx, base);\n\t// clrlwi r11,r3,24\n\tctx.r11.u64 = ctx.r3.u32 & 0xFF;\n\t// cmplwi cr6,r11,0\n\tctx.cr6.compare<uint32_t>(ctx.r11.u32, 0, ctx.xer);"
+      }
+    },
+    {
+      "name": "sub_82423110",
+      "shape": "global",
+      "params": [
+        -2103902208,
+        8,
+        5432
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.61.cpp",
+      "line": 383,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.57.cpp",
+        "line": 6476,
+        "context": "\t// bl 0x824152d8\n\tctx.lr = 0x825001F4;\n\tsub_824152D8(ctx, base);\n\t// bl 0x82423110\n\tctx.lr = 0x825001F8;\n\tsub_82423110(ctx, base);\n\t// clrlwi r11,r3,24\n\tctx.r11.u64 = ctx.r3.u32 & 0xFF;\n\t// li r4,0\n\tctx.r4.s64 = 0;"
+      }
+    },
+    {
+      "name": "sub_82429860",
+      "shape": "global",
+      "params": [
+        -2103902208,
+        32,
+        7056
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.73.cpp",
+      "line": 549,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.0.cpp",
+        "line": 2975,
+        "context": "\tREX_STORE_U32(ctx.r3.u32 + 1312, ctx.r11.u32);\n\t// addi r31,r3,160\n\tctx.r31.s64 = ctx.r3.s64 + 160;\n\t// bl 0x82429860\n\tctx.lr = 0x82480488;\n\tsub_82429860(ctx, base);\n\t// mr r29,r3\n\tctx.r29.u64 = ctx.r3.u64;\n\t// bl 0x82495b00\n\tctx.lr = 0x82480490;"
+      }
+    },
+    {
+      "name": "sub_82429960",
+      "shape": "global",
+      "params": [
+        -2103902208,
+        32,
+        7036
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.37.cpp",
+      "line": 556,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.40.cpp",
+        "line": 454,
+        "context": "\t// fmr f29,f1\n\tctx.fpscr.disableFlushMode();\n\tctx.f29.f64 = ctx.f1.f64;\n\t// bl 0x82429960\n\tctx.lr = 0x82411540;\n\tsub_82429960(ctx, base);\n\t// stfd f29,32(r1)\n\tctx.fpscr.disableFlushMode();\n\tREX_STORE_U64(ctx.r1.u32 + 32, ctx.f29.u64);\n\t// ld r5,32(r1)"
+      }
+    },
+    {
+      "name": "sub_8242B430",
+      "shape": "global",
+      "params": [
+        -2103902208,
+        32,
+        9704
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.15.cpp",
+      "line": 657,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.6.cpp",
+        "line": 2694,
+        "context": "\tctx.cr6.compare<uint32_t>(ctx.r11.u32, 0, ctx.xer);\n\t// beq cr6,0x8243943c\n\tif (ctx.cr6.eq) goto loc_8243943C;\n\t// bl 0x8242b430\n\tctx.lr = 0x82439428;\n\tsub_8242B430(ctx, base);\n\t// cmpwi cr6,r3,0\n\tctx.cr6.compare<int32_t>(ctx.r3.s32, 0, ctx.xer);\n\t// bne cr6,0x8243943c\n\tif (!ctx.cr6.eq) goto loc_8243943C;"
+      }
+    },
+    {
+      "name": "sub_8242E888",
+      "shape": "global",
+      "params": [
+        -2103836672,
+        32,
+        2140
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.31.cpp",
+      "line": 751,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.11.cpp",
+        "line": 155,
+        "context": "\tctx.r1.u32 = ea;\n\t// li r31,0\n\tctx.r31.s64 = 0;\n\t// bl 0x8242e888\n\tctx.lr = 0x82419984;\n\tsub_8242E888(ctx, base);\n\t// cmpwi cr6,r3,0\n\tctx.cr6.compare<int32_t>(ctx.r3.s32, 0, ctx.xer);\n\t// ble cr6,0x824199e0\n\tif (!ctx.cr6.gt) goto loc_824199E0;"
+      }
+    },
+    {
+      "name": "sub_8242E898",
+      "shape": "global",
+      "params": [
+        -2103836672,
+        32,
+        2136
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.49.cpp",
+      "line": 784,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.81.cpp",
+        "line": 175,
+        "context": "\tctx.r31.u64 = REX_LOAD_U16(ctx.r4.u32 + 2);\n\t// mr r16,r4\n\tctx.r16.u64 = ctx.r4.u64;\n\t// bl 0x8242e898\n\tctx.lr = 0x8241A520;\n\tsub_8242E898(ctx, base);\n\t// lhz r11,0(r16)\n\tctx.r11.u64 = REX_LOAD_U16(ctx.r16.u32 + 0);\n\t// li r10,1\n\tctx.r10.s64 = 1;"
+      }
+    },
+    {
+      "name": "sub_8242E8C8",
+      "shape": "global",
+      "params": [
+        -2103836672,
+        32,
+        2120
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.26.cpp",
+      "line": 807,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.55.cpp",
+        "line": 289,
+        "context": "\tREX_STORE_U16(ctx.r9.u32 + -1808, ctx.r19.u16);\n\t// subf r23,r20,r8\n\tctx.r23.u64 = ctx.r8.u64 - ctx.r20.u64;\n\t// bl 0x8242e8c8\n\tctx.lr = 0x8241BF30;\n\tsub_8242E8C8(ctx, base);\n\t// lis r7,-32103\n\tctx.r7.s64 = -2103902208;\n\t// lis r6,-32103\n\tctx.r6.s64 = -2103902208;"
+      }
+    },
+    {
+      "name": "sub_8242EA80",
+      "shape": "global",
+      "params": [
+        -2103836672,
+        8,
+        2012
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.31.cpp",
+      "line": 761,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.5.cpp",
+        "line": 5487,
+        "context": "\tif (ctx.cr6.eq) goto loc_824E7CCC;\n\t// li r30,1\n\tctx.r30.s64 = 1;\n\t// bl 0x8242ea80\n\tctx.lr = 0x824E7C40;\n\tsub_8242EA80(ctx, base);\n\t// clrlwi r11,r3,24\n\tctx.r11.u64 = ctx.r3.u32 & 0xFF;\n\t// cmplwi cr6,r11,0\n\tctx.cr6.compare<uint32_t>(ctx.r11.u32, 0, ctx.xer);"
+      }
+    },
+    {
+      "name": "sub_8242F3F0",
+      "shape": "global",
+      "params": [
+        -2103836672,
+        8,
+        6481
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.73.cpp",
+      "line": 779,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.45.cpp",
+        "line": 5410,
+        "context": "\tctx.cr6.compare<uint32_t>(ctx.r11.u32, 0, ctx.xer);\n\t// beq cr6,0x824e3838\n\tif (ctx.cr6.eq) goto loc_824E3838;\n\t// bl 0x8242f3f0\n\tctx.lr = 0x824E37C8;\n\tsub_8242F3F0(ctx, base);\n\t// clrlwi r11,r3,24\n\tctx.r11.u64 = ctx.r3.u32 & 0xFF;\n\t// lis r10,3\n\tctx.r10.s64 = 196608;"
+      }
+    },
+    {
+      "name": "sub_8242F410",
+      "shape": "global",
+      "params": [
+        -2103836672,
+        8,
+        6482
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.27.cpp",
+      "line": 803,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.45.cpp",
+        "line": 5451,
+        "context": "\t// stw r11,8(r10)\n\tREX_STORE_U32(ctx.r10.u32 + 8, ctx.r11.u32);\nloc_824E380C:\n\t// bl 0x8242f410\n\tctx.lr = 0x824E3810;\n\tsub_8242F410(ctx, base);\n\t// clrlwi r11,r3,24\n\tctx.r11.u64 = ctx.r3.u32 & 0xFF;\n\t// cmplwi cr6,r11,0\n\tctx.cr6.compare<uint32_t>(ctx.r11.u32, 0, ctx.xer);"
+      }
+    },
+    {
+      "name": "sub_824348F8",
+      "shape": "global",
+      "params": [
+        -2103836672,
+        32,
+        8720
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.23.cpp",
+      "line": 889,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.23.cpp",
+        "line": 6014,
+        "context": "\tsub_82434A38(ctx, base);\n\t// mr r31,r3\n\tctx.r31.u64 = ctx.r3.u64;\n\t// bl 0x824348f8\n\tctx.lr = 0x824EE30C;\n\tsub_824348F8(ctx, base);\n\t// stb r3,63(r30)\n\tREX_STORE_U8(ctx.r30.u32 + 63, ctx.r3.u8);\n\t// mr r29,r3\n\tctx.r29.u64 = ctx.r3.u64;"
+      }
+    },
+    {
+      "name": "sub_82434A38",
+      "shape": "global",
+      "params": [
+        -2104426496,
+        32,
+        7776
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.50.cpp",
+      "line": 863,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.12.cpp",
+        "line": 1016,
+        "context": "\tREX_STORE_U32(ctx.r6.u32 + -20856, ctx.r10.u32);\n\t// stw r9,0(r31)\n\tREX_STORE_U32(ctx.r31.u32 + 0, ctx.r9.u32);\n\t// bl 0x82434a38\n\tctx.lr = 0x82437B04;\n\tsub_82434A38(ctx, base);\n\t// bl 0x824349e0\n\tctx.lr = 0x82437B08;\n\tsub_824349E0(ctx, base);\n\t// clrlwi r5,r3,24"
+      }
+    },
+    {
+      "name": "sub_82434AA0",
+      "shape": "global",
+      "params": [
+        -2103836672,
+        64,
+        8704
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.58.cpp",
+      "line": 885,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.22.cpp",
+        "line": 6669,
+        "context": "\t// b 0x8250c948\n\tgoto loc_8250C948;\nloc_8250C930:\n\t// bl 0x82434aa0\n\tctx.lr = 0x8250C934;\n\tsub_82434AA0(ctx, base);\n\t// ld r11,112(r1)\n\tctx.r11.u64 = REX_LOAD_U64(ctx.r1.u32 + 112);\n\t// cmpld cr6,r11,r3\n\tctx.cr6.compare<uint64_t>(ctx.r11.u64, ctx.r3.u64, ctx.xer);"
+      }
+    },
+    {
+      "name": "sub_82434AB0",
+      "shape": "global",
+      "params": [
+        -2103836672,
+        8,
+        8682
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.84.cpp",
+      "line": 908,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.3.cpp",
+        "line": 5904,
+        "context": "\tctx.cr6.compare<uint32_t>(ctx.r11.u32, 7, ctx.xer);\n\t// bge cr6,0x824f1adc\n\tif (!ctx.cr6.lt) goto loc_824F1ADC;\n\t// bl 0x82434ab0\n\tctx.lr = 0x824F1AC0;\n\tsub_82434AB0(ctx, base);\n\t// clrlwi r11,r3,24\n\tctx.r11.u64 = ctx.r3.u32 & 0xFF;\n\t// cmplwi cr6,r11,0\n\tctx.cr6.compare<uint32_t>(ctx.r11.u32, 0, ctx.xer);"
+      }
+    },
+    {
+      "name": "sub_82435BF0",
+      "shape": "global",
+      "params": [
+        -2103771136,
+        8,
+        -20913
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.17.cpp",
+      "line": 931,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.85.cpp",
+        "line": 6391,
+        "context": "\t// b 0x8250cf20\n\tgoto loc_8250CF20;\nloc_8250CEE0:\n\t// bl 0x82435bf0\n\tctx.lr = 0x8250CEE4;\n\tsub_82435BF0(ctx, base);\n\t// clrlwi r11,r3,24\n\tctx.r11.u64 = ctx.r3.u32 & 0xFF;\n\t// cmplwi cr6,r11,0\n\tctx.cr6.compare<uint32_t>(ctx.r11.u32, 0, ctx.xer);"
+      }
+    },
+    {
+      "name": "sub_82435C00",
+      "shape": "global",
+      "params": [
+        -2103771136,
+        8,
+        -20888
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.16.cpp",
+      "line": 886,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.22.cpp",
+        "line": 6580,
+        "context": "\t// beq cr6,0x8250c844\n\tif (ctx.cr6.eq) goto loc_8250C844;\nloc_8250C890:\n\t// bl 0x82435c00\n\tctx.lr = 0x8250C894;\n\tsub_82435C00(ctx, base);\n\t// clrlwi r11,r3,24\n\tctx.r11.u64 = ctx.r3.u32 & 0xFF;\n\t// cmplwi cr6,r11,0\n\tctx.cr6.compare<uint32_t>(ctx.r11.u32, 0, ctx.xer);"
+      }
+    },
+    {
+      "name": "sub_82435C30",
+      "shape": "global",
+      "params": [
+        -2103771136,
+        8,
+        -21256
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.36.cpp",
+      "line": 934,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.28.cpp",
+        "line": 6464,
+        "context": "\tctx.r9.u64 = ctx.r11.u64 | 42312;\n\t// stwx r10,r3,r9\n\tREX_STORE_U32(ctx.r3.u32 + ctx.r9.u32, ctx.r10.u32);\n\t// bl 0x82435c30\n\tctx.lr = 0x82500A00;\n\tsub_82435C30(ctx, base);\n\t// clrlwi r8,r3,24\n\tctx.r8.u64 = ctx.r3.u32 & 0xFF;\n\t// cmplwi cr6,r8,0\n\tctx.cr6.compare<uint32_t>(ctx.r8.u32, 0, ctx.xer);"
+      }
+    },
+    {
+      "name": "sub_8243EB40",
+      "shape": "global",
+      "params": [
+        -2103771136,
+        32,
+        -19544
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.56.cpp",
+      "line": 1045,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.78.cpp",
+        "line": 2878,
+        "context": "\tsub_8242AFD0(ctx, base);\n\t// stw r31,12(r31)\n\tREX_STORE_U32(ctx.r31.u32 + 12, ctx.r31.u32);\n\t// bl 0x8243eb40\n\tctx.lr = 0x82479D00;\n\tsub_8243EB40(ctx, base);\n\t// lwz r7,8(r31)\n\tctx.r7.u64 = REX_LOAD_U32(ctx.r31.u32 + 8);\n\t// mr r4,r3\n\tctx.r4.u64 = ctx.r3.u64;"
+      }
+    },
+    {
+      "name": "sub_8243EC28",
+      "shape": "global",
+      "params": [
+        -2103771136,
+        32,
+        -19540
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.41.cpp",
+      "line": 1060,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.69.cpp",
+        "line": 2576,
+        "context": "\tctx.cr6.compare<uint32_t>(ctx.r11.u32, 0, ctx.xer);\n\t// bne cr6,0x82472e58\n\tif (!ctx.cr6.eq) goto loc_82472E58;\n\t// bl 0x8243ec28\n\tctx.lr = 0x82472DE0;\n\tsub_8243EC28(ctx, base);\n\t// cmpwi cr6,r3,0\n\tctx.cr6.compare<int32_t>(ctx.r3.s32, 0, ctx.xer);\n\t// bgt cr6,0x82472e58\n\tif (ctx.cr6.gt) goto loc_82472E58;"
+      }
+    },
+    {
+      "name": "sub_824A44F8",
+      "shape": "global",
+      "params": [
+        -2103640064,
+        32,
+        -13920
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.79.cpp",
+      "line": 3775,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.2.cpp",
+        "line": 4807,
+        "context": "\tctx.r11.u64 = REX_LOAD_U8(ctx.r31.u32 + 55);\n\t// extsb r30,r11\n\tctx.r30.s64 = ctx.r11.s8;\n\t// bl 0x824a44f8\n\tctx.lr = 0x824BE8EC;\n\tsub_824A44F8(ctx, base);\n\t// cmpw cr6,r30,r3\n\tctx.cr6.compare<int32_t>(ctx.r30.s32, ctx.r3.s32, ctx.xer);\n\t// bne cr6,0x824be920\n\tif (!ctx.cr6.eq) goto loc_824BE920;"
+      }
+    },
+    {
+      "name": "sub_825D2C00",
+      "shape": "global",
+      "params": [
+        -2113929216,
+        32,
+        1624
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.12.cpp",
+      "line": 11999,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.17.cpp",
+        "line": 11915,
+        "context": "\tREX_STORE_U32(ctx.r31.u32 + 84, ctx.r30.u32);\n\t// stw r28,96(r31)\n\tREX_STORE_U32(ctx.r31.u32 + 96, ctx.r28.u32);\n\t// bl 0x825d2c00\n\tctx.lr = 0x825D0FCC;\n\tsub_825D2C00(ctx, base);\n\t// stw r3,88(r31)\n\tREX_STORE_U32(ctx.r31.u32 + 88, ctx.r3.u32);\n\t// cmplwi r3,0\n\tctx.cr0.compare<uint32_t>(ctx.r3.u32, 0, ctx.xer);"
+      }
+    },
+    {
+      "name": "sub_825D6230",
+      "shape": "global",
+      "params": [
+        -2103443456,
+        32,
+        26448
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.30.cpp",
+      "line": 12281,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.0.cpp",
+        "line": 11143,
+        "context": "\tctx.r1.u32 = ea;\n\t// mr r31,r3\n\tctx.r31.u64 = ctx.r3.u64;\n\t// bl 0x825d6230\n\tctx.lr = 0x825D14D0;\n\tsub_825D6230(ctx, base);\n\t// li r4,0\n\tctx.r4.s64 = 0;\n\t// mr r5,r31\n\tctx.r5.u64 = ctx.r31.u64;"
+      }
+    },
+    {
+      "name": "sub_828960B0",
+      "shape": "global",
+      "params": [
+        -2103443456,
+        32,
+        26324
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.44.cpp",
+      "line": 31296,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.68.cpp",
+        "line": 30853,
+        "context": "\tea = -96 + ctx.r1.u32;\n\tREX_STORE_U32(ea, ctx.r1.u32);\n\tctx.r1.u32 = ea;\n\t// bl 0x828960b0\n\tctx.lr = 0x82890310;\n\tsub_828960B0(ctx, base);\n\t// cmplwi r3,0\n\tctx.cr0.compare<uint32_t>(ctx.r3.u32, 0, ctx.xer);\n\t// beq 0x82890320\n\tif (ctx.cr0.eq) goto loc_82890320;"
+      }
+    },
+    {
+      "name": "sub_82418EC8",
+      "shape": "field",
+      "params": [
+        8,
+        124
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.49.cpp",
+      "line": 143,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.69.cpp",
+        "line": 6503,
+        "context": "\tif (ctx.cr6.eq) goto loc_82505CF8;\n\t// mr r3,r30\n\tctx.r3.u64 = ctx.r30.u64;\n\t// bl 0x82418ec8\n\tctx.lr = 0x82505CE4;\n\tsub_82418EC8(ctx, base);\n\t// clrlwi r11,r3,24\n\tctx.r11.u64 = ctx.r3.u32 & 0xFF;\n\t// mr r3,r30\n\tctx.r3.u64 = ctx.r30.u64;"
+      }
+    },
+    {
+      "name": "sub_8243F878",
+      "shape": "field",
+      "params": [
+        32,
+        168
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.9.cpp",
+      "line": 1116,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.35.cpp",
+        "line": 2830,
+        "context": "\tctx.cr6.compare<uint32_t>(ctx.r7.u32, 0, ctx.xer);\n\t// beq cr6,0x82479e04\n\tif (ctx.cr6.eq) goto loc_82479E04;\n\t// bl 0x8243f878\n\tctx.lr = 0x82479DFC;\n\tsub_8243F878(ctx, base);\n\t// lwz r11,64(r3)\n\tctx.r11.u64 = REX_LOAD_U32(ctx.r3.u32 + 64);\n\t// b 0x82479e0c\n\tgoto loc_82479E0C;"
+      }
+    },
+    {
+      "name": "sub_8246BC68",
+      "shape": "field",
+      "params": [
+        32,
+        1168
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.53.cpp",
+      "line": 2396,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.14.cpp",
+        "line": 8482,
+        "context": "\tctx.r3.u64 = ctx.r31.u64;\n\t// stb r28,232(r31)\n\tREX_STORE_U8(ctx.r31.u32 + 232, ctx.r28.u8);\n\t// bl 0x8246bc68\n\tctx.lr = 0x825495A4;\n\tsub_8246BC68(ctx, base);\n\t// mr r29,r3\n\tctx.r29.u64 = ctx.r3.u64;\n\t// mr r30,r28\n\tctx.r30.u64 = ctx.r28.u64;"
+      }
+    },
+    {
+      "name": "sub_82496C80",
+      "shape": "field",
+      "params": [
+        8,
+        56
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.35.cpp",
+      "line": 3486,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.65.cpp",
+        "line": 6078,
+        "context": "\t// bl 0x82495b70\n\tctx.lr = 0x824ED990;\n\tsub_82495B70(ctx, base);\n\t// bl 0x82496c80\n\tctx.lr = 0x824ED994;\n\tsub_82496C80(ctx, base);\n\t// clrlwi r11,r3,24\n\tctx.r11.u64 = ctx.r3.u32 & 0xFF;\n\t// cmplwi cr6,r11,0\n\tctx.cr6.compare<uint32_t>(ctx.r11.u32, 0, ctx.xer);"
+      }
+    },
+    {
+      "name": "sub_825D7D10",
+      "shape": "field",
+      "params": [
+        32,
+        12180
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.58.cpp",
+      "line": 11891,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.26.cpp",
+        "line": 194,
+        "context": "\t// bl 0x82411888\n\tctx.lr = 0x824190D8;\n\tsub_82411888(ctx, base);\n\t// bl 0x825d7d10\n\tctx.lr = 0x824190DC;\n\tsub_825D7D10(ctx, base);\n\t// mr r25,r3\n\tctx.r25.u64 = ctx.r3.u64;\n\t// bl 0x82411888\n\tctx.lr = 0x824190E4;"
+      }
+    },
+    {
+      "name": "sub_825D7DB8",
+      "shape": "field",
+      "params": [
+        32,
+        12184
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.10.cpp",
+      "line": 12070,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.27.cpp",
+        "line": 178,
+        "context": "\tREX_STORE_U32(ctx.r30.u32 + 108, ctx.r3.u32);\n\t// mr r3,r31\n\tctx.r3.u64 = ctx.r31.u64;\n\t// bl 0x825d7db8\n\tctx.lr = 0x82416C94;\n\tsub_825D7DB8(ctx, base);\n\t// stw r3,112(r30)\n\tREX_STORE_U32(ctx.r30.u32 + 112, ctx.r3.u32);\n\t// mr r3,r31\n\tctx.r3.u64 = ctx.r31.u64;"
+      }
+    },
+    {
+      "name": "sub_825D82B0",
+      "shape": "field",
+      "params": [
+        32,
+        12164
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.21.cpp",
+      "line": 12228,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.79.cpp",
+        "line": 1066,
+        "context": "\tREX_STORE_U32(ctx.r31.u32 + 248, ctx.r3.u32);\n\t// lwz r3,32(r31)\n\tctx.r3.u64 = REX_LOAD_U32(ctx.r31.u32 + 32);\n\t// bl 0x825d82b0\n\tctx.lr = 0x8243BC20;\n\tsub_825D82B0(ctx, base);\n\t// stw r3,252(r31)\n\tREX_STORE_U32(ctx.r31.u32 + 252, ctx.r3.u32);\n\t// lwz r3,32(r31)\n\tctx.r3.u64 = REX_LOAD_U32(ctx.r31.u32 + 32);"
+      }
+    },
+    {
+      "name": "sub_8262BEE0",
+      "shape": "field",
+      "params": [
+        8,
+        2144
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.60.cpp",
+      "line": 14630,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.34.cpp",
+        "line": 14880,
+        "context": "loc_8262EBD4:\n\t// mr r3,r30\n\tctx.r3.u64 = ctx.r30.u64;\n\t// bl 0x8262bee0\n\tctx.lr = 0x8262EBDC;\n\tsub_8262BEE0(ctx, base);\n\t// clrlwi. r11,r3,24\n\tctx.r11.u64 = ctx.r3.u32 & 0xFF;\n\tctx.cr0.compare<int32_t>(ctx.r11.s32, 0, ctx.xer);\n\t// beq 0x8262ecf4"
+      }
+    },
+    {
+      "name": "sub_82636C38",
+      "shape": "field",
+      "params": [
+        32,
+        204
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.9.cpp",
+      "line": 14908,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.17.cpp",
+        "line": 19450,
+        "context": "\tif (ctx.cr6.eq) goto loc_826E3378;\n\t// mr r3,r31\n\tctx.r3.u64 = ctx.r31.u64;\n\t// bl 0x82636c38\n\tctx.lr = 0x826E3370;\n\tsub_82636C38(ctx, base);\n\t// cmpwi r3,0\n\tctx.cr0.compare<int32_t>(ctx.r3.s32, 0, ctx.xer);\n\t// bne 0x826e33a4\n\tif (!ctx.cr0.eq) goto loc_826E33A4;"
+      }
+    },
+    {
+      "name": "sub_8264F520",
+      "shape": "field",
+      "params": [
+        32,
+        24
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.9.cpp",
+      "line": 15448,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.19.cpp",
+        "line": 16877,
+        "context": "\tREX_STORE_U32(ctx.r31.u32 + 24, ctx.r29.u32);\n\t// stw r29,32(r31)\n\tREX_STORE_U32(ctx.r31.u32 + 32, ctx.r29.u32);\n\t// bl 0x8264f520\n\tctx.lr = 0x826982F8;\n\tsub_8264F520(ctx, base);\n\t// stw r3,28(r31)\n\tREX_STORE_U32(ctx.r31.u32 + 28, ctx.r3.u32);\n\t// addi r3,r1,80\n\tctx.r3.s64 = ctx.r1.s64 + 80;"
+      }
+    },
+    {
+      "name": "sub_826519C0",
+      "shape": "field",
+      "params": [
+        32,
+        32
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.18.cpp",
+      "line": 15643,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.11.cpp",
+        "line": 17823,
+        "context": "\tREX_STORE_U32(ctx.r1.u32 + 124, ctx.r29.u32);\n\t// stw r29,132(r1)\n\tREX_STORE_U32(ctx.r1.u32 + 132, ctx.r29.u32);\n\t// bl 0x826519c0\n\tctx.lr = 0x8269A058;\n\tsub_826519C0(ctx, base);\n\t// lwz r10,0(r30)\n\tctx.r10.u64 = REX_LOAD_U32(ctx.r30.u32 + 0);\n\t// stw r3,136(r1)\n\tREX_STORE_U32(ctx.r1.u32 + 136, ctx.r3.u32);"
+      }
+    },
+    {
+      "name": "sub_8267EFA0",
+      "shape": "field",
+      "params": [
+        32,
+        96
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.25.cpp",
+      "line": 16876,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.12.cpp",
+        "line": 16709,
+        "context": "\t// cmplwi cr6,r4,0\n\tctx.cr6.compare<uint32_t>(ctx.r4.u32, 0, ctx.xer);\n\t// bne cr6,0x826751d4\n\tif (!ctx.cr6.eq) goto loc_826751D4;\n\t// b 0x8267efa0\n\tsub_8267EFA0(ctx, base);\n\treturn;\nloc_826751D4:\n\t// lwz r3,260(r3)\n\tctx.r3.u64 = REX_LOAD_U32(ctx.r3.u32 + 260);"
+      }
+    },
+    {
+      "name": "sub_8268D140",
+      "shape": "field",
+      "params": [
+        32,
+        28
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.63.cpp",
+      "line": 17256,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.14.cpp",
+        "line": 17814,
+        "context": "\tif (ctx.cr6.eq) goto loc_82692820;\n\t// mr r3,r28\n\tctx.r3.u64 = ctx.r28.u64;\n\t// bl 0x8268d140\n\tctx.lr = 0x826927F8;\n\tsub_8268D140(ctx, base);\n\t// mr r30,r3\n\tctx.r30.u64 = ctx.r3.u64;\n\t// mr r3,r28\n\tctx.r3.u64 = ctx.r28.u64;"
+      }
+    },
+    {
+      "name": "sub_8268D1C8",
+      "shape": "field",
+      "params": [
+        16,
+        4
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.62.cpp",
+      "line": 17270,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.11.cpp",
+        "line": 17491,
+        "context": "\tctx.r3.u64 = ctx.r23.u64;\n\t// lwz r28,80(r31)\n\tctx.r28.u64 = REX_LOAD_U32(ctx.r31.u32 + 80);\n\t// bl 0x8268d1c8\n\tctx.lr = 0x82699DF0;\n\tsub_8268D1C8(ctx, base);\n\t// lwz r11,0(r28)\n\tctx.r11.u64 = REX_LOAD_U32(ctx.r28.u32 + 0);\n\t// mr r4,r3\n\tctx.r4.u64 = ctx.r3.u64;"
+      }
+    },
+    {
+      "name": "sub_826B70F8",
+      "shape": "field",
+      "params": [
+        32,
+        20
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.0.cpp",
+      "line": 17876,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.28.cpp",
+        "line": 17560,
+        "context": "\tREX_STORE_U32(ctx.r31.u32 + 20, ctx.r27.u32);\n\t// stw r6,28(r31)\n\tREX_STORE_U32(ctx.r31.u32 + 28, ctx.r6.u32);\n\t// bl 0x826b70f8\n\tctx.lr = 0x82689AE0;\n\tsub_826B70F8(ctx, base);\n\t// stw r3,32(r31)\n\tREX_STORE_U32(ctx.r31.u32 + 32, ctx.r3.u32);\n\t// mr r3,r28\n\tctx.r3.u64 = ctx.r28.u64;"
+      }
+    },
+    {
+      "name": "sub_826F15A0",
+      "shape": "field",
+      "params": [
+        32,
+        68
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.76.cpp",
+      "line": 20307,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.2.cpp",
+        "line": 23890,
+        "context": "\tREX_CALL_INDIRECT_FUNC(ctx.ctr.u32);\n\t// lwz r3,84(r1)\n\tctx.r3.u64 = REX_LOAD_U32(ctx.r1.u32 + 84);\n\t// bl 0x826f15a0\n\tctx.lr = 0x82773E60;\n\tsub_826F15A0(ctx, base);\n\t// cmplwi cr6,r3,0\n\tctx.cr6.compare<uint32_t>(ctx.r3.u32, 0, ctx.xer);\n\t// beq cr6,0x82773fb0\n\tif (ctx.cr6.eq) goto loc_82773FB0;"
+      }
+    },
+    {
+      "name": "sub_826F67B0",
+      "shape": "field",
+      "params": [
+        32,
+        56
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.52.cpp",
+      "line": 20346,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.24.cpp",
+        "line": 20145,
+        "context": "\tctx.cr6.compare<uint32_t>(ctx.r3.u32, 0, ctx.xer);\n\t// beq cr6,0x826f87b4\n\tif (ctx.cr6.eq) goto loc_826F87B4;\n\t// bl 0x826f67b0\n\tctx.lr = 0x826F8784;\n\tsub_826F67B0(ctx, base);\n\t// stw r3,0(r31)\n\tREX_STORE_U32(ctx.r31.u32 + 0, ctx.r3.u32);\n\t// lwz r3,88(r1)\n\tctx.r3.u64 = REX_LOAD_U32(ctx.r1.u32 + 88);"
+      }
+    },
+    {
+      "name": "sub_82703628",
+      "shape": "field",
+      "params": [
+        32,
+        60
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.40.cpp",
+      "line": 20558,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.24.cpp",
+        "line": 20152,
+        "context": "\tREX_STORE_U32(ctx.r31.u32 + 0, ctx.r3.u32);\n\t// lwz r3,88(r1)\n\tctx.r3.u64 = REX_LOAD_U32(ctx.r1.u32 + 88);\n\t// bl 0x82703628\n\tctx.lr = 0x826F8790;\n\tsub_82703628(ctx, base);\n\t// stw r3,4(r31)\n\tREX_STORE_U32(ctx.r31.u32 + 4, ctx.r3.u32);\n\t// lwz r3,88(r1)\n\tctx.r3.u64 = REX_LOAD_U32(ctx.r1.u32 + 88);"
+      }
+    },
+    {
+      "name": "sub_82703630",
+      "shape": "field",
+      "params": [
+        32,
+        64
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.14.cpp",
+      "line": 20980,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.24.cpp",
+        "line": 20168,
+        "context": "\tREX_STORE_U32(ctx.r31.u32 + 8, temp.u32);\n\t// lwz r3,88(r1)\n\tctx.r3.u64 = REX_LOAD_U32(ctx.r1.u32 + 88);\n\t// bl 0x82703630\n\tctx.lr = 0x826F87A8;\n\tsub_82703630(ctx, base);\n\t// lwz r10,84(r1)\n\tctx.r10.u64 = REX_LOAD_U32(ctx.r1.u32 + 84);\n\t// stw r3,12(r31)\n\tREX_STORE_U32(ctx.r31.u32 + 12, ctx.r3.u32);"
+      }
+    },
+    {
+      "name": "sub_82703790",
+      "shape": "field",
+      "params": [
+        32,
+        72
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.8.cpp",
+      "line": 20141,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.42.cpp",
+        "line": 20595,
+        "context": "\tctx.r27.u64 = ctx.r3.u64;\n\t// mr r3,r30\n\tctx.r3.u64 = ctx.r30.u64;\n\t// bl 0x82703790\n\tctx.lr = 0x82704194;\n\tsub_82703790(ctx, base);\n\t// mr r4,r3\n\tctx.r4.u64 = ctx.r3.u64;\n\t// mr r3,r31\n\tctx.r3.u64 = ctx.r31.u64;"
+      }
+    },
+    {
+      "name": "sub_8246BC58",
+      "shape": "address",
+      "params": [
+        1168
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.11.cpp",
+      "line": 2385,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.0.cpp",
+        "line": 8581,
+        "context": "\tctx.r3.u64 = ctx.r31.u64;\n\t// bge cr6,0x8256cc24\n\tif (!ctx.cr6.lt) goto loc_8256CC24;\n\t// bl 0x8246bc58\n\tctx.lr = 0x8256CC14;\n\tsub_8246BC58(ctx, base);\n\t// lwz r10,0(r3)\n\tctx.r10.u64 = REX_LOAD_U32(ctx.r3.u32 + 0);\n\t// mr r11,r3\n\tctx.r11.u64 = ctx.r3.u64;"
+      }
+    },
+    {
+      "name": "sub_8246BC60",
+      "shape": "address",
+      "params": [
+        1172
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.51.cpp",
+      "line": 2407,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.0.cpp",
+        "line": 8695,
+        "context": "\tif (ctx.cr6.eq) goto loc_8256CCE0;\n\t// mr r3,r31\n\tctx.r3.u64 = ctx.r31.u64;\n\t// bl 0x8246bc60\n\tctx.lr = 0x8256CCD8;\n\tsub_8246BC60(ctx, base);\n\t// li r11,512\n\tctx.r11.s64 = 512;\n\t// stw r11,0(r3)\n\tREX_STORE_U32(ctx.r3.u32 + 0, ctx.r11.u32);"
+      }
+    },
+    {
+      "name": "sub_8268D190",
+      "shape": "address",
+      "params": [
+        16
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.77.cpp",
+      "line": 17217,
+      "caller": {
+        "file": "guardian_heroes/generated/default/guardian_heroes_recomp.28.cpp",
+        "line": 17372,
+        "context": "\tctx.r20.u64 = ctx.r9.u64;\n\t// mr r19,r10\n\tctx.r19.u64 = ctx.r10.u64;\n\t// bl 0x8268d190\n\tctx.lr = 0x82689990;\n\tsub_8268D190(ctx, base);\n\t// lwz r11,0(r3)\n\tctx.r11.u64 = REX_LOAD_U32(ctx.r3.u32 + 0);\n\t// li r24,0\n\tctx.r24.s64 = 0;"
+      }
+    },
+    {
+      "name": "sub_8263D2D0",
+      "shape": "chain",
+      "params": [
+        3,
+        48,
+        32,
+        184
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.14.cpp",
+      "line": 15311,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_8268A8E8",
+      "shape": "chain",
+      "params": [
+        3,
+        292,
+        32,
+        0
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.85.cpp",
+      "line": 17005,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_8268AAB8",
+      "shape": "chain",
+      "params": [
+        3,
+        288,
+        32,
+        4
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.45.cpp",
+      "line": 17085,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_8268AAC8",
+      "shape": "chain",
+      "params": [
+        3,
+        288,
+        32,
+        8
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.83.cpp",
+      "line": 16904,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_8268AAD8",
+      "shape": "chain",
+      "params": [
+        3,
+        288,
+        32,
+        0
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.85.cpp",
+      "line": 17015,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_8268AAE8",
+      "shape": "chain",
+      "params": [
+        3,
+        292,
+        32,
+        4
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.71.cpp",
+      "line": 16088,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_8268AD30",
+      "shape": "chain",
+      "params": [
+        3,
+        324,
+        32,
+        4
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.85.cpp",
+      "line": 17033,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_8268AD40",
+      "shape": "chain",
+      "params": [
+        3,
+        324,
+        32,
+        8
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.34.cpp",
+      "line": 17366,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_8268AD50",
+      "shape": "chain",
+      "params": [
+        3,
+        324,
+        32,
+        0
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.45.cpp",
+      "line": 17104,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_8268AD60",
+      "shape": "chain",
+      "params": [
+        3,
+        328,
+        32,
+        4
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.43.cpp",
+      "line": 17421,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_8268ADF8",
+      "shape": "chain",
+      "params": [
+        3,
+        328,
+        32,
+        80
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.8.cpp",
+      "line": 16577,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_8268AE08",
+      "shape": "chain",
+      "params": [
+        3,
+        328,
+        32,
+        0
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.76.cpp",
+      "line": 17488,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_826945F0",
+      "shape": "chain",
+      "params": [
+        3,
+        32,
+        16,
+        10
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.37.cpp",
+      "line": 17691,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_82694658",
+      "shape": "chain",
+      "params": [
+        3,
+        32,
+        8,
+        9
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.78.cpp",
+      "line": 17889,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_826949A8",
+      "shape": "chain",
+      "params": [
+        3,
+        32,
+        16,
+        12
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.43.cpp",
+      "line": 17752,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_82687C00",
+      "shape": "subobject",
+      "params": [
+        52,
+        9,
+        0
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.51.cpp",
+      "line": 17289,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_8268A8F8",
+      "shape": "subobject",
+      "params": [
+        292,
+        88,
+        0
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.45.cpp",
+      "line": 17075,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_8268AAA8",
+      "shape": "subobject",
+      "params": [
+        292,
+        8,
+        0
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.25.cpp",
+      "line": 17391,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_8268AD20",
+      "shape": "subobject",
+      "params": [
+        328,
+        8,
+        0
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.71.cpp",
+      "line": 16098,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_8268ADE8",
+      "shape": "subobject",
+      "params": [
+        328,
+        88,
+        0
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.54.cpp",
+      "line": 17395,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_82694648",
+      "shape": "subobject",
+      "params": [
+        32,
+        10,
+        0
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.43.cpp",
+      "line": 17742,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_82694A00",
+      "shape": "subobject",
+      "params": [
+        32,
+        12,
+        0
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.41.cpp",
+      "line": 17708,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_8256D9C8",
+      "shape": "global",
+      "params": [
+        -2110652416,
+        32,
+        32468
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.52.cpp",
+      "line": 9350,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_82570C18",
+      "shape": "global",
+      "params": [
+        -2110586880,
+        32,
+        -31908
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.4.cpp",
+      "line": 9374,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_8257A0A0",
+      "shape": "global",
+      "params": [
+        -2110586880,
+        32,
+        -25236
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.85.cpp",
+      "line": 9137,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_8257A3C8",
+      "shape": "global",
+      "params": [
+        -2110586880,
+        32,
+        -20192
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.72.cpp",
+      "line": 9740,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_8257B830",
+      "shape": "global",
+      "params": [
+        -2110586880,
+        32,
+        -19684
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.1.cpp",
+      "line": 9819,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_82580430",
+      "shape": "global",
+      "params": [
+        -2110586880,
+        32,
+        -14368
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.18.cpp",
+      "line": 9718,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_82580C08",
+      "shape": "global",
+      "params": [
+        -2110586880,
+        32,
+        -13020
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.47.cpp",
+      "line": 9635,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_82583B10",
+      "shape": "global",
+      "params": [
+        -2110586880,
+        32,
+        -7940
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.75.cpp",
+      "line": 9772,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_82585078",
+      "shape": "global",
+      "params": [
+        -2110586880,
+        32,
+        -3608
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.83.cpp",
+      "line": 9804,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_8258C788",
+      "shape": "global",
+      "params": [
+        -2110586880,
+        32,
+        28
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.61.cpp",
+      "line": 10281,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_8258E7C0",
+      "shape": "global",
+      "params": [
+        -2110586880,
+        32,
+        3192
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.85.cpp",
+      "line": 9616,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_82590AB0",
+      "shape": "global",
+      "params": [
+        -2110586880,
+        32,
+        3928
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.2.cpp",
+      "line": 10324,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_82592838",
+      "shape": "global",
+      "params": [
+        -2110586880,
+        32,
+        5340
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.82.cpp",
+      "line": 10291,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_825A2AA8",
+      "shape": "global",
+      "params": [
+        -2110586880,
+        32,
+        17584
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.51.cpp",
+      "line": 10441,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_825A9B40",
+      "shape": "global",
+      "params": [
+        -2110586880,
+        32,
+        26732
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.5.cpp",
+      "line": 10367,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_825AA6B8",
+      "shape": "global",
+      "params": [
+        -2110586880,
+        32,
+        29168
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.57.cpp",
+      "line": 11030,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_825ABC40",
+      "shape": "global",
+      "params": [
+        -2110586880,
+        32,
+        29756
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.38.cpp",
+      "line": 10642,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_825ACA58",
+      "shape": "global",
+      "params": [
+        -2110586880,
+        32,
+        31516
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.77.cpp",
+      "line": 10787,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_825AE310",
+      "shape": "global",
+      "params": [
+        -2110586880,
+        32,
+        32076
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.10.cpp",
+      "line": 10747,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_825AFA80",
+      "shape": "global",
+      "params": [
+        -2110521344,
+        32,
+        -31236
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.15.cpp",
+      "line": 10776,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_825AFB78",
+      "shape": "global",
+      "params": [
+        -2110521344,
+        32,
+        -29836
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.0.cpp",
+      "line": 10133,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_825B2470",
+      "shape": "global",
+      "params": [
+        -2110521344,
+        32,
+        -23604
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.49.cpp",
+      "line": 10935,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_825B4AE0",
+      "shape": "global",
+      "params": [
+        -2110521344,
+        32,
+        -15196
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.49.cpp",
+      "line": 11001,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_825B4D38",
+      "shape": "global",
+      "params": [
+        -2110521344,
+        32,
+        -14420
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.53.cpp",
+      "line": 10955,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_825B66F8",
+      "shape": "global",
+      "params": [
+        -2110521344,
+        32,
+        -13316
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.77.cpp",
+      "line": 10994,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_825B67F0",
+      "shape": "global",
+      "params": [
+        -2110521344,
+        32,
+        -12540
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.48.cpp",
+      "line": 11090,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_825B9500",
+      "shape": "global",
+      "params": [
+        -2110521344,
+        32,
+        -10844
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.85.cpp",
+      "line": 10687,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_825BA910",
+      "shape": "global",
+      "params": [
+        -2110521344,
+        32,
+        -8260
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.45.cpp",
+      "line": 10895,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_825BD378",
+      "shape": "global",
+      "params": [
+        -2110521344,
+        32,
+        -6500
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.43.cpp",
+      "line": 11324,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_825BE198",
+      "shape": "global",
+      "params": [
+        -2110521344,
+        32,
+        -3892
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.57.cpp",
+      "line": 11462,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_825C0708",
+      "shape": "global",
+      "params": [
+        -2110521344,
+        32,
+        -2660
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.47.cpp",
+      "line": 11165,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_825C3080",
+      "shape": "global",
+      "params": [
+        -2110521344,
+        32,
+        -1644
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.24.cpp",
+      "line": 11657,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_825C4710",
+      "shape": "global",
+      "params": [
+        -2110521344,
+        32,
+        -372
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.59.cpp",
+      "line": 11430,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_825C60E0",
+      "shape": "global",
+      "params": [
+        -2110521344,
+        32,
+        908
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.79.cpp",
+      "line": 11162,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_824259F8",
+      "shape": "field",
+      "params": [
+        8,
+        452
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.10.cpp",
+      "line": 452,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_82427400",
+      "shape": "field",
+      "params": [
+        8,
+        360
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.77.cpp",
+      "line": 499,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_82449528",
+      "shape": "field",
+      "params": [
+        8,
+        564
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.28.cpp",
+      "line": 1362,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_82449530",
+      "shape": "field",
+      "params": [
+        8,
+        565
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.54.cpp",
+      "line": 1426,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_82449538",
+      "shape": "field",
+      "params": [
+        8,
+        569
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.45.cpp",
+      "line": 1325,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_824584D8",
+      "shape": "field",
+      "params": [
+        32,
+        556
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.51.cpp",
+      "line": 1870,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_824584E0",
+      "shape": "field",
+      "params": [
+        8,
+        596
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.60.cpp",
+      "line": 1868,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_824584E8",
+      "shape": "field",
+      "params": [
+        8,
+        597
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.76.cpp",
+      "line": 1871,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_824584F0",
+      "shape": "field",
+      "params": [
+        32,
+        560
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.40.cpp",
+      "line": 1770,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_824584F8",
+      "shape": "field",
+      "params": [
+        8,
+        601
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.56.cpp",
+      "line": 1893,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_82458510",
+      "shape": "field",
+      "params": [
+        32,
+        564
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.60.cpp",
+      "line": 1876,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_8246BD60",
+      "shape": "field",
+      "params": [
+        32,
+        600
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.59.cpp",
+      "line": 2421,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_8246BD68",
+      "shape": "field",
+      "params": [
+        8,
+        643
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.11.cpp",
+      "line": 2393,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_8246BD70",
+      "shape": "field",
+      "params": [
+        8,
+        640
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.51.cpp",
+      "line": 2415,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_8246BD78",
+      "shape": "field",
+      "params": [
+        8,
+        641
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.53.cpp",
+      "line": 2404,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_8246BD80",
+      "shape": "field",
+      "params": [
+        32,
+        604
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.50.cpp",
+      "line": 2358,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_8246BD88",
+      "shape": "field",
+      "params": [
+        8,
+        645
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.67.cpp",
+      "line": 2373,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_8246BD90",
+      "shape": "field",
+      "params": [
+        32,
+        648
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.59.cpp",
+      "line": 2429,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_8246BD98",
+      "shape": "field",
+      "params": [
+        32,
+        652
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.11.cpp",
+      "line": 2401,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_82481FD0",
+      "shape": "field",
+      "params": [
+        32,
+        312
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.36.cpp",
+      "line": 2825,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_82482210",
+      "shape": "field",
+      "params": [
+        32,
+        464
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.76.cpp",
+      "line": 3004,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_82482378",
+      "shape": "field",
+      "params": [
+        32,
+        584
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.46.cpp",
+      "line": 2891,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_82482578",
+      "shape": "field",
+      "params": [
+        32,
+        356
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.36.cpp",
+      "line": 2850,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_82483430",
+      "shape": "field",
+      "params": [
+        32,
+        212
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.23.cpp",
+      "line": 3024,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_82483698",
+      "shape": "field",
+      "params": [
+        32,
+        208
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.86.cpp",
+      "line": 2907,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_824838C0",
+      "shape": "field",
+      "params": [
+        32,
+        228
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.63.cpp",
+      "line": 2966,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_82485180",
+      "shape": "field",
+      "params": [
+        32,
+        304
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.37.cpp",
+      "line": 3021,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_82485260",
+      "shape": "field",
+      "params": [
+        32,
+        352
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.5.cpp",
+      "line": 2869,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_82485340",
+      "shape": "field",
+      "params": [
+        32,
+        1312
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.47.cpp",
+      "line": 2963,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_82485B98",
+      "shape": "field",
+      "params": [
+        32,
+        160
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.14.cpp",
+      "line": 3069,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_82486018",
+      "shape": "field",
+      "params": [
+        32,
+        976
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.76.cpp",
+      "line": 3187,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_824A4928",
+      "shape": "field",
+      "params": [
+        8,
+        440
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.68.cpp",
+      "line": 3737,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_825D7FB0",
+      "shape": "field",
+      "params": [
+        8,
+        10499
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.65.cpp",
+      "line": 12056,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_825D7FD0",
+      "shape": "field",
+      "params": [
+        8,
+        10498
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.67.cpp",
+      "line": 12153,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_825D7FF0",
+      "shape": "field",
+      "params": [
+        8,
+        10497
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.12.cpp",
+      "line": 12244,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_825D8010",
+      "shape": "field",
+      "params": [
+        8,
+        10495
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.18.cpp",
+      "line": 12146,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_825D8030",
+      "shape": "field",
+      "params": [
+        8,
+        10494
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.38.cpp",
+      "line": 12012,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_825D8050",
+      "shape": "field",
+      "params": [
+        8,
+        10493
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.84.cpp",
+      "line": 12274,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_825D80B0",
+      "shape": "field",
+      "params": [
+        32,
+        12160
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.18.cpp",
+      "line": 12154,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_825D8270",
+      "shape": "field",
+      "params": [
+        32,
+        10752
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.38.cpp",
+      "line": 12020,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_825D82F0",
+      "shape": "field",
+      "params": [
+        32,
+        12168
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.18.cpp",
+      "line": 12162,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_825D8330",
+      "shape": "field",
+      "params": [
+        32,
+        12172
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.72.cpp",
+      "line": 12289,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_825D8370",
+      "shape": "field",
+      "params": [
+        32,
+        12176
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.68.cpp",
+      "line": 11764,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_825D8380",
+      "shape": "field",
+      "params": [
+        32,
+        12188
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.64.cpp",
+      "line": 12241,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_825D88C0",
+      "shape": "field",
+      "params": [
+        32,
+        12280
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.63.cpp",
+      "line": 12280,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_825D8958",
+      "shape": "field",
+      "params": [
+        32,
+        12284
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.30.cpp",
+      "line": 12493,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_825D89F0",
+      "shape": "field",
+      "params": [
+        32,
+        12288
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.72.cpp",
+      "line": 12319,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_825D8A88",
+      "shape": "field",
+      "params": [
+        32,
+        12292
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.68.cpp",
+      "line": 11794,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_825D8BC0",
+      "shape": "field",
+      "params": [
+        32,
+        10456
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.63.cpp",
+      "line": 12288,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_825D8C18",
+      "shape": "field",
+      "params": [
+        8,
+        10556
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.72.cpp",
+      "line": 12327,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_825D8C48",
+      "shape": "field",
+      "params": [
+        32,
+        10700
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.68.cpp",
+      "line": 11802,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_825D8C78",
+      "shape": "field",
+      "params": [
+        32,
+        10692
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.13.cpp",
+      "line": 12172,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_825D8CA0",
+      "shape": "field",
+      "params": [
+        32,
+        10704
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.5.cpp",
+      "line": 11765,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_825D8CD0",
+      "shape": "field",
+      "params": [
+        32,
+        10696
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.63.cpp",
+      "line": 12296,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_825D8E18",
+      "shape": "field",
+      "params": [
+        8,
+        10562
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.12.cpp",
+      "line": 12298,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_825D8E28",
+      "shape": "field",
+      "params": [
+        32,
+        13872
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.63.cpp",
+      "line": 12304,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_8263D570",
+      "shape": "field",
+      "params": [
+        32,
+        140
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.48.cpp",
+      "line": 15064,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_8263D578",
+      "shape": "field",
+      "params": [
+        32,
+        136
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.28.cpp",
+      "line": 15287,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_8264FBA0",
+      "shape": "field",
+      "params": [
+        32,
+        144
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.15.cpp",
+      "line": 15575,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_826519C8",
+      "shape": "field",
+      "params": [
+        32,
+        36
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.33.cpp",
+      "line": 15594,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_826519D0",
+      "shape": "field",
+      "params": [
+        32,
+        16
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.6.cpp",
+      "line": 15434,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_826836A8",
+      "shape": "field",
+      "params": [
+        32,
+        480
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.80.cpp",
+      "line": 16843,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_82687218",
+      "shape": "field",
+      "params": [
+        32,
+        348
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.61.cpp",
+      "line": 16855,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_826897C0",
+      "shape": "field",
+      "params": [
+        16,
+        456
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.39.cpp",
+      "line": 17193,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_82689FA8",
+      "shape": "field",
+      "params": [
+        32,
+        264
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.19.cpp",
+      "line": 16146,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_8268AD10",
+      "shape": "field",
+      "params": [
+        32,
+        308
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.85.cpp",
+      "line": 17025,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_8268AD18",
+      "shape": "field",
+      "params": [
+        16,
+        320
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.34.cpp",
+      "line": 17358,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_8269A4F8",
+      "shape": "field",
+      "params": [
+        8,
+        52
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.28.cpp",
+      "line": 17915,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_8269EC70",
+      "shape": "field",
+      "params": [
+        8,
+        68
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.80.cpp",
+      "line": 17761,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_8269EC90",
+      "shape": "field",
+      "params": [
+        32,
+        88
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.34.cpp",
+      "line": 18002,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_826A9090",
+      "shape": "field",
+      "params": [
+        32,
+        396
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.29.cpp",
+      "line": 18048,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    },
+    {
+      "name": "sub_826A9098",
+      "shape": "field",
+      "params": [
+        32,
+        180
+      ],
+      "file": "guardian_heroes/generated/default/guardian_heroes_recomp.66.cpp",
+      "line": 18111,
+      "caller": null,
+      "caller_search": "No direct call in current generated C++ sources."
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+Audio and F9 basic acceptance: user confirmed "声音和 f9 正常".
+
+Dense PC membership build, clean title startup window:
+Callback average 2.705 ms; frame budget 5.333 ms; 5633 consumed chunks and 7 silence chunks (0.1241%).
+Source: /tmp/gh-native-dense-pc-title-runtime.log
+Window: 2026-10-17 17:28:55.003000 <= time < 2026-10-17 17:29:25.003000
+
+[2026-10-17 17:28:55.012] [info] [apu] [t11265011] Audio scheduler client=2 callback=82651940: count=376 avg=2.628ms max=4.783ms
+[2026-10-17 17:28:55.063] [info] [apu] [t11265011] Audio endpoint 79E7E0AC40: submitted=256 consumed=256 silence=0 chunks/256 samples; callbacks=64 queued=8 max-submit-gap=19.116ms max-callback-gap=24.055ms
+[2026-10-17 17:28:56.430] [info] [apu] [t11265011] Audio endpoint 79E7E0AC40: submitted=256 consumed=256 silence=0 chunks/256 samples; callbacks=64 queued=8 max-submit-gap=16.503ms max-callback-gap=24.017ms
+[2026-10-17 17:28:57.020] [info] [apu] [t11265011] Audio scheduler client=2 callback=82651940: count=376 avg=2.592ms max=4.998ms
+[2026-10-17 17:28:57.796] [info] [apu] [t11265011] Audio endpoint 79E7E0AC40: submitted=256 consumed=256 silence=0 chunks/256 samples; callbacks=64 queued=8 max-submit-gap=17.793ms max-callback-gap=24.023ms
+[2026-10-17 17:28:59.024] [info] [apu] [t11265011] Audio scheduler client=2 callback=82651940: count=376 avg=2.389ms max=2.989ms
+[2026-10-17 17:28:59.161] [info] [apu] [t11265011] Audio endpoint 79E7E0AC40: submitted=256 consumed=256 silence=0 chunks/256 samples; callbacks=64 queued=8 max-submit-gap=17.697ms max-callback-gap=24.031ms
+[2026-10-17 17:29:00.525] [info] [apu] [t11265011] Audio endpoint 79E7E0AC40: submitted=256 consumed=256 silence=0 chunks/256 samples; callbacks=64 queued=8 max-submit-gap=17.682ms max-callback-gap=24.018ms
+[2026-10-17 17:29:01.028] [info] [apu] [t11265011] Audio scheduler client=2 callback=82651940: count=376 avg=2.393ms max=3.091ms
+[2026-10-17 17:29:01.894] [info] [apu] [t11265011] Audio endpoint 79E7E0AC40: submitted=256 consumed=256 silence=0 chunks/256 samples; callbacks=64 queued=8 max-submit-gap=17.946ms max-callback-gap=24.013ms
+[2026-10-17 17:29:01.906] [info] [apu] [t11265011] Audio frame probe #2048: peak FL=0.064177 FR=0.106150 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+[2026-10-17 17:29:03.037] [info] [apu] [t11265011] Audio scheduler client=2 callback=82651940: count=376 avg=2.541ms max=3.559ms
+[2026-10-17 17:29:03.257] [info] [apu] [t11265011] Audio endpoint 79E7E0AC40: submitted=256 consumed=256 silence=0 chunks/256 samples; callbacks=64 queued=8 max-submit-gap=17.020ms max-callback-gap=24.015ms
+[2026-10-17 17:29:03.268] [info] [apu] [t11265011] Audio frame probe #2304: peak FL=0.152041 FR=0.103214 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+[2026-10-17 17:29:04.622] [info] [apu] [t11265011] Audio endpoint 79E7E0AC40: submitted=256 consumed=256 silence=0 chunks/256 samples; callbacks=64 queued=8 max-submit-gap=16.319ms max-callback-gap=24.007ms
+[2026-10-17 17:29:04.637] [info] [apu] [t11265011] Audio frame probe #2560: peak FL=0.121724 FR=0.074514 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+[2026-10-17 17:29:05.041] [info] [apu] [t11265011] Audio scheduler client=2 callback=82651940: count=376 avg=2.633ms max=3.376ms
+[2026-10-17 17:29:05.991] [info] [apu] [t11265011] Audio endpoint 79E7E0AC40: submitted=256 consumed=256 silence=0 chunks/256 samples; callbacks=64 queued=8 max-submit-gap=16.781ms max-callback-gap=24.005ms
+[2026-10-17 17:29:06.001] [info] [apu] [t11265011] Audio frame probe #2816: peak FL=0.220430 FR=0.199731 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+[2026-10-17 17:29:07.045] [info] [apu] [t11265011] Audio scheduler client=2 callback=82651940: count=376 avg=2.598ms max=3.376ms
+[2026-10-17 17:29:07.352] [info] [apu] [t11265011] Audio endpoint 79E7E0AC40: submitted=256 consumed=256 silence=0 chunks/256 samples; callbacks=64 queued=8 max-submit-gap=16.790ms max-callback-gap=24.009ms
+[2026-10-17 17:29:07.365] [info] [apu] [t11265011] Audio frame probe #3072: peak FL=0.318082 FR=0.274960 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+[2026-10-17 17:29:08.717] [info] [apu] [t11265011] Audio endpoint 79E7E0AC40: submitted=256 consumed=256 silence=0 chunks/256 samples; callbacks=64 queued=8 max-submit-gap=17.125ms max-callback-gap=24.007ms
+[2026-10-17 17:29:08.733] [info] [apu] [t11265011] Audio frame probe #3328: peak FL=0.158256 FR=0.147217 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+[2026-10-17 17:29:09.053] [info] [apu] [t11265011] Audio scheduler client=2 callback=82651940: count=376 avg=2.589ms max=3.354ms
+[2026-10-17 17:29:10.086] [info] [apu] [t11265011] Audio endpoint 79E7E0AC40: submitted=256 consumed=256 silence=0 chunks/256 samples; callbacks=64 queued=8 max-submit-gap=16.586ms max-callback-gap=24.022ms
+[2026-10-17 17:29:10.098] [info] [apu] [t11265011] Audio frame probe #3584: peak FL=0.191095 FR=0.159548 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+[2026-10-17 17:29:11.057] [info] [apu] [t11265011] Audio scheduler client=2 callback=82651940: count=376 avg=2.666ms max=4.725ms
+[2026-10-17 17:29:11.450] [info] [apu] [t11265011] Audio endpoint 79E7E0AC40: submitted=256 consumed=256 silence=0 chunks/256 samples; callbacks=64 queued=8 max-submit-gap=17.283ms max-callback-gap=24.014ms
+[2026-10-17 17:29:11.461] [info] [apu] [t11265011] Audio frame probe #3840: peak FL=0.203246 FR=0.270408 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+[2026-10-17 17:29:12.814] [info] [apu] [t11265011] Audio endpoint 79E7E0AC40: submitted=256 consumed=256 silence=0 chunks/256 samples; callbacks=64 queued=8 max-submit-gap=17.450ms max-callback-gap=24.015ms
+[2026-10-17 17:29:12.829] [info] [apu] [t11265011] Audio frame probe #4096: peak FL=0.124250 FR=0.155185 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+[2026-10-17 17:29:13.061] [info] [apu] [t11265011] Audio scheduler client=2 callback=82651940: count=376 avg=2.603ms max=3.512ms
+[2026-10-17 17:29:14.184] [info] [apu] [t11265011] Audio endpoint 79E7E0AC40: submitted=256 consumed=256 silence=0 chunks/256 samples; callbacks=64 queued=8 max-submit-gap=16.608ms max-callback-gap=24.015ms
+[2026-10-17 17:29:14.194] [info] [apu] [t11265011] Audio frame probe #4352: peak FL=0.187043 FR=0.228445 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+[2026-10-17 17:29:15.071] [info] [apu] [t11265011] Audio scheduler client=2 callback=82651940: count=376 avg=2.743ms max=4.940ms
+[2026-10-17 17:29:15.601] [info] [apu] [t11265011] Audio endpoint 79E7E0AC40: submitted=256 consumed=262 silence=6 chunks/256 samples; callbacks=67 queued=2 max-submit-gap=17.250ms max-callback-gap=28.732ms
+[2026-10-17 17:29:15.609] [info] [apu] [t11265011] Audio frame probe #4608: peak FL=0.189364 FR=0.216056 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+[2026-10-17 17:29:16.953] [info] [apu] [t11265011] Audio endpoint 79E7E0AC40: submitted=256 consumed=251 silence=1 chunks/256 samples; callbacks=63 queued=7 max-submit-gap=19.941ms max-callback-gap=24.068ms
+[2026-10-17 17:29:16.955] [info] [apu] [t11265011] Audio frame probe #4864: peak FL=0.161007 FR=0.185343 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+[2026-10-17 17:29:17.074] [info] [apu] [t11265011] Audio scheduler client=2 callback=82651940: count=369 avg=4.085ms max=15.291ms
+[2026-10-17 17:29:18.315] [info] [apu] [t11265011] Audio endpoint 79E7E0AC40: submitted=256 consumed=256 silence=0 chunks/256 samples; callbacks=64 queued=7 max-submit-gap=17.517ms max-callback-gap=24.044ms
+[2026-10-17 17:29:18.317] [info] [apu] [t11265011] Audio frame probe #5120: peak FL=0.183875 FR=0.206397 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+[2026-10-17 17:29:19.077] [info] [apu] [t11265011] Audio scheduler client=2 callback=82651940: count=376 avg=2.857ms max=5.378ms
+[2026-10-17 17:29:19.684] [info] [apu] [t11265011] Audio endpoint 79E7E0AC40: submitted=256 consumed=256 silence=0 chunks/256 samples; callbacks=64 queued=7 max-submit-gap=17.325ms max-callback-gap=24.012ms
+[2026-10-17 17:29:19.687] [info] [apu] [t11265011] Audio frame probe #5376: peak FL=0.248186 FR=0.214696 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+[2026-10-17 17:29:21.047] [info] [apu] [t11265011] Audio endpoint 79E7E0AC40: submitted=256 consumed=256 silence=0 chunks/256 samples; callbacks=64 queued=7 max-submit-gap=16.758ms max-callback-gap=24.021ms
+[2026-10-17 17:29:21.050] [info] [apu] [t11265011] Audio frame probe #5632: peak FL=0.233844 FR=0.176792 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+[2026-10-17 17:29:21.084] [info] [apu] [t11265011] Audio scheduler client=2 callback=82651940: count=376 avg=2.667ms max=3.655ms
+[2026-10-17 17:29:22.411] [info] [apu] [t11265011] Audio endpoint 79E7E0AC40: submitted=256 consumed=256 silence=0 chunks/256 samples; callbacks=64 queued=7 max-submit-gap=17.250ms max-callback-gap=24.009ms
+[2026-10-17 17:29:22.413] [info] [apu] [t11265011] Audio frame probe #5888: peak FL=0.227475 FR=0.204482 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+[2026-10-17 17:29:23.088] [info] [apu] [t11265011] Audio scheduler client=2 callback=82651940: count=376 avg=2.613ms max=3.367ms
+[2026-10-17 17:29:23.778] [info] [apu] [t11265011] Audio endpoint 79E7E0AC40: submitted=256 consumed=256 silence=0 chunks/256 samples; callbacks=64 queued=7 max-submit-gap=16.831ms max-callback-gap=24.011ms
+[2026-10-17 17:29:23.781] [info] [apu] [t11265011] Audio frame probe #6144: peak FL=0.342281 FR=0.242981 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+
+Release restore credit verification:
+Real title restored 357310404 bytes; nonzero audio submission and consumption continue after the initial three credits.
+Source: /tmp/gh-native-credit-fixed-title-runtime.log
+Window: 2026-10-17 17:05:47.401000 <= time < 2026-10-17 17:06:17.401000
+
+[2026-10-17 17:05:47.433] [info] [apu] [t11232138] Audio scheduler client=2 callback=82651940: count=171 avg=10.582ms max=12.636ms
+[2026-10-17 17:05:49.395] [info] [apu] [t11232138] Audio endpoint 76AC281B80: submitted=256 consumed=258 silence=306 chunks/256 samples; callbacks=141 queued=1 max-submit-gap=18.778ms max-callback-gap=24.026ms
+[2026-10-17 17:05:49.413] [info] [apu] [t11232138] Audio frame probe #512: peak FL=0.234188 FR=0.285533 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=255/256/0/0/0/0
+[2026-10-17 17:05:49.442] [info] [apu] [t11232138] Audio scheduler client=2 callback=82651940: count=171 avg=10.581ms max=16.109ms
+[2026-10-17 17:05:51.453] [info] [apu] [t11232138] Audio scheduler client=2 callback=82651940: count=170 avg=10.623ms max=14.234ms
+[2026-10-17 17:05:52.417] [info] [apu] [t11232138] Audio endpoint 76AC281B80: submitted=256 consumed=255 silence=309 chunks/256 samples; callbacks=141 queued=2 max-submit-gap=18.399ms max-callback-gap=24.077ms
+[2026-10-17 17:05:52.427] [info] [apu] [t11232138] Audio frame probe #768: peak FL=0.187942 FR=0.193846 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+[2026-10-17 17:05:53.454] [info] [apu] [t11232138] Audio scheduler client=2 callback=82651940: count=173 avg=10.440ms max=12.550ms
+[2026-10-17 17:05:55.450] [info] [apu] [t11232138] Audio endpoint 76AC281B80: submitted=256 consumed=257 silence=315 chunks/256 samples; callbacks=143 queued=1 max-submit-gap=17.927ms max-callback-gap=24.046ms
+[2026-10-17 17:05:55.463] [info] [apu] [t11232138] Audio frame probe #1024: peak FL=0.139065 FR=0.127864 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+[2026-10-17 17:05:55.463] [info] [apu] [t11232138] Audio scheduler client=2 callback=82651940: count=167 avg=10.803ms max=16.259ms
+[2026-10-17 17:05:57.472] [info] [apu] [t11232138] Audio scheduler client=2 callback=82651940: count=168 avg=10.729ms max=19.712ms
+[2026-10-17 17:05:58.500] [info] [apu] [t11232138] Audio endpoint 76AC281B80: submitted=256 consumed=255 silence=313 chunks/256 samples; callbacks=142 queued=2 max-submit-gap=22.784ms max-callback-gap=24.040ms
+[2026-10-17 17:05:58.510] [info] [apu] [t11232138] Audio frame probe #1280: peak FL=0.256045 FR=0.300502 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+[2026-10-17 17:05:59.484] [info] [apu] [t11232138] Audio scheduler client=2 callback=82651940: count=170 avg=10.663ms max=13.345ms
+[2026-10-17 17:06:01.489] [info] [apu] [t11232138] Audio scheduler client=2 callback=82651940: count=170 avg=10.609ms max=16.602ms
+[2026-10-17 17:06:01.523] [info] [apu] [t11232138] Audio endpoint 76AC281B80: submitted=256 consumed=256 silence=312 chunks/256 samples; callbacks=142 queued=2 max-submit-gap=17.845ms max-callback-gap=24.047ms
+[2026-10-17 17:06:01.533] [info] [apu] [t11232138] Audio frame probe #1536: peak FL=0.131207 FR=0.108278 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+[2026-10-17 17:06:03.509] [info] [apu] [t11232138] Audio scheduler client=2 callback=82651940: count=164 avg=11.070ms max=21.997ms
+[2026-10-17 17:06:04.806] [info] [apu] [t11232138] Audio endpoint 76AC281B80: submitted=256 consumed=256 silence=360 chunks/256 samples; callbacks=154 queued=2 max-submit-gap=24.000ms max-callback-gap=24.054ms
+[2026-10-17 17:06:04.817] [info] [apu] [t11232138] Audio frame probe #1792: peak FL=0.207402 FR=0.159392 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+[2026-10-17 17:06:05.515] [info] [apu] [t11232138] Audio scheduler client=2 callback=82651940: count=152 avg=11.792ms max=19.161ms
+[2026-10-17 17:06:07.519] [info] [apu] [t11232138] Audio scheduler client=2 callback=82651940: count=164 avg=10.965ms max=19.285ms
+[2026-10-17 17:06:07.927] [info] [apu] [t11232138] Audio endpoint 76AC281B80: submitted=256 consumed=256 silence=328 chunks/256 samples; callbacks=146 queued=2 max-submit-gap=21.906ms max-callback-gap=24.044ms
+[2026-10-17 17:06:07.937] [info] [apu] [t11232138] Audio frame probe #2048: peak FL=0.266483 FR=0.245930 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+[2026-10-17 17:06:09.520] [info] [apu] [t11232138] Audio scheduler client=2 callback=82651940: count=171 avg=10.526ms max=12.403ms
+[2026-10-17 17:06:10.946] [info] [apu] [t11232138] Audio endpoint 76AC281B80: submitted=256 consumed=257 silence=311 chunks/256 samples; callbacks=142 queued=1 max-submit-gap=15.732ms max-callback-gap=24.039ms
+[2026-10-17 17:06:10.956] [info] [apu] [t11232138] Audio frame probe #2304: peak FL=0.216277 FR=0.170106 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+[2026-10-17 17:06:11.523] [info] [apu] [t11232138] Audio scheduler client=2 callback=82651940: count=169 avg=10.655ms max=13.912ms
+[2026-10-17 17:06:13.532] [info] [apu] [t11232138] Audio scheduler client=2 callback=82651940: count=172 avg=10.516ms max=12.440ms
+[2026-10-17 17:06:13.942] [info] [apu] [t11232138] Audio endpoint 76AC281B80: submitted=256 consumed=255 silence=305 chunks/256 samples; callbacks=140 queued=2 max-submit-gap=16.089ms max-callback-gap=24.035ms
+[2026-10-17 17:06:13.953] [info] [apu] [t11232138] Audio frame probe #2560: peak FL=0.208448 FR=0.211879 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+[2026-10-17 17:06:15.535] [info] [apu] [t11232138] Audio scheduler client=2 callback=82651940: count=171 avg=10.544ms max=13.557ms
+[2026-10-17 17:06:16.959] [info] [apu] [t11232138] Audio endpoint 76AC281B80: submitted=256 consumed=257 silence=311 chunks/256 samples; callbacks=142 queued=1 max-submit-gap=17.413ms max-callback-gap=24.065ms
+[2026-10-17 17:06:16.971] [info] [apu] [t11232138] Audio frame probe #2816: peak FL=0.219770 FR=0.205447 C=0.000000 LFE=0.000000 BL=0.000000 BR=0.000000; nonzero=256/256/0/0/0/0
+
+CPU profile baseline: 14124 samples; Machine::Run self6894ms; current PC membership2936ms; Next PC membership2319ms.
+Exact retained executable UUID: 988256ED-1B2F-3AA8-8F26-2ADF01ACB82E
+Detailed profile: native-runtime-audio-continuation-profile-2026-10-17.json
+Real endpoint rebuild: native-runtime-audio-endpoint-rebuild-2026-10-17.log
+Real endpoint statistics: native-runtime-audio-statistics-2026-10-17.log
+
+Coverage: title audio and user-confirmed F9. Long play and full-game acceptance remain open.
