@@ -228,7 +228,7 @@ if(REXGLUE_PLATFORM_SWITCH AND REXGLUE_SWITCH_FFMPEG)
             set_target_properties("lib${_gh_ffmpeg_name}" PROPERTIES
                 IMPORTED_LOCATION "${_gh_ffmpeg_archive}"
                 INTERFACE_INCLUDE_DIRECTORIES
-                    "${_gh_ffmpeg_include};${CMAKE_CURRENT_SOURCE_DIR}/runtime/thirdparty/FFmpeg")
+                    "${_gh_ffmpeg_include};${CMAKE_CURRENT_SOURCE_DIR}/runtime/thirdparty/FFmpeg;${CMAKE_CURRENT_SOURCE_DIR}/runtime/thirdparty/FFmpeg/libavutil")
         endif()
     endforeach()
 endif()
