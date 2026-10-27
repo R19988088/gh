@@ -1,81 +1,92 @@
-name: Guardian Heroes Switch
+name: Switch NRO
 
 on:
   workflow_dispatch:
-    inputs:
-      target:
-        description: Switch target to build
-        required: true
-        default: guardian_heroes_switch_bootstrap_nro
-        type: choice
-        options:
-          - guardian_heroes_switch_bootstrap_nro
-          - guardian_heroes_switch_memory_probe_nro
-          - guardian_heroes_switch_game_nro
-      ffmpeg_sdk_url:
-        description: URL of a tar.gz containing include/ and lib/libav*.a for Switch
-        required: false
-        type: string
-      nvk_sdk_url:
-        description: URL of a tar.gz containing include/vulkan/ and lib/libvulkan.a
-        required: false
-        type: string
+  push:
+    paths:
+      - "guardian_heroes/**"
+      - "rexglue-sdk-main/**"
+      - ".github/workflows/switch-nro.yml"
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    container: devkitpro/devkita64:latest
+  nvk:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 180
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Fetch game SDKs
-        if: ${{ inputs.target == 'guardian_heroes_switch_game_nro' }}
-        env:
-          FFMPEG_URL: ${{ inputs.ffmpeg_sdk_url }}
-          NVK_URL: ${{ inputs.nvk_sdk_url }}
+      - name: Checkout project
+        uses: actions/checkout@v4
+      - name: Build Mesa NVK Switch SDK
+        shell: bash
         run: |
-          test -n "$FFMPEG_URL" || { echo 'game_nro requires ffmpeg_sdk_url'; exit 1; }
-          test -n "$NVK_URL" || { echo 'game_nro requires nvk_sdk_url'; exit 1; }
-          mkdir -p /opt/gh-sdks/ffmpeg /opt/gh-sdks/nvk
-          curl --fail --location --retry 3 "$FFMPEG_URL" | tar -xzf - -C /opt/gh-sdks/ffmpeg --strip-components=1
-          curl --fail --location --retry 3 "$NVK_URL" | tar -xzf - -C /opt/gh-sdks/nvk --strip-components=1
-          test -f /opt/gh-sdks/ffmpeg/lib/libavcodec.a
-          test -f /opt/gh-sdks/ffmpeg/lib/libavutil.a
-          test -f /opt/gh-sdks/nvk/include/vulkan/vulkan.h
-          test -f /opt/gh-sdks/nvk/lib/libvulkan.a
-
-      - name: Build selected NRO
-        working-directory: guardian_heroes
-        env:
-          TARGET: ${{ inputs.target }}
-          DEVKITPRO: /opt/devkitpro
-          DEVKITA64: /opt/devkitpro/devkitA64
-        run: |
-          if [ "$TARGET" = guardian_heroes_switch_game_nro ]; then
-            export REXGLUE_SWITCH_FFMPEG=/opt/gh-sdks/ffmpeg
-            export REXGLUE_SWITCH_NVK_SDK=/opt/gh-sdks/nvk
-          fi
-          bash -lc 'source /opt/devkitpro/switchvars.sh && bash tools/build_switch.sh "$TARGET"'
-
-      - name: Package deployable NRO bundle
-        working-directory: guardian_heroes
-        env:
-          TARGET: ${{ inputs.target }}
-        run: |
-          build_dir="out/build/switch-aarch64-release"
-          stem="${TARGET%_nro}"
-          mkdir -p "out/artifact/switch"
-          cp "$build_dir/$stem.nro" "out/artifact/switch/"
-          cp "$build_dir/$stem.nacp" "out/artifact/switch/"
-          cp "$build_dir/$stem.build-manifest.txt" "out/artifact/switch/"
-          test -f "$build_dir/$stem.elf" && cp "$build_dir/$stem.elf" "out/artifact/switch/" || true
-          test -f "$build_dir/$stem.map" && cp "$build_dir/$stem.map" "out/artifact/switch/" || true
-          (cd out/artifact && zip -qr "${stem}.switch.zip" switch)
-
-      - name: Upload Switch artifacts
+          git clone --depth=1 https://github.com/danfromtico/mesa-switch.git mesa-switch
+          chmod +x mesa-switch/build-switch.sh
+          (cd mesa-switch && ./build-switch.sh)
+          mkdir -p nvk-sdk/lib nvk-sdk/include
+          cp mesa-switch/builddir-switch/src/nouveau/vulkan/libvulkan.a nvk-sdk/lib/
+          cp -R guardian_heroes/runtime/thirdparty/vulkan-headers/include/vulkan nvk-sdk/include/
+          test -s nvk-sdk/lib/libvulkan.a
+          test -f nvk-sdk/include/vulkan/vulkan.h
+      - name: Upload NVK SDK
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ inputs.target }}
+          name: guardian-heroes-nvk-sdk
+          path: nvk-sdk/
+          if-no-files-found: error
+
+  probes:
+    runs-on: ubuntu-24.04
+    needs: nvk
+    container:
+      image: devkitpro/devkita64:latest
+    steps:
+      - name: Checkout clean source tree
+        uses: actions/checkout@v4
+
+      - name: Restore pinned Horizon exception SDK headers
+        shell: bash
+        run: |
+          sdk_dir=toolchains/switch/sources/masseffect-nx/sdk/src/core
+          mkdir -p "$sdk_dir"
+          git init /tmp/masseffect-nx-sdk
+          git -C /tmp/masseffect-nx-sdk remote add origin https://github.com/nebadasSwifty/masseffect-nx.git
+          git -C /tmp/masseffect-nx-sdk fetch --depth=1 origin a85b0b419ec3e332165ae1617c980bd399856a44
+          git -C /tmp/masseffect-nx-sdk checkout --detach FETCH_HEAD
+          cp /tmp/masseffect-nx-sdk/sdk/src/core/resume_ctx.h "$sdk_dir/"
+          cp /tmp/masseffect-nx-sdk/sdk/src/core/rex_decode.h "$sdk_dir/"
+          test -s "$sdk_dir/resume_ctx.h"
+          test -s "$sdk_dir/rex_decode.h"
+
+      - name: Download NVK SDK
+        uses: actions/download-artifact@v4
+        with:
+          name: guardian-heroes-nvk-sdk
+          path: nvk-sdk
+
+      - name: Build game NRO
+        shell: bash
+        working-directory: guardian_heroes
+        env:
+          DEVKITPRO: /opt/devkitpro
+          DEVKITA64: /opt/devkitpro/devkitA64
+          DEVKITPRO_TOOLS: /opt/devkitpro/tools
+          REXGLUE_SWITCH_FFMPEG: /opt/devkitpro/portlibs/switch
+          REXGLUE_SWITCH_NVK_SDK: ${{ github.workspace }}/nvk-sdk
+        run: |
+          source /opt/devkitpro/switchvars.sh
+          bash tools/build_switch.sh guardian_heroes_switch_game_nro
+
+      - name: Validate NRO metadata
+        shell: bash
+        working-directory: guardian_heroes
+        run: |
+          python3 tools/nro_nacp.py out/build/switch-aarch64-release/guardian_heroes_switch_game.nro 0.1.0
+
+      - name: Upload NRO artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: guardian-heroes-switch-nros
+          if-no-files-found: error
           path: |
-            guardian_heroes/out/artifact/switch
-            guardian_heroes/out/artifact/*.switch.zip
+            guardian_heroes/out/build/switch-aarch64-release/guardian_heroes_switch_game.nro
+            guardian_heroes/out/build/switch-aarch64-release/guardian_heroes_switch_game.nacp
+
