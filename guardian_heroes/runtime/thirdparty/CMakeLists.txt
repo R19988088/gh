@@ -376,7 +376,7 @@ if(REXGLUE_PLATFORM_SWITCH)
             set_target_properties("lib${_gh_ffmpeg_name}" PROPERTIES
                 IMPORTED_LOCATION "${_gh_ffmpeg_archive}"
                 INTERFACE_INCLUDE_DIRECTORIES
-                    "${CMAKE_CURRENT_SOURCE_DIR}/FFmpeg;${REXGLUE_SWITCH_FFMPEG}/include;${REXGLUE_SWITCH_FFMPEG}/build")
+                    "${CMAKE_CURRENT_SOURCE_DIR}/FFmpeg;${REXGLUE_SWITCH_FFMPEG}/include")
         endif()
     endforeach()
 else()

@@ -68,9 +68,7 @@ jobs:
           source /opt/devkitpro/switchvars.sh
           ffmpeg_source="$GITHUB_WORKSPACE/guardian_heroes/runtime/thirdparty/FFmpeg"
           ffmpeg_sdk="$GITHUB_WORKSPACE/ffmpeg-switch"
-          ffmpeg_build="$ffmpeg_sdk/build"
-          mkdir -p "$ffmpeg_build"
-          cd "$ffmpeg_build"
+          cd "$ffmpeg_source"
           "$ffmpeg_source/configure" \
             --prefix="$ffmpeg_sdk" \
             --enable-cross-compile \
@@ -96,7 +94,7 @@ jobs:
           test -s "$ffmpeg_sdk/lib/libavcodec.a"
           test -s "$ffmpeg_sdk/lib/libavutil.a"
           test -f "$ffmpeg_sdk/include/libavcodec/avcodec.h"
-          test -f "$ffmpeg_build/config.h"
+          test -s "$ffmpeg_source/config.h"
 
       - name: Build game NRO
         shell: bash
