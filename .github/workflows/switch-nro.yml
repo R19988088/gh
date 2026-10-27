@@ -62,6 +62,42 @@ jobs:
           name: guardian-heroes-nvk-sdk
           path: nvk-sdk
 
+      - name: Build minimal XMA FFmpeg for Switch
+        shell: bash
+        run: |
+          source /opt/devkitpro/switchvars.sh
+          ffmpeg_source="$GITHUB_WORKSPACE/guardian_heroes/runtime/thirdparty/FFmpeg"
+          ffmpeg_sdk="$GITHUB_WORKSPACE/ffmpeg-switch"
+          ffmpeg_build="$ffmpeg_sdk/build"
+          mkdir -p "$ffmpeg_build"
+          cd "$ffmpeg_build"
+          "$ffmpeg_source/configure" \
+            --prefix="$ffmpeg_sdk" \
+            --enable-cross-compile \
+            --cross-prefix=aarch64-none-elf- \
+            --cc=aarch64-none-elf-gcc \
+            --cxx=aarch64-none-elf-g++ \
+            --arch=aarch64 \
+            --target-os=none \
+            --disable-everything \
+            --disable-programs \
+            --disable-doc \
+            --disable-autodetect \
+            --disable-network \
+            --disable-pthreads \
+            --enable-avcodec \
+            --enable-avutil \
+            --enable-decoder=xmaframes \
+            --enable-static \
+            --disable-shared \
+            --enable-pic \
+            --extra-cflags="-march=armv8-a+crc+crypto -mtune=cortex-a57 -mtp=soft -D__SWITCH__ -DNX -D_GNU_SOURCE -ffunction-sections -fdata-sections"
+          make -j2 install-libs install-headers
+          test -s "$ffmpeg_sdk/lib/libavcodec.a"
+          test -s "$ffmpeg_sdk/lib/libavutil.a"
+          test -f "$ffmpeg_sdk/include/libavcodec/avcodec.h"
+          test -f "$ffmpeg_build/config.h"
+
       - name: Build game NRO
         shell: bash
         working-directory: guardian_heroes
@@ -69,7 +105,7 @@ jobs:
           DEVKITPRO: /opt/devkitpro
           DEVKITA64: /opt/devkitpro/devkitA64
           DEVKITPRO_TOOLS: /opt/devkitpro/tools
-          REXGLUE_SWITCH_FFMPEG: /opt/devkitpro/portlibs/switch
+          REXGLUE_SWITCH_FFMPEG: ${{ github.workspace }}/ffmpeg-switch
           REXGLUE_SWITCH_NVK_SDK: ${{ github.workspace }}/nvk-sdk
         run: |
           source /opt/devkitpro/switchvars.sh
