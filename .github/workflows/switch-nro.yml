@@ -27,8 +27,7 @@ jobs:
           DEVKITPRO: /opt/devkitpro
           DEVKITA64: /opt/devkitpro/devkitA64
         run: |
-          source /opt/devkitpro/switchvars.sh
-          bash tools/build_switch.sh "$TARGET"
+          bash -lc 'source /opt/devkitpro/switchvars.sh && bash tools/build_switch.sh "$TARGET"'
 
       - name: Package deployable NRO bundle
         working-directory: guardian_heroes
