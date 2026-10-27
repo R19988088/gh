@@ -50,9 +50,11 @@ jobs:
           TARGET: ${{ inputs.target }}
           DEVKITPRO: /opt/devkitpro
           DEVKITA64: /opt/devkitpro/devkitA64
-          REXGLUE_SWITCH_FFMPEG: /opt/gh-sdks/ffmpeg
-          REXGLUE_SWITCH_NVK_SDK: /opt/gh-sdks/nvk
         run: |
+          if [ "$TARGET" = guardian_heroes_switch_game_nro ]; then
+            export REXGLUE_SWITCH_FFMPEG=/opt/gh-sdks/ffmpeg
+            export REXGLUE_SWITCH_NVK_SDK=/opt/gh-sdks/nvk
+          fi
           bash -lc 'source /opt/devkitpro/switchvars.sh && bash tools/build_switch.sh "$TARGET"'
 
       - name: Package deployable NRO bundle
