@@ -48,9 +48,10 @@ if [[ "$action" == push ]]; then
     echo "deployed verified NRO $local_sha"
 elif [[ "$action" == logs ]]; then
     mkdir -p "$project_dir/../logs/switch"
-    for log in guardian_heroes.log guardian_heroes_rex.log; do
+    for log in rex_crash.log rex_assert.log user/guardian_heroes.log; do
+        local_log="${log//\//_}"
         curl --fail --silent --show-error \
-            "ftp://$ip:$port$remote_root/logs/$log" -o "$project_dir/../logs/switch/$log" || true
+            "ftp://$ip:$port$remote_root/$log" -o "$project_dir/../logs/switch/$local_log" || true
     done
 else
     echo "unknown action: $action (push or logs)" >&2

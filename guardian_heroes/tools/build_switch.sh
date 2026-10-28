@@ -89,6 +89,29 @@ if [[ "$target" == guardian_heroes_switch_game_nro ]]; then
             cp "$shader" "$stage/shaders/$(basename "$shader" .glsl.dksh).dksh"
         done
     fi
+    # The NRO must be self-contained for first launch; an external shader stage
+    # beside the NRO is only a development convenience for extra dumped shaders.
+    romfs="$build_dir/romfs"
+    rm -rf "$romfs"
+    mkdir -p "$romfs"
+    cp -R "$project_dir/assets/." "$romfs/"
+    mkdir -p "$romfs/switch/guardian-heroes/shaders"
+    cp "$stage/shaders/"*.dksh "$romfs/switch/guardian-heroes/shaders/"
+    elf2nro "$build_dir/${target%_nro}.elf" "$nro" \
+        --nacp="$build_dir/${target%_nro}.nacp" --romfsdir="$romfs"
+    python3 "$project_dir/tools/nro_nacp.py" "$nro" "${version:-0.1.0}"
     cp "$nro" "$stage/$(basename "$nro")"
     : > "$stage/deko3d"
+    # Record the final NRO after RomFS has been embedded.
+    manifest="$build_dir/${target%_nro}.build-manifest.txt"
+    {
+        printf 'target=%s\n' "$target"
+        printf 'app_version=%s\n' "${version:-0.1.0}"
+        printf 'xex_sha256=%s\n' "$(sha256_file "$project_dir/assets/default.xex")"
+        printf 'project_manifest_sha256=%s\n' "$(sha256_file "$project_dir/guardian_heroes_manifest.toml")"
+        printf 'codegen_descriptor_sha256=%s\n' "$(sha256_file "$project_dir/generated/default/codegen.d")"
+        printf 'nro_sha256=%s\n' "$(sha256_file "$nro")"
+        printf 'nacp_sha256=%s\n' "$(sha256_file "$build_dir/${target%_nro}.nacp")"
+        printf 'switch_ffmpeg=%s\n' "${REXGLUE_SWITCH_FFMPEG:-}"
+    } > "$manifest"
 fi

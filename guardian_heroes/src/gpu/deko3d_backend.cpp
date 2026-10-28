@@ -45,7 +45,7 @@
 // in its gh.toml / arguments. Missing shaders are dumped to its missing/ subdirectory. The debug
 // markers are files next to the directory: dk_dump (image readback at swaps 120 and 600),
 // dk_present_rt (present the widest colour render target instead of the front buffer).
-REXCVAR_DEFINE_STRING(deko3d_shader_dir, "sdmc:/switch/guardian-heroes/shaders/", "GPU",
+REXCVAR_DEFINE_STRING(deko3d_shader_dir, "romfs:/switch/guardian-heroes/shaders/", "GPU",
                       "deko3d backend: directory of shader_<ucode hash>.vert|geom|frag.dksh and present.vert|frag.dksh")
     .lifecycle(rex::cvar::Lifecycle::kInitOnly);
 // Xenos rectangle lists (3 vertices, the 4th = v1 + v2 - v0): by default through the geometry shader
