@@ -14,6 +14,7 @@
 #include <map>
 #include <memory>
 #include <string>
+#include <sys/stat.h>
 #include <vector>
 
 #include <switch.h>
@@ -33,10 +34,30 @@ NX_NORETURN void __libnx_exit(int result);
 
 namespace {
 
+FILE* boot_log = nullptr;
+
+void BootLog(const char* stage) {
+  if (!boot_log) return;
+  std::fprintf(boot_log, "%s\n", stage);
+  std::fflush(boot_log);
+}
+
+void StartBootLog() {
+  (void)mkdir("sdmc:/switch", 0777);
+  (void)mkdir("sdmc:/switch/guardian-heroes", 0777);
+  boot_log = std::fopen("sdmc:/switch/guardian-heroes/boot.log", "w");
+  BootLog("main entered");
+}
+
 [[noreturn]] void ExitSwitchProcess(int result) {
+  BootLog("process exit");
   REXLOG_INFO("Switch: exiting Guardian Heroes ({})", result);
   rex::FlushLogging();
   std::fflush(nullptr);
+  if (boot_log) {
+    std::fclose(boot_log);
+    boot_log = nullptr;
+  }
   // Use libnx's applet-close path so its worker threads do not outlive the NRO
   // in a process that hbmenu may reuse.
   __nx_applet_exit_mode = 1;
@@ -45,10 +66,14 @@ namespace {
 
 }  // namespace
 
+extern "C" void RexSwitchBootLog(const char* stage) { BootLog(stage); }
+
 int main(int argc, char* argv[]) {
+  StartBootLog();
   const AppletType applet_type = appletGetAppletType();
   const bool application_mode = applet_type == AppletType_Application ||
                                 applet_type == AppletType_SystemApplication;
+  BootLog(application_mode ? "application mode" : "not application mode");
   if (!application_mode) {
     std::fprintf(stderr,
                  "Guardian Heroes requires Application mode; launch hbmenu with title takeover (hold R)\n");
@@ -68,33 +93,44 @@ int main(int argc, char* argv[]) {
     argc = 1;
     argv = normalized_argv.data();
   }
+  BootLog("cvar initialization begin");
   auto remaining = rex::cvar::Init(argc, argv);
   rex::cvar::ApplyEnvironment();
+  BootLog("cvar initialization complete");
   rex::InitLoggingEarly();
+  BootLog("early logging initialized");
 
   // Make packaged read-only assets available before SetupEnvironment probes
   // the RomFS root. SD development assets remain the higher-priority path.
   const Result romfs_result = romfsMountFromCurrentProcess("romfs");
   const bool romfs_mounted = R_SUCCEEDED(romfs_result);
+  BootLog(romfs_mounted ? "RomFS mounted" : "RomFS mount failed");
 
   int result = EXIT_FAILURE;
   {
     rex::ui::SwitchWindowedAppContext app_context;
+    BootLog("AppContext initialization begin");
     if (!app_context.Initialize()) {
+      BootLog("AppContext initialization failed");
       REXLOG_ERROR("Switch: failed to initialize the Guardian Heroes app context");
       ExitSwitchProcess(EXIT_FAILURE);
     }
+    BootLog("AppContext initialized");
 
     const auto creator = rex::ui::GetWindowedAppCreator();
     if (!creator) {
+      BootLog("app factory missing");
       REXLOG_ERROR("Switch: Guardian Heroes app factory is not registered");
       ExitSwitchProcess(EXIT_FAILURE);
     }
+    BootLog("app factory creating instance");
     std::unique_ptr<rex::ui::WindowedApp> app = creator(app_context);
     if (!app) {
+      BootLog("app factory returned no application");
       REXLOG_ERROR("Switch: Guardian Heroes app factory returned no application");
       ExitSwitchProcess(EXIT_FAILURE);
     }
+    BootLog("app instance created");
 
     std::map<std::string, std::string> parsed;
     const auto& option_names = app->GetPositionalOptions();
@@ -104,16 +140,28 @@ int main(int argc, char* argv[]) {
     }
     app->SetParsedArguments(std::move(parsed));
 
+    BootLog("OnInitialize begin");
     const bool initialized = app->OnInitialize();
+    BootLog(initialized ? "OnInitialize succeeded" : "OnInitialize failed");
     if (!initialized) {
       REXLOG_ERROR("Switch: Guardian Heroes initialization failed");
     }
-    result = initialized ? app_context.RunMainMessageLoop() : EXIT_FAILURE;
+    if (initialized) {
+      BootLog("message loop begin");
+      result = app_context.RunMainMessageLoop();
+      BootLog("message loop returned");
+    } else {
+      result = EXIT_FAILURE;
+    }
+    BootLog("OnDestroy begin");
     app->InvokeOnDestroy();
+    BootLog("OnDestroy returned");
   }
 
   if (romfs_mounted) {
+    BootLog("RomFS unmount begin");
     romfsUnmount("romfs");
+    BootLog("RomFS unmounted");
   }
 
   ExitSwitchProcess(result);

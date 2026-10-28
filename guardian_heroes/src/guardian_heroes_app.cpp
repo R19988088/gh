@@ -22,6 +22,7 @@
 #if defined(__SWITCH__)
 #include "gh_switch_audio.h"
 #include "gh_switch_input_driver.h"
+extern "C" void RexSwitchBootLog(const char* stage);
 #endif
 #ifdef GH_PROJECT_RUNTIME
 #include "gh_gpu_factory.h"
@@ -72,6 +73,18 @@ REXCVAR_DEFINE_STRING(gpu_plugin, "", "GPU",
                       "GPU emulation")
     .lifecycle(rex::cvar::Lifecycle::kInitOnly);
 
+namespace {
+
+void SwitchBootLog(const char* stage) {
+#if defined(__SWITCH__)
+  RexSwitchBootLog(stage);
+#else
+  (void)stage;
+#endif
+}
+
+}  // namespace
+
 GuardianHeroesApp::~GuardianHeroesApp() = default;
 
 GuardianHeroesApp::GuardianHeroesApp(rex::ui::WindowedAppContext& ctx, rex::PPCImageInfo image)
@@ -104,14 +117,28 @@ rex::system::AchievementManager& GuardianHeroesApp::achievements() const {
 }
 
 bool GuardianHeroesApp::OnInitialize() {
-  if (!SetupEnvironment())
+  SwitchBootLog("SetupEnvironment begin");
+  if (!SetupEnvironment()) {
+    SwitchBootLog("SetupEnvironment failed");
     return false;
-  if (!SetupPresentation())
+  }
+  SwitchBootLog("SetupEnvironment succeeded");
+  SwitchBootLog("SetupPresentation begin");
+  if (!SetupPresentation()) {
+    SwitchBootLog("SetupPresentation failed");
     return false;
+  }
+  SwitchBootLog("SetupPresentation succeeded");
 
-  if (!ConstructRuntime(resolved_defaults_))
+  SwitchBootLog("ConstructRuntime begin");
+  if (!ConstructRuntime(resolved_defaults_)) {
+    SwitchBootLog("ConstructRuntime failed");
     return false;
+  }
+  SwitchBootLog("ConstructRuntime succeeded");
+  SwitchBootLog("LaunchModule begin");
   LaunchModule();
+  SwitchBootLog("LaunchModule returned");
   return true;
 }
 
