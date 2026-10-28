@@ -77,15 +77,14 @@ if [[ "$target" == guardian_heroes_switch_game_nro ]]; then
     shader_dir="${GH_SHADER_DUMPS:-$project_dir/out/shaders_trace}"
     rm -rf "$stage"
     mkdir -p "$stage/shaders"
-    if command -v uam >/dev/null 2>&1; then
-        for stage_name in vert frag; do
-            shader_source="$project_dir/src/gpu/shaders/present.$stage_name"
-            if [[ -f "$shader_source" ]]; then
-                uam -s "$stage_name" -o "$stage/shaders/present.$stage_name.dksh" "$shader_source"
-            fi
-        done
-    fi
-    if [[ -d "$shader_dir" ]] && command -v uam >/dev/null 2>&1; then
+    command -v uam >/dev/null 2>&1 || { echo "uam is required to build the Switch presentation shaders" >&2; exit 1; }
+    for stage_name in vert frag; do
+        shader_source="$project_dir/src/gpu/shaders/present.$stage_name"
+        [[ -f "$shader_source" ]] || { echo "missing presentation shader: $shader_source" >&2; exit 1; }
+        uam -s "$stage_name" -o "$stage/shaders/present.$stage_name.dksh" "$shader_source"
+        [[ -s "$stage/shaders/present.$stage_name.dksh" ]] || { echo "uam did not produce $stage/shaders/present.$stage_name.dksh" >&2; exit 1; }
+    done
+    if [[ -d "$shader_dir" ]]; then
         python3 "$project_dir/tools/xenos2glsl.py" --all "$shader_dir" --out-dir "$build_dir/glsl" --check
         for shader in "$build_dir"/glsl/*.glsl.dksh; do
             [[ -f "$shader" ]] || continue

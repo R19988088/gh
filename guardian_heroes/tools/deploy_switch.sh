@@ -19,6 +19,8 @@ nro="${SWITCH_NRO:-$build_dir/guardian_heroes_switch_game.nro}"
 stage="${SWITCH_STAGE_DIR:-$build_dir/stage}"
 if [[ "$action" == push ]]; then
     [[ -f "$nro" ]] || { echo "missing NRO: $nro" >&2; exit 1; }
+    [[ -s "$stage/shaders/present.vert.dksh" ]] || { echo "missing staged vertex presentation shader" >&2; exit 1; }
+    [[ -s "$stage/shaders/present.frag.dksh" ]] || { echo "missing staged fragment presentation shader" >&2; exit 1; }
     python3 "$project_dir/tools/nro_nacp.py" "$nro"
     tmp="$(mktemp -t guardian-heroes-nro.XXXXXX)"
     trap 'rm -f "$tmp"' EXIT
@@ -36,10 +38,13 @@ if [[ "$action" == push ]]; then
     curl --fail --silent --show-error "ftp://$ip:$port/" \
         -Q "-RNFR $remote_root/guardian_heroes_switch_game.nro.tmp" \
         -Q "-RNTO $remote_root/guardian_heroes_switch_game.nro"
-    if [[ -d "$stage" ]]; then
+    for shader in "$stage"/shaders/*.dksh; do
+        [[ -f "$shader" ]] || continue
         curl --fail --silent --show-error --ftp-create-dirs \
-            --upload-file "$stage/deko3d" "ftp://$ip:$port$remote_root/deko3d" || true
-    fi
+            --upload-file "$shader" "ftp://$ip:$port$remote_root/shaders/$(basename "$shader")"
+    done
+    curl --fail --silent --show-error --ftp-create-dirs \
+        --upload-file "$stage/deko3d" "ftp://$ip:$port$remote_root/deko3d" || true
     echo "deployed verified NRO $local_sha"
 elif [[ "$action" == logs ]]; then
     mkdir -p "$project_dir/../logs/switch"

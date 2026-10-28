@@ -4,7 +4,7 @@
 // are image copies into images keyed by guest address, textures bound at such an address alias
 // them (no readback), the swap presents the image at the front buffer's address through one
 // textured triangle. Shaders are translated offline (tools/xenos2glsl.py, uam) and loaded by the
-// ucode hash from sdmc:/switch/gh/shaders/. docs/native-renderer-plan.md, M3.
+// ucode hash from sdmc:/switch/guardian-heroes/shaders/. docs/native-renderer-plan.md, M3.
 // cvhd-recomp, BSD-3 like the SDK.
 #ifdef __SWITCH__
 #include <switch.h>
@@ -45,7 +45,7 @@
 // in its gh.toml / arguments. Missing shaders are dumped to its missing/ subdirectory. The debug
 // markers are files next to the directory: dk_dump (image readback at swaps 120 and 600),
 // dk_present_rt (present the widest colour render target instead of the front buffer).
-REXCVAR_DEFINE_STRING(deko3d_shader_dir, "sdmc:/switch/gh/shaders/", "GPU",
+REXCVAR_DEFINE_STRING(deko3d_shader_dir, "sdmc:/switch/guardian-heroes/shaders/", "GPU",
                       "deko3d backend: directory of shader_<ucode hash>.vert|geom|frag.dksh and present.vert|frag.dksh")
     .lifecycle(rex::cvar::Lifecycle::kInitOnly);
 // Xenos rectangle lists (3 vertices, the 4th = v1 + v2 - v0): by default through the geometry shader
@@ -399,8 +399,8 @@ static bool ReplaceTitleGlyph(uint8_t* tex, const uint8_t* atlas) {
 }
 
 // ----- texture dumper (gh debug) ------------------------------------------------------------------------
-// The marker file sdmc:/switch/gh/dk_dump_tex makes UploadTexture write every distinct texture as a PPM to
-// sdmc:/switch/gh/tex/ (decoded from the staged, untiled, endian-swapped data; alpha composited on grey):
+// The marker file sdmc:/switch/guardian-heroes/dk_dump_tex makes UploadTexture write every distinct texture as a PPM to
+// sdmc:/switch/guardian-heroes/tex/ (decoded from the staged, untiled, endian-swapped data; alpha composited on grey):
 // used to find the controller button glyphs (docs/BUTTON-GLYPHS.md).
 struct RgbImage {
   uint32_t w = 0, h = 0;
@@ -490,7 +490,7 @@ static bool DecodeStaged(const char* fmt, const uint8_t* s, uint32_t w, uint32_t
 // ----- on-screen version / fps strip (gh) ---------------------------------------------------------
 // Rule: every build shows its version on screen. There is no ImGui under deko3d, so the strip is a
 // 5x7 bitmap font rendered on the CPU into a small RGBA image per frame in flight and drawn with the
-// present shaders into a viewport at the bottom-left corner. The file sdmc:/switch/gh/overlay_off hides it.
+// present shaders into a viewport at the bottom-left corner. The file sdmc:/switch/guardian-heroes/overlay_off hides it.
 constexpr uint32_t kOverlayW = 512, kOverlayH = 20, kOverlayScale = 2;
 // The settings menu (Start+Back, see switch/host/input/nx_input_driver.cpp): a 256x88 panel, 4 lines.
 constexpr uint32_t kMenuW = 256, kMenuH = 88;
@@ -940,7 +940,7 @@ class Deko3dCommandProcessor : public CommandProcessor {
       front = GuestImage(f, frontbuffer_ptr, frontbuffer_width, frontbuffer_height, DkImageFormat_RGBA8_Unorm, false);
     }
     if (present_target_) {
-      // Debug (the file sdmc:/switch/gh/dk_present_rt): show the widest colour render target itself,
+      // Debug (the file sdmc:/switch/guardian-heroes/dk_present_rt): show the widest colour render target itself,
       // bypassing the resolve copies and the front buffer image.
       HostImage* widest = nullptr;
       for (auto& it : targets_) if (!it.second->is_depth && (!widest || it.second->width > widest->width)) widest = it.second;

@@ -9,7 +9,7 @@ volatile int rex_nx_menu_cursor = 0;
 volatile int rex_nx_show_fps = 0;
 
 const char* rex_nx_version(void) { return "0.1.0"; }
-const char* RexSwitchLogDir(void) { return "sdmc:/switch/gh/"; }
+const char* RexSwitchLogDir(void) { return "sdmc:/switch/guardian-heroes/"; }
 void RexLogEmergencyDrain(void) {}
 void RexSwitchPerfCount(unsigned) {}
 void RexSwitchPerfSetThreadName(uint32_t, const char*) {}

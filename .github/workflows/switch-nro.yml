@@ -123,4 +123,6 @@ jobs:
           path: |
             guardian_heroes/out/build/switch-aarch64-release/guardian_heroes_switch_game.nro
             guardian_heroes/out/build/switch-aarch64-release/guardian_heroes_switch_game.nacp
+            guardian_heroes/out/build/switch-aarch64-release/guardian_heroes_switch_game.build-manifest.txt
+            guardian_heroes/out/build/switch-aarch64-release/stage/shaders/*.dksh
 
