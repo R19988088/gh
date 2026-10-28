@@ -66,10 +66,18 @@ void StartBootLog() {
 
 }  // namespace
 
+// libnx calls this after default services and the SD card have initialized,
+// before running C++ global constructors.
+extern "C" void userAppInit(void) {
+  StartBootLog();
+  BootLog("libnx services initialized");
+}
+
 extern "C" void RexSwitchBootLog(const char* stage) { BootLog(stage); }
 
 int main(int argc, char* argv[]) {
-  StartBootLog();
+  if (!boot_log) StartBootLog();
+  BootLog("main entered");
   const AppletType applet_type = appletGetAppletType();
   const bool application_mode = applet_type == AppletType_Application ||
                                 applet_type == AppletType_SystemApplication;
