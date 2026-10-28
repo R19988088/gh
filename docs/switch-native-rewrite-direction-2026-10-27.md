@@ -33,7 +33,7 @@
 - `guardian_heroes/cmake/GuardianHeroesSwitch.cmake`
 - `guardian_heroes/cmake/GuardianHeroesSwitchGame.cmake`
 
-当前代码已经包含 Switch 输入和音频方向，但完整游戏目标仍受 runtime、NVK 和 FFmpeg 依赖检查约束。`GuardianHeroesSwitchGame.cmake` 明确拒绝在缺少真实 runtime target、NVK SDK 或 Switch FFmpeg archive 时生成游戏 NRO；探针 NRO 不能当作游戏版。
+当前代码包含 Switch 输入和音频适配，并有通过 GitHub Actions 构建的完整游戏 NRO target。游戏图形主路径是 deko3d，Mesa/NVK 只用于独立诊断 probe；完整 NRO 仍依赖真实 runtime targets 和 Switch FFmpeg/XMA archive。Action 的构建与 NACP 检查不替代 NRO Gate 的真机验收。
 
 现有 `gh_switch_audio.cpp` 已经尝试使用 `audout`，但这只证明存在一个输出适配器，不证明以下链路已经通过：
 

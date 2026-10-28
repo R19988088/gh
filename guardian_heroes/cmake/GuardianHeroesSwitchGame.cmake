@@ -11,7 +11,7 @@ function(guardian_heroes_switch_add_game)
         message(FATAL_ERROR "Include GuardianHeroesSwitch.cmake before GuardianHeroesSwitchGame.cmake")
     endif()
 
-    # These targets are the current app's concrete runtime, Xenos/Vulkan,
+    # These targets are the current app's concrete runtime, Xenos/deko3d,
     # memory, XMA decode, and Horizon platform dependencies. They must be built
     # from Guardian Heroes sources/adapters, not supplied by a generic probe.
     set(_gh_required_targets
@@ -50,11 +50,6 @@ function(guardian_heroes_switch_add_game)
             "Cannot assemble the Guardian Heroes game NRO; missing real Switch runtime targets: "
             "${_gh_missing_text}. The full game target is withheld until these are provided.")
     endif()
-    if(NOT REXGLUE_SWITCH_NVK_SDK)
-        message(FATAL_ERROR
-            "Guardian Heroes game NRO requires the Horizon Mesa/NVK SDK; "
-            "REXGLUE_SWITCH_NVK_SDK is empty.")
-    endif()
     if(NOT REXGLUE_SWITCH_FFMPEG)
         message(FATAL_ERROR
             "Guardian Heroes game NRO requires Switch-target FFmpeg archives; "
@@ -68,18 +63,6 @@ function(guardian_heroes_switch_add_game)
                 "${REXGLUE_SWITCH_FFMPEG}/${_gh_ffmpeg_file}")
         endif()
     endforeach()
-
-    set(_gh_nvk_libraries)
-    foreach(_gh_nvk_library vulkan expat zstd z)
-        find_library(GH_SWITCH_GAME_${_gh_nvk_library}_LIBRARY NAMES ${_gh_nvk_library}
-            PATHS "${REXGLUE_SWITCH_NVK_SDK}/lib" "${DEVKITPRO}/portlibs/switch/lib"
-            NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH NO_CACHE REQUIRED)
-        list(APPEND _gh_nvk_libraries "${GH_SWITCH_GAME_${_gh_nvk_library}_LIBRARY}")
-    endforeach()
-    string(JOIN "," _gh_nvk_link_group ${_gh_nvk_libraries})
-    find_path(GH_SWITCH_GAME_VULKAN_INCLUDE_DIR vulkan/vulkan.h
-        PATHS "${REXGLUE_SWITCH_NVK_SDK}/include" "${DEVKITPRO}/portlibs/switch/include"
-        NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH NO_CACHE REQUIRED)
 
     set(_gh_generated_cmake "${CMAKE_CURRENT_FUNCTION_LIST_DIR}/../generated/default/sources.cmake")
     if(NOT EXISTS "${_gh_generated_cmake}")
@@ -143,7 +126,6 @@ function(guardian_heroes_switch_add_game)
             "${_gh_root}/src/gh_memory_rex_adapter.cpp"
             "${_gh_root}/src/gh_switch_input_driver.cpp"
             "${_gh_root}/src/gh_switch_audio.cpp"
-            "${_gh_root}/switch/nvk_elf_stubs.c"
             "${_gh_root}/switch/switch_support.cpp"
         LIBRARIES
             guardian_heroes_switch_recomp
@@ -182,16 +164,13 @@ function(guardian_heroes_switch_add_game)
             guardian_heroes_mmio
             guardian_heroes_xma_packet
             guardian_heroes_switch_host_memory
-            rexruntime
-            "$<LINK_GROUP:RESCAN,${_gh_nvk_link_group}>"
-            pthread m)
+            rexruntime pthread m)
     target_link_options(guardian_heroes_switch_game PRIVATE
         "LINKER:--whole-archive,${DEVKITPRO}/libnx/lib/libnx.a,--no-whole-archive")
 
     target_compile_features(guardian_heroes_switch_game PRIVATE cxx_std_23)
     target_compile_definitions(guardian_heroes_switch_game PRIVATE
-        GH_PROJECT_RUNTIME=1 SPDLOG_FMT_EXTERNAL=1 SPDLOG_NO_TZ_OFFSET=1
-        VK_USE_PLATFORM_VI_NN)
+        GH_PROJECT_RUNTIME=1 SPDLOG_FMT_EXTERNAL=1 SPDLOG_NO_TZ_OFFSET=1)
     target_include_directories(guardian_heroes_switch_game PRIVATE
         "${_gh_root}"
         "${_gh_root}/src"
@@ -200,8 +179,6 @@ function(guardian_heroes_switch_add_game)
         "${_gh_root}/runtime/thirdparty/simde"
         "${_gh_root}/runtime/thirdparty/fmt/include"
         "${_gh_root}/runtime/thirdparty/spdlog/include")
-    target_include_directories(guardian_heroes_switch_game SYSTEM PRIVATE
-        "${GH_SWITCH_GAME_VULKAN_INCLUDE_DIR}")
     target_compile_options(guardian_heroes_switch_game PRIVATE
         $<$<CXX_COMPILER_ID:GNU>:-fno-fast-math;-frounding-math;-ffp-contract=off;-fno-strict-aliasing;-fno-char8_t>
         $<$<CXX_COMPILER_ID:Clang>:-ffp-model=strict;-fno-strict-aliasing;-fno-char8_t>)

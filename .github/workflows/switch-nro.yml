@@ -9,33 +9,8 @@ on:
       - ".github/workflows/switch-nro.yml"
 
 jobs:
-  nvk:
-    runs-on: ubuntu-24.04
-    timeout-minutes: 180
-    steps:
-      - name: Checkout project
-        uses: actions/checkout@v4
-      - name: Build Mesa NVK Switch SDK
-        shell: bash
-        run: |
-          git clone --depth=1 https://github.com/danfromtico/mesa-switch.git mesa-switch
-          chmod +x mesa-switch/build-switch.sh
-          (cd mesa-switch && ./build-switch.sh)
-          mkdir -p nvk-sdk/lib nvk-sdk/include
-          cp mesa-switch/builddir-switch/src/nouveau/vulkan/libvulkan.a nvk-sdk/lib/
-          cp -R guardian_heroes/runtime/thirdparty/vulkan-headers/include/vulkan nvk-sdk/include/
-          test -s nvk-sdk/lib/libvulkan.a
-          test -f nvk-sdk/include/vulkan/vulkan.h
-      - name: Upload NVK SDK
-        uses: actions/upload-artifact@v4
-        with:
-          name: guardian-heroes-nvk-sdk
-          path: nvk-sdk/
-          if-no-files-found: error
-
   probes:
     runs-on: ubuntu-24.04
-    needs: nvk
     container:
       image: devkitpro/devkita64:latest
     steps:
@@ -55,12 +30,6 @@ jobs:
           cp /tmp/masseffect-nx-sdk/sdk/src/core/rex_decode.h "$sdk_dir/"
           test -s "$sdk_dir/resume_ctx.h"
           test -s "$sdk_dir/rex_decode.h"
-
-      - name: Download NVK SDK
-        uses: actions/download-artifact@v4
-        with:
-          name: guardian-heroes-nvk-sdk
-          path: nvk-sdk
 
       - name: Build minimal XMA FFmpeg for Switch
         shell: bash
@@ -104,7 +73,6 @@ jobs:
           DEVKITA64: /opt/devkitpro/devkitA64
           DEVKITPRO_TOOLS: /opt/devkitpro/tools
           REXGLUE_SWITCH_FFMPEG: ${{ github.workspace }}/ffmpeg-switch
-          REXGLUE_SWITCH_NVK_SDK: ${{ github.workspace }}/nvk-sdk
         run: |
           source /opt/devkitpro/switchvars.sh
           bash tools/build_switch.sh guardian_heroes_switch_game_nro

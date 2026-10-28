@@ -4,7 +4,7 @@
     "configurePresets": [
         {
             "name": "switch-aarch64-release",
-            "displayName": "Switch ARM64 standalone probes",
+            "displayName": "Switch ARM64 game and probes",
             "generator": "Ninja",
             "binaryDir": "${sourceDir}/out/build/${presetName}",
             "toolchainFile": "${sourceDir}/cmake/switch-devkitA64.cmake",

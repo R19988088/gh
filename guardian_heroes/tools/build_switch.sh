@@ -36,7 +36,6 @@ game_flag=OFF
 if [[ "$target" == guardian_heroes_switch_game_nro ]]; then
     game_flag=ON
     : "${REXGLUE_SWITCH_FFMPEG:?Set REXGLUE_SWITCH_FFMPEG to the target FFmpeg SDK for the game NRO}"
-    : "${REXGLUE_SWITCH_NVK_SDK:?Set REXGLUE_SWITCH_NVK_SDK to the Horizon GPU SDK for the game NRO}"
 fi
 cmake --preset switch-aarch64-release \
     -DGH_SWITCH_BUILD_GAME="$game_flag" \
@@ -67,7 +66,6 @@ if [[ -f "$nro" && -f "$build_dir/${target%_nro}.nacp" ]]; then
         printf 'codegen_descriptor_sha256=%s\n' "$(sha256_file "$project_dir/generated/default/codegen.d")"
         printf 'nro_sha256=%s\n' "$(sha256_file "$nro")"
         printf 'nacp_sha256=%s\n' "$(sha256_file "$build_dir/${target%_nro}.nacp")"
-        printf 'switch_nvk_sdk=%s\n' "${REXGLUE_SWITCH_NVK_SDK:-}"
         printf 'switch_ffmpeg=%s\n' "${REXGLUE_SWITCH_FFMPEG:-}"
     } > "$manifest"
 fi

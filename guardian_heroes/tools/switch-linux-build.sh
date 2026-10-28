@@ -23,6 +23,5 @@ docker run --rm \
     -e DEVKITA64=/opt/devkitpro/devkitA64 \
     -e DEVKITPRO_TOOLS=/opt/devkitpro/tools \
     -e REXGLUE_SWITCH_FFMPEG=/workspace/toolchains/switch-local/ffmpeg-switch \
-    -e REXGLUE_SWITCH_NVK_SDK=/workspace/toolchains/switch-local/nvk-sdk \
     devkitpro/devkita64:latest \
     bash -lc "source /opt/devkitpro/switchvars.sh; bash guardian_heroes/tools/build_switch.sh '$target'"

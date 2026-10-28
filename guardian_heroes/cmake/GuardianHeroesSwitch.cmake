@@ -5,7 +5,7 @@ find_program(GH_SWITCH_ELF2NRO elf2nro HINTS "${DEVKITPRO}/tools/bin" REQUIRED)
 find_library(GH_SWITCH_LIBNX nx PATHS "${DEVKITPRO}/libnx/lib" NO_DEFAULT_PATH REQUIRED)
 
 option(GH_SWITCH_BUILD_GAME
-    "Assemble the full Guardian Heroes game NRO (requires project Switch runtime and Mesa/NVK)"
+    "Assemble the full Guardian Heroes game NRO (requires project Switch runtime and FFmpeg/XMA)"
     OFF)
 
 function(gh_switch_add_nro target)
@@ -59,13 +59,10 @@ if(REXGLUE_SWITCH_NVK_SDK)
     include("${CMAKE_CURRENT_LIST_DIR}/GuardianHeroesSwitchVulkanProbe.cmake")
 endif()
 
-# Keep probe-only configurations usable without the large NVK SDK. Runtime
-# targets are needed only for the explicitly requested game build.
-if(GH_SWITCH_BUILD_GAME AND NOT REXGLUE_SWITCH_NVK_SDK)
-    message(FATAL_ERROR "Switch game build requires REXGLUE_SWITCH_NVK_SDK")
-endif()
+# Keep probe-only configurations usable without the project runtime. The game
+# backend uses deko3d directly; NVK is only an optional standalone probe.
 set(REXGLUE_PLATFORM_SWITCH ON)
-if(REXGLUE_SWITCH_NVK_SDK)
+if(GH_SWITCH_BUILD_GAME OR REXGLUE_SWITCH_NVK_SDK)
     add_subdirectory("${CMAKE_CURRENT_LIST_DIR}/../runtime" runtime)
 endif()
 

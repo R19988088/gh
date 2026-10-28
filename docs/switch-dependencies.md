@@ -15,14 +15,14 @@
 
 ## 当前构建边界
 
-Switch preset 在顶层进入独立 probe 构建分支，不构建桌面 SDL/动态 Vulkan loader，也没有可运行的完整 `guardian_heroes` Switch 目标。
+Switch preset 不构建桌面 SDL/动态 Vulkan loader。`GH_SWITCH_BUILD_GAME=ON` 会编译本项目 guest 代码、Horizon runtime、Xenos/deko3d backend 和 XMA 音频适配；完整游戏使用 deko3d，Mesa/NVK 只用于独立 Vulkan probe。
 
 - `guardian_heroes_switch_bootstrap_nro`：libnx console、启动模式、进程内存信息、SD 阶段日志。
 - `guardian_heroes_switch_guest_abi_probe`：编译项目真实生成 PCH、guest ABI 布局与代表性大端/原子/SIMD/FPCR 宏，不链接或执行整个游戏。
 - `guardian_heroes_switch_memory_probe_nro`：guest arena、真实别名与 host-memory adapter 的独立验证入口。
 - `guardian_heroes_switch_vulkan_probe_nro`：静态 NVK 的 VI surface、交换链和颜色清屏；仅配置 NVK SDK 时加入。
 
-探针是目标代码和验证入口，尚无本批 NRO 构建或真机运行证据。完整 runtime 的 Clang 限制保留，避免未经编译验证就扩大 GCC 支持声明。
+探针保留为目标代码诊断入口。Switch 游戏 Action 已能构建 NRO 并检查 NACP；该构建结果仍不代表真机启动或玩法验收。完整 runtime 的 Clang 限制保留，避免未经编译验证就扩大 GCC 支持声明。
 
 内存核心要求 loader 传入真实进程 handle；缺失时明确拒绝，不自动添加 IPC 权限回退。当前 host-memory 后端支持 RW/NONE；RO、可执行映射、文件映射明确拒绝。alias 首次访问需显式映射，完整游戏尚需接入异常分派/写监控，并处理现有 Heap 零长度 release 调用和物理内存预提交策略。
 
@@ -47,7 +47,7 @@ bash guardian_heroes/tools/build_switch.sh guardian_heroes_switch_vulkan_probe_n
 
 NVK SDK 根需包含 `include/vulkan/vulkan.h`、`lib/libvulkan.a`；静态依赖 `expat`、`zstd`、`z` 可位于同根或 devkitPro Switch portlibs。所选 Mesa 实现须提供 `VK_NN_vi_surface`。Rust/NVK 的重复定义和额外依赖如在真实链接中出现，应按该版本的 archive 内容处理，不全局忽略链接错误。
 
-保留 `out/build/switch-aarch64-release/*.elf` 和 `*.map` 用于定位，NRO 由 `nacptool` 和 `elf2nro` 打包。bootstrap 和 memory/ABI 不要求 NVK；同一个 build 目录若显式配置了损坏的 NVK SDK，先清除该环境变量再运行脚本。
+保留 `out/build/switch-aarch64-release/*.elf` 和 `*.map` 用于定位，NRO 由 `nacptool` 和 `elf2nro` 打包。游戏 NRO 不要求 NVK；只有 `guardian_heroes_switch_vulkan_probe_nro` 使用独立 NVK SDK。
 
 ## 目标机操作
 
