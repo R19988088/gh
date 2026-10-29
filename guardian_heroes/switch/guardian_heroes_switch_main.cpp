@@ -46,6 +46,12 @@ void StartBootLog() {
   (void)mkdir("sdmc:/switch", 0777);
   (void)mkdir("sdmc:/switch/guardian-heroes", 0777);
   boot_log = std::fopen("sdmc:/switch/guardian-heroes/boot.log", "w");
+  const bool fallback = boot_log == nullptr;
+  if (fallback) {
+    boot_log = std::fopen("sdmc:/guardian-heroes-boot.log", "w");
+  }
+  BootLog(fallback ? "primary log path unavailable; using sdmc:/guardian-heroes-boot.log"
+                   : "using sdmc:/switch/guardian-heroes/boot.log");
   BootLog("main entered");
 }
 
